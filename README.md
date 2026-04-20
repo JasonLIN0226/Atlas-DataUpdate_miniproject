@@ -1,11 +1,110 @@
 # Atlas NYC Open Data Pipeline
 
-This project does four things:
+This project downloads NYC Open Data datasets then runs Atlas plus a wrapper layer then builds a local static data lake.
 
-1. downloads NYC Open Data datasets
-2. stores source metadata and raw CSV files
-3. runs Atlas plus a wrapper layer
-4. builds a local static data lake
+If you only want to use this project you mainly need:
+
+- `python refresh_nyc_datalake.py`
+- `open lake/site/index.html`
+
+You can ignore the two core files unless you want to reuse the update logic in another project.
+
+## Quick Start
+
+### 1. Open the web UI
+
+```bash
+open lake/site/index.html
+```
+
+This opens the local data lake in your browser.
+
+### 2. Update everything that needs updating
+
+```bash
+python refresh_nyc_datalake.py
+```
+
+This command:
+
+1. checks all configured NYC Open Data datasets
+2. refreshes only the datasets that changed
+3. reruns Atlas plus the wrapper when needed
+4. rebuilds the web data lake
+
+You do not need to run `build_lake.py` after this.
+
+### 3. Add a new dataset
+
+Add one item to `nyc_open_data_datasets.json`:
+
+```json
+{"name": "my_dataset", "resource_id": "abcd-1234"}
+```
+
+Then run:
+
+```bash
+python refresh_nyc_datalake.py
+```
+
+The new dataset will be downloaded then profiled then added to the lake.
+
+## The Main Commands
+
+### Normal update command
+
+```bash
+python refresh_nyc_datalake.py
+```
+
+Use this for normal day to day work.
+
+### Rebuild the web UI only
+
+```bash
+python build_lake.py
+```
+
+Use this when:
+
+- local data already exists
+- output files already exist
+- you only want to rebuild the static site
+
+### Run Atlas manually
+
+```bash
+python test.py
+```
+
+At the top of `test.py` you can change:
+
+- `RUN_ALL_DATASETS`
+- `USE_WRAPPER`
+- `GEO_THRESHOLD`
+- `DATA_PATH`
+
+## What You Will See In The Web UI
+
+Homepage:
+
+- dataset cards
+- latest update report
+- latest refresh log
+
+Dataset detail page:
+
+- basic dataset info
+- sample rows
+- dataset metadata
+- column metadata
+- type analysis
+- links to final files
+
+Main entry file:
+
+- `lake/site/index.html`
 
 ## Main Folders
 
@@ -14,169 +113,101 @@ This project does four things:
 - `source_metadata/nyc_open_data/`
   - source metadata from NYC Open Data
 - `output/`
-  - final Atlas outputs
+  - Atlas raw and wrapped outputs
 - `lake/`
-  - the local static data lake site
+  - static web data lake
 - `update_checks/nyc_open_data/`
   - update reports and refresh logs
 
 ## Main Files
 
+- `refresh_nyc_datalake.py`
+  - main project entry point
+- `build_lake.py`
+  - rebuilds the web UI
+- `test.py`
+  - runs Atlas
+- `atlas_wrapper.py`
+  - improves final Atlas labels
 - `nyc_open_data_datasets.json`
-  - list of datasets to track
+  - list of tracked datasets
 - `nyc_update_core.py`
   - reusable update check core
 - `nyc_refresh_core.py`
   - reusable source refresh core
-- `refresh_nyc_datalake.py`
-  - project adapter for this data lake
-- `test.py`
-  - Atlas runner
-- `atlas_wrapper.py`
-  - post processing layer for Atlas
-- `build_lake.py`
-  - static site builder
 
-## How To Open The Web UI
+## How This Project Updates Data
 
-Open this file in your browser:
+This project uses three steps:
 
-`lake/site/index.html`
-
-Or run:
-
-```bash
-open lake/site/index.html
-```
-
-The homepage shows:
-
-- dataset cards
-- latest update report
-- latest refresh log
-
-Each dataset page shows:
-
-- basic dataset info
-- sample rows
-- dataset metadata
-- column metadata
-- analysis tables and plots
-- links to the final output files
-
-## How To Update Data
-
-Run:
-
-```bash
-python refresh_nyc_datalake.py
-```
-
-This is the normal command for this project.
-
-It will:
-
-1. check all configured NYC Open Data datasets
-2. detect which datasets changed
-3. refresh only the datasets that need work
-4. rerun Atlas and the wrapper when needed
-5. rebuild the data lake
-
-You do not need to run `build_lake.py` after this.
+1. `nyc_update_core.py`
+   - checks what changed
+2. `nyc_refresh_core.py`
+   - updates local source metadata and local raw CSV files
+3. `refresh_nyc_datalake.py`
+   - reruns Atlas plus wrapper
+   - writes refresh artifacts
+   - rebuilds the web data lake
 
 The main update cases are:
 
 - `unchanged`
   - nothing important changed
 - `metadata_changed`
-  - source metadata changed
-  - the pipeline updates source metadata and rebuilds the lake
+  - only source metadata changed
 - `data_changed`
   - table rows changed
-  - the pipeline refreshes CSV files then reruns Atlas and rebuilds the lake
 - `schema_changed`
   - table columns changed
-  - the pipeline refreshes CSV files then reruns Atlas and rebuilds the lake
 - `missing_local_files`
-  - local source files or final outputs are missing
-  - the pipeline rebuilds the missing parts
+  - some local source files or output files are missing
 
-## How This Data Lake Updates
+## Final Output
 
-This project uses three layers:
+For each dataset the main final files are:
 
-- `nyc_update_core.py`
-  - checks remote NYC Open Data metadata
-  - decides what changed
-  - writes the update report
+- `data/<dataset>.csv`
+- `source_metadata/nyc_open_data/<dataset>.json`
+- `output/metadata_<dataset>_wrapped.json`
+- `output/geo_classifier_results_<dataset>_wrapped.csv`
+- `lake/site/tables/<dataset>.html`
 
-- `nyc_refresh_core.py`
-  - refreshes source metadata
-  - refreshes raw CSV files when needed
-  - selects which datasets need source refresh
+## Advanced Use
 
-- `refresh_nyc_datalake.py`
-  - uses the two cores above
-  - reruns Atlas and the wrapper for changed datasets
-  - writes change artifacts
-  - rebuilds the web data lake
-
-So the full project flow is:
-
-1. check updates
-2. refresh source data
-3. rerun Atlas plus wrapper
-4. rebuild the web data lake
-
-## How To Use The Two Cores In Another Project
-
-The two core files are meant for a project that also uses NYC Open Data but does not need this exact Atlas data lake.
-
-Use them in this order:
-
-1. `nyc_update_core.py`
-2. `nyc_refresh_core.py`
-3. your own project code
+You only need this section if you want to reuse the NYC Open Data update logic in another project.
 
 ### `nyc_update_core.py`
 
-This file answers one question:
+Use this file when you want to answer:
 
 **What changed and what should happen next**
 
-It does these jobs:
-
-- reads local source metadata
-- fetches the latest remote NYC Open Data metadata
-- compares local and remote state
-- decides the dataset status
-- decides the next action
-- builds one full update report
-
-#### Main function
+Main function:
 
 ```python
 run_update_check(...)
 ```
 
-#### What you can change
+What it does:
 
-At the top of `nyc_update_core.py` you can change:
+- reads local source metadata
+- fetches remote NYC Open Data metadata
+- compares local and remote state
+- decides `status`
+- decides `action`
+- builds a full update report
 
-- `DATASET_NAME_KEY`
-- `DATASET_RESOURCE_ID_KEY`
-- `SOURCE_COLUMN_FIELDS`
-- `TIMESTAMP_CHANGE_FIELDS`
-- `SOURCE_METADATA_FIELDS`
+Important settings at the top of the file:
 
-These control:
+| Setting | Current value | Used for |
+| --- | --- | --- |
+| `DATASET_NAME_KEY` | `"name"` | dataset name key in the config |
+| `DATASET_RESOURCE_ID_KEY` | `"resource_id"` | dataset id key in the config |
+| `SOURCE_COLUMN_FIELDS` | `("fieldName", "name", "dataTypeName", "position", "description")` | schema comparison fields |
+| `TIMESTAMP_CHANGE_FIELDS` | `(("rows_updated_at", "rows_updated_at"), ("view_last_modified", "view_last_modified"), ("columns", "schema"))` | mapping remote state fields to change labels |
+| `SOURCE_METADATA_FIELDS` | `("title", "description", "category", "tags")` | source metadata fields used for metadata change detection |
 
-- which keys are used in the dataset config
-- which column fields are used for schema comparison
-- which metadata fields count as source metadata changes
-- which remote fields count as data or schema changes
-
-#### Main inputs
+Example:
 
 ```python
 from pathlib import Path
@@ -195,35 +226,25 @@ report = run_update_check(
 )
 ```
 
-#### Main output
-
-It returns one report dictionary with:
-
-- `checked_at`
-- `summary`
-- `datasets`
-
-The `summary` looks like:
+The result looks like:
 
 ```python
 {
-    "unchanged": 9,
-    "metadata_changed": 1,
-    "missing_local_files": 1,
-}
-```
-
-Each item in `datasets` looks like:
-
-```python
-{
-    "dataset_name": "nyc311",
-    "resource_id": "76ig-c548",
-    "status": "unchanged",
-    "action": "no_action",
-    "changes_vs_local": [],
-    "changes_since_last_check": [],
-    "missing_local_files": [],
+    "checked_at": "...",
+    "summary": {
+        "unchanged": 1,
+    },
+    "datasets": [
+        {
+            "dataset_name": "nyc311",
+            "resource_id": "76ig-c548",
+            "status": "unchanged",
+            "action": "no_action",
+            "changes_vs_local": [],
+            "changes_since_last_check": [],
+            "missing_local_files": [],
+        }
+    ],
 }
 ```
 
@@ -245,46 +266,56 @@ Possible `action` values:
 
 ### `nyc_refresh_core.py`
 
-This file answers one question:
+Use this file when you want to answer:
 
-**How do I refresh the source files for the datasets that changed**
+**How do I update the local source files for the datasets that changed**
 
-It does these jobs:
-
-- finds which datasets in the report still need work
-- separates failed checks from datasets that can be refreshed
-- refreshes source metadata
-- refreshes raw CSV files when the action requires it
-- returns structured refresh results for your project code
-
-#### Main functions
+Main functions:
 
 ```python
+refresh_source_assets(...)
 split_refresh_targets(...)
 refresh_changed_datasets(...)
 ```
 
-#### What you can change
+What it does:
 
-At the top of `nyc_refresh_core.py` you can change:
+- finds which datasets still need work
+- separates failed checks from refreshable datasets
+- updates local source metadata files
+- updates local raw CSV files when needed
+- returns structured refresh results
 
-- `DEFAULT_LIMIT`
-- `NYC_OPEN_DATA_BASE_URL`
-- `CSV_RESOURCE_PATH`
-- `METADATA_TIMEOUT_SECONDS`
-- `CSV_TIMEOUT_SECONDS`
-- `SOURCE_METADATA_PATH_KEY`
-- `RAW_CSV_PATH_KEY`
+Where the path keys come from:
 
-These control:
+- `refresh_changed_datasets(...)` uses a `paths_builder`
+- by default it uses `output_paths(...)` from `nyc_open_data_utils.py`
+- that function returns a dictionary with keys like:
+  - `raw_csv`
+  - `source_metadata`
+  - `final_metadata`
+  - `final_geo_results`
+  - `raw_metadata`
+  - `raw_geo_results`
+- inside `nyc_refresh_core.py` only these two keys are required:
+  - `raw_csv`
+  - `source_metadata`
 
-- how many rows to fetch by default
-- where the NYC Open Data API is
-- how CSV download URLs are built
-- request timeout values
-- which keys must exist in the `paths` dictionary
+So the path key settings at the top of `nyc_refresh_core.py` must match the keys returned by your `paths_builder`.
 
-#### Main inputs
+Important settings at the top of the file:
+
+| Setting | Current value | Used for |
+| --- | --- | --- |
+| `DEFAULT_LIMIT` | `5000` | default CSV row limit for new datasets |
+| `NYC_OPEN_DATA_BASE_URL` | `"https://data.cityofnewyork.us"` | base URL for NYC Open Data |
+| `CSV_RESOURCE_PATH` | `"/resource/{resource_id}.csv?$limit={limit}"` | CSV download URL template |
+| `METADATA_TIMEOUT_SECONDS` | `20` | timeout for source metadata requests |
+| `CSV_TIMEOUT_SECONDS` | `60` | timeout for CSV downloads |
+| `SOURCE_METADATA_PATH_KEY` | `"source_metadata"` | key used for the local source metadata path |
+| `RAW_CSV_PATH_KEY` | `"raw_csv"` | key used for the local raw CSV path |
+
+Example:
 
 ```python
 from nyc_refresh_core import refresh_changed_datasets
@@ -292,18 +323,39 @@ from nyc_refresh_core import refresh_changed_datasets
 refreshed = refresh_changed_datasets(datasets, report)
 ```
 
-This expects:
+This works because the default `paths_builder` already returns:
 
-- `datasets`
-  - your dataset config list
-- `report`
-  - the report returned by `run_update_check(...)`
+```python
+{
+    "raw_csv": Path("data/nyc311.csv"),
+    "source_metadata": Path("source_metadata/nyc_open_data/nyc311.json"),
+    ...
+}
+```
 
-#### Main output
+If another project uses different local folders then it should pass its own `paths_builder`.
 
-It returns one item per dataset that was actually refreshed.
+Example:
 
-Each item looks like:
+```python
+from pathlib import Path
+
+from nyc_refresh_core import refresh_changed_datasets
+
+def my_paths_builder(dataset_name: str) -> dict:
+    return {
+        "raw_csv": Path("raw") / f"{dataset_name}.csv",
+        "source_metadata": Path("metadata") / f"{dataset_name}.json",
+    }
+
+refreshed = refresh_changed_datasets(
+    datasets,
+    report,
+    paths_builder=my_paths_builder,
+)
+```
+
+Each item in `refreshed` looks like:
 
 ```python
 {
@@ -322,18 +374,29 @@ Each item looks like:
     },
     "remote_metadata": {...},
     "csv_limit": 5000,
+    "current_csv": {
+        "size_bytes": 123999,
+        "sha256": "...",
+        "row_count": 5000,
+    },
 }
 ```
 
-If the dataset only had a metadata change then:
+If the dataset only had a metadata change:
 
-- `remote_metadata` will still be updated
-- `csv_limit` will be `None`
-- the raw CSV will not be downloaded again
+- `remote_metadata` is updated
+- `csv_limit` is `None`
+- the local raw CSV is not downloaded again
 
-### Simple Reuse Pattern
+If the dataset had a data or schema change:
 
-A different project can reuse the two cores like this:
+- `remote_metadata` is updated
+- the local raw CSV is overwritten with the new download
+- `current_csv` describes the new local file
+
+### Reuse Pattern
+
+Another project can reuse the two cores like this:
 
 ```python
 from pathlib import Path
@@ -353,11 +416,7 @@ report = run_update_check(
 refreshed = refresh_changed_datasets(datasets, report)
 
 for item in refreshed:
-    # Do your own project step here.
-    # Example:
-    # - run another profiler
-    # - update a database
-    # - rebuild a website
+    # Run your own next step here.
     pass
 ```
 
@@ -366,87 +425,6 @@ So the split is:
 - `nyc_update_core.py`
   - decide what changed
 - `nyc_refresh_core.py`
-  - refresh local source files
+  - update local source files
 - your own code
   - do whatever should happen after the source files are updated
-
-## How To Use These Cores In This Project
-
-This project does not call the cores by hand.
-
-Instead it uses:
-
-```bash
-python refresh_nyc_datalake.py
-```
-
-That file already:
-
-- calls `nyc_update_core.py`
-- calls `nyc_refresh_core.py`
-- reruns Atlas
-- applies the wrapper
-- rebuilds `lake/`
-
-## Rebuild The Lake Only
-
-Run:
-
-```bash
-python build_lake.py
-```
-
-Use this when:
-
-- local data already exists
-- output files already exist
-- you only want to rebuild the static site
-
-## Run Atlas Manually
-
-Run:
-
-```bash
-python test.py
-```
-
-At the top of `test.py` you can change:
-
-- `RUN_ALL_DATASETS`
-- `USE_WRAPPER`
-- `GEO_THRESHOLD`
-- `DATA_PATH`
-
-This writes Atlas outputs to `output/`.
-
-## Add A New Dataset
-
-Add one item to `nyc_open_data_datasets.json`:
-
-```json
-{"name": "my_dataset", "resource_id": "abcd-1234"}
-```
-
-Then run:
-
-```bash
-python refresh_nyc_datalake.py
-```
-
-The pipeline will:
-
-1. fetch source metadata
-2. download the CSV
-3. run Atlas
-4. apply the wrapper
-5. rebuild the data lake
-
-## Final Output
-
-For each dataset the main final files are:
-
-- `data/<dataset>.csv`
-- `source_metadata/nyc_open_data/<dataset>.json`
-- `output/metadata_<dataset>_wrapped.json`
-- `output/geo_classifier_results_<dataset>_wrapped.csv`
-- `lake/site/tables/<dataset>.html`

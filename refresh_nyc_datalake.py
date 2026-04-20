@@ -1,4 +1,3 @@
-import hashlib
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -10,7 +9,6 @@ from nyc_refresh_core import refresh_changed_datasets, split_refresh_targets
 from nyc_open_data_utils import (
     ROOT,
     UPDATE_DIR,
-    count_rows,
     load_datasets,
     utc_now,
     write_json,
@@ -86,6 +84,7 @@ def refresh_dataset(source_item: dict) -> dict:
     name = dataset["name"]
     remote_metadata = source_item["remote_metadata"]
     limit = source_item["csv_limit"]
+    current_csv = source_item["current_csv"]
     before_metadata = source_item["before_metadata"]
     before_csv = source_item["before_csv"]
     detail = build_change_detail(
@@ -94,16 +93,12 @@ def refresh_dataset(source_item: dict) -> dict:
         before_metadata,
         remote_metadata,
         before_csv,
-        before_csv,
+        current_csv,
     )
 
     if limit is not None:
         csv_path = paths["raw_csv"]
-        current_csv = file_stats(csv_path)
         detail["data_change"]["current_csv"] = current_csv
-        detail["data_change"]["csv_hash_changed"] = (
-            (before_csv or {}).get("sha256") != current_csv["sha256"]
-        )
         profile_dataset(csv_path)
 
     artifacts = write_change_artifacts(name, before_metadata, remote_metadata, detail)
@@ -287,15 +282,6 @@ def build_change_markdown(detail: dict) -> str:
 def short(value) -> str:
     text = "null" if value is None else str(value).replace("\n", " ").strip()
     return text if len(text) <= 120 else text[:117] + "..."
-
-
-# Build a small fingerprint for one file.
-def file_stats(path: Path) -> dict | None:
-    if not path.exists():
-        return None
-    raw = path.read_bytes()
-    return {"size_bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest(), "row_count": count_rows(path)}
-
 
 if __name__ == "__main__":
     main()

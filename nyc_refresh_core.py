@@ -50,6 +50,8 @@ def refresh_source_assets(
     paths: dict,
     default_limit: int = DEFAULT_LIMIT,
 ) -> dict:
+    before_metadata = read_json(paths[SOURCE_METADATA_PATH_KEY])
+    before_csv = file_stats(paths[RAW_CSV_PATH_KEY])
     remote_metadata = fetch_dataset_metadata(
         dataset["resource_id"],
         timeout=METADATA_TIMEOUT_SECONDS,
@@ -62,9 +64,15 @@ def refresh_source_assets(
         csv_bytes = fetch_dataset_csv(remote_metadata["_resolved_view_id"], csv_limit)
         paths[RAW_CSV_PATH_KEY].write_bytes(csv_bytes)
 
+    current_csv = file_stats(paths[RAW_CSV_PATH_KEY])
+
     return {
+        "paths": paths,
+        "before_metadata": before_metadata,
+        "before_csv": before_csv,
         "remote_metadata": remote_metadata,
         "csv_limit": csv_limit,
+        "current_csv": current_csv,
     }
 
 
@@ -96,8 +104,6 @@ def refresh_changed_datasets(
     for item in pending:
         dataset = dataset_lookup[item["dataset_name"]]
         paths = paths_builder(dataset["name"])
-        before_metadata = read_json(paths[SOURCE_METADATA_PATH_KEY])
-        before_csv = file_stats(paths[RAW_CSV_PATH_KEY])
         source_refresh = refresh_source_assets(
             dataset=dataset,
             report_item=item,
@@ -108,9 +114,6 @@ def refresh_changed_datasets(
             {
                 "dataset": dataset,
                 "report_item": item,
-                "paths": paths,
-                "before_metadata": before_metadata,
-                "before_csv": before_csv,
                 **source_refresh,
             }
         )
