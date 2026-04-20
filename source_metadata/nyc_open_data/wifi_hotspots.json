@@ -1,0 +1,2378 @@
+{
+  "id" : "yjub-udmw",
+  "name" : "NYC Wi-Fi Hotspot Locations",
+  "assetType" : "dataset",
+  "attribution" : "Office of Technology and Innovation (OTI)",
+  "averageRating" : 0,
+  "category" : "City Government",
+  "createdAt" : 1436897659,
+  "description" : "NYC Wi-Fi Hotspot Locations Wi-Fi Providers: \r\nCityBridge, LLC (Free Beta): LinkNYC 1 gigabyte (GB), Free Wi-Fi Internet Kiosks\r\nSpot On Networks (Free) NYC HOUSING AUTHORITY (NYCHA) Properties\r\nFiberless (Free): Wi-Fi access on Governors Island Free - up to 5 Mbps for users as the part of Governors Island Trust Governors Island Connectivity Challenge\r\nAT&T (Free): Wi-Fi access is free for all users at all times. \r\nPartners: In several parks, the NYC partner organizations provide publicly accessible Wi-Fi. Visit these parks to learn more information about their Wi-Fi service and how to connect. \r\nCable (Limited-Free): In NYC Parks provided by NYC DoITT Cable television franchisees. \r\nALTICEUSA previously known as “Cablevision” and SPECTRUM previously known as “Time Warner Cable” (Limited Free) Connect for 3 free 10 minute sessions every 30 days or purchase a 99 cent day pass through midnight. Wi-Fi service is free at all times to Cablevision’s Optimum Online and Time Warner Cable broadband subscribers. \r\nWi-Fi Provider: Chelsea Wi-Fi (Free) Wi-Fi access is free for all users at all times. \r\nChelsea Improvement Company has partnered with Google to provide Wi-Fi a free wireless Internet zone, a broadband region bounded by West 19th Street, Gansevoort Street, Eighth Avenue, and the High Line Park. \r\nWi-Fi Provider: Downtown Brooklyn Wi-Fi (Free) \r\nThe Downtown Brooklyn Partnership - the New York City Economic Development Corporation to provide Wi-Fi to the area bordered by Schermerhorn Street, Cadman Plaza West, Flatbush Avenue, and Tillary Street, along with select public spaces in the NYCHA Ingersoll and Whitman Houses. \r\nWi-Fi Provider: Manhattan Downtown Alliance Wi-Fi (Free) \r\nLower Manhattan Several public spaces all along Water Street, Front Street and the East River Esplanade south of Fulton Street and in several other locations throughout Lower Manhattan. \r\nWi-Fi Provider: Harlem Wi-Fi (Free) \r\nThe network will extend 95 city blocks, from 110th to 138th Streets between Frederick Douglass Boulevard and Madison Avenue is the free outdoor public wireless network. \r\nWi-Fi Provider: Transit Wireless (Free) \r\nWi-Fi Services in the New York City subway system is available in certain underground stations. For more information visit http://www.transitwireless.com/stations/. \r\nWi-Fi Provider: Public Pay Telephone Franchisees (Free) \r\nUsing existing payphone infrastructure, the City of New York has teamed up with private partners to provide free Wi-Fi service at public payphone kiosks across the five boroughs at no cost to taxpayers. \r\nWi-Fi Provider: New York Public Library \r\nUsing Wireless Internet Access (Wi-Fi): All Library locations offer free wireless access (Wi-Fi) in public areas at all times the libraries are open. \r\nConnecting to the Library's Wireless Network \r\n•You must have a computer or other device equipped with an 802.11b-compatible wireless card. \r\n•Using your computer's network utilities, look for the wireless network named \"NYPL.\" \r\n•The \"NYPL\" wireless network does not require a password to connect. \r\nLimitations and Disclaimers Regarding Wireless Access \r\n•The Library's wireless network is not secure. Information sent from or to your laptop can be captured by anyone else with a wireless device and the appropriate software, within three hundred feet. \r\n•Library staff is not able to provide technical assistance and no guarantee can be provided that you will be able to make a wireless connection. \r\n•The Library assumes no responsibility for the safety of equipment or for laptop configurations, security, or data files resulting from connection to the Library's network",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 11353,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1554388231,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 29648820,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1536353158,
+  "publicationGroup" : 3554526,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1569515080,
+  "tableId" : 15501034,
+  "totalTimesRated" : 0,
+  "viewCount" : 35195,
+  "viewLastModified" : 1663960987,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1536353158,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1076934,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1536353158,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 374013367,
+    "name" : "OBJECTID",
+    "dataTypeName" : "number",
+    "description" : "Identification number automatically generated by map software ArcMap.\n",
+    "fieldName" : "objectid",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 29758965,
+    "width" : 159,
+    "cachedContents" : {
+      "largest" : "12946",
+      "non_null" : "3319",
+      "average" : "4920.115959354453",
+      "null" : "0",
+      "top" : [ {
+        "item" : "10101",
+        "count" : "1"
+      }, {
+        "item" : "10269",
+        "count" : "1"
+      }, {
+        "item" : "12616",
+        "count" : "1"
+      }, {
+        "item" : "11625",
+        "count" : "1"
+      }, {
+        "item" : "9802",
+        "count" : "1"
+      }, {
+        "item" : "10490",
+        "count" : "1"
+      }, {
+        "item" : "12567",
+        "count" : "1"
+      }, {
+        "item" : "11617",
+        "count" : "1"
+      }, {
+        "item" : "12763",
+        "count" : "1"
+      }, {
+        "item" : "12488",
+        "count" : "1"
+      }, {
+        "item" : "10051",
+        "count" : "1"
+      }, {
+        "item" : "10770",
+        "count" : "1"
+      }, {
+        "item" : "10345",
+        "count" : "1"
+      }, {
+        "item" : "10454",
+        "count" : "1"
+      }, {
+        "item" : "12790",
+        "count" : "1"
+      }, {
+        "item" : "11946",
+        "count" : "1"
+      }, {
+        "item" : "11960",
+        "count" : "1"
+      }, {
+        "item" : "12220",
+        "count" : "1"
+      }, {
+        "item" : "10858",
+        "count" : "1"
+      }, {
+        "item" : "9736",
+        "count" : "1"
+      } ],
+      "smallest" : "9601",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "16462708",
+      "cardinality" : "3319"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013368,
+    "name" : "Borough",
+    "dataTypeName" : "text",
+    "description" : "Borough of New York City.                MN = Manhattan                                  BX = Bronx                                           BK = Brooklyn                                     QU = Queens                                       SI = Staten Island\n",
+    "fieldName" : "borough",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 29758967,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "5",
+      "non_null" : "3319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1672"
+      }, {
+        "item" : "3",
+        "count" : "700"
+      }, {
+        "item" : "4",
+        "count" : "531"
+      }, {
+        "item" : "2",
+        "count" : "316"
+      }, {
+        "item" : "5",
+        "count" : "100"
+      } ],
+      "smallest" : "1",
+      "not_null" : "3319",
+      "count" : "3319",
+      "cardinality" : "5"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 374013369,
+    "name" : "Type",
+    "dataTypeName" : "text",
+    "description" : "Type of WiFi provided by franchise.\n",
+    "fieldName" : "type",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 29758969,
+    "width" : 244,
+    "cachedContents" : {
+      "largest" : "Partner Site",
+      "non_null" : "3319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Free",
+        "count" : "2736"
+      }, {
+        "item" : "Limited Free",
+        "count" : "581"
+      }, {
+        "item" : "Partner Site",
+        "count" : "2"
+      } ],
+      "smallest" : "Free",
+      "not_null" : "3319",
+      "count" : "3319",
+      "cardinality" : "3"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 374013370,
+    "name" : "Provider",
+    "dataTypeName" : "text",
+    "description" : "Franchise who is providing the Wifi connection.\n",
+    "fieldName" : "provider",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 29758971,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "Transit Wireless",
+      "non_null" : "3319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "LinkNYC - Citybridge",
+        "count" : "1868"
+      }, {
+        "item" : "SPECTRUM",
+        "count" : "343"
+      }, {
+        "item" : "Transit Wireless",
+        "count" : "276"
+      }, {
+        "item" : "ALTICEUSA",
+        "count" : "237"
+      }, {
+        "item" : "Harlem",
+        "count" : "101"
+      }, {
+        "item" : "Downtown Brooklyn",
+        "count" : "100"
+      }, {
+        "item" : "NYPL",
+        "count" : "90"
+      }, {
+        "item" : "QPL",
+        "count" : "65"
+      }, {
+        "item" : "BPL",
+        "count" : "59"
+      }, {
+        "item" : "Manhattan Down Alliance",
+        "count" : "36"
+      }, {
+        "item" : "Fiberless",
+        "count" : "30"
+      }, {
+        "item" : "Chelsea",
+        "count" : "30"
+      }, {
+        "item" : "NYCHA",
+        "count" : "28"
+      }, {
+        "item" : "AT&T",
+        "count" : "27"
+      }, {
+        "item" : "Spot On Networks",
+        "count" : "16"
+      }, {
+        "item" : "City Tech",
+        "count" : "11"
+      }, {
+        "item" : "Partner",
+        "count" : "2"
+      } ],
+      "smallest" : "ALTICEUSA",
+      "not_null" : "3319",
+      "count" : "3319",
+      "cardinality" : "17"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 374013371,
+    "name" : "Name",
+    "dataTypeName" : "text",
+    "description" : "The name of the location where the WiFi is located.\n",
+    "fieldName" : "name",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 29758973,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "Yorkville",
+      "non_null" : "3089",
+      "null" : "230",
+      "top" : [ {
+        "item" : "0",
+        "count" : "39"
+      }, {
+        "item" : "Governors Island",
+        "count" : "30"
+      }, {
+        "item" : "Crotona Park",
+        "count" : "28"
+      }, {
+        "item" : "Coney Island Beach & Boardwalk",
+        "count" : "28"
+      }, {
+        "item" : "Rockaway Beach and Boardwalk",
+        "count" : "28"
+      }, {
+        "item" : "Baisley Pond Park",
+        "count" : "20"
+      }, {
+        "item" : "Kissena Park",
+        "count" : "16"
+      }, {
+        "item" : "Roy Wilkins Recreation Center",
+        "count" : "16"
+      }, {
+        "item" : "QUEENS BRIDGE - JACOB A. RIIS Settlement House",
+        "count" : "16"
+      }, {
+        "item" : "Prospect Park",
+        "count" : "15"
+      }, {
+        "item" : "Manhattan Beach Park",
+        "count" : "15"
+      }, {
+        "item" : "Midland Beach and Franklin D. Roosevelt Boardwalk",
+        "count" : "15"
+      }, {
+        "item" : "Snug Harbor Cultural Center",
+        "count" : "14"
+      }, {
+        "item" : "Macombs Dam Park",
+        "count" : "12"
+      }, {
+        "item" : "Pelham Bay Park",
+        "count" : "11"
+      }, {
+        "item" : "St. John's Recreation Center",
+        "count" : "11"
+      }, {
+        "item" : "Ferry Point Park",
+        "count" : "10"
+      }, {
+        "item" : "Brownsville Recreation Center",
+        "count" : "10"
+      }, {
+        "item" : "Williamsbridge Oval",
+        "count" : "9"
+      }, {
+        "item" : "Thomas Jefferson Park",
+        "count" : "9"
+      } ],
+      "smallest" : "0",
+      "not_null" : "3089",
+      "count" : "3319",
+      "cardinality" : "2499"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 374013372,
+    "name" : "Location",
+    "dataTypeName" : "text",
+    "description" : "A brief description of where the WiFi point is.\n",
+    "fieldName" : "location",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 29758976,
+    "width" : 324,
+    "cachedContents" : {
+      "largest" : "York St (F)",
+      "non_null" : "3319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Park Perimeter",
+        "count" : "42"
+      }, {
+        "item" : "Along Boardwalk and Beach",
+        "count" : "15"
+      }, {
+        "item" : "300 Jay Street",
+        "count" : "11"
+      }, {
+        "item" : "333 Adams St.",
+        "count" : "8"
+      }, {
+        "item" : "110 Livingston St.",
+        "count" : "7"
+      }, {
+        "item" : "North area off Richmond Terr",
+        "count" : "6"
+      }, {
+        "item" : "Outdoor - Park Area",
+        "count" : "6"
+      }, {
+        "item" : "Entire Park",
+        "count" : "5"
+      }, {
+        "item" : "Track & Field",
+        "count" : "5"
+      }, {
+        "item" : "Park Area",
+        "count" : "5"
+      }, {
+        "item" : "Lobby",
+        "count" : "5"
+      }, {
+        "item" : "10-05 41 AVENUE",
+        "count" : "5"
+      }, {
+        "item" : "333 Jay St.",
+        "count" : "5"
+      }, {
+        "item" : "125 Court St.",
+        "count" : "5"
+      }, {
+        "item" : "177 Myrtle Ave",
+        "count" : "5"
+      }, {
+        "item" : "Fulton St (A,C,J,Z,2,3,4,5)",
+        "count" : "5"
+      }, {
+        "item" : "Along Promenade",
+        "count" : "5"
+      }, {
+        "item" : "160 Schermerhorn St.",
+        "count" : "5"
+      }, {
+        "item" : "10-25 41 AVENUE",
+        "count" : "5"
+      }, {
+        "item" : "409 Fulton St.",
+        "count" : "5"
+      } ],
+      "smallest" : "1000 1 AVENUE",
+      "not_null" : "3319",
+      "count" : "3319",
+      "cardinality" : "3023"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 374013373,
+    "name" : "Latitude",
+    "dataTypeName" : "number",
+    "description" : "Latitude: Points that fall North or South of the Equator, expressed in degrees.\n",
+    "fieldName" : "latitude",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 29758980,
+    "width" : 136,
+    "cachedContents" : {
+      "largest" : "40.90372277710",
+      "non_null" : "3319",
+      "average" : "40.74231159766088",
+      "null" : "0",
+      "top" : [ {
+        "item" : "40.68719100000",
+        "count" : "14"
+      }, {
+        "item" : "40.81268099960",
+        "count" : "8"
+      }, {
+        "item" : "40.71024999990",
+        "count" : "8"
+      }, {
+        "item" : "40.69363599970",
+        "count" : "7"
+      }, {
+        "item" : "40.69088299980",
+        "count" : "7"
+      }, {
+        "item" : "40.81154400000",
+        "count" : "7"
+      }, {
+        "item" : "40.80501299970",
+        "count" : "7"
+      }, {
+        "item" : "40.79366900020",
+        "count" : "6"
+      }, {
+        "item" : "40.77144200040",
+        "count" : "6"
+      }, {
+        "item" : "40.82413099980",
+        "count" : "6"
+      }, {
+        "item" : "40.68931900030",
+        "count" : "6"
+      }, {
+        "item" : "40.72007899970",
+        "count" : "5"
+      }, {
+        "item" : "40.75575100010",
+        "count" : "5"
+      }, {
+        "item" : "40.72956400000",
+        "count" : "5"
+      }, {
+        "item" : "40.68963300010",
+        "count" : "5"
+      }, {
+        "item" : "40.74827000040",
+        "count" : "5"
+      }, {
+        "item" : "40.69401050000",
+        "count" : "5"
+      }, {
+        "item" : "40.65700100040",
+        "count" : "4"
+      }, {
+        "item" : "40.68933399980",
+        "count" : "4"
+      }, {
+        "item" : "40.75573526820",
+        "count" : "4"
+      } ],
+      "smallest" : "40.50953112390",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "136323.77460577330",
+      "cardinality" : "3149"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013374,
+    "name" : "Longitude",
+    "dataTypeName" : "number",
+    "description" : "Longitude: Points that fall East or West of the Prime Meridian, expressed in degrees.\n",
+    "fieldName" : "longitude",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 29758984,
+    "width" : 160,
+    "cachedContents" : {
+      "largest" : "-73.71483775720",
+      "non_null" : "3319",
+      "average" : "-73.95008390003443",
+      "null" : "0",
+      "top" : [ {
+        "item" : "-73.76955899960",
+        "count" : "14"
+      }, {
+        "item" : "-73.99797999990",
+        "count" : "8"
+      }, {
+        "item" : "-73.93935699960",
+        "count" : "8"
+      }, {
+        "item" : "-73.91413799990",
+        "count" : "7"
+      }, {
+        "item" : "-73.94490899990",
+        "count" : "7"
+      }, {
+        "item" : "-73.98963499950",
+        "count" : "7"
+      }, {
+        "item" : "-73.98834699960",
+        "count" : "7"
+      }, {
+        "item" : "-73.98716199990",
+        "count" : "6"
+      }, {
+        "item" : "-73.98810899960",
+        "count" : "6"
+      }, {
+        "item" : "-73.94246400060",
+        "count" : "6"
+      }, {
+        "item" : "-73.93681600050",
+        "count" : "6"
+      }, {
+        "item" : "-73.94516599970",
+        "count" : "5"
+      }, {
+        "item" : "-74.00206799970",
+        "count" : "5"
+      }, {
+        "item" : "-73.98670650050",
+        "count" : "5"
+      }, {
+        "item" : "-74.00546199980",
+        "count" : "5"
+      }, {
+        "item" : "-73.94951099980",
+        "count" : "5"
+      }, {
+        "item" : "-73.98316500030",
+        "count" : "5"
+      }, {
+        "item" : "-74.00872299960",
+        "count" : "4"
+      }, {
+        "item" : "-73.75140200030",
+        "count" : "4"
+      }, {
+        "item" : "-73.94458443200",
+        "count" : "4"
+      } ],
+      "smallest" : "-74.24410670830",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "-247436.98072951520",
+      "cardinality" : "3149"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013375,
+    "name" : "X",
+    "dataTypeName" : "number",
+    "description" : "X-Coordinate: A horizontal value where a point is located.\n",
+    "fieldName" : "x",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 29758985,
+    "width" : 112,
+    "cachedContents" : {
+      "largest" : "1063266.33310000000",
+      "non_null" : "3319",
+      "average" : "998077.8930238004",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1048159.07427000000",
+        "count" : "14"
+      }, {
+        "item" : "984810.02117800000",
+        "count" : "8"
+      }, {
+        "item" : "1001036.71904000000",
+        "count" : "8"
+      }, {
+        "item" : "999501.61515400000",
+        "count" : "7"
+      }, {
+        "item" : "1008018.04858000000",
+        "count" : "7"
+      }, {
+        "item" : "987481.46202900000",
+        "count" : "7"
+      }, {
+        "item" : "987124.40893700000",
+        "count" : "7"
+      }, {
+        "item" : "987810.30159500000",
+        "count" : "6"
+      }, {
+        "item" : "1001745.09459000000",
+        "count" : "6"
+      }, {
+        "item" : "1000173.92352000000",
+        "count" : "6"
+      }, {
+        "item" : "987543.61315200000",
+        "count" : "6"
+      }, {
+        "item" : "983676.99850900000",
+        "count" : "5"
+      }, {
+        "item" : "999441.70123200000",
+        "count" : "5"
+      }, {
+        "item" : "982736.16377700000",
+        "count" : "5"
+      }, {
+        "item" : "987936.36367800000",
+        "count" : "5"
+      }, {
+        "item" : "998245.41458300000",
+        "count" : "5"
+      }, {
+        "item" : "988918.74852500000",
+        "count" : "5"
+      }, {
+        "item" : "981830.45200600000",
+        "count" : "4"
+      }, {
+        "item" : "994322.61796600000",
+        "count" : "4"
+      }, {
+        "item" : "999602.82755000000",
+        "count" : "4"
+      } ],
+      "smallest" : "916370.60129800000",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "3339568630.05763600000",
+      "cardinality" : "3150"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013376,
+    "name" : "Y",
+    "dataTypeName" : "number",
+    "description" : "Y-Coordinate: A vertical value where a point is located.\n",
+    "fieldName" : "y",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 29758989,
+    "width" : 112,
+    "cachedContents" : {
+      "largest" : "268543.64701700000",
+      "non_null" : "3319",
+      "average" : "209730.8581665971",
+      "null" : "0",
+      "top" : [ {
+        "item" : "189722.70557800000",
+        "count" : "14"
+      }, {
+        "item" : "235364.51193200000",
+        "count" : "8"
+      }, {
+        "item" : "198039.72765800000",
+        "count" : "8"
+      }, {
+        "item" : "232569.77277100000",
+        "count" : "7"
+      }, {
+        "item" : "190983.91663800000",
+        "count" : "7"
+      }, {
+        "item" : "191986.96023600000",
+        "count" : "7"
+      }, {
+        "item" : "234956.10034700000",
+        "count" : "7"
+      }, {
+        "item" : "228438.27119200000",
+        "count" : "6"
+      }, {
+        "item" : "190414.19664900000",
+        "count" : "6"
+      }, {
+        "item" : "220334.13385700000",
+        "count" : "6"
+      }, {
+        "item" : "239535.57872100000",
+        "count" : "6"
+      }, {
+        "item" : "201624.75854600000",
+        "count" : "5"
+      }, {
+        "item" : "211891.59890400000",
+        "count" : "5"
+      }, {
+        "item" : "205076.45144500000",
+        "count" : "5"
+      }, {
+        "item" : "190528.78369000000",
+        "count" : "5"
+      }, {
+        "item" : "192123.46652500000",
+        "count" : "5"
+      }, {
+        "item" : "214621.91693500000",
+        "count" : "5"
+      }, {
+        "item" : "158826.33692500000",
+        "count" : "4"
+      }, {
+        "item" : "190419.91481400000",
+        "count" : "4"
+      }, {
+        "item" : "191780.32613500000",
+        "count" : "4"
+      } ],
+      "smallest" : "125007.16309400000",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "701759451.42543400000",
+      "cardinality" : "3148"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013377,
+    "name" : "Location_T",
+    "dataTypeName" : "text",
+    "description" : "The type of location that a WiFi hotspot is present in.\n",
+    "fieldName" : "location_t",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 29758990,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Subway Station",
+      "non_null" : "3319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Outdoor Kiosk",
+        "count" : "1867"
+      }, {
+        "item" : "Outdoor",
+        "count" : "699"
+      }, {
+        "item" : "Subway Station",
+        "count" : "276"
+      }, {
+        "item" : "Library",
+        "count" : "214"
+      }, {
+        "item" : "Indoor",
+        "count" : "126"
+      }, {
+        "item" : "Outdoor TWC Aerial",
+        "count" : "121"
+      }, {
+        "item" : "Indoor AP - North Maintenance Area",
+        "count" : "3"
+      }, {
+        "item" : "Indoor AP - South Maintenance Area",
+        "count" : "3"
+      }, {
+        "item" : "Indoor AP - North Management Office",
+        "count" : "2"
+      }, {
+        "item" : "Indoor AP - South Management Office",
+        "count" : "2"
+      }, {
+        "item" : "Indoor AP - Community Center - Activity Rm 2",
+        "count" : "1"
+      }, {
+        "item" : "Indoor AP - Community Center - Gym",
+        "count" : "1"
+      }, {
+        "item" : "Indoor AP - Queens Public Library",
+        "count" : "1"
+      }, {
+        "item" : "Indoor AP - Community Center - Activity Rm 1",
+        "count" : "1"
+      }, {
+        "item" : "Indoor AP - Community Center - Cafeteria",
+        "count" : "1"
+      }, {
+        "item" : "Indoor AP - Community Center - Computer Rm",
+        "count" : "1"
+      } ],
+      "smallest" : "Indoor",
+      "not_null" : "3319",
+      "count" : "3319",
+      "cardinality" : "16"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 374013378,
+    "name" : "Remarks",
+    "dataTypeName" : "text",
+    "description" : "Comments describing a specific hotspot or location.\n",
+    "fieldName" : "remarks",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 29758994,
+    "width" : 184,
+    "cachedContents" : {
+      "largest" : "Temporary Closing reopen in Summer 2019",
+      "non_null" : "2771",
+      "null" : "548",
+      "top" : [ {
+        "item" : "Tablet Internet -phone , Free 1 GB Wi-FI Service",
+        "count" : "1868"
+      }, {
+        "item" : "3 free 10 min sessions",
+        "count" : "580"
+      }, {
+        "item" : "Free - up to 5 mbs",
+        "count" : "30"
+      }, {
+        "item" : "Free - Up to 25 mbs Wi-Fi Service",
+        "count" : "16"
+      }, {
+        "item" : "SN 128",
+        "count" : "1"
+      }, {
+        "item" : "SN 39",
+        "count" : "1"
+      }, {
+        "item" : "SN 286",
+        "count" : "1"
+      }, {
+        "item" : "SN 270",
+        "count" : "1"
+      }, {
+        "item" : "SN 105",
+        "count" : "1"
+      }, {
+        "item" : "SN 314",
+        "count" : "1"
+      }, {
+        "item" : "SN 21",
+        "count" : "1"
+      }, {
+        "item" : "SN 471",
+        "count" : "1"
+      }, {
+        "item" : "SN 393",
+        "count" : "1"
+      }, {
+        "item" : "SN 20",
+        "count" : "1"
+      }, {
+        "item" : "SN 188",
+        "count" : "1"
+      }, {
+        "item" : "SN 215",
+        "count" : "1"
+      }, {
+        "item" : "SN 33",
+        "count" : "1"
+      }, {
+        "item" : "SN 276",
+        "count" : "1"
+      }, {
+        "item" : "SN 152",
+        "count" : "1"
+      }, {
+        "item" : "SN 303",
+        "count" : "1"
+      } ],
+      "smallest" : "3 free 10 min sessions",
+      "not_null" : "2771",
+      "count" : "3319",
+      "cardinality" : "281"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 374013379,
+    "name" : "City",
+    "dataTypeName" : "text",
+    "description" : "The city in which a hotspot is located.\n",
+    "fieldName" : "city",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 29758995,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "Woodside",
+      "non_null" : "3319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "New York",
+        "count" : "1671"
+      }, {
+        "item" : "Brooklyn",
+        "count" : "702"
+      }, {
+        "item" : "Queens",
+        "count" : "465"
+      }, {
+        "item" : "Bronx",
+        "count" : "316"
+      }, {
+        "item" : "Staten Island",
+        "count" : "100"
+      }, {
+        "item" : "Flushing",
+        "count" : "9"
+      }, {
+        "item" : "Long Island City",
+        "count" : "8"
+      }, {
+        "item" : "Jamaica",
+        "count" : "5"
+      }, {
+        "item" : "Bayside",
+        "count" : "3"
+      }, {
+        "item" : "Corona",
+        "count" : "3"
+      }, {
+        "item" : "Little Neck",
+        "count" : "2"
+      }, {
+        "item" : "Richmond Hill",
+        "count" : "2"
+      }, {
+        "item" : "Forest Hills",
+        "count" : "2"
+      }, {
+        "item" : "Briarwood",
+        "count" : "1"
+      }, {
+        "item" : "Far Rockaway",
+        "count" : "1"
+      }, {
+        "item" : "Arverne",
+        "count" : "1"
+      }, {
+        "item" : "Bellerose",
+        "count" : "1"
+      }, {
+        "item" : "College Point",
+        "count" : "1"
+      }, {
+        "item" : "Laurelton",
+        "count" : "1"
+      }, {
+        "item" : "South Ozone Park",
+        "count" : "1"
+      } ],
+      "smallest" : "Arverne",
+      "not_null" : "3319",
+      "count" : "3319",
+      "cardinality" : "44"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 374013380,
+    "name" : "SSID",
+    "dataTypeName" : "text",
+    "description" : "The name of the WiFi seen on people's devices.\n",
+    "fieldName" : "ssid",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 29758996,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "unionsquarewifi",
+      "non_null" : "3319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "LinkNYC Free Wi-Fi",
+        "count" : "1868"
+      }, {
+        "item" : "GuestWiFi",
+        "count" : "580"
+      }, {
+        "item" : "TransitWirelessWiFi",
+        "count" : "276"
+      }, {
+        "item" : "Harlem Wi-Fi",
+        "count" : "101"
+      }, {
+        "item" : "Downtown Brooklyn WiFi",
+        "count" : "100"
+      }, {
+        "item" : "NYPL",
+        "count" : "90"
+      }, {
+        "item" : "QBPL_WIRELESS",
+        "count" : "65"
+      }, {
+        "item" : "BPLUNWIRED",
+        "count" : "59"
+      }, {
+        "item" : "DowntownBrooklynWiFi_Fon",
+        "count" : "39"
+      }, {
+        "item" : "#DwtwnAllianceFreeWiFi",
+        "count" : "36"
+      }, {
+        "item" : "Governors Island",
+        "count" : "30"
+      }, {
+        "item" : "CICFreeWiFi",
+        "count" : "30"
+      }, {
+        "item" : "attwifi",
+        "count" : "27"
+      }, {
+        "item" : "Quensbridge Connected",
+        "count" : "16"
+      }, {
+        "item" : "BryantPark.org",
+        "count" : "1"
+      }, {
+        "item" : "unionsquarewifi",
+        "count" : "1"
+      } ],
+      "smallest" : "attwifi",
+      "not_null" : "3319",
+      "count" : "3319",
+      "cardinality" : "16"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 374013381,
+    "name" : "SourceID",
+    "dataTypeName" : "text",
+    "description" : "A LinkNYC Kiosk's unique identification number.\n",
+    "fieldName" : "sourceid",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 29758997,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "NYC HOUSING AUTHORITY",
+      "non_null" : "2257",
+      "null" : "1062",
+      "top" : [ {
+        "item" : "0",
+        "count" : "343"
+      }, {
+        "item" : "Governors Island Trust",
+        "count" : "30"
+      }, {
+        "item" : "NYC HOUSING AUTHORITY",
+        "count" : "16"
+      }, {
+        "item" : "LINK-000987",
+        "count" : "1"
+      }, {
+        "item" : "LINK-012715",
+        "count" : "1"
+      }, {
+        "item" : "LINK-019891",
+        "count" : "1"
+      }, {
+        "item" : "LINK-000994",
+        "count" : "1"
+      }, {
+        "item" : "LINK-003315",
+        "count" : "1"
+      }, {
+        "item" : "LINK-011073",
+        "count" : "1"
+      }, {
+        "item" : "LINK-001600",
+        "count" : "1"
+      }, {
+        "item" : "LINK-013497",
+        "count" : "1"
+      }, {
+        "item" : "LINK-007302",
+        "count" : "1"
+      }, {
+        "item" : "LINK-000116",
+        "count" : "1"
+      }, {
+        "item" : "LINK-000852",
+        "count" : "1"
+      }, {
+        "item" : "LINK-003015",
+        "count" : "1"
+      }, {
+        "item" : "LINK-012586",
+        "count" : "1"
+      }, {
+        "item" : "LINK-021925",
+        "count" : "1"
+      }, {
+        "item" : "LINK-011115",
+        "count" : "1"
+      }, {
+        "item" : "LINK-014333",
+        "count" : "1"
+      }, {
+        "item" : "LINK-000826",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "not_null" : "2257",
+      "count" : "3319",
+      "cardinality" : "1871"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013382,
+    "name" : "Activated",
+    "dataTypeName" : "calendar_date",
+    "description" : "The approximated date that this Wi-Fi site went active\n",
+    "fieldName" : "activated",
+    "position" : 16,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 39748824,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "9999-09-09T00:00:00.000",
+      "non_null" : "3319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "9999-09-09T00:00:00.000",
+        "count" : "1497"
+      }, {
+        "item" : "2016-07-19T00:00:00.000",
+        "count" : "23"
+      }, {
+        "item" : "2016-07-21T00:00:00.000",
+        "count" : "19"
+      }, {
+        "item" : "2018-05-17T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2018-04-10T00:00:00.000",
+        "count" : "15"
+      }, {
+        "item" : "2018-05-31T00:00:00.000",
+        "count" : "14"
+      }, {
+        "item" : "2018-04-04T00:00:00.000",
+        "count" : "13"
+      }, {
+        "item" : "2018-03-06T00:00:00.000",
+        "count" : "13"
+      }, {
+        "item" : "2017-07-20T00:00:00.000",
+        "count" : "13"
+      }, {
+        "item" : "2018-01-05T00:00:00.000",
+        "count" : "13"
+      }, {
+        "item" : "2017-02-28T00:00:00.000",
+        "count" : "13"
+      }, {
+        "item" : "2018-05-01T00:00:00.000",
+        "count" : "13"
+      }, {
+        "item" : "2017-10-06T00:00:00.000",
+        "count" : "13"
+      }, {
+        "item" : "2018-01-12T00:00:00.000",
+        "count" : "12"
+      }, {
+        "item" : "2016-04-07T00:00:00.000",
+        "count" : "12"
+      }, {
+        "item" : "2018-04-11T00:00:00.000",
+        "count" : "12"
+      }, {
+        "item" : "2018-01-03T00:00:00.000",
+        "count" : "12"
+      }, {
+        "item" : "2017-04-14T00:00:00.000",
+        "count" : "12"
+      }, {
+        "item" : "2018-04-24T00:00:00.000",
+        "count" : "12"
+      }, {
+        "item" : "2016-03-30T00:00:00.000",
+        "count" : "12"
+      } ],
+      "smallest" : "2016-01-19T00:00:00.000",
+      "not_null" : "3319",
+      "count" : "3319",
+      "cardinality" : "416"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 374013383,
+    "name" : "BoroCode",
+    "dataTypeName" : "number",
+    "description" : "The New York City borough where the hotspots are located.\n",
+    "fieldName" : "borocode",
+    "position" : 17,
+    "renderTypeName" : "number",
+    "tableColumnId" : 45990139,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "5",
+      "non_null" : "3319",
+      "average" : "2.140765092647938",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1672"
+      }, {
+        "item" : "3",
+        "count" : "700"
+      }, {
+        "item" : "4",
+        "count" : "531"
+      }, {
+        "item" : "2",
+        "count" : "316"
+      }, {
+        "item" : "5",
+        "count" : "100"
+      } ],
+      "smallest" : "1",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "7163",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 374013384,
+    "name" : "Borough Name",
+    "dataTypeName" : "text",
+    "description" : "The New York City borough where the hotspots are located.\n",
+    "fieldName" : "boroname",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 45990172,
+    "width" : 238,
+    "cachedContents" : {
+      "largest" : "Staten Island",
+      "non_null" : "3319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Manhattan",
+        "count" : "1672"
+      }, {
+        "item" : "Brooklyn",
+        "count" : "700"
+      }, {
+        "item" : "Queens",
+        "count" : "531"
+      }, {
+        "item" : "Bronx",
+        "count" : "316"
+      }, {
+        "item" : "Staten Island",
+        "count" : "100"
+      } ],
+      "smallest" : "Bronx",
+      "not_null" : "3319",
+      "count" : "3319",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 374013385,
+    "name" : "Neighborhood Tabulation Area Code (NTACODE)",
+    "dataTypeName" : "text",
+    "description" : "Four (4) digit code assigned to neighborhoods to differentiate NYC's five boroughs.",
+    "fieldName" : "ntacode",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 45990173,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "SI54",
+      "non_null" : "3319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "MN17",
+        "count" : "160"
+      }, {
+        "item" : "MN13",
+        "count" : "156"
+      }, {
+        "item" : "MN12",
+        "count" : "143"
+      }, {
+        "item" : "BK38",
+        "count" : "125"
+      }, {
+        "item" : "MN19",
+        "count" : "111"
+      }, {
+        "item" : "MN03",
+        "count" : "101"
+      }, {
+        "item" : "MN20",
+        "count" : "82"
+      }, {
+        "item" : "MN11",
+        "count" : "69"
+      }, {
+        "item" : "MN34",
+        "count" : "65"
+      }, {
+        "item" : "MN04",
+        "count" : "63"
+      }, {
+        "item" : "MN22",
+        "count" : "58"
+      }, {
+        "item" : "MN24",
+        "count" : "58"
+      }, {
+        "item" : "MN40",
+        "count" : "54"
+      }, {
+        "item" : "QN70",
+        "count" : "54"
+      }, {
+        "item" : "MN25",
+        "count" : "52"
+      }, {
+        "item" : "MN14",
+        "count" : "52"
+      }, {
+        "item" : "QN31",
+        "count" : "52"
+      }, {
+        "item" : "MN31",
+        "count" : "52"
+      }, {
+        "item" : "MN21",
+        "count" : "51"
+      }, {
+        "item" : "MN23",
+        "count" : "49"
+      } ],
+      "smallest" : "BK09",
+      "not_null" : "3319",
+      "count" : "3319",
+      "cardinality" : "178"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013386,
+    "name" : "Neighborhood Tabulation Area (NTA)",
+    "dataTypeName" : "text",
+    "description" : "Neighborhood identifiers to differentiate NYC's five boroughs.",
+    "fieldName" : "ntaname",
+    "position" : 20,
+    "renderTypeName" : "text",
+    "tableColumnId" : 45990178,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "Yorkville",
+      "non_null" : "3319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Midtown-Midtown South",
+        "count" : "160"
+      }, {
+        "item" : "Hudson Yards-Chelsea-Flatiron-Union Square",
+        "count" : "156"
+      }, {
+        "item" : "Upper West Side",
+        "count" : "143"
+      }, {
+        "item" : "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+        "count" : "125"
+      }, {
+        "item" : "Turtle Bay-East Midtown",
+        "count" : "111"
+      }, {
+        "item" : "Central Harlem North-Polo Grounds",
+        "count" : "101"
+      }, {
+        "item" : "Murray Hill-Kips Bay",
+        "count" : "82"
+      }, {
+        "item" : "Central Harlem South",
+        "count" : "69"
+      }, {
+        "item" : "East Harlem North",
+        "count" : "65"
+      }, {
+        "item" : "Hamilton Heights",
+        "count" : "63"
+      }, {
+        "item" : "East Village",
+        "count" : "58"
+      }, {
+        "item" : "SoHo-TriBeCa-Civic Center-Little Italy",
+        "count" : "58"
+      }, {
+        "item" : "Astoria",
+        "count" : "54"
+      }, {
+        "item" : "Upper East Side-Carnegie Hill",
+        "count" : "54"
+      }, {
+        "item" : "Hunters Point-Sunnyside-West Maspeth",
+        "count" : "52"
+      }, {
+        "item" : "Lenox Hill-Roosevelt Island",
+        "count" : "52"
+      }, {
+        "item" : "Lincoln Square",
+        "count" : "52"
+      }, {
+        "item" : "Battery Park City-Lower Manhattan",
+        "count" : "52"
+      }, {
+        "item" : "Gramercy",
+        "count" : "51"
+      }, {
+        "item" : "West Village",
+        "count" : "49"
+      } ],
+      "smallest" : "Annadale-Huguenot-Prince's Bay-Eltingville",
+      "not_null" : "3319",
+      "count" : "3319",
+      "cardinality" : "179"
+    },
+    "format" : { }
+  }, {
+    "id" : 374013387,
+    "name" : "Council Distrcit",
+    "dataTypeName" : "number",
+    "description" : "NYC City Council District number\n",
+    "fieldName" : "coundist",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 45990179,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "51.00000000000",
+      "non_null" : "3319",
+      "average" : "17.14345487148834",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3.00000000000",
+        "count" : "298"
+      }, {
+        "item" : "4.00000000000",
+        "count" : "275"
+      }, {
+        "item" : "9.00000000000",
+        "count" : "215"
+      }, {
+        "item" : "2.00000000000",
+        "count" : "203"
+      }, {
+        "item" : "33.00000000000",
+        "count" : "186"
+      }, {
+        "item" : "1.00000000000",
+        "count" : "174"
+      }, {
+        "item" : "6.00000000000",
+        "count" : "172"
+      }, {
+        "item" : "7.00000000000",
+        "count" : "159"
+      }, {
+        "item" : "8.00000000000",
+        "count" : "123"
+      }, {
+        "item" : "26.00000000000",
+        "count" : "109"
+      }, {
+        "item" : "35.00000000000",
+        "count" : "102"
+      }, {
+        "item" : "17.00000000000",
+        "count" : "70"
+      }, {
+        "item" : "5.00000000000",
+        "count" : "68"
+      }, {
+        "item" : "39.00000000000",
+        "count" : "63"
+      }, {
+        "item" : "29.00000000000",
+        "count" : "59"
+      }, {
+        "item" : "50.00000000000",
+        "count" : "59"
+      }, {
+        "item" : "10.00000000000",
+        "count" : "54"
+      }, {
+        "item" : "34.00000000000",
+        "count" : "53"
+      }, {
+        "item" : "32.00000000000",
+        "count" : "53"
+      }, {
+        "item" : "25.00000000000",
+        "count" : "52"
+      } ],
+      "smallest" : "1.00000000000",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "57362.00000000000",
+      "cardinality" : "51"
+    },
+    "format" : { }
+  }, {
+    "id" : 374013388,
+    "name" : "Postcode",
+    "dataTypeName" : "number",
+    "description" : "United States Postal Service Zip Code (5-digits).\n",
+    "fieldName" : "zip",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 45990224,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "11694",
+      "non_null" : "3319",
+      "average" : "10531.16377764495",
+      "null" : "0",
+      "top" : [ {
+        "item" : "11201",
+        "count" : "156"
+      }, {
+        "item" : "10011",
+        "count" : "110"
+      }, {
+        "item" : "10025",
+        "count" : "106"
+      }, {
+        "item" : "10016",
+        "count" : "96"
+      }, {
+        "item" : "10027",
+        "count" : "89"
+      }, {
+        "item" : "10022",
+        "count" : "86"
+      }, {
+        "item" : "10019",
+        "count" : "83"
+      }, {
+        "item" : "10003",
+        "count" : "82"
+      }, {
+        "item" : "11101",
+        "count" : "70"
+      }, {
+        "item" : "10001",
+        "count" : "65"
+      }, {
+        "item" : "10023",
+        "count" : "64"
+      }, {
+        "item" : "10024",
+        "count" : "64"
+      }, {
+        "item" : "10031",
+        "count" : "62"
+      }, {
+        "item" : "10004",
+        "count" : "51"
+      }, {
+        "item" : "10010",
+        "count" : "50"
+      }, {
+        "item" : "10065",
+        "count" : "49"
+      }, {
+        "item" : "10451",
+        "count" : "47"
+      }, {
+        "item" : "10017",
+        "count" : "47"
+      }, {
+        "item" : "11373",
+        "count" : "45"
+      }, {
+        "item" : "10457",
+        "count" : "42"
+      } ],
+      "smallest" : "10001",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "35237274",
+      "cardinality" : "172"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013389,
+    "name" : "BoroCD",
+    "dataTypeName" : "number",
+    "description" : "New York City Borough plus Community Board Numbers.                \n",
+    "fieldName" : "borocd",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 45990255,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "595.00000000000",
+      "non_null" : "3319",
+      "average" : "218.0047818290496",
+      "null" : "0",
+      "top" : [ {
+        "item" : "105.00000000000",
+        "count" : "234"
+      }, {
+        "item" : "106.00000000000",
+        "count" : "212"
+      }, {
+        "item" : "107.00000000000",
+        "count" : "211"
+      }, {
+        "item" : "302.00000000000",
+        "count" : "206"
+      }, {
+        "item" : "110.00000000000",
+        "count" : "169"
+      }, {
+        "item" : "104.00000000000",
+        "count" : "162"
+      }, {
+        "item" : "108.00000000000",
+        "count" : "120"
+      }, {
+        "item" : "101.00000000000",
+        "count" : "117"
+      }, {
+        "item" : "109.00000000000",
+        "count" : "99"
+      }, {
+        "item" : "401.00000000000",
+        "count" : "99"
+      }, {
+        "item" : "103.00000000000",
+        "count" : "93"
+      }, {
+        "item" : "111.00000000000",
+        "count" : "93"
+      }, {
+        "item" : "301.00000000000",
+        "count" : "83"
+      }, {
+        "item" : "201.00000000000",
+        "count" : "75"
+      }, {
+        "item" : "102.00000000000",
+        "count" : "75"
+      }, {
+        "item" : "112.00000000000",
+        "count" : "75"
+      }, {
+        "item" : "412.00000000000",
+        "count" : "75"
+      }, {
+        "item" : "402.00000000000",
+        "count" : "63"
+      }, {
+        "item" : "306.00000000000",
+        "count" : "60"
+      }, {
+        "item" : "409.00000000000",
+        "count" : "55"
+      } ],
+      "smallest" : "101.00000000000",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "729444.00000000000",
+      "cardinality" : "67"
+    },
+    "format" : { }
+  }, {
+    "id" : 374013390,
+    "name" : "Census Tract",
+    "dataTypeName" : "number",
+    "description" : "2010 U.S. Census data based on location.\n",
+    "fieldName" : "ct2010",
+    "position" : 24,
+    "renderTypeName" : "number",
+    "tableColumnId" : 45990284,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "157902.00000000000",
+      "non_null" : "3319",
+      "average" : "2352.750448296473",
+      "null" : "0",
+      "top" : [ {
+        "item" : "37.00000000000",
+        "count" : "47"
+      }, {
+        "item" : "63.00000000000",
+        "count" : "38"
+      }, {
+        "item" : "11.00000000000",
+        "count" : "37"
+      }, {
+        "item" : "163.00000000000",
+        "count" : "37"
+      }, {
+        "item" : "5.00000000000",
+        "count" : "34"
+      }, {
+        "item" : "9.00000000000",
+        "count" : "31"
+      }, {
+        "item" : "25.00000000000",
+        "count" : "30"
+      }, {
+        "item" : "83.00000000000",
+        "count" : "29"
+      }, {
+        "item" : "352.00000000000",
+        "count" : "28"
+      }, {
+        "item" : "177.00000000000",
+        "count" : "27"
+      }, {
+        "item" : "7.00000000000",
+        "count" : "26"
+      }, {
+        "item" : "198.00000000000",
+        "count" : "25"
+      }, {
+        "item" : "15.00000000000",
+        "count" : "25"
+      }, {
+        "item" : "13.00000000000",
+        "count" : "25"
+      }, {
+        "item" : "81.00000000000",
+        "count" : "24"
+      }, {
+        "item" : "269.00000000000",
+        "count" : "23"
+      }, {
+        "item" : "153.00000000000",
+        "count" : "23"
+      }, {
+        "item" : "66.00000000000",
+        "count" : "22"
+      }, {
+        "item" : "72.00000000000",
+        "count" : "22"
+      }, {
+        "item" : "40.00000000000",
+        "count" : "22"
+      } ],
+      "smallest" : "1.00000000000",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "7872303.00000000000",
+      "cardinality" : "552"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013391,
+    "name" : "BCTCB2010",
+    "dataTypeName" : "number",
+    "description" : "Combined value of Borough CD and Census 2010.\n",
+    "fieldName" : "bctcb2010",
+    "position" : 25,
+    "renderTypeName" : "number",
+    "tableColumnId" : 45990311,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "157902.00000000000",
+      "non_null" : "3319",
+      "average" : "2352.750448296473",
+      "null" : "0",
+      "top" : [ {
+        "item" : "37.00000000000",
+        "count" : "47"
+      }, {
+        "item" : "63.00000000000",
+        "count" : "38"
+      }, {
+        "item" : "11.00000000000",
+        "count" : "37"
+      }, {
+        "item" : "163.00000000000",
+        "count" : "37"
+      }, {
+        "item" : "5.00000000000",
+        "count" : "34"
+      }, {
+        "item" : "9.00000000000",
+        "count" : "31"
+      }, {
+        "item" : "25.00000000000",
+        "count" : "30"
+      }, {
+        "item" : "83.00000000000",
+        "count" : "29"
+      }, {
+        "item" : "352.00000000000",
+        "count" : "28"
+      }, {
+        "item" : "177.00000000000",
+        "count" : "27"
+      }, {
+        "item" : "7.00000000000",
+        "count" : "26"
+      }, {
+        "item" : "198.00000000000",
+        "count" : "25"
+      }, {
+        "item" : "15.00000000000",
+        "count" : "25"
+      }, {
+        "item" : "13.00000000000",
+        "count" : "25"
+      }, {
+        "item" : "81.00000000000",
+        "count" : "24"
+      }, {
+        "item" : "269.00000000000",
+        "count" : "23"
+      }, {
+        "item" : "153.00000000000",
+        "count" : "23"
+      }, {
+        "item" : "66.00000000000",
+        "count" : "22"
+      }, {
+        "item" : "72.00000000000",
+        "count" : "22"
+      }, {
+        "item" : "40.00000000000",
+        "count" : "22"
+      } ],
+      "smallest" : "1.00000000000",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "7872303.00000000000",
+      "cardinality" : "552"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013392,
+    "name" : "BIN",
+    "dataTypeName" : "number",
+    "description" : "Building Identification Number.\n",
+    "fieldName" : "bin",
+    "position" : 26,
+    "renderTypeName" : "number",
+    "tableColumnId" : 45990344,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "5162377.00000000000",
+      "non_null" : "3319",
+      "average" : "1570156.227734608",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.00000000000",
+        "count" : "837"
+      }, {
+        "item" : "4268835.00000000000",
+        "count" : "14"
+      }, {
+        "item" : "4433386.00000000000",
+        "count" : "13"
+      }, {
+        "item" : "3335892.00000000000",
+        "count" : "11"
+      }, {
+        "item" : "3000000.00000000000",
+        "count" : "9"
+      }, {
+        "item" : "1083967.00000000000",
+        "count" : "8"
+      }, {
+        "item" : "3391417.00000000000",
+        "count" : "8"
+      }, {
+        "item" : "1086341.00000000000",
+        "count" : "8"
+      }, {
+        "item" : "1085632.00000000000",
+        "count" : "8"
+      }, {
+        "item" : "3391508.00000000000",
+        "count" : "7"
+      }, {
+        "item" : "1000000.00000000000",
+        "count" : "7"
+      }, {
+        "item" : "3002642.00000000000",
+        "count" : "7"
+      }, {
+        "item" : "2003692.00000000000",
+        "count" : "7"
+      }, {
+        "item" : "3189656.00000000000",
+        "count" : "6"
+      }, {
+        "item" : "3393257.00000000000",
+        "count" : "6"
+      }, {
+        "item" : "1083346.00000000000",
+        "count" : "6"
+      }, {
+        "item" : "1084164.00000000000",
+        "count" : "6"
+      }, {
+        "item" : "3394335.00000000000",
+        "count" : "5"
+      }, {
+        "item" : "3388736.00000000000",
+        "count" : "5"
+      }, {
+        "item" : "3347138.00000000000",
+        "count" : "5"
+      } ],
+      "smallest" : "0.00000000000",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "5253742738.00000000000",
+      "cardinality" : "2107"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013393,
+    "name" : "BBL",
+    "dataTypeName" : "number",
+    "description" : "Borough Block Lot.\n",
+    "fieldName" : "bbl",
+    "position" : 27,
+    "renderTypeName" : "number",
+    "tableColumnId" : 45990371,
+    "width" : 233,
+    "cachedContents" : {
+      "largest" : "5078990009.00000000000",
+      "non_null" : "3319",
+      "average" : "1738176442.306934",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.00000000000",
+        "count" : "576"
+      }, {
+        "item" : "1000010010.00000000000",
+        "count" : "30"
+      }, {
+        "item" : "4124060180.00000000000",
+        "count" : "16"
+      }, {
+        "item" : "4004700100.00000000000",
+        "count" : "14"
+      }, {
+        "item" : "3011170001.00000000000",
+        "count" : "14"
+      }, {
+        "item" : "2029420001.00000000000",
+        "count" : "11"
+      }, {
+        "item" : "3001280001.00000000000",
+        "count" : "11"
+      }, {
+        "item" : "3013530001.00000000000",
+        "count" : "10"
+      }, {
+        "item" : "1017190001.00000000000",
+        "count" : "10"
+      }, {
+        "item" : "1017050001.00000000000",
+        "count" : "9"
+      }, {
+        "item" : "3020500001.00000000000",
+        "count" : "9"
+      }, {
+        "item" : "3001400160.00000000000",
+        "count" : "8"
+      }, {
+        "item" : "1001110160.00000000000",
+        "count" : "8"
+      }, {
+        "item" : "4161890050.00000000000",
+        "count" : "8"
+      }, {
+        "item" : "2025570001.00000000000",
+        "count" : "7"
+      }, {
+        "item" : "5003190001.00000000000",
+        "count" : "7"
+      }, {
+        "item" : "3002697501.00000000000",
+        "count" : "7"
+      }, {
+        "item" : "1020520001.00000000000",
+        "count" : "7"
+      }, {
+        "item" : "3064900024.00000000000",
+        "count" : "6"
+      }, {
+        "item" : "3070730101.00000000000",
+        "count" : "6"
+      } ],
+      "smallest" : "0.00000000000",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "5815938375959.00000000000",
+      "cardinality" : "2119"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013394,
+    "name" : "DOITT_ID",
+    "dataTypeName" : "number",
+    "description" : "Identification number automatically generated by GIS Developer map sites.\n",
+    "fieldName" : "doitt_id",
+    "position" : 28,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51761541,
+    "width" : 222,
+    "cachedContents" : {
+      "largest" : "4950",
+      "non_null" : "3319",
+      "average" : "2663.494620442319",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4743",
+        "count" : "1"
+      }, {
+        "item" : "3808",
+        "count" : "1"
+      }, {
+        "item" : "4428",
+        "count" : "1"
+      }, {
+        "item" : "1070",
+        "count" : "1"
+      }, {
+        "item" : "568",
+        "count" : "1"
+      }, {
+        "item" : "1360",
+        "count" : "1"
+      }, {
+        "item" : "4042",
+        "count" : "1"
+      }, {
+        "item" : "3633",
+        "count" : "1"
+      }, {
+        "item" : "3635",
+        "count" : "1"
+      }, {
+        "item" : "37",
+        "count" : "1"
+      }, {
+        "item" : "3446",
+        "count" : "1"
+      }, {
+        "item" : "4392",
+        "count" : "1"
+      }, {
+        "item" : "4402",
+        "count" : "1"
+      }, {
+        "item" : "1665",
+        "count" : "1"
+      }, {
+        "item" : "586",
+        "count" : "1"
+      }, {
+        "item" : "3849",
+        "count" : "1"
+      }, {
+        "item" : "3714",
+        "count" : "1"
+      }, {
+        "item" : "3125",
+        "count" : "1"
+      }, {
+        "item" : "1515",
+        "count" : "1"
+      }, {
+        "item" : "1386",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "not_null" : "3319",
+      "count" : "3319",
+      "sum" : "8912053",
+      "cardinality" : "3319"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 374013395,
+    "name" : "Location (Lat, Long)",
+    "dataTypeName" : "location",
+    "description" : "Combination of the lat and long  values\n",
+    "fieldName" : "location_lat_long",
+    "position" : 29,
+    "renderTypeName" : "location",
+    "tableColumnId" : 29758998,
+    "width" : 209,
+    "format" : {
+      "view" : "coords",
+      "align" : "left"
+    }
+  }, {
+    "id" : 315404967,
+    "name" : "Zip Codes",
+    "dataTypeName" : "number",
+    "fieldName" : ":@computed_region_efsh_h5xi",
+    "position" : 34,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51763745,
+    "computationStrategy" : {
+      "source_columns" : [ "location_lat_long" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_efsh-h5xi",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 315404968,
+    "name" : "Community Districts",
+    "dataTypeName" : "number",
+    "fieldName" : ":@computed_region_f5dn_yrer",
+    "position" : 35,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51763746,
+    "computationStrategy" : {
+      "source_columns" : [ "location_lat_long" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_f5dn-yrer",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 315404969,
+    "name" : "Borough Boundaries",
+    "dataTypeName" : "number",
+    "fieldName" : ":@computed_region_yeji_bk3q",
+    "position" : 36,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51763747,
+    "computationStrategy" : {
+      "source_columns" : [ "location_lat_long" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_yeji-bk3q",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 315404970,
+    "name" : "City Council Districts",
+    "dataTypeName" : "number",
+    "fieldName" : ":@computed_region_92fq_4b7q",
+    "position" : 37,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51763748,
+    "computationStrategy" : {
+      "source_columns" : [ "location_lat_long" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_92fq-4b7q",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 315404971,
+    "name" : "Police Precincts",
+    "dataTypeName" : "number",
+    "fieldName" : ":@computed_region_sbqj_enih",
+    "position" : 38,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51763749,
+    "computationStrategy" : {
+      "source_columns" : [ "location_lat_long" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_sbqj-enih",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "Data_Dictionary_WiFi_Hotspots.xlsx",
+      "assetId" : "5bb927e7-ebc4-4a83-95a2-2bc935e48eec",
+      "name" : "Data_Dictionary_WiFi_Hotspots.xlsx"
+    }, {
+      "filename" : "Data_Dictionary_WiFi_Hotspots.xlsx",
+      "assetId" : "5bb927e7-ebc4-4a83-95a2-2bc935e48eec",
+      "name" : "Data_Dictionary_WiFi_Hotspots.xlsx"
+    }, {
+      "filename" : "Data_Dictionary_WiFi_Hotspots.xlsx",
+      "assetId" : "5bb927e7-ebc4-4a83-95a2-2bc935e48eec",
+      "name" : "Data_Dictionary_WiFi_Hotspots.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "7/14/2015",
+        "Update Frequency" : "As needed"
+      },
+      "Dataset Information" : {
+        "Agency" : "Office of Technology and Innovation (OTI)"
+      }
+    },
+    "rowLabel" : "Wi-Fi Hotspot Location",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

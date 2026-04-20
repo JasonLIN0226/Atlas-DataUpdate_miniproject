@@ -1,0 +1,8915 @@
+{
+  "id" : "cqsj-cfgu",
+  "name" : "Bi-Annual Pedestrian Counts",
+  "assetType" : "dataset",
+  "attribution" : "Department of Transportation (DOT)",
+  "averageRating" : 0,
+  "category" : "Transportation",
+  "createdAt" : 1451429076,
+  "description" : "An index of pedestrian volumes tracking the long-term trends of neighborhood commercial corridors. Data is collected at 114 locations, including 100 on-street locations (primarily retail corridors), 13 East River and Harlem River bridge locations, and the Hudson River Greenway. Screenline sampling is conducted during May and September on the sidewalk, mid-block (or mid-bridge) on both sides of street where applicable. Pedestrian volumes at 50 sample locations around the City are combined to create the Pedestrian Volume Index for the Mayor’s Management Report.\r\n\r\n\r\nClick here for metadata - http://www.nyc.gov/html/dot/downloads/pdf/bi-annual-ped-count-readme.pdf",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 4530,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41555734,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1756409529,
+  "publicationGroup" : 6534696,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1759426839,
+  "rowsUpdatedBy" : "8xiq-st2k",
+  "tableId" : 20036452,
+  "totalTimesRated" : 0,
+  "viewCount" : 5290,
+  "viewLastModified" : 1759426838,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1451429274,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 7057335,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1451429274,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 616426285,
+    "name" : "the_geom",
+    "dataTypeName" : "point",
+    "fieldName" : "the_geom",
+    "position" : 1,
+    "renderTypeName" : "point",
+    "tableColumnId" : 139306336,
+    "cachedContents" : {
+      "non_null" : "114",
+      "null" : "0",
+      "top" : [ {
+        "item" : {
+          "coordinates" : [ -73.83274555228842, 40.76053254069111 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.00451806937401, 40.70806272095774 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.80593752065842, 40.70182238071845 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.99134284997088, 40.749996387066574 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.96276340616195, 40.57732714149917 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.88412639509386, 40.74873155074409 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.96818725047231, 40.67292523719001 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.77114917957029, 40.76393342115404 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.79247827489311, 40.71091966309366 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.92188432870218, 40.82662794123292 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.97213382742112, 40.756810835163854 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.01009312926121, 40.715904559004244 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.0752448014028, 40.64298352630176 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.93380588837293, 40.82809995999489 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.01155687409947, 40.70463665187375 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.95475091689498, 40.58754340485192 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.98303507483828, 40.76140611887666 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.95802234844946, 40.71755737770773 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.91119970135458, 40.873547359000106 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.91804029865675, 40.76015497952589 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      } ],
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426286,
+    "name" : "OBJECTID",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "objectid",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306339,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "114",
+      "null" : "0",
+      "top" : [ {
+        "item" : "103",
+        "count" : "1"
+      }, {
+        "item" : "44",
+        "count" : "1"
+      }, {
+        "item" : "50",
+        "count" : "1"
+      }, {
+        "item" : "46",
+        "count" : "1"
+      }, {
+        "item" : "38",
+        "count" : "1"
+      }, {
+        "item" : "32",
+        "count" : "1"
+      }, {
+        "item" : "85",
+        "count" : "1"
+      }, {
+        "item" : "97",
+        "count" : "1"
+      }, {
+        "item" : "86",
+        "count" : "1"
+      }, {
+        "item" : "114",
+        "count" : "1"
+      }, {
+        "item" : "80",
+        "count" : "1"
+      }, {
+        "item" : "81",
+        "count" : "1"
+      }, {
+        "item" : "53",
+        "count" : "1"
+      }, {
+        "item" : "16",
+        "count" : "1"
+      }, {
+        "item" : "63",
+        "count" : "1"
+      }, {
+        "item" : "105",
+        "count" : "1"
+      }, {
+        "item" : "10",
+        "count" : "1"
+      }, {
+        "item" : "75",
+        "count" : "1"
+      }, {
+        "item" : "36",
+        "count" : "1"
+      }, {
+        "item" : "93",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426287,
+    "name" : "Loc",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "loc",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 155135011,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "114.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "103.0",
+        "count" : "1"
+      }, {
+        "item" : "44.0",
+        "count" : "1"
+      }, {
+        "item" : "50.0",
+        "count" : "1"
+      }, {
+        "item" : "46.0",
+        "count" : "1"
+      }, {
+        "item" : "38.0",
+        "count" : "1"
+      }, {
+        "item" : "32.0",
+        "count" : "1"
+      }, {
+        "item" : "85.0",
+        "count" : "1"
+      }, {
+        "item" : "97.0",
+        "count" : "1"
+      }, {
+        "item" : "86.0",
+        "count" : "1"
+      }, {
+        "item" : "114.0",
+        "count" : "1"
+      }, {
+        "item" : "80.0",
+        "count" : "1"
+      }, {
+        "item" : "81.0",
+        "count" : "1"
+      }, {
+        "item" : "53.0",
+        "count" : "1"
+      }, {
+        "item" : "16.0",
+        "count" : "1"
+      }, {
+        "item" : "63.0",
+        "count" : "1"
+      }, {
+        "item" : "105.0",
+        "count" : "1"
+      }, {
+        "item" : "10.0",
+        "count" : "1"
+      }, {
+        "item" : "75.0",
+        "count" : "1"
+      }, {
+        "item" : "36.0",
+        "count" : "1"
+      }, {
+        "item" : "93.0",
+        "count" : "1"
+      } ],
+      "smallest" : "1.0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426288,
+    "name" : "Borough",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "borough",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 139306337,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "Staten Isla",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Manhattan",
+        "count" : "36"
+      }, {
+        "item" : "Brooklyn",
+        "count" : "26"
+      }, {
+        "item" : "Queens",
+        "count" : "25"
+      }, {
+        "item" : "Harlem River Bridges",
+        "count" : "9"
+      }, {
+        "item" : "Bronx",
+        "count" : "8"
+      }, {
+        "item" : "East River Bridges",
+        "count" : "5"
+      }, {
+        "item" : "Staten Isla",
+        "count" : "5"
+      } ],
+      "smallest" : "Bronx",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426289,
+    "name" : "Street_Nam",
+    "dataTypeName" : "text",
+    "fieldName" : "street_nam",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 139306340,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "Yellowstone Boulevard",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Broadway",
+        "count" : "4"
+      }, {
+        "item" : "Flatbush Avenue",
+        "count" : "3"
+      }, {
+        "item" : "Fulton Street",
+        "count" : "3"
+      }, {
+        "item" : "Jamaica Avenue",
+        "count" : "3"
+      }, {
+        "item" : "Myrtle Avenue",
+        "count" : "3"
+      }, {
+        "item" : "Eighth Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Lexington Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Third Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Queens Boulevard",
+        "count" : "2"
+      }, {
+        "item" : "Seventh Avenue",
+        "count" : "2"
+      }, {
+        "item" : "5th Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Fifth Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Madison Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Broadway Bridge",
+        "count" : "1"
+      }, {
+        "item" : "Brighton Beach Avenue",
+        "count" : "1"
+      }, {
+        "item" : "Prince Street",
+        "count" : "1"
+      }, {
+        "item" : "Manhattan Bridge  North Path",
+        "count" : "1"
+      }, {
+        "item" : "37th Avenue",
+        "count" : "1"
+      }, {
+        "item" : "West 34th Street",
+        "count" : "1"
+      }, {
+        "item" : "Richmo Hill Road",
+        "count" : "1"
+      } ],
+      "smallest" : "145th Street Bridge",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426290,
+    "name" : "From_Stree",
+    "dataTypeName" : "text",
+    "fieldName" : "from_stree",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 139306341,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "Woodhaven Boulevard",
+      "null" : "0",
+      "top" : [ {
+        "item" : "midpoint",
+        "count" : "14"
+      }, {
+        "item" : "50th Street",
+        "count" : "11"
+      }, {
+        "item" : "37th Avenue",
+        "count" : "3"
+      }, {
+        "item" : "Avenue of the Americas",
+        "count" : "2"
+      }, {
+        "item" : "Broadway",
+        "count" : "2"
+      }, {
+        "item" : "89th Avenue",
+        "count" : "2"
+      }, {
+        "item" : "East 57th Street",
+        "count" : "1"
+      }, {
+        "item" : "Gra Concourse",
+        "count" : "1"
+      }, {
+        "item" : "162 Street",
+        "count" : "1"
+      }, {
+        "item" : "Fifth Avenue",
+        "count" : "1"
+      }, {
+        "item" : "Main Street",
+        "count" : "1"
+      }, {
+        "item" : "Brighton 4th Street",
+        "count" : "1"
+      }, {
+        "item" : "Hudson Street",
+        "count" : "1"
+      }, {
+        "item" : "St. Nicholas Avenue",
+        "count" : "1"
+      }, {
+        "item" : "Argyle Road",
+        "count" : "1"
+      }, {
+        "item" : "50' north of Richmo Terrace",
+        "count" : "1"
+      }, {
+        "item" : "Queens Street",
+        "count" : "1"
+      }, {
+        "item" : "31st Avenue",
+        "count" : "1"
+      }, {
+        "item" : "East 54th Street",
+        "count" : "1"
+      }, {
+        "item" : "Elizabeth Place",
+        "count" : "1"
+      } ],
+      "smallest" : "108th Drive",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426291,
+    "name" : "To_Street",
+    "dataTypeName" : "text",
+    "fieldName" : "to_street",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 139306342,
+    "cachedContents" : {
+      "non_null" : "96",
+      "largest" : "Woodbine Street",
+      "null" : "18",
+      "top" : [ {
+        "item" : "51st Street",
+        "count" : "11"
+      }, {
+        "item" : "Nassau Street",
+        "count" : "2"
+      }, {
+        "item" : "Fifth Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Clinton Avenue",
+        "count" : "2"
+      }, {
+        "item" : "38th Avenue",
+        "count" : "2"
+      }, {
+        "item" : "149th Street",
+        "count" : "1"
+      }, {
+        "item" : "Pacific Street",
+        "count" : "1"
+      }, {
+        "item" : "Brighton 5th Street",
+        "count" : "1"
+      }, {
+        "item" : "Avenue V",
+        "count" : "1"
+      }, {
+        "item" : "Naples Terrace",
+        "count" : "1"
+      }, {
+        "item" : "Eighth Avenue",
+        "count" : "1"
+      }, {
+        "item" : "East 31st Street",
+        "count" : "1"
+      }, {
+        "item" : "Broadway",
+        "count" : "1"
+      }, {
+        "item" : "Vaike Street",
+        "count" : "1"
+      }, {
+        "item" : "70th Road",
+        "count" : "1"
+      }, {
+        "item" : "East 72 Street",
+        "count" : "1"
+      }, {
+        "item" : "52 Street",
+        "count" : "1"
+      }, {
+        "item" : "East 55th Street",
+        "count" : "1"
+      }, {
+        "item" : "Prospect Place",
+        "count" : "1"
+      }, {
+        "item" : "East 58th Street",
+        "count" : "1"
+      } ],
+      "smallest" : "149th Street",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426292,
+    "name" : "Iex",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "iex",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 151770069,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "Y",
+      "null" : "0",
+      "top" : [ {
+        "item" : "N",
+        "count" : "64"
+      }, {
+        "item" : "Y",
+        "count" : "50"
+      } ],
+      "smallest" : "N",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426293,
+    "name" : "May07_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_07_am",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306344,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "12000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "57",
+        "count" : "2"
+      }, {
+        "item" : "1390",
+        "count" : "1"
+      }, {
+        "item" : "17",
+        "count" : "1"
+      }, {
+        "item" : "1025",
+        "count" : "1"
+      }, {
+        "item" : "6569",
+        "count" : "1"
+      }, {
+        "item" : "1245",
+        "count" : "1"
+      }, {
+        "item" : "5036",
+        "count" : "1"
+      }, {
+        "item" : "572",
+        "count" : "1"
+      }, {
+        "item" : "978",
+        "count" : "1"
+      }, {
+        "item" : "1085",
+        "count" : "1"
+      }, {
+        "item" : "82",
+        "count" : "1"
+      }, {
+        "item" : "1076",
+        "count" : "1"
+      }, {
+        "item" : "790",
+        "count" : "1"
+      }, {
+        "item" : "2105",
+        "count" : "1"
+      }, {
+        "item" : "622",
+        "count" : "1"
+      }, {
+        "item" : "1832",
+        "count" : "1"
+      }, {
+        "item" : "360",
+        "count" : "1"
+      }, {
+        "item" : "7081",
+        "count" : "1"
+      }, {
+        "item" : "1305",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426294,
+    "name" : "May07_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_07_pm",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306345,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "28123",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "1514",
+        "count" : "1"
+      }, {
+        "item" : "9307",
+        "count" : "1"
+      }, {
+        "item" : "706",
+        "count" : "1"
+      }, {
+        "item" : "9162",
+        "count" : "1"
+      }, {
+        "item" : "12249",
+        "count" : "1"
+      }, {
+        "item" : "10557",
+        "count" : "1"
+      }, {
+        "item" : "232",
+        "count" : "1"
+      }, {
+        "item" : "6495",
+        "count" : "1"
+      }, {
+        "item" : "600",
+        "count" : "1"
+      }, {
+        "item" : "2468",
+        "count" : "1"
+      }, {
+        "item" : "1272",
+        "count" : "1"
+      }, {
+        "item" : "9683",
+        "count" : "1"
+      }, {
+        "item" : "149",
+        "count" : "1"
+      }, {
+        "item" : "4039",
+        "count" : "1"
+      }, {
+        "item" : "4562",
+        "count" : "1"
+      }, {
+        "item" : "2673",
+        "count" : "1"
+      }, {
+        "item" : "3355",
+        "count" : "1"
+      }, {
+        "item" : "200",
+        "count" : "1"
+      }, {
+        "item" : "13723",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426295,
+    "name" : "May07_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_07_md",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306346,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "14391",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "7527",
+        "count" : "1"
+      }, {
+        "item" : "432",
+        "count" : "1"
+      }, {
+        "item" : "13891",
+        "count" : "1"
+      }, {
+        "item" : "3114",
+        "count" : "1"
+      }, {
+        "item" : "297",
+        "count" : "1"
+      }, {
+        "item" : "2720",
+        "count" : "1"
+      }, {
+        "item" : "2865",
+        "count" : "1"
+      }, {
+        "item" : "2519",
+        "count" : "1"
+      }, {
+        "item" : "3991",
+        "count" : "1"
+      }, {
+        "item" : "3142",
+        "count" : "1"
+      }, {
+        "item" : "3432",
+        "count" : "1"
+      }, {
+        "item" : "1305",
+        "count" : "1"
+      }, {
+        "item" : "486",
+        "count" : "1"
+      }, {
+        "item" : "2914",
+        "count" : "1"
+      }, {
+        "item" : "599",
+        "count" : "1"
+      }, {
+        "item" : "135",
+        "count" : "1"
+      }, {
+        "item" : "2286",
+        "count" : "1"
+      }, {
+        "item" : "14391",
+        "count" : "1"
+      }, {
+        "item" : "2225",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426296,
+    "name" : "Sept07_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_07_am",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306347,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "10326",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1902",
+        "count" : "2"
+      }, {
+        "item" : "411",
+        "count" : "1"
+      }, {
+        "item" : "832",
+        "count" : "1"
+      }, {
+        "item" : "395",
+        "count" : "1"
+      }, {
+        "item" : "6329",
+        "count" : "1"
+      }, {
+        "item" : "303",
+        "count" : "1"
+      }, {
+        "item" : "2084",
+        "count" : "1"
+      }, {
+        "item" : "1324",
+        "count" : "1"
+      }, {
+        "item" : "514",
+        "count" : "1"
+      }, {
+        "item" : "918",
+        "count" : "1"
+      }, {
+        "item" : "3043",
+        "count" : "1"
+      }, {
+        "item" : "7192",
+        "count" : "1"
+      }, {
+        "item" : "306",
+        "count" : "1"
+      }, {
+        "item" : "3971",
+        "count" : "1"
+      }, {
+        "item" : "556",
+        "count" : "1"
+      }, {
+        "item" : "4507",
+        "count" : "1"
+      }, {
+        "item" : "541",
+        "count" : "1"
+      }, {
+        "item" : "992",
+        "count" : "1"
+      }, {
+        "item" : "1342",
+        "count" : "1"
+      }, {
+        "item" : "547",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426297,
+    "name" : "Sept07_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_07_pm",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306348,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "32673",
+      "null" : "0",
+      "top" : [ {
+        "item" : "44",
+        "count" : "1"
+      }, {
+        "item" : "12671",
+        "count" : "1"
+      }, {
+        "item" : "1457",
+        "count" : "1"
+      }, {
+        "item" : "15554",
+        "count" : "1"
+      }, {
+        "item" : "4231",
+        "count" : "1"
+      }, {
+        "item" : "2988",
+        "count" : "1"
+      }, {
+        "item" : "3204",
+        "count" : "1"
+      }, {
+        "item" : "3312",
+        "count" : "1"
+      }, {
+        "item" : "114",
+        "count" : "1"
+      }, {
+        "item" : "1011",
+        "count" : "1"
+      }, {
+        "item" : "3524",
+        "count" : "1"
+      }, {
+        "item" : "13179",
+        "count" : "1"
+      }, {
+        "item" : "3090",
+        "count" : "1"
+      }, {
+        "item" : "9215",
+        "count" : "1"
+      }, {
+        "item" : "5431",
+        "count" : "1"
+      }, {
+        "item" : "4737",
+        "count" : "1"
+      }, {
+        "item" : "289",
+        "count" : "1"
+      }, {
+        "item" : "14290",
+        "count" : "1"
+      }, {
+        "item" : "1176",
+        "count" : "1"
+      }, {
+        "item" : "2795",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426298,
+    "name" : "Sept07_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_07_md",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306349,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "16629",
+      "null" : "0",
+      "top" : [ {
+        "item" : "85",
+        "count" : "2"
+      }, {
+        "item" : "1627",
+        "count" : "2"
+      }, {
+        "item" : "11866",
+        "count" : "1"
+      }, {
+        "item" : "348",
+        "count" : "1"
+      }, {
+        "item" : "5501",
+        "count" : "1"
+      }, {
+        "item" : "3429",
+        "count" : "1"
+      }, {
+        "item" : "2047",
+        "count" : "1"
+      }, {
+        "item" : "149",
+        "count" : "1"
+      }, {
+        "item" : "1893",
+        "count" : "1"
+      }, {
+        "item" : "2452",
+        "count" : "1"
+      }, {
+        "item" : "2239",
+        "count" : "1"
+      }, {
+        "item" : "4111",
+        "count" : "1"
+      }, {
+        "item" : "84",
+        "count" : "1"
+      }, {
+        "item" : "2701",
+        "count" : "1"
+      }, {
+        "item" : "1431",
+        "count" : "1"
+      }, {
+        "item" : "2475",
+        "count" : "1"
+      }, {
+        "item" : "1209",
+        "count" : "1"
+      }, {
+        "item" : "812",
+        "count" : "1"
+      }, {
+        "item" : "2842",
+        "count" : "1"
+      }, {
+        "item" : "2125",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426299,
+    "name" : "May08_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_08_am",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306350,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "12391",
+      "null" : "0",
+      "top" : [ {
+        "item" : "174",
+        "count" : "2"
+      }, {
+        "item" : "129",
+        "count" : "2"
+      }, {
+        "item" : "98",
+        "count" : "2"
+      }, {
+        "item" : "1058",
+        "count" : "1"
+      }, {
+        "item" : "17",
+        "count" : "1"
+      }, {
+        "item" : "7",
+        "count" : "1"
+      }, {
+        "item" : "1119",
+        "count" : "1"
+      }, {
+        "item" : "380",
+        "count" : "1"
+      }, {
+        "item" : "1052",
+        "count" : "1"
+      }, {
+        "item" : "218",
+        "count" : "1"
+      }, {
+        "item" : "10246",
+        "count" : "1"
+      }, {
+        "item" : "184",
+        "count" : "1"
+      }, {
+        "item" : "1579",
+        "count" : "1"
+      }, {
+        "item" : "772",
+        "count" : "1"
+      }, {
+        "item" : "6842",
+        "count" : "1"
+      }, {
+        "item" : "4733",
+        "count" : "1"
+      }, {
+        "item" : "2299",
+        "count" : "1"
+      }, {
+        "item" : "3752",
+        "count" : "1"
+      }, {
+        "item" : "6556",
+        "count" : "1"
+      }, {
+        "item" : "3110",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426300,
+    "name" : "May08_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_08_pm",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306351,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "33290",
+      "null" : "0",
+      "top" : [ {
+        "item" : "148",
+        "count" : "2"
+      }, {
+        "item" : "8011",
+        "count" : "1"
+      }, {
+        "item" : "6851",
+        "count" : "1"
+      }, {
+        "item" : "4594",
+        "count" : "1"
+      }, {
+        "item" : "7054",
+        "count" : "1"
+      }, {
+        "item" : "1335",
+        "count" : "1"
+      }, {
+        "item" : "6123",
+        "count" : "1"
+      }, {
+        "item" : "4798",
+        "count" : "1"
+      }, {
+        "item" : "5656",
+        "count" : "1"
+      }, {
+        "item" : "13996",
+        "count" : "1"
+      }, {
+        "item" : "3236",
+        "count" : "1"
+      }, {
+        "item" : "7419",
+        "count" : "1"
+      }, {
+        "item" : "2707",
+        "count" : "1"
+      }, {
+        "item" : "2007",
+        "count" : "1"
+      }, {
+        "item" : "23312",
+        "count" : "1"
+      }, {
+        "item" : "3486",
+        "count" : "1"
+      }, {
+        "item" : "5634",
+        "count" : "1"
+      }, {
+        "item" : "4733",
+        "count" : "1"
+      }, {
+        "item" : "4372",
+        "count" : "1"
+      }, {
+        "item" : "3702",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426301,
+    "name" : "May08_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_08_md",
+    "position" : 17,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306352,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "18273",
+      "null" : "0",
+      "top" : [ {
+        "item" : "856",
+        "count" : "2"
+      }, {
+        "item" : "8",
+        "count" : "1"
+      }, {
+        "item" : "1208",
+        "count" : "1"
+      }, {
+        "item" : "7303",
+        "count" : "1"
+      }, {
+        "item" : "2699",
+        "count" : "1"
+      }, {
+        "item" : "1317",
+        "count" : "1"
+      }, {
+        "item" : "1390",
+        "count" : "1"
+      }, {
+        "item" : "2631",
+        "count" : "1"
+      }, {
+        "item" : "1989",
+        "count" : "1"
+      }, {
+        "item" : "1023",
+        "count" : "1"
+      }, {
+        "item" : "7523",
+        "count" : "1"
+      }, {
+        "item" : "331",
+        "count" : "1"
+      }, {
+        "item" : "174",
+        "count" : "1"
+      }, {
+        "item" : "5858",
+        "count" : "1"
+      }, {
+        "item" : "4806",
+        "count" : "1"
+      }, {
+        "item" : "18273",
+        "count" : "1"
+      }, {
+        "item" : "4174",
+        "count" : "1"
+      }, {
+        "item" : "1473",
+        "count" : "1"
+      }, {
+        "item" : "966",
+        "count" : "1"
+      }, {
+        "item" : "3073",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426302,
+    "name" : "Sept08_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_08_am",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306353,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "11051",
+      "null" : "0",
+      "top" : [ {
+        "item" : "923",
+        "count" : "2"
+      }, {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "756",
+        "count" : "1"
+      }, {
+        "item" : "286",
+        "count" : "1"
+      }, {
+        "item" : "882",
+        "count" : "1"
+      }, {
+        "item" : "296",
+        "count" : "1"
+      }, {
+        "item" : "348",
+        "count" : "1"
+      }, {
+        "item" : "5041",
+        "count" : "1"
+      }, {
+        "item" : "232",
+        "count" : "1"
+      }, {
+        "item" : "290",
+        "count" : "1"
+      }, {
+        "item" : "1546",
+        "count" : "1"
+      }, {
+        "item" : "1951",
+        "count" : "1"
+      }, {
+        "item" : "1238",
+        "count" : "1"
+      }, {
+        "item" : "7476",
+        "count" : "1"
+      }, {
+        "item" : "223",
+        "count" : "1"
+      }, {
+        "item" : "2356",
+        "count" : "1"
+      }, {
+        "item" : "2290",
+        "count" : "1"
+      }, {
+        "item" : "891",
+        "count" : "1"
+      }, {
+        "item" : "1598",
+        "count" : "1"
+      }, {
+        "item" : "1939",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426303,
+    "name" : "Sept08_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_08_pm",
+    "position" : 19,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306354,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "29019",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "382",
+        "count" : "2"
+      }, {
+        "item" : "9805",
+        "count" : "1"
+      }, {
+        "item" : "2034",
+        "count" : "1"
+      }, {
+        "item" : "2078",
+        "count" : "1"
+      }, {
+        "item" : "3574",
+        "count" : "1"
+      }, {
+        "item" : "135",
+        "count" : "1"
+      }, {
+        "item" : "3283",
+        "count" : "1"
+      }, {
+        "item" : "1898",
+        "count" : "1"
+      }, {
+        "item" : "3553",
+        "count" : "1"
+      }, {
+        "item" : "1106",
+        "count" : "1"
+      }, {
+        "item" : "1028",
+        "count" : "1"
+      }, {
+        "item" : "5879",
+        "count" : "1"
+      }, {
+        "item" : "3962",
+        "count" : "1"
+      }, {
+        "item" : "4310",
+        "count" : "1"
+      }, {
+        "item" : "196",
+        "count" : "1"
+      }, {
+        "item" : "200",
+        "count" : "1"
+      }, {
+        "item" : "3624",
+        "count" : "1"
+      }, {
+        "item" : "3194",
+        "count" : "1"
+      }, {
+        "item" : "2631",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426304,
+    "name" : "Sept08_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_08_md",
+    "position" : 20,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306355,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "16307",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "3110",
+        "count" : "1"
+      }, {
+        "item" : "269",
+        "count" : "1"
+      }, {
+        "item" : "7391",
+        "count" : "1"
+      }, {
+        "item" : "1238",
+        "count" : "1"
+      }, {
+        "item" : "1374",
+        "count" : "1"
+      }, {
+        "item" : "73",
+        "count" : "1"
+      }, {
+        "item" : "1746",
+        "count" : "1"
+      }, {
+        "item" : "2489",
+        "count" : "1"
+      }, {
+        "item" : "82",
+        "count" : "1"
+      }, {
+        "item" : "5347",
+        "count" : "1"
+      }, {
+        "item" : "7729",
+        "count" : "1"
+      }, {
+        "item" : "2389",
+        "count" : "1"
+      }, {
+        "item" : "440",
+        "count" : "1"
+      }, {
+        "item" : "2003",
+        "count" : "1"
+      }, {
+        "item" : "1460",
+        "count" : "1"
+      }, {
+        "item" : "4099",
+        "count" : "1"
+      }, {
+        "item" : "16268",
+        "count" : "1"
+      }, {
+        "item" : "1961",
+        "count" : "1"
+      }, {
+        "item" : "333",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426305,
+    "name" : "May09_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_09_am",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306356,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "12690",
+      "null" : "0",
+      "top" : [ {
+        "item" : "747",
+        "count" : "1"
+      }, {
+        "item" : "1236",
+        "count" : "1"
+      }, {
+        "item" : "6149",
+        "count" : "1"
+      }, {
+        "item" : "1202",
+        "count" : "1"
+      }, {
+        "item" : "27",
+        "count" : "1"
+      }, {
+        "item" : "451",
+        "count" : "1"
+      }, {
+        "item" : "104",
+        "count" : "1"
+      }, {
+        "item" : "3085",
+        "count" : "1"
+      }, {
+        "item" : "914",
+        "count" : "1"
+      }, {
+        "item" : "152",
+        "count" : "1"
+      }, {
+        "item" : "2946",
+        "count" : "1"
+      }, {
+        "item" : "758",
+        "count" : "1"
+      }, {
+        "item" : "7356",
+        "count" : "1"
+      }, {
+        "item" : "8366",
+        "count" : "1"
+      }, {
+        "item" : "272",
+        "count" : "1"
+      }, {
+        "item" : "1156",
+        "count" : "1"
+      }, {
+        "item" : "9175",
+        "count" : "1"
+      }, {
+        "item" : "12690",
+        "count" : "1"
+      }, {
+        "item" : "103",
+        "count" : "1"
+      }, {
+        "item" : "1536",
+        "count" : "1"
+      } ],
+      "smallest" : "14",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426306,
+    "name" : "May09_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_09_pm",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306357,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "29526",
+      "null" : "0",
+      "top" : [ {
+        "item" : "5009",
+        "count" : "1"
+      }, {
+        "item" : "7169",
+        "count" : "1"
+      }, {
+        "item" : "157",
+        "count" : "1"
+      }, {
+        "item" : "213",
+        "count" : "1"
+      }, {
+        "item" : "44",
+        "count" : "1"
+      }, {
+        "item" : "4090",
+        "count" : "1"
+      }, {
+        "item" : "1499",
+        "count" : "1"
+      }, {
+        "item" : "25268",
+        "count" : "1"
+      }, {
+        "item" : "6047",
+        "count" : "1"
+      }, {
+        "item" : "4225",
+        "count" : "1"
+      }, {
+        "item" : "4302",
+        "count" : "1"
+      }, {
+        "item" : "880",
+        "count" : "1"
+      }, {
+        "item" : "21943",
+        "count" : "1"
+      }, {
+        "item" : "1007",
+        "count" : "1"
+      }, {
+        "item" : "9724",
+        "count" : "1"
+      }, {
+        "item" : "10866",
+        "count" : "1"
+      }, {
+        "item" : "105",
+        "count" : "1"
+      }, {
+        "item" : "8475",
+        "count" : "1"
+      }, {
+        "item" : "4089",
+        "count" : "1"
+      }, {
+        "item" : "6680",
+        "count" : "1"
+      } ],
+      "smallest" : "12",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426307,
+    "name" : "May09_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_09_md",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306358,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "13971",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1378",
+        "count" : "2"
+      }, {
+        "item" : "2591",
+        "count" : "1"
+      }, {
+        "item" : "1135",
+        "count" : "1"
+      }, {
+        "item" : "12533",
+        "count" : "1"
+      }, {
+        "item" : "2408",
+        "count" : "1"
+      }, {
+        "item" : "64",
+        "count" : "1"
+      }, {
+        "item" : "7472",
+        "count" : "1"
+      }, {
+        "item" : "2944",
+        "count" : "1"
+      }, {
+        "item" : "82",
+        "count" : "1"
+      }, {
+        "item" : "78",
+        "count" : "1"
+      }, {
+        "item" : "2259",
+        "count" : "1"
+      }, {
+        "item" : "5281",
+        "count" : "1"
+      }, {
+        "item" : "11494",
+        "count" : "1"
+      }, {
+        "item" : "3335",
+        "count" : "1"
+      }, {
+        "item" : "179",
+        "count" : "1"
+      }, {
+        "item" : "3540",
+        "count" : "1"
+      }, {
+        "item" : "5867",
+        "count" : "1"
+      }, {
+        "item" : "6386",
+        "count" : "1"
+      }, {
+        "item" : "4402",
+        "count" : "1"
+      }, {
+        "item" : "1696",
+        "count" : "1"
+      } ],
+      "smallest" : "23",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426308,
+    "name" : "Sept09_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_09_am",
+    "position" : 24,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306359,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "13552",
+      "null" : "0",
+      "top" : [ {
+        "item" : "183",
+        "count" : "2"
+      }, {
+        "item" : "2718",
+        "count" : "2"
+      }, {
+        "item" : "755",
+        "count" : "1"
+      }, {
+        "item" : "1223",
+        "count" : "1"
+      }, {
+        "item" : "1446",
+        "count" : "1"
+      }, {
+        "item" : "1227",
+        "count" : "1"
+      }, {
+        "item" : "635",
+        "count" : "1"
+      }, {
+        "item" : "4243",
+        "count" : "1"
+      }, {
+        "item" : "1038",
+        "count" : "1"
+      }, {
+        "item" : "988",
+        "count" : "1"
+      }, {
+        "item" : "2047",
+        "count" : "1"
+      }, {
+        "item" : "1461",
+        "count" : "1"
+      }, {
+        "item" : "2387",
+        "count" : "1"
+      }, {
+        "item" : "1249",
+        "count" : "1"
+      }, {
+        "item" : "1766",
+        "count" : "1"
+      }, {
+        "item" : "599",
+        "count" : "1"
+      }, {
+        "item" : "1330",
+        "count" : "1"
+      }, {
+        "item" : "5206",
+        "count" : "1"
+      }, {
+        "item" : "92",
+        "count" : "1"
+      }, {
+        "item" : "3506",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426309,
+    "name" : "Sept09_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_09_pm",
+    "position" : 25,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306360,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "27764",
+      "null" : "0",
+      "top" : [ {
+        "item" : "198",
+        "count" : "1"
+      }, {
+        "item" : "880",
+        "count" : "1"
+      }, {
+        "item" : "924",
+        "count" : "1"
+      }, {
+        "item" : "151",
+        "count" : "1"
+      }, {
+        "item" : "20562",
+        "count" : "1"
+      }, {
+        "item" : "11033",
+        "count" : "1"
+      }, {
+        "item" : "6708",
+        "count" : "1"
+      }, {
+        "item" : "7483",
+        "count" : "1"
+      }, {
+        "item" : "5475",
+        "count" : "1"
+      }, {
+        "item" : "27632",
+        "count" : "1"
+      }, {
+        "item" : "8747",
+        "count" : "1"
+      }, {
+        "item" : "4262",
+        "count" : "1"
+      }, {
+        "item" : "15500",
+        "count" : "1"
+      }, {
+        "item" : "3305",
+        "count" : "1"
+      }, {
+        "item" : "9773",
+        "count" : "1"
+      }, {
+        "item" : "825",
+        "count" : "1"
+      }, {
+        "item" : "27764",
+        "count" : "1"
+      }, {
+        "item" : "204",
+        "count" : "1"
+      }, {
+        "item" : "5836",
+        "count" : "1"
+      }, {
+        "item" : "3250",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426310,
+    "name" : "Sept09_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_09_md",
+    "position" : 26,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306361,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "12044",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2629",
+        "count" : "2"
+      }, {
+        "item" : "1297",
+        "count" : "1"
+      }, {
+        "item" : "5492",
+        "count" : "1"
+      }, {
+        "item" : "1119",
+        "count" : "1"
+      }, {
+        "item" : "4423",
+        "count" : "1"
+      }, {
+        "item" : "684",
+        "count" : "1"
+      }, {
+        "item" : "1303",
+        "count" : "1"
+      }, {
+        "item" : "1223",
+        "count" : "1"
+      }, {
+        "item" : "8340",
+        "count" : "1"
+      }, {
+        "item" : "1861",
+        "count" : "1"
+      }, {
+        "item" : "1122",
+        "count" : "1"
+      }, {
+        "item" : "3428",
+        "count" : "1"
+      }, {
+        "item" : "2847",
+        "count" : "1"
+      }, {
+        "item" : "3145",
+        "count" : "1"
+      }, {
+        "item" : "11485",
+        "count" : "1"
+      }, {
+        "item" : "8480",
+        "count" : "1"
+      }, {
+        "item" : "3956",
+        "count" : "1"
+      }, {
+        "item" : "2339",
+        "count" : "1"
+      }, {
+        "item" : "2685",
+        "count" : "1"
+      }, {
+        "item" : "4837",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426311,
+    "name" : "May10_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_10_am",
+    "position" : 27,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306362,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "13421",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1507",
+        "count" : "2"
+      }, {
+        "item" : "1988",
+        "count" : "1"
+      }, {
+        "item" : "6479",
+        "count" : "1"
+      }, {
+        "item" : "4896",
+        "count" : "1"
+      }, {
+        "item" : "3201",
+        "count" : "1"
+      }, {
+        "item" : "757",
+        "count" : "1"
+      }, {
+        "item" : "867",
+        "count" : "1"
+      }, {
+        "item" : "10891",
+        "count" : "1"
+      }, {
+        "item" : "651",
+        "count" : "1"
+      }, {
+        "item" : "280",
+        "count" : "1"
+      }, {
+        "item" : "5196",
+        "count" : "1"
+      }, {
+        "item" : "553",
+        "count" : "1"
+      }, {
+        "item" : "70",
+        "count" : "1"
+      }, {
+        "item" : "2077",
+        "count" : "1"
+      }, {
+        "item" : "313",
+        "count" : "1"
+      }, {
+        "item" : "7210",
+        "count" : "1"
+      }, {
+        "item" : "116",
+        "count" : "1"
+      }, {
+        "item" : "1614",
+        "count" : "1"
+      }, {
+        "item" : "706",
+        "count" : "1"
+      }, {
+        "item" : "940",
+        "count" : "1"
+      } ],
+      "smallest" : "12",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426312,
+    "name" : "May10_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_10_pm",
+    "position" : 28,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306363,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "30544",
+      "null" : "0",
+      "top" : [ {
+        "item" : "913",
+        "count" : "1"
+      }, {
+        "item" : "919",
+        "count" : "1"
+      }, {
+        "item" : "1731",
+        "count" : "1"
+      }, {
+        "item" : "14219",
+        "count" : "1"
+      }, {
+        "item" : "10497",
+        "count" : "1"
+      }, {
+        "item" : "3663",
+        "count" : "1"
+      }, {
+        "item" : "1796",
+        "count" : "1"
+      }, {
+        "item" : "2486",
+        "count" : "1"
+      }, {
+        "item" : "1892",
+        "count" : "1"
+      }, {
+        "item" : "30544",
+        "count" : "1"
+      }, {
+        "item" : "230",
+        "count" : "1"
+      }, {
+        "item" : "235",
+        "count" : "1"
+      }, {
+        "item" : "188",
+        "count" : "1"
+      }, {
+        "item" : "10332",
+        "count" : "1"
+      }, {
+        "item" : "8284",
+        "count" : "1"
+      }, {
+        "item" : "1462",
+        "count" : "1"
+      }, {
+        "item" : "4764",
+        "count" : "1"
+      }, {
+        "item" : "253",
+        "count" : "1"
+      }, {
+        "item" : "10943",
+        "count" : "1"
+      }, {
+        "item" : "1958",
+        "count" : "1"
+      } ],
+      "smallest" : "36",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426313,
+    "name" : "May10_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_10_md",
+    "position" : 29,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306364,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "12727",
+      "null" : "0",
+      "top" : [ {
+        "item" : "95",
+        "count" : "2"
+      }, {
+        "item" : "2678",
+        "count" : "1"
+      }, {
+        "item" : "2781",
+        "count" : "1"
+      }, {
+        "item" : "32",
+        "count" : "1"
+      }, {
+        "item" : "3907",
+        "count" : "1"
+      }, {
+        "item" : "1634",
+        "count" : "1"
+      }, {
+        "item" : "4679",
+        "count" : "1"
+      }, {
+        "item" : "86",
+        "count" : "1"
+      }, {
+        "item" : "3660",
+        "count" : "1"
+      }, {
+        "item" : "201",
+        "count" : "1"
+      }, {
+        "item" : "804",
+        "count" : "1"
+      }, {
+        "item" : "4085",
+        "count" : "1"
+      }, {
+        "item" : "10440",
+        "count" : "1"
+      }, {
+        "item" : "3738",
+        "count" : "1"
+      }, {
+        "item" : "1409",
+        "count" : "1"
+      }, {
+        "item" : "3095",
+        "count" : "1"
+      }, {
+        "item" : "2830",
+        "count" : "1"
+      }, {
+        "item" : "12727",
+        "count" : "1"
+      }, {
+        "item" : "2154",
+        "count" : "1"
+      }, {
+        "item" : "2690",
+        "count" : "1"
+      } ],
+      "smallest" : "32",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426314,
+    "name" : "Sept10_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_10_am",
+    "position" : 30,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306365,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "10010",
+      "null" : "0",
+      "top" : [ {
+        "item" : "580",
+        "count" : "1"
+      }, {
+        "item" : "7565",
+        "count" : "1"
+      }, {
+        "item" : "2451",
+        "count" : "1"
+      }, {
+        "item" : "3503",
+        "count" : "1"
+      }, {
+        "item" : "4730",
+        "count" : "1"
+      }, {
+        "item" : "3941",
+        "count" : "1"
+      }, {
+        "item" : "1365",
+        "count" : "1"
+      }, {
+        "item" : "10010",
+        "count" : "1"
+      }, {
+        "item" : "9320",
+        "count" : "1"
+      }, {
+        "item" : "1271",
+        "count" : "1"
+      }, {
+        "item" : "529",
+        "count" : "1"
+      }, {
+        "item" : "3616",
+        "count" : "1"
+      }, {
+        "item" : "1212",
+        "count" : "1"
+      }, {
+        "item" : "2952",
+        "count" : "1"
+      }, {
+        "item" : "593",
+        "count" : "1"
+      }, {
+        "item" : "0",
+        "count" : "1"
+      }, {
+        "item" : "1213",
+        "count" : "1"
+      }, {
+        "item" : "4222",
+        "count" : "1"
+      }, {
+        "item" : "4280",
+        "count" : "1"
+      }, {
+        "item" : "1350",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426315,
+    "name" : "Sept10_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_10_pm",
+    "position" : 31,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306366,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "30103",
+      "null" : "0",
+      "top" : [ {
+        "item" : "205",
+        "count" : "2"
+      }, {
+        "item" : "245",
+        "count" : "2"
+      }, {
+        "item" : "7235",
+        "count" : "1"
+      }, {
+        "item" : "14574",
+        "count" : "1"
+      }, {
+        "item" : "7303",
+        "count" : "1"
+      }, {
+        "item" : "548",
+        "count" : "1"
+      }, {
+        "item" : "6977",
+        "count" : "1"
+      }, {
+        "item" : "1543",
+        "count" : "1"
+      }, {
+        "item" : "18128",
+        "count" : "1"
+      }, {
+        "item" : "1446",
+        "count" : "1"
+      }, {
+        "item" : "6922",
+        "count" : "1"
+      }, {
+        "item" : "7940",
+        "count" : "1"
+      }, {
+        "item" : "11065",
+        "count" : "1"
+      }, {
+        "item" : "218",
+        "count" : "1"
+      }, {
+        "item" : "816",
+        "count" : "1"
+      }, {
+        "item" : "4039",
+        "count" : "1"
+      }, {
+        "item" : "3997",
+        "count" : "1"
+      }, {
+        "item" : "10317",
+        "count" : "1"
+      }, {
+        "item" : "14895",
+        "count" : "1"
+      }, {
+        "item" : "5785",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426316,
+    "name" : "Sept10_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_10_md",
+    "position" : 32,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306367,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "13044",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2217",
+        "count" : "3"
+      }, {
+        "item" : "1736",
+        "count" : "2"
+      }, {
+        "item" : "164",
+        "count" : "2"
+      }, {
+        "item" : "1397",
+        "count" : "1"
+      }, {
+        "item" : "809",
+        "count" : "1"
+      }, {
+        "item" : "6091",
+        "count" : "1"
+      }, {
+        "item" : "2570",
+        "count" : "1"
+      }, {
+        "item" : "4735",
+        "count" : "1"
+      }, {
+        "item" : "4951",
+        "count" : "1"
+      }, {
+        "item" : "6787",
+        "count" : "1"
+      }, {
+        "item" : "2054",
+        "count" : "1"
+      }, {
+        "item" : "10902",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      }, {
+        "item" : "1809",
+        "count" : "1"
+      }, {
+        "item" : "5056",
+        "count" : "1"
+      }, {
+        "item" : "64",
+        "count" : "1"
+      }, {
+        "item" : "2502",
+        "count" : "1"
+      }, {
+        "item" : "1861",
+        "count" : "1"
+      }, {
+        "item" : "6569",
+        "count" : "1"
+      }, {
+        "item" : "3407",
+        "count" : "1"
+      } ],
+      "smallest" : "3",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426317,
+    "name" : "May11_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_11_am",
+    "position" : 33,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306368,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "9969",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2195",
+        "count" : "1"
+      }, {
+        "item" : "356",
+        "count" : "1"
+      }, {
+        "item" : "8954",
+        "count" : "1"
+      }, {
+        "item" : "128",
+        "count" : "1"
+      }, {
+        "item" : "316",
+        "count" : "1"
+      }, {
+        "item" : "882",
+        "count" : "1"
+      }, {
+        "item" : "252",
+        "count" : "1"
+      }, {
+        "item" : "3883",
+        "count" : "1"
+      }, {
+        "item" : "1406",
+        "count" : "1"
+      }, {
+        "item" : "6905",
+        "count" : "1"
+      }, {
+        "item" : "789",
+        "count" : "1"
+      }, {
+        "item" : "52",
+        "count" : "1"
+      }, {
+        "item" : "1773",
+        "count" : "1"
+      }, {
+        "item" : "1374",
+        "count" : "1"
+      }, {
+        "item" : "1150",
+        "count" : "1"
+      }, {
+        "item" : "4461",
+        "count" : "1"
+      }, {
+        "item" : "1211",
+        "count" : "1"
+      }, {
+        "item" : "2259",
+        "count" : "1"
+      }, {
+        "item" : "3879",
+        "count" : "1"
+      }, {
+        "item" : "1999",
+        "count" : "1"
+      } ],
+      "smallest" : "9",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426318,
+    "name" : "May11_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_11_pm",
+    "position" : 34,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306369,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "31701",
+      "null" : "0",
+      "top" : [ {
+        "item" : "9773",
+        "count" : "1"
+      }, {
+        "item" : "5991",
+        "count" : "1"
+      }, {
+        "item" : "1836",
+        "count" : "1"
+      }, {
+        "item" : "31701",
+        "count" : "1"
+      }, {
+        "item" : "15890",
+        "count" : "1"
+      }, {
+        "item" : "4837",
+        "count" : "1"
+      }, {
+        "item" : "2350",
+        "count" : "1"
+      }, {
+        "item" : "2915",
+        "count" : "1"
+      }, {
+        "item" : "8206",
+        "count" : "1"
+      }, {
+        "item" : "1185",
+        "count" : "1"
+      }, {
+        "item" : "11433",
+        "count" : "1"
+      }, {
+        "item" : "4024",
+        "count" : "1"
+      }, {
+        "item" : "12448",
+        "count" : "1"
+      }, {
+        "item" : "4933",
+        "count" : "1"
+      }, {
+        "item" : "1273",
+        "count" : "1"
+      }, {
+        "item" : "335",
+        "count" : "1"
+      }, {
+        "item" : "237",
+        "count" : "1"
+      }, {
+        "item" : "1145",
+        "count" : "1"
+      }, {
+        "item" : "1130",
+        "count" : "1"
+      }, {
+        "item" : "1433",
+        "count" : "1"
+      } ],
+      "smallest" : "24",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426319,
+    "name" : "May11_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_11_md",
+    "position" : 35,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306370,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "14182",
+      "null" : "0",
+      "top" : [ {
+        "item" : "9130",
+        "count" : "1"
+      }, {
+        "item" : "1985",
+        "count" : "1"
+      }, {
+        "item" : "2470",
+        "count" : "1"
+      }, {
+        "item" : "5866",
+        "count" : "1"
+      }, {
+        "item" : "1033",
+        "count" : "1"
+      }, {
+        "item" : "2623",
+        "count" : "1"
+      }, {
+        "item" : "3298",
+        "count" : "1"
+      }, {
+        "item" : "159",
+        "count" : "1"
+      }, {
+        "item" : "3026",
+        "count" : "1"
+      }, {
+        "item" : "5799",
+        "count" : "1"
+      }, {
+        "item" : "4699",
+        "count" : "1"
+      }, {
+        "item" : "2348",
+        "count" : "1"
+      }, {
+        "item" : "853",
+        "count" : "1"
+      }, {
+        "item" : "3397",
+        "count" : "1"
+      }, {
+        "item" : "5151",
+        "count" : "1"
+      }, {
+        "item" : "2968",
+        "count" : "1"
+      }, {
+        "item" : "2677",
+        "count" : "1"
+      }, {
+        "item" : "2628",
+        "count" : "1"
+      }, {
+        "item" : "2119",
+        "count" : "1"
+      }, {
+        "item" : "2979",
+        "count" : "1"
+      } ],
+      "smallest" : "10",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426320,
+    "name" : "Sept11_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_11_am",
+    "position" : 36,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306371,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "14456",
+      "null" : "0",
+      "top" : [ {
+        "item" : "178",
+        "count" : "2"
+      }, {
+        "item" : "847",
+        "count" : "1"
+      }, {
+        "item" : "286",
+        "count" : "1"
+      }, {
+        "item" : "11445",
+        "count" : "1"
+      }, {
+        "item" : "1328",
+        "count" : "1"
+      }, {
+        "item" : "233",
+        "count" : "1"
+      }, {
+        "item" : "1944",
+        "count" : "1"
+      }, {
+        "item" : "150",
+        "count" : "1"
+      }, {
+        "item" : "1069",
+        "count" : "1"
+      }, {
+        "item" : "1031",
+        "count" : "1"
+      }, {
+        "item" : "591",
+        "count" : "1"
+      }, {
+        "item" : "4137",
+        "count" : "1"
+      }, {
+        "item" : "117",
+        "count" : "1"
+      }, {
+        "item" : "2151",
+        "count" : "1"
+      }, {
+        "item" : "388",
+        "count" : "1"
+      }, {
+        "item" : "503",
+        "count" : "1"
+      }, {
+        "item" : "275",
+        "count" : "1"
+      }, {
+        "item" : "6198",
+        "count" : "1"
+      }, {
+        "item" : "1689",
+        "count" : "1"
+      }, {
+        "item" : "376",
+        "count" : "1"
+      } ],
+      "smallest" : "7",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426321,
+    "name" : "Sept11_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_11_pm",
+    "position" : 37,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306372,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "27249",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4959",
+        "count" : "2"
+      }, {
+        "item" : "102",
+        "count" : "2"
+      }, {
+        "item" : "10387",
+        "count" : "1"
+      }, {
+        "item" : "1972",
+        "count" : "1"
+      }, {
+        "item" : "2789",
+        "count" : "1"
+      }, {
+        "item" : "755",
+        "count" : "1"
+      }, {
+        "item" : "189",
+        "count" : "1"
+      }, {
+        "item" : "13805",
+        "count" : "1"
+      }, {
+        "item" : "4435",
+        "count" : "1"
+      }, {
+        "item" : "1647",
+        "count" : "1"
+      }, {
+        "item" : "4220",
+        "count" : "1"
+      }, {
+        "item" : "5186",
+        "count" : "1"
+      }, {
+        "item" : "16219",
+        "count" : "1"
+      }, {
+        "item" : "3776",
+        "count" : "1"
+      }, {
+        "item" : "5349",
+        "count" : "1"
+      }, {
+        "item" : "6226",
+        "count" : "1"
+      }, {
+        "item" : "16102",
+        "count" : "1"
+      }, {
+        "item" : "2949",
+        "count" : "1"
+      }, {
+        "item" : "9941",
+        "count" : "1"
+      }, {
+        "item" : "4312",
+        "count" : "1"
+      } ],
+      "smallest" : "102",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426322,
+    "name" : "Sept11_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_11_md",
+    "position" : 38,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306373,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "15946",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1020",
+        "count" : "1"
+      }, {
+        "item" : "5287",
+        "count" : "1"
+      }, {
+        "item" : "15946",
+        "count" : "1"
+      }, {
+        "item" : "4951",
+        "count" : "1"
+      }, {
+        "item" : "756",
+        "count" : "1"
+      }, {
+        "item" : "1604",
+        "count" : "1"
+      }, {
+        "item" : "2159",
+        "count" : "1"
+      }, {
+        "item" : "4528",
+        "count" : "1"
+      }, {
+        "item" : "128",
+        "count" : "1"
+      }, {
+        "item" : "6910",
+        "count" : "1"
+      }, {
+        "item" : "2670",
+        "count" : "1"
+      }, {
+        "item" : "3934",
+        "count" : "1"
+      }, {
+        "item" : "3200",
+        "count" : "1"
+      }, {
+        "item" : "189",
+        "count" : "1"
+      }, {
+        "item" : "1587",
+        "count" : "1"
+      }, {
+        "item" : "1752",
+        "count" : "1"
+      }, {
+        "item" : "6698",
+        "count" : "1"
+      }, {
+        "item" : "3610",
+        "count" : "1"
+      }, {
+        "item" : "39",
+        "count" : "1"
+      }, {
+        "item" : "7005",
+        "count" : "1"
+      } ],
+      "smallest" : "39",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426323,
+    "name" : "May12_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_12_am",
+    "position" : 39,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306374,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "13645",
+      "null" : "0",
+      "top" : [ {
+        "item" : "627",
+        "count" : "2"
+      }, {
+        "item" : "255",
+        "count" : "2"
+      }, {
+        "item" : "222",
+        "count" : "2"
+      }, {
+        "item" : "13645",
+        "count" : "1"
+      }, {
+        "item" : "3439",
+        "count" : "1"
+      }, {
+        "item" : "465",
+        "count" : "1"
+      }, {
+        "item" : "2125",
+        "count" : "1"
+      }, {
+        "item" : "876",
+        "count" : "1"
+      }, {
+        "item" : "1740",
+        "count" : "1"
+      }, {
+        "item" : "77",
+        "count" : "1"
+      }, {
+        "item" : "5073",
+        "count" : "1"
+      }, {
+        "item" : "82",
+        "count" : "1"
+      }, {
+        "item" : "106",
+        "count" : "1"
+      }, {
+        "item" : "78",
+        "count" : "1"
+      }, {
+        "item" : "269",
+        "count" : "1"
+      }, {
+        "item" : "1431",
+        "count" : "1"
+      }, {
+        "item" : "2283",
+        "count" : "1"
+      }, {
+        "item" : "1451",
+        "count" : "1"
+      }, {
+        "item" : "499",
+        "count" : "1"
+      }, {
+        "item" : "8340",
+        "count" : "1"
+      } ],
+      "smallest" : "9",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426324,
+    "name" : "May12_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_12_pm",
+    "position" : 40,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306375,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "18969",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2898",
+        "count" : "1"
+      }, {
+        "item" : "2920",
+        "count" : "1"
+      }, {
+        "item" : "3426",
+        "count" : "1"
+      }, {
+        "item" : "2066",
+        "count" : "1"
+      }, {
+        "item" : "7429",
+        "count" : "1"
+      }, {
+        "item" : "132",
+        "count" : "1"
+      }, {
+        "item" : "6394",
+        "count" : "1"
+      }, {
+        "item" : "1363",
+        "count" : "1"
+      }, {
+        "item" : "2381",
+        "count" : "1"
+      }, {
+        "item" : "2172",
+        "count" : "1"
+      }, {
+        "item" : "4144",
+        "count" : "1"
+      }, {
+        "item" : "1071",
+        "count" : "1"
+      }, {
+        "item" : "3570",
+        "count" : "1"
+      }, {
+        "item" : "1672",
+        "count" : "1"
+      }, {
+        "item" : "2495",
+        "count" : "1"
+      }, {
+        "item" : "2972",
+        "count" : "1"
+      }, {
+        "item" : "12937",
+        "count" : "1"
+      }, {
+        "item" : "4285",
+        "count" : "1"
+      }, {
+        "item" : "1414",
+        "count" : "1"
+      }, {
+        "item" : "3654",
+        "count" : "1"
+      } ],
+      "smallest" : "21",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426325,
+    "name" : "May12_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_12_md",
+    "position" : 41,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306376,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "13790",
+      "null" : "0",
+      "top" : [ {
+        "item" : "439",
+        "count" : "2"
+      }, {
+        "item" : "1241",
+        "count" : "2"
+      }, {
+        "item" : "1320",
+        "count" : "1"
+      }, {
+        "item" : "1764",
+        "count" : "1"
+      }, {
+        "item" : "3274",
+        "count" : "1"
+      }, {
+        "item" : "3858",
+        "count" : "1"
+      }, {
+        "item" : "8376",
+        "count" : "1"
+      }, {
+        "item" : "1208",
+        "count" : "1"
+      }, {
+        "item" : "116",
+        "count" : "1"
+      }, {
+        "item" : "4335",
+        "count" : "1"
+      }, {
+        "item" : "4488",
+        "count" : "1"
+      }, {
+        "item" : "1765",
+        "count" : "1"
+      }, {
+        "item" : "2747",
+        "count" : "1"
+      }, {
+        "item" : "5649",
+        "count" : "1"
+      }, {
+        "item" : "2514",
+        "count" : "1"
+      }, {
+        "item" : "4332",
+        "count" : "1"
+      }, {
+        "item" : "4723",
+        "count" : "1"
+      }, {
+        "item" : "183",
+        "count" : "1"
+      }, {
+        "item" : "1658",
+        "count" : "1"
+      }, {
+        "item" : "111",
+        "count" : "1"
+      } ],
+      "smallest" : "49",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426326,
+    "name" : "Sept12_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_12_am",
+    "position" : 42,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306377,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "13647",
+      "null" : "0",
+      "top" : [ {
+        "item" : "6",
+        "count" : "2"
+      }, {
+        "item" : "723",
+        "count" : "2"
+      }, {
+        "item" : "1574",
+        "count" : "1"
+      }, {
+        "item" : "1482",
+        "count" : "1"
+      }, {
+        "item" : "107",
+        "count" : "1"
+      }, {
+        "item" : "5521",
+        "count" : "1"
+      }, {
+        "item" : "1604",
+        "count" : "1"
+      }, {
+        "item" : "1245",
+        "count" : "1"
+      }, {
+        "item" : "172",
+        "count" : "1"
+      }, {
+        "item" : "4210",
+        "count" : "1"
+      }, {
+        "item" : "6127",
+        "count" : "1"
+      }, {
+        "item" : "6265",
+        "count" : "1"
+      }, {
+        "item" : "1514",
+        "count" : "1"
+      }, {
+        "item" : "1966",
+        "count" : "1"
+      }, {
+        "item" : "576",
+        "count" : "1"
+      }, {
+        "item" : "438",
+        "count" : "1"
+      }, {
+        "item" : "5021",
+        "count" : "1"
+      }, {
+        "item" : "966",
+        "count" : "1"
+      }, {
+        "item" : "1932",
+        "count" : "1"
+      }, {
+        "item" : "1040",
+        "count" : "1"
+      } ],
+      "smallest" : "6",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426327,
+    "name" : "Sept12_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_12_pm",
+    "position" : 43,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306378,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "28208",
+      "null" : "0",
+      "top" : [ {
+        "item" : "460",
+        "count" : "2"
+      }, {
+        "item" : "1743",
+        "count" : "1"
+      }, {
+        "item" : "13446",
+        "count" : "1"
+      }, {
+        "item" : "1249",
+        "count" : "1"
+      }, {
+        "item" : "2286",
+        "count" : "1"
+      }, {
+        "item" : "22800",
+        "count" : "1"
+      }, {
+        "item" : "8772",
+        "count" : "1"
+      }, {
+        "item" : "9346",
+        "count" : "1"
+      }, {
+        "item" : "2766",
+        "count" : "1"
+      }, {
+        "item" : "535",
+        "count" : "1"
+      }, {
+        "item" : "9559",
+        "count" : "1"
+      }, {
+        "item" : "3427",
+        "count" : "1"
+      }, {
+        "item" : "1058",
+        "count" : "1"
+      }, {
+        "item" : "7767",
+        "count" : "1"
+      }, {
+        "item" : "527",
+        "count" : "1"
+      }, {
+        "item" : "1554",
+        "count" : "1"
+      }, {
+        "item" : "4099",
+        "count" : "1"
+      }, {
+        "item" : "4402",
+        "count" : "1"
+      }, {
+        "item" : "7500",
+        "count" : "1"
+      }, {
+        "item" : "6921",
+        "count" : "1"
+      } ],
+      "smallest" : "33",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426328,
+    "name" : "Sept12_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_12_md",
+    "position" : 44,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306379,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "16286",
+      "null" : "0",
+      "top" : [ {
+        "item" : "8",
+        "count" : "1"
+      }, {
+        "item" : "2848",
+        "count" : "1"
+      }, {
+        "item" : "7461",
+        "count" : "1"
+      }, {
+        "item" : "493",
+        "count" : "1"
+      }, {
+        "item" : "905",
+        "count" : "1"
+      }, {
+        "item" : "7293",
+        "count" : "1"
+      }, {
+        "item" : "2125",
+        "count" : "1"
+      }, {
+        "item" : "6857",
+        "count" : "1"
+      }, {
+        "item" : "2605",
+        "count" : "1"
+      }, {
+        "item" : "1406",
+        "count" : "1"
+      }, {
+        "item" : "3652",
+        "count" : "1"
+      }, {
+        "item" : "1038",
+        "count" : "1"
+      }, {
+        "item" : "215",
+        "count" : "1"
+      }, {
+        "item" : "1970",
+        "count" : "1"
+      }, {
+        "item" : "3605",
+        "count" : "1"
+      }, {
+        "item" : "2766",
+        "count" : "1"
+      }, {
+        "item" : "2468",
+        "count" : "1"
+      }, {
+        "item" : "166",
+        "count" : "1"
+      }, {
+        "item" : "113",
+        "count" : "1"
+      }, {
+        "item" : "1615",
+        "count" : "1"
+      } ],
+      "smallest" : "8",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426329,
+    "name" : "May13_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_13_am",
+    "position" : 45,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306380,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "11898",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3858",
+        "count" : "2"
+      }, {
+        "item" : "1210",
+        "count" : "2"
+      }, {
+        "item" : "1457",
+        "count" : "1"
+      }, {
+        "item" : "1111",
+        "count" : "1"
+      }, {
+        "item" : "426",
+        "count" : "1"
+      }, {
+        "item" : "742",
+        "count" : "1"
+      }, {
+        "item" : "2557",
+        "count" : "1"
+      }, {
+        "item" : "11672",
+        "count" : "1"
+      }, {
+        "item" : "4543",
+        "count" : "1"
+      }, {
+        "item" : "10",
+        "count" : "1"
+      }, {
+        "item" : "2216",
+        "count" : "1"
+      }, {
+        "item" : "250",
+        "count" : "1"
+      }, {
+        "item" : "867",
+        "count" : "1"
+      }, {
+        "item" : "3758",
+        "count" : "1"
+      }, {
+        "item" : "162",
+        "count" : "1"
+      }, {
+        "item" : "1007",
+        "count" : "1"
+      }, {
+        "item" : "1472",
+        "count" : "1"
+      }, {
+        "item" : "280",
+        "count" : "1"
+      }, {
+        "item" : "2300",
+        "count" : "1"
+      }, {
+        "item" : "6103",
+        "count" : "1"
+      } ],
+      "smallest" : "10",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426330,
+    "name" : "May13_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_13_pm",
+    "position" : 46,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306381,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "28348",
+      "null" : "0",
+      "top" : [ {
+        "item" : "485",
+        "count" : "1"
+      }, {
+        "item" : "11211",
+        "count" : "1"
+      }, {
+        "item" : "6509",
+        "count" : "1"
+      }, {
+        "item" : "220",
+        "count" : "1"
+      }, {
+        "item" : "3134",
+        "count" : "1"
+      }, {
+        "item" : "8751",
+        "count" : "1"
+      }, {
+        "item" : "770",
+        "count" : "1"
+      }, {
+        "item" : "4481",
+        "count" : "1"
+      }, {
+        "item" : "313",
+        "count" : "1"
+      }, {
+        "item" : "5949",
+        "count" : "1"
+      }, {
+        "item" : "976",
+        "count" : "1"
+      }, {
+        "item" : "12371",
+        "count" : "1"
+      }, {
+        "item" : "7392",
+        "count" : "1"
+      }, {
+        "item" : "5771",
+        "count" : "1"
+      }, {
+        "item" : "1738",
+        "count" : "1"
+      }, {
+        "item" : "8853",
+        "count" : "1"
+      }, {
+        "item" : "1119",
+        "count" : "1"
+      }, {
+        "item" : "5174",
+        "count" : "1"
+      }, {
+        "item" : "12723",
+        "count" : "1"
+      }, {
+        "item" : "26609",
+        "count" : "1"
+      } ],
+      "smallest" : "24",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426331,
+    "name" : "May13_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_13_md",
+    "position" : 47,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306382,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "15594",
+      "null" : "0",
+      "top" : [ {
+        "item" : "300",
+        "count" : "2"
+      }, {
+        "item" : "1843",
+        "count" : "1"
+      }, {
+        "item" : "1979",
+        "count" : "1"
+      }, {
+        "item" : "8872",
+        "count" : "1"
+      }, {
+        "item" : "1655",
+        "count" : "1"
+      }, {
+        "item" : "1408",
+        "count" : "1"
+      }, {
+        "item" : "3189",
+        "count" : "1"
+      }, {
+        "item" : "2854",
+        "count" : "1"
+      }, {
+        "item" : "2830",
+        "count" : "1"
+      }, {
+        "item" : "476",
+        "count" : "1"
+      }, {
+        "item" : "3188",
+        "count" : "1"
+      }, {
+        "item" : "1402",
+        "count" : "1"
+      }, {
+        "item" : "2554",
+        "count" : "1"
+      }, {
+        "item" : "3702",
+        "count" : "1"
+      }, {
+        "item" : "16",
+        "count" : "1"
+      }, {
+        "item" : "2077",
+        "count" : "1"
+      }, {
+        "item" : "2886",
+        "count" : "1"
+      }, {
+        "item" : "2519",
+        "count" : "1"
+      }, {
+        "item" : "3463",
+        "count" : "1"
+      }, {
+        "item" : "1690",
+        "count" : "1"
+      } ],
+      "smallest" : "16",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426332,
+    "name" : "Sept13_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_13_am",
+    "position" : 48,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306383,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "12365",
+      "null" : "0",
+      "top" : [ {
+        "item" : "253",
+        "count" : "2"
+      }, {
+        "item" : "176",
+        "count" : "2"
+      }, {
+        "item" : "2373",
+        "count" : "1"
+      }, {
+        "item" : "497",
+        "count" : "1"
+      }, {
+        "item" : "1424",
+        "count" : "1"
+      }, {
+        "item" : "3758",
+        "count" : "1"
+      }, {
+        "item" : "307",
+        "count" : "1"
+      }, {
+        "item" : "3841",
+        "count" : "1"
+      }, {
+        "item" : "3241",
+        "count" : "1"
+      }, {
+        "item" : "8",
+        "count" : "1"
+      }, {
+        "item" : "6174",
+        "count" : "1"
+      }, {
+        "item" : "905",
+        "count" : "1"
+      }, {
+        "item" : "1166",
+        "count" : "1"
+      }, {
+        "item" : "4311",
+        "count" : "1"
+      }, {
+        "item" : "1046",
+        "count" : "1"
+      }, {
+        "item" : "526",
+        "count" : "1"
+      }, {
+        "item" : "128",
+        "count" : "1"
+      }, {
+        "item" : "1743",
+        "count" : "1"
+      }, {
+        "item" : "2071",
+        "count" : "1"
+      }, {
+        "item" : "835",
+        "count" : "1"
+      } ],
+      "smallest" : "8",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426333,
+    "name" : "Sept13_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_13_pm",
+    "position" : 49,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306384,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "30743",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3998",
+        "count" : "2"
+      }, {
+        "item" : "4278",
+        "count" : "1"
+      }, {
+        "item" : "3041",
+        "count" : "1"
+      }, {
+        "item" : "873",
+        "count" : "1"
+      }, {
+        "item" : "838",
+        "count" : "1"
+      }, {
+        "item" : "4642",
+        "count" : "1"
+      }, {
+        "item" : "1256",
+        "count" : "1"
+      }, {
+        "item" : "20202",
+        "count" : "1"
+      }, {
+        "item" : "4984",
+        "count" : "1"
+      }, {
+        "item" : "2513",
+        "count" : "1"
+      }, {
+        "item" : "3660",
+        "count" : "1"
+      }, {
+        "item" : "579",
+        "count" : "1"
+      }, {
+        "item" : "10",
+        "count" : "1"
+      }, {
+        "item" : "5578",
+        "count" : "1"
+      }, {
+        "item" : "4590",
+        "count" : "1"
+      }, {
+        "item" : "349",
+        "count" : "1"
+      }, {
+        "item" : "4091",
+        "count" : "1"
+      }, {
+        "item" : "12451",
+        "count" : "1"
+      }, {
+        "item" : "1472",
+        "count" : "1"
+      }, {
+        "item" : "4681",
+        "count" : "1"
+      } ],
+      "smallest" : "10",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426334,
+    "name" : "Sept13_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_13_md",
+    "position" : 50,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306385,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "14353",
+      "null" : "0",
+      "top" : [ {
+        "item" : "330",
+        "count" : "1"
+      }, {
+        "item" : "612",
+        "count" : "1"
+      }, {
+        "item" : "973",
+        "count" : "1"
+      }, {
+        "item" : "2709",
+        "count" : "1"
+      }, {
+        "item" : "7617",
+        "count" : "1"
+      }, {
+        "item" : "555",
+        "count" : "1"
+      }, {
+        "item" : "5690",
+        "count" : "1"
+      }, {
+        "item" : "2951",
+        "count" : "1"
+      }, {
+        "item" : "3202",
+        "count" : "1"
+      }, {
+        "item" : "778",
+        "count" : "1"
+      }, {
+        "item" : "1309",
+        "count" : "1"
+      }, {
+        "item" : "11374",
+        "count" : "1"
+      }, {
+        "item" : "1264",
+        "count" : "1"
+      }, {
+        "item" : "2676",
+        "count" : "1"
+      }, {
+        "item" : "3471",
+        "count" : "1"
+      }, {
+        "item" : "3869",
+        "count" : "1"
+      }, {
+        "item" : "1280",
+        "count" : "1"
+      }, {
+        "item" : "3235",
+        "count" : "1"
+      }, {
+        "item" : "594",
+        "count" : "1"
+      }, {
+        "item" : "2863",
+        "count" : "1"
+      } ],
+      "smallest" : "34",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426335,
+    "name" : "May14_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_14_am",
+    "position" : 51,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306386,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "15806",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3029",
+        "count" : "2"
+      }, {
+        "item" : "127",
+        "count" : "2"
+      }, {
+        "item" : "1451",
+        "count" : "2"
+      }, {
+        "item" : "971",
+        "count" : "1"
+      }, {
+        "item" : "124",
+        "count" : "1"
+      }, {
+        "item" : "6038",
+        "count" : "1"
+      }, {
+        "item" : "3666",
+        "count" : "1"
+      }, {
+        "item" : "2699",
+        "count" : "1"
+      }, {
+        "item" : "14",
+        "count" : "1"
+      }, {
+        "item" : "1347",
+        "count" : "1"
+      }, {
+        "item" : "6754",
+        "count" : "1"
+      }, {
+        "item" : "383",
+        "count" : "1"
+      }, {
+        "item" : "13677",
+        "count" : "1"
+      }, {
+        "item" : "1512",
+        "count" : "1"
+      }, {
+        "item" : "6020",
+        "count" : "1"
+      }, {
+        "item" : "1389",
+        "count" : "1"
+      }, {
+        "item" : "1090",
+        "count" : "1"
+      }, {
+        "item" : "2206",
+        "count" : "1"
+      }, {
+        "item" : "2431",
+        "count" : "1"
+      }, {
+        "item" : "687",
+        "count" : "1"
+      } ],
+      "smallest" : "6",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426336,
+    "name" : "May14_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_14_pm",
+    "position" : 52,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306387,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "29150",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1880",
+        "count" : "1"
+      }, {
+        "item" : "501",
+        "count" : "1"
+      }, {
+        "item" : "830",
+        "count" : "1"
+      }, {
+        "item" : "7732",
+        "count" : "1"
+      }, {
+        "item" : "4128",
+        "count" : "1"
+      }, {
+        "item" : "1618",
+        "count" : "1"
+      }, {
+        "item" : "8045",
+        "count" : "1"
+      }, {
+        "item" : "5166",
+        "count" : "1"
+      }, {
+        "item" : "32",
+        "count" : "1"
+      }, {
+        "item" : "1186",
+        "count" : "1"
+      }, {
+        "item" : "462",
+        "count" : "1"
+      }, {
+        "item" : "13374",
+        "count" : "1"
+      }, {
+        "item" : "452",
+        "count" : "1"
+      }, {
+        "item" : "29150",
+        "count" : "1"
+      }, {
+        "item" : "4926",
+        "count" : "1"
+      }, {
+        "item" : "4635",
+        "count" : "1"
+      }, {
+        "item" : "7225",
+        "count" : "1"
+      }, {
+        "item" : "4854",
+        "count" : "1"
+      }, {
+        "item" : "233",
+        "count" : "1"
+      }, {
+        "item" : "3287",
+        "count" : "1"
+      } ],
+      "smallest" : "14",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426337,
+    "name" : "May14_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_14_md",
+    "position" : 53,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306388,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "16189",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2641",
+        "count" : "1"
+      }, {
+        "item" : "7208",
+        "count" : "1"
+      }, {
+        "item" : "402",
+        "count" : "1"
+      }, {
+        "item" : "1580",
+        "count" : "1"
+      }, {
+        "item" : "205",
+        "count" : "1"
+      }, {
+        "item" : "3050",
+        "count" : "1"
+      }, {
+        "item" : "6339",
+        "count" : "1"
+      }, {
+        "item" : "4804",
+        "count" : "1"
+      }, {
+        "item" : "4856",
+        "count" : "1"
+      }, {
+        "item" : "1694",
+        "count" : "1"
+      }, {
+        "item" : "10",
+        "count" : "1"
+      }, {
+        "item" : "2506",
+        "count" : "1"
+      }, {
+        "item" : "250",
+        "count" : "1"
+      }, {
+        "item" : "11781",
+        "count" : "1"
+      }, {
+        "item" : "415",
+        "count" : "1"
+      }, {
+        "item" : "3080",
+        "count" : "1"
+      }, {
+        "item" : "2154",
+        "count" : "1"
+      }, {
+        "item" : "1897",
+        "count" : "1"
+      }, {
+        "item" : "4951",
+        "count" : "1"
+      }, {
+        "item" : "1457",
+        "count" : "1"
+      } ],
+      "smallest" : "10",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426338,
+    "name" : "Sept14_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_14_am",
+    "position" : 54,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306389,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "13152",
+      "null" : "0",
+      "top" : [ {
+        "item" : "530",
+        "count" : "2"
+      }, {
+        "item" : "1636",
+        "count" : "2"
+      }, {
+        "item" : "3463",
+        "count" : "1"
+      }, {
+        "item" : "348",
+        "count" : "1"
+      }, {
+        "item" : "1019",
+        "count" : "1"
+      }, {
+        "item" : "3693",
+        "count" : "1"
+      }, {
+        "item" : "196",
+        "count" : "1"
+      }, {
+        "item" : "284",
+        "count" : "1"
+      }, {
+        "item" : "1752",
+        "count" : "1"
+      }, {
+        "item" : "1720",
+        "count" : "1"
+      }, {
+        "item" : "2660",
+        "count" : "1"
+      }, {
+        "item" : "535",
+        "count" : "1"
+      }, {
+        "item" : "1769",
+        "count" : "1"
+      }, {
+        "item" : "5732",
+        "count" : "1"
+      }, {
+        "item" : "3009",
+        "count" : "1"
+      }, {
+        "item" : "183",
+        "count" : "1"
+      }, {
+        "item" : "142",
+        "count" : "1"
+      }, {
+        "item" : "812",
+        "count" : "1"
+      }, {
+        "item" : "1026",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      } ],
+      "smallest" : "3",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426339,
+    "name" : "Sept14_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_14_pm",
+    "position" : 55,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306390,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "27744",
+      "null" : "0",
+      "top" : [ {
+        "item" : "458",
+        "count" : "2"
+      }, {
+        "item" : "3184",
+        "count" : "2"
+      }, {
+        "item" : "2789",
+        "count" : "1"
+      }, {
+        "item" : "1902",
+        "count" : "1"
+      }, {
+        "item" : "965",
+        "count" : "1"
+      }, {
+        "item" : "805",
+        "count" : "1"
+      }, {
+        "item" : "25591",
+        "count" : "1"
+      }, {
+        "item" : "4566",
+        "count" : "1"
+      }, {
+        "item" : "4435",
+        "count" : "1"
+      }, {
+        "item" : "4351",
+        "count" : "1"
+      }, {
+        "item" : "1931",
+        "count" : "1"
+      }, {
+        "item" : "600",
+        "count" : "1"
+      }, {
+        "item" : "535",
+        "count" : "1"
+      }, {
+        "item" : "9766",
+        "count" : "1"
+      }, {
+        "item" : "283",
+        "count" : "1"
+      }, {
+        "item" : "1874",
+        "count" : "1"
+      }, {
+        "item" : "5095",
+        "count" : "1"
+      }, {
+        "item" : "12687",
+        "count" : "1"
+      }, {
+        "item" : "5081",
+        "count" : "1"
+      }, {
+        "item" : "4358",
+        "count" : "1"
+      } ],
+      "smallest" : "5",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426340,
+    "name" : "Sept14_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_14_md",
+    "position" : 56,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306391,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "15513",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2025",
+        "count" : "2"
+      }, {
+        "item" : "415",
+        "count" : "1"
+      }, {
+        "item" : "2660",
+        "count" : "1"
+      }, {
+        "item" : "2626",
+        "count" : "1"
+      }, {
+        "item" : "3644",
+        "count" : "1"
+      }, {
+        "item" : "4691",
+        "count" : "1"
+      }, {
+        "item" : "1863",
+        "count" : "1"
+      }, {
+        "item" : "10281",
+        "count" : "1"
+      }, {
+        "item" : "1738",
+        "count" : "1"
+      }, {
+        "item" : "2185",
+        "count" : "1"
+      }, {
+        "item" : "1922",
+        "count" : "1"
+      }, {
+        "item" : "2779",
+        "count" : "1"
+      }, {
+        "item" : "6401",
+        "count" : "1"
+      }, {
+        "item" : "1656",
+        "count" : "1"
+      }, {
+        "item" : "2366",
+        "count" : "1"
+      }, {
+        "item" : "224",
+        "count" : "1"
+      }, {
+        "item" : "1486",
+        "count" : "1"
+      }, {
+        "item" : "3491",
+        "count" : "1"
+      }, {
+        "item" : "2312",
+        "count" : "1"
+      }, {
+        "item" : "6292",
+        "count" : "1"
+      } ],
+      "smallest" : "6",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426341,
+    "name" : "May15_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_15_am",
+    "position" : 57,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306392,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "17191",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2165",
+        "count" : "2"
+      }, {
+        "item" : "824",
+        "count" : "2"
+      }, {
+        "item" : "1215",
+        "count" : "2"
+      }, {
+        "item" : "133",
+        "count" : "2"
+      }, {
+        "item" : "487",
+        "count" : "2"
+      }, {
+        "item" : "496",
+        "count" : "1"
+      }, {
+        "item" : "453",
+        "count" : "1"
+      }, {
+        "item" : "19",
+        "count" : "1"
+      }, {
+        "item" : "189",
+        "count" : "1"
+      }, {
+        "item" : "331",
+        "count" : "1"
+      }, {
+        "item" : "1653",
+        "count" : "1"
+      }, {
+        "item" : "1473",
+        "count" : "1"
+      }, {
+        "item" : "1512",
+        "count" : "1"
+      }, {
+        "item" : "760",
+        "count" : "1"
+      }, {
+        "item" : "1297",
+        "count" : "1"
+      }, {
+        "item" : "142",
+        "count" : "1"
+      }, {
+        "item" : "149",
+        "count" : "1"
+      }, {
+        "item" : "1099",
+        "count" : "1"
+      }, {
+        "item" : "1404",
+        "count" : "1"
+      }, {
+        "item" : "3675",
+        "count" : "1"
+      } ],
+      "smallest" : "3",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426342,
+    "name" : "May15_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_15_pm",
+    "position" : 58,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306393,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "35990",
+      "null" : "0",
+      "top" : [ {
+        "item" : "14752",
+        "count" : "1"
+      }, {
+        "item" : "11648",
+        "count" : "1"
+      }, {
+        "item" : "4932",
+        "count" : "1"
+      }, {
+        "item" : "8111",
+        "count" : "1"
+      }, {
+        "item" : "5964",
+        "count" : "1"
+      }, {
+        "item" : "3710",
+        "count" : "1"
+      }, {
+        "item" : "13958",
+        "count" : "1"
+      }, {
+        "item" : "1446",
+        "count" : "1"
+      }, {
+        "item" : "1099",
+        "count" : "1"
+      }, {
+        "item" : "4980",
+        "count" : "1"
+      }, {
+        "item" : "3920",
+        "count" : "1"
+      }, {
+        "item" : "6314",
+        "count" : "1"
+      }, {
+        "item" : "3321",
+        "count" : "1"
+      }, {
+        "item" : "6222",
+        "count" : "1"
+      }, {
+        "item" : "2415",
+        "count" : "1"
+      }, {
+        "item" : "8996",
+        "count" : "1"
+      }, {
+        "item" : "8479",
+        "count" : "1"
+      }, {
+        "item" : "3042",
+        "count" : "1"
+      }, {
+        "item" : "10220",
+        "count" : "1"
+      }, {
+        "item" : "5436",
+        "count" : "1"
+      } ],
+      "smallest" : "2",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426343,
+    "name" : "May15_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_15_md",
+    "position" : 59,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306394,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "50827",
+      "null" : "0",
+      "top" : [ {
+        "item" : "468",
+        "count" : "2"
+      }, {
+        "item" : "618",
+        "count" : "1"
+      }, {
+        "item" : "4764",
+        "count" : "1"
+      }, {
+        "item" : "2564",
+        "count" : "1"
+      }, {
+        "item" : "12297",
+        "count" : "1"
+      }, {
+        "item" : "2511",
+        "count" : "1"
+      }, {
+        "item" : "1588",
+        "count" : "1"
+      }, {
+        "item" : "1233",
+        "count" : "1"
+      }, {
+        "item" : "1714",
+        "count" : "1"
+      }, {
+        "item" : "6721",
+        "count" : "1"
+      }, {
+        "item" : "484",
+        "count" : "1"
+      }, {
+        "item" : "993",
+        "count" : "1"
+      }, {
+        "item" : "7496",
+        "count" : "1"
+      }, {
+        "item" : "1745",
+        "count" : "1"
+      }, {
+        "item" : "411",
+        "count" : "1"
+      }, {
+        "item" : "2517",
+        "count" : "1"
+      }, {
+        "item" : "3081",
+        "count" : "1"
+      }, {
+        "item" : "3812",
+        "count" : "1"
+      }, {
+        "item" : "1053",
+        "count" : "1"
+      }, {
+        "item" : "50827",
+        "count" : "1"
+      } ],
+      "smallest" : "7",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426344,
+    "name" : "Sept15_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_15_am",
+    "position" : 60,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306395,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "10197",
+      "null" : "0",
+      "top" : [ {
+        "item" : "167",
+        "count" : "2"
+      }, {
+        "item" : "2070",
+        "count" : "1"
+      }, {
+        "item" : "2387",
+        "count" : "1"
+      }, {
+        "item" : "1046",
+        "count" : "1"
+      }, {
+        "item" : "1020",
+        "count" : "1"
+      }, {
+        "item" : "999",
+        "count" : "1"
+      }, {
+        "item" : "117",
+        "count" : "1"
+      }, {
+        "item" : "3950",
+        "count" : "1"
+      }, {
+        "item" : "269",
+        "count" : "1"
+      }, {
+        "item" : "1417",
+        "count" : "1"
+      }, {
+        "item" : "17",
+        "count" : "1"
+      }, {
+        "item" : "982",
+        "count" : "1"
+      }, {
+        "item" : "5050",
+        "count" : "1"
+      }, {
+        "item" : "2075",
+        "count" : "1"
+      }, {
+        "item" : "8",
+        "count" : "1"
+      }, {
+        "item" : "430",
+        "count" : "1"
+      }, {
+        "item" : "84",
+        "count" : "1"
+      }, {
+        "item" : "3553",
+        "count" : "1"
+      }, {
+        "item" : "1193",
+        "count" : "1"
+      }, {
+        "item" : "3047",
+        "count" : "1"
+      } ],
+      "smallest" : "8",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426345,
+    "name" : "Sept15_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_15_pm",
+    "position" : 61,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306396,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "25687",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1948",
+        "count" : "2"
+      }, {
+        "item" : "1659",
+        "count" : "1"
+      }, {
+        "item" : "13370",
+        "count" : "1"
+      }, {
+        "item" : "3296",
+        "count" : "1"
+      }, {
+        "item" : "1506",
+        "count" : "1"
+      }, {
+        "item" : "2657",
+        "count" : "1"
+      }, {
+        "item" : "4284",
+        "count" : "1"
+      }, {
+        "item" : "7",
+        "count" : "1"
+      }, {
+        "item" : "13880",
+        "count" : "1"
+      }, {
+        "item" : "13831",
+        "count" : "1"
+      }, {
+        "item" : "4809",
+        "count" : "1"
+      }, {
+        "item" : "500",
+        "count" : "1"
+      }, {
+        "item" : "812",
+        "count" : "1"
+      }, {
+        "item" : "338",
+        "count" : "1"
+      }, {
+        "item" : "11969",
+        "count" : "1"
+      }, {
+        "item" : "18125",
+        "count" : "1"
+      }, {
+        "item" : "8924",
+        "count" : "1"
+      }, {
+        "item" : "1081",
+        "count" : "1"
+      }, {
+        "item" : "5846",
+        "count" : "1"
+      }, {
+        "item" : "3356",
+        "count" : "1"
+      } ],
+      "smallest" : "7",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426346,
+    "name" : "Sept15_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_15_md",
+    "position" : 62,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306397,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "11670",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1574",
+        "count" : "2"
+      }, {
+        "item" : "1973",
+        "count" : "2"
+      }, {
+        "item" : "1568",
+        "count" : "1"
+      }, {
+        "item" : "6103",
+        "count" : "1"
+      }, {
+        "item" : "590",
+        "count" : "1"
+      }, {
+        "item" : "5588",
+        "count" : "1"
+      }, {
+        "item" : "1162",
+        "count" : "1"
+      }, {
+        "item" : "217",
+        "count" : "1"
+      }, {
+        "item" : "3257",
+        "count" : "1"
+      }, {
+        "item" : "1032",
+        "count" : "1"
+      }, {
+        "item" : "2473",
+        "count" : "1"
+      }, {
+        "item" : "3333",
+        "count" : "1"
+      }, {
+        "item" : "1805",
+        "count" : "1"
+      }, {
+        "item" : "5431",
+        "count" : "1"
+      }, {
+        "item" : "162",
+        "count" : "1"
+      }, {
+        "item" : "5608",
+        "count" : "1"
+      }, {
+        "item" : "2182",
+        "count" : "1"
+      }, {
+        "item" : "2690",
+        "count" : "1"
+      }, {
+        "item" : "1193",
+        "count" : "1"
+      }, {
+        "item" : "643",
+        "count" : "1"
+      } ],
+      "smallest" : "3",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426347,
+    "name" : "May16_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_16_am",
+    "position" : 63,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306398,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "13835",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1280",
+        "count" : "2"
+      }, {
+        "item" : "238",
+        "count" : "2"
+      }, {
+        "item" : "1258",
+        "count" : "2"
+      }, {
+        "item" : "742",
+        "count" : "1"
+      }, {
+        "item" : "579",
+        "count" : "1"
+      }, {
+        "item" : "10",
+        "count" : "1"
+      }, {
+        "item" : "205",
+        "count" : "1"
+      }, {
+        "item" : "1718",
+        "count" : "1"
+      }, {
+        "item" : "129",
+        "count" : "1"
+      }, {
+        "item" : "5117",
+        "count" : "1"
+      }, {
+        "item" : "526",
+        "count" : "1"
+      }, {
+        "item" : "270",
+        "count" : "1"
+      }, {
+        "item" : "4446",
+        "count" : "1"
+      }, {
+        "item" : "185",
+        "count" : "1"
+      }, {
+        "item" : "2150",
+        "count" : "1"
+      }, {
+        "item" : "2789",
+        "count" : "1"
+      }, {
+        "item" : "1283",
+        "count" : "1"
+      }, {
+        "item" : "2003",
+        "count" : "1"
+      }, {
+        "item" : "13311",
+        "count" : "1"
+      }, {
+        "item" : "161",
+        "count" : "1"
+      } ],
+      "smallest" : "5",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426348,
+    "name" : "May16_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_16_pm",
+    "position" : 64,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306399,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "33102",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4594",
+        "count" : "1"
+      }, {
+        "item" : "693",
+        "count" : "1"
+      }, {
+        "item" : "14",
+        "count" : "1"
+      }, {
+        "item" : "12573",
+        "count" : "1"
+      }, {
+        "item" : "12301",
+        "count" : "1"
+      }, {
+        "item" : "9604",
+        "count" : "1"
+      }, {
+        "item" : "4721",
+        "count" : "1"
+      }, {
+        "item" : "244",
+        "count" : "1"
+      }, {
+        "item" : "816",
+        "count" : "1"
+      }, {
+        "item" : "2944",
+        "count" : "1"
+      }, {
+        "item" : "28056",
+        "count" : "1"
+      }, {
+        "item" : "7476",
+        "count" : "1"
+      }, {
+        "item" : "1145",
+        "count" : "1"
+      }, {
+        "item" : "391",
+        "count" : "1"
+      }, {
+        "item" : "18",
+        "count" : "1"
+      }, {
+        "item" : "1660",
+        "count" : "1"
+      }, {
+        "item" : "1881",
+        "count" : "1"
+      }, {
+        "item" : "3171",
+        "count" : "1"
+      }, {
+        "item" : "5257",
+        "count" : "1"
+      }, {
+        "item" : "2763",
+        "count" : "1"
+      } ],
+      "smallest" : "14",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426349,
+    "name" : "May16_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_16_md",
+    "position" : 65,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306400,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "16847",
+      "null" : "0",
+      "top" : [ {
+        "item" : "385",
+        "count" : "2"
+      }, {
+        "item" : "5791",
+        "count" : "1"
+      }, {
+        "item" : "296",
+        "count" : "1"
+      }, {
+        "item" : "4583",
+        "count" : "1"
+      }, {
+        "item" : "16847",
+        "count" : "1"
+      }, {
+        "item" : "9351",
+        "count" : "1"
+      }, {
+        "item" : "8",
+        "count" : "1"
+      }, {
+        "item" : "3407",
+        "count" : "1"
+      }, {
+        "item" : "1939",
+        "count" : "1"
+      }, {
+        "item" : "2763",
+        "count" : "1"
+      }, {
+        "item" : "5836",
+        "count" : "1"
+      }, {
+        "item" : "3438",
+        "count" : "1"
+      }, {
+        "item" : "4003",
+        "count" : "1"
+      }, {
+        "item" : "1297",
+        "count" : "1"
+      }, {
+        "item" : "2772",
+        "count" : "1"
+      }, {
+        "item" : "5174",
+        "count" : "1"
+      }, {
+        "item" : "5038",
+        "count" : "1"
+      }, {
+        "item" : "2556",
+        "count" : "1"
+      }, {
+        "item" : "2078",
+        "count" : "1"
+      }, {
+        "item" : "1694",
+        "count" : "1"
+      } ],
+      "smallest" : "8",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426350,
+    "name" : "Sept16_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_16_am",
+    "position" : 66,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306401,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "11099",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4837",
+        "count" : "1"
+      }, {
+        "item" : "4625",
+        "count" : "1"
+      }, {
+        "item" : "4039",
+        "count" : "1"
+      }, {
+        "item" : "1642",
+        "count" : "1"
+      }, {
+        "item" : "3410",
+        "count" : "1"
+      }, {
+        "item" : "1689",
+        "count" : "1"
+      }, {
+        "item" : "982",
+        "count" : "1"
+      }, {
+        "item" : "1326",
+        "count" : "1"
+      }, {
+        "item" : "2344",
+        "count" : "1"
+      }, {
+        "item" : "1161",
+        "count" : "1"
+      }, {
+        "item" : "1422",
+        "count" : "1"
+      }, {
+        "item" : "959",
+        "count" : "1"
+      }, {
+        "item" : "4360",
+        "count" : "1"
+      }, {
+        "item" : "561",
+        "count" : "1"
+      }, {
+        "item" : "2109",
+        "count" : "1"
+      }, {
+        "item" : "2017",
+        "count" : "1"
+      }, {
+        "item" : "3791",
+        "count" : "1"
+      }, {
+        "item" : "1037",
+        "count" : "1"
+      }, {
+        "item" : "723",
+        "count" : "1"
+      }, {
+        "item" : "2077",
+        "count" : "1"
+      } ],
+      "smallest" : "5",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426351,
+    "name" : "Sept16_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_16_pm",
+    "position" : 67,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306402,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "38885",
+      "null" : "0",
+      "top" : [ {
+        "item" : "13021",
+        "count" : "1"
+      }, {
+        "item" : "3695",
+        "count" : "1"
+      }, {
+        "item" : "4503",
+        "count" : "1"
+      }, {
+        "item" : "4115",
+        "count" : "1"
+      }, {
+        "item" : "15559",
+        "count" : "1"
+      }, {
+        "item" : "553",
+        "count" : "1"
+      }, {
+        "item" : "5893",
+        "count" : "1"
+      }, {
+        "item" : "4646",
+        "count" : "1"
+      }, {
+        "item" : "2852",
+        "count" : "1"
+      }, {
+        "item" : "3818",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      }, {
+        "item" : "9498",
+        "count" : "1"
+      }, {
+        "item" : "2089",
+        "count" : "1"
+      }, {
+        "item" : "14583",
+        "count" : "1"
+      }, {
+        "item" : "4403",
+        "count" : "1"
+      }, {
+        "item" : "2747",
+        "count" : "1"
+      }, {
+        "item" : "2482",
+        "count" : "1"
+      }, {
+        "item" : "348",
+        "count" : "1"
+      }, {
+        "item" : "11927",
+        "count" : "1"
+      }, {
+        "item" : "260",
+        "count" : "1"
+      } ],
+      "smallest" : "3",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426352,
+    "name" : "Sept16_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_16_md",
+    "position" : 68,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306403,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "15233",
+      "null" : "0",
+      "top" : [ {
+        "item" : "8070",
+        "count" : "1"
+      }, {
+        "item" : "346",
+        "count" : "1"
+      }, {
+        "item" : "731",
+        "count" : "1"
+      }, {
+        "item" : "1056",
+        "count" : "1"
+      }, {
+        "item" : "1470",
+        "count" : "1"
+      }, {
+        "item" : "467",
+        "count" : "1"
+      }, {
+        "item" : "7043",
+        "count" : "1"
+      }, {
+        "item" : "403",
+        "count" : "1"
+      }, {
+        "item" : "2751",
+        "count" : "1"
+      }, {
+        "item" : "5014",
+        "count" : "1"
+      }, {
+        "item" : "594",
+        "count" : "1"
+      }, {
+        "item" : "2548",
+        "count" : "1"
+      }, {
+        "item" : "1811",
+        "count" : "1"
+      }, {
+        "item" : "14273",
+        "count" : "1"
+      }, {
+        "item" : "2642",
+        "count" : "1"
+      }, {
+        "item" : "1687",
+        "count" : "1"
+      }, {
+        "item" : "4892",
+        "count" : "1"
+      }, {
+        "item" : "401",
+        "count" : "1"
+      }, {
+        "item" : "1487",
+        "count" : "1"
+      }, {
+        "item" : "320",
+        "count" : "1"
+      } ],
+      "smallest" : "9",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426353,
+    "name" : "May17_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_17_am",
+    "position" : 69,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306404,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "11874",
+      "null" : "0",
+      "top" : [ {
+        "item" : "553",
+        "count" : "1"
+      }, {
+        "item" : "825",
+        "count" : "1"
+      }, {
+        "item" : "117",
+        "count" : "1"
+      }, {
+        "item" : "903",
+        "count" : "1"
+      }, {
+        "item" : "2347",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      }, {
+        "item" : "2125",
+        "count" : "1"
+      }, {
+        "item" : "74",
+        "count" : "1"
+      }, {
+        "item" : "7",
+        "count" : "1"
+      }, {
+        "item" : "331",
+        "count" : "1"
+      }, {
+        "item" : "4902",
+        "count" : "1"
+      }, {
+        "item" : "2261",
+        "count" : "1"
+      }, {
+        "item" : "1647",
+        "count" : "1"
+      }, {
+        "item" : "11874",
+        "count" : "1"
+      }, {
+        "item" : "244",
+        "count" : "1"
+      }, {
+        "item" : "169",
+        "count" : "1"
+      }, {
+        "item" : "1769",
+        "count" : "1"
+      }, {
+        "item" : "790",
+        "count" : "1"
+      }, {
+        "item" : "1034",
+        "count" : "1"
+      }, {
+        "item" : "9241",
+        "count" : "1"
+      } ],
+      "smallest" : "3",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426354,
+    "name" : "May17_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_17_pm",
+    "position" : 70,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306405,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "25824",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2820",
+        "count" : "2"
+      }, {
+        "item" : "2523",
+        "count" : "1"
+      }, {
+        "item" : "1616",
+        "count" : "1"
+      }, {
+        "item" : "2253",
+        "count" : "1"
+      }, {
+        "item" : "9045",
+        "count" : "1"
+      }, {
+        "item" : "17620",
+        "count" : "1"
+      }, {
+        "item" : "452",
+        "count" : "1"
+      }, {
+        "item" : "13654",
+        "count" : "1"
+      }, {
+        "item" : "2787",
+        "count" : "1"
+      }, {
+        "item" : "1719",
+        "count" : "1"
+      }, {
+        "item" : "3888",
+        "count" : "1"
+      }, {
+        "item" : "24343",
+        "count" : "1"
+      }, {
+        "item" : "2708",
+        "count" : "1"
+      }, {
+        "item" : "497",
+        "count" : "1"
+      }, {
+        "item" : "12107",
+        "count" : "1"
+      }, {
+        "item" : "8534",
+        "count" : "1"
+      }, {
+        "item" : "25824",
+        "count" : "1"
+      }, {
+        "item" : "4475",
+        "count" : "1"
+      }, {
+        "item" : "2459",
+        "count" : "1"
+      }, {
+        "item" : "979",
+        "count" : "1"
+      } ],
+      "smallest" : "5",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426355,
+    "name" : "May17_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_17_md",
+    "position" : 71,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306406,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "14224",
+      "null" : "0",
+      "top" : [ {
+        "item" : "5",
+        "count" : "2"
+      }, {
+        "item" : "4713",
+        "count" : "2"
+      }, {
+        "item" : "3672",
+        "count" : "1"
+      }, {
+        "item" : "8675",
+        "count" : "1"
+      }, {
+        "item" : "2244",
+        "count" : "1"
+      }, {
+        "item" : "3721",
+        "count" : "1"
+      }, {
+        "item" : "14224",
+        "count" : "1"
+      }, {
+        "item" : "1025",
+        "count" : "1"
+      }, {
+        "item" : "5155",
+        "count" : "1"
+      }, {
+        "item" : "1387",
+        "count" : "1"
+      }, {
+        "item" : "185",
+        "count" : "1"
+      }, {
+        "item" : "2926",
+        "count" : "1"
+      }, {
+        "item" : "2185",
+        "count" : "1"
+      }, {
+        "item" : "5446",
+        "count" : "1"
+      }, {
+        "item" : "465",
+        "count" : "1"
+      }, {
+        "item" : "415",
+        "count" : "1"
+      }, {
+        "item" : "965",
+        "count" : "1"
+      }, {
+        "item" : "6499",
+        "count" : "1"
+      }, {
+        "item" : "2665",
+        "count" : "1"
+      }, {
+        "item" : "144",
+        "count" : "1"
+      } ],
+      "smallest" : "5",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426356,
+    "name" : "Sept17_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_17_am",
+    "position" : 72,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306407,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "14215",
+      "null" : "0",
+      "top" : [ {
+        "item" : "905",
+        "count" : "1"
+      }, {
+        "item" : "1519",
+        "count" : "1"
+      }, {
+        "item" : "1086",
+        "count" : "1"
+      }, {
+        "item" : "521",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      }, {
+        "item" : "371",
+        "count" : "1"
+      }, {
+        "item" : "882",
+        "count" : "1"
+      }, {
+        "item" : "2003",
+        "count" : "1"
+      }, {
+        "item" : "1004",
+        "count" : "1"
+      }, {
+        "item" : "7553",
+        "count" : "1"
+      }, {
+        "item" : "1165",
+        "count" : "1"
+      }, {
+        "item" : "169",
+        "count" : "1"
+      }, {
+        "item" : "2128",
+        "count" : "1"
+      }, {
+        "item" : "283",
+        "count" : "1"
+      }, {
+        "item" : "2776",
+        "count" : "1"
+      }, {
+        "item" : "5792",
+        "count" : "1"
+      }, {
+        "item" : "2389",
+        "count" : "1"
+      }, {
+        "item" : "5100",
+        "count" : "1"
+      }, {
+        "item" : "1495",
+        "count" : "1"
+      }, {
+        "item" : "1979",
+        "count" : "1"
+      } ],
+      "smallest" : "3",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426357,
+    "name" : "Sept17_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_17_pm",
+    "position" : 73,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306408,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "25734",
+      "null" : "0",
+      "top" : [ {
+        "item" : "589",
+        "count" : "2"
+      }, {
+        "item" : "7883",
+        "count" : "1"
+      }, {
+        "item" : "9186",
+        "count" : "1"
+      }, {
+        "item" : "4015",
+        "count" : "1"
+      }, {
+        "item" : "368",
+        "count" : "1"
+      }, {
+        "item" : "2445",
+        "count" : "1"
+      }, {
+        "item" : "519",
+        "count" : "1"
+      }, {
+        "item" : "349",
+        "count" : "1"
+      }, {
+        "item" : "25734",
+        "count" : "1"
+      }, {
+        "item" : "9340",
+        "count" : "1"
+      }, {
+        "item" : "12440",
+        "count" : "1"
+      }, {
+        "item" : "19551",
+        "count" : "1"
+      }, {
+        "item" : "3996",
+        "count" : "1"
+      }, {
+        "item" : "3305",
+        "count" : "1"
+      }, {
+        "item" : "399",
+        "count" : "1"
+      }, {
+        "item" : "717",
+        "count" : "1"
+      }, {
+        "item" : "999",
+        "count" : "1"
+      }, {
+        "item" : "3046",
+        "count" : "1"
+      }, {
+        "item" : "9926",
+        "count" : "1"
+      }, {
+        "item" : "5004",
+        "count" : "1"
+      } ],
+      "smallest" : "4",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426358,
+    "name" : "Sept17_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_17_md",
+    "position" : 74,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306409,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "17262",
+      "null" : "0",
+      "top" : [ {
+        "item" : "6921",
+        "count" : "1"
+      }, {
+        "item" : "3818",
+        "count" : "1"
+      }, {
+        "item" : "1614",
+        "count" : "1"
+      }, {
+        "item" : "939",
+        "count" : "1"
+      }, {
+        "item" : "2670",
+        "count" : "1"
+      }, {
+        "item" : "2450",
+        "count" : "1"
+      }, {
+        "item" : "7076",
+        "count" : "1"
+      }, {
+        "item" : "2107",
+        "count" : "1"
+      }, {
+        "item" : "4890",
+        "count" : "1"
+      }, {
+        "item" : "290",
+        "count" : "1"
+      }, {
+        "item" : "7032",
+        "count" : "1"
+      }, {
+        "item" : "2387",
+        "count" : "1"
+      }, {
+        "item" : "1679",
+        "count" : "1"
+      }, {
+        "item" : "3428",
+        "count" : "1"
+      }, {
+        "item" : "3638",
+        "count" : "1"
+      }, {
+        "item" : "1380",
+        "count" : "1"
+      }, {
+        "item" : "416",
+        "count" : "1"
+      }, {
+        "item" : "5078",
+        "count" : "1"
+      }, {
+        "item" : "3671",
+        "count" : "1"
+      }, {
+        "item" : "3302",
+        "count" : "1"
+      } ],
+      "smallest" : "5",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426359,
+    "name" : "May18_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_18_am",
+    "position" : 75,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306410,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "13511",
+      "null" : "0",
+      "top" : [ {
+        "item" : "278",
+        "count" : "2"
+      }, {
+        "item" : "1169",
+        "count" : "1"
+      }, {
+        "item" : "2938",
+        "count" : "1"
+      }, {
+        "item" : "91",
+        "count" : "1"
+      }, {
+        "item" : "2209",
+        "count" : "1"
+      }, {
+        "item" : "1656",
+        "count" : "1"
+      }, {
+        "item" : "4365",
+        "count" : "1"
+      }, {
+        "item" : "700",
+        "count" : "1"
+      }, {
+        "item" : "2774",
+        "count" : "1"
+      }, {
+        "item" : "4643",
+        "count" : "1"
+      }, {
+        "item" : "1549",
+        "count" : "1"
+      }, {
+        "item" : "269",
+        "count" : "1"
+      }, {
+        "item" : "12171",
+        "count" : "1"
+      }, {
+        "item" : "1554",
+        "count" : "1"
+      }, {
+        "item" : "655",
+        "count" : "1"
+      }, {
+        "item" : "584",
+        "count" : "1"
+      }, {
+        "item" : "5786",
+        "count" : "1"
+      }, {
+        "item" : "209",
+        "count" : "1"
+      }, {
+        "item" : "1981",
+        "count" : "1"
+      }, {
+        "item" : "1016",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426360,
+    "name" : "May18_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_18_pm",
+    "position" : 76,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306411,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "31236",
+      "null" : "0",
+      "top" : [ {
+        "item" : "6603",
+        "count" : "1"
+      }, {
+        "item" : "1046",
+        "count" : "1"
+      }, {
+        "item" : "1891",
+        "count" : "1"
+      }, {
+        "item" : "14",
+        "count" : "1"
+      }, {
+        "item" : "9369",
+        "count" : "1"
+      }, {
+        "item" : "12100",
+        "count" : "1"
+      }, {
+        "item" : "2556",
+        "count" : "1"
+      }, {
+        "item" : "622",
+        "count" : "1"
+      }, {
+        "item" : "3574",
+        "count" : "1"
+      }, {
+        "item" : "1374",
+        "count" : "1"
+      }, {
+        "item" : "5073",
+        "count" : "1"
+      }, {
+        "item" : "9048",
+        "count" : "1"
+      }, {
+        "item" : "5810",
+        "count" : "1"
+      }, {
+        "item" : "19725",
+        "count" : "1"
+      }, {
+        "item" : "5059",
+        "count" : "1"
+      }, {
+        "item" : "8927",
+        "count" : "1"
+      }, {
+        "item" : "4352",
+        "count" : "1"
+      }, {
+        "item" : "5148",
+        "count" : "1"
+      }, {
+        "item" : "557",
+        "count" : "1"
+      }, {
+        "item" : "8074",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426361,
+    "name" : "May18_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_18_md",
+    "position" : 77,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306412,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "16299",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4437",
+        "count" : "2"
+      }, {
+        "item" : "6037",
+        "count" : "2"
+      }, {
+        "item" : "7393",
+        "count" : "1"
+      }, {
+        "item" : "4273",
+        "count" : "1"
+      }, {
+        "item" : "7613",
+        "count" : "1"
+      }, {
+        "item" : "1306",
+        "count" : "1"
+      }, {
+        "item" : "2020",
+        "count" : "1"
+      }, {
+        "item" : "465",
+        "count" : "1"
+      }, {
+        "item" : "326",
+        "count" : "1"
+      }, {
+        "item" : "1863",
+        "count" : "1"
+      }, {
+        "item" : "7066",
+        "count" : "1"
+      }, {
+        "item" : "7929",
+        "count" : "1"
+      }, {
+        "item" : "1738",
+        "count" : "1"
+      }, {
+        "item" : "4515",
+        "count" : "1"
+      }, {
+        "item" : "3710",
+        "count" : "1"
+      }, {
+        "item" : "214",
+        "count" : "1"
+      }, {
+        "item" : "2156",
+        "count" : "1"
+      }, {
+        "item" : "1019",
+        "count" : "1"
+      }, {
+        "item" : "2657",
+        "count" : "1"
+      }, {
+        "item" : "481",
+        "count" : "1"
+      } ],
+      "smallest" : "2",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426362,
+    "name" : "Sept18_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_18_am",
+    "position" : 78,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306413,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "14126",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3887",
+        "count" : "2"
+      }, {
+        "item" : "1009",
+        "count" : "2"
+      }, {
+        "item" : "167",
+        "count" : "2"
+      }, {
+        "item" : "1341",
+        "count" : "1"
+      }, {
+        "item" : "80",
+        "count" : "1"
+      }, {
+        "item" : "2230",
+        "count" : "1"
+      }, {
+        "item" : "151",
+        "count" : "1"
+      }, {
+        "item" : "487",
+        "count" : "1"
+      }, {
+        "item" : "1944",
+        "count" : "1"
+      }, {
+        "item" : "162",
+        "count" : "1"
+      }, {
+        "item" : "9358",
+        "count" : "1"
+      }, {
+        "item" : "2940",
+        "count" : "1"
+      }, {
+        "item" : "326",
+        "count" : "1"
+      }, {
+        "item" : "2520",
+        "count" : "1"
+      }, {
+        "item" : "661",
+        "count" : "1"
+      }, {
+        "item" : "433",
+        "count" : "1"
+      }, {
+        "item" : "438",
+        "count" : "1"
+      }, {
+        "item" : "124",
+        "count" : "1"
+      }, {
+        "item" : "1708",
+        "count" : "1"
+      }, {
+        "item" : "4560",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426363,
+    "name" : "Sept18_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_18_pm",
+    "position" : 79,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306414,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "31953",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1986",
+        "count" : "1"
+      }, {
+        "item" : "493",
+        "count" : "1"
+      }, {
+        "item" : "9087",
+        "count" : "1"
+      }, {
+        "item" : "7664",
+        "count" : "1"
+      }, {
+        "item" : "5364",
+        "count" : "1"
+      }, {
+        "item" : "4906",
+        "count" : "1"
+      }, {
+        "item" : "1086",
+        "count" : "1"
+      }, {
+        "item" : "1922",
+        "count" : "1"
+      }, {
+        "item" : "496",
+        "count" : "1"
+      }, {
+        "item" : "377",
+        "count" : "1"
+      }, {
+        "item" : "2625",
+        "count" : "1"
+      }, {
+        "item" : "4631",
+        "count" : "1"
+      }, {
+        "item" : "3995",
+        "count" : "1"
+      }, {
+        "item" : "4723",
+        "count" : "1"
+      }, {
+        "item" : "14682",
+        "count" : "1"
+      }, {
+        "item" : "4011",
+        "count" : "1"
+      }, {
+        "item" : "966",
+        "count" : "1"
+      }, {
+        "item" : "5788",
+        "count" : "1"
+      }, {
+        "item" : "2468",
+        "count" : "1"
+      }, {
+        "item" : "2098",
+        "count" : "1"
+      } ],
+      "smallest" : "2",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426364,
+    "name" : "Sept18_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "sept_18_md",
+    "position" : 80,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306415,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "16022",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2967",
+        "count" : "2"
+      }, {
+        "item" : "9241",
+        "count" : "1"
+      }, {
+        "item" : "2738",
+        "count" : "1"
+      }, {
+        "item" : "1604",
+        "count" : "1"
+      }, {
+        "item" : "7303",
+        "count" : "1"
+      }, {
+        "item" : "3261",
+        "count" : "1"
+      }, {
+        "item" : "3578",
+        "count" : "1"
+      }, {
+        "item" : "5444",
+        "count" : "1"
+      }, {
+        "item" : "3236",
+        "count" : "1"
+      }, {
+        "item" : "4762",
+        "count" : "1"
+      }, {
+        "item" : "1724",
+        "count" : "1"
+      }, {
+        "item" : "2232",
+        "count" : "1"
+      }, {
+        "item" : "626",
+        "count" : "1"
+      }, {
+        "item" : "1473",
+        "count" : "1"
+      }, {
+        "item" : "3299",
+        "count" : "1"
+      }, {
+        "item" : "1512",
+        "count" : "1"
+      }, {
+        "item" : "4297",
+        "count" : "1"
+      }, {
+        "item" : "1999",
+        "count" : "1"
+      }, {
+        "item" : "1232",
+        "count" : "1"
+      }, {
+        "item" : "2302",
+        "count" : "1"
+      } ],
+      "smallest" : "2",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426365,
+    "name" : "May19_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_19_am",
+    "position" : 81,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306416,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "12694",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "64"
+      }, {
+        "item" : "1704",
+        "count" : "2"
+      }, {
+        "item" : "3712",
+        "count" : "1"
+      }, {
+        "item" : "652",
+        "count" : "1"
+      }, {
+        "item" : "2527",
+        "count" : "1"
+      }, {
+        "item" : "681",
+        "count" : "1"
+      }, {
+        "item" : "1696",
+        "count" : "1"
+      }, {
+        "item" : "383",
+        "count" : "1"
+      }, {
+        "item" : "849",
+        "count" : "1"
+      }, {
+        "item" : "1514",
+        "count" : "1"
+      }, {
+        "item" : "3892",
+        "count" : "1"
+      }, {
+        "item" : "1305",
+        "count" : "1"
+      }, {
+        "item" : "2016",
+        "count" : "1"
+      }, {
+        "item" : "5049",
+        "count" : "1"
+      }, {
+        "item" : "3212",
+        "count" : "1"
+      }, {
+        "item" : "1262",
+        "count" : "1"
+      }, {
+        "item" : "4483",
+        "count" : "1"
+      }, {
+        "item" : "1358",
+        "count" : "1"
+      }, {
+        "item" : "1710",
+        "count" : "1"
+      }, {
+        "item" : "2168",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426366,
+    "name" : "May19_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_19_pm",
+    "position" : 82,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306417,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "28606",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "64"
+      }, {
+        "item" : "4692",
+        "count" : "2"
+      }, {
+        "item" : "5007",
+        "count" : "1"
+      }, {
+        "item" : "2520",
+        "count" : "1"
+      }, {
+        "item" : "8882",
+        "count" : "1"
+      }, {
+        "item" : "4767",
+        "count" : "1"
+      }, {
+        "item" : "8740",
+        "count" : "1"
+      }, {
+        "item" : "7632",
+        "count" : "1"
+      }, {
+        "item" : "4199",
+        "count" : "1"
+      }, {
+        "item" : "6108",
+        "count" : "1"
+      }, {
+        "item" : "16971",
+        "count" : "1"
+      }, {
+        "item" : "4347",
+        "count" : "1"
+      }, {
+        "item" : "11765",
+        "count" : "1"
+      }, {
+        "item" : "6864",
+        "count" : "1"
+      }, {
+        "item" : "9823",
+        "count" : "1"
+      }, {
+        "item" : "2047",
+        "count" : "1"
+      }, {
+        "item" : "15193",
+        "count" : "1"
+      }, {
+        "item" : "5886",
+        "count" : "1"
+      }, {
+        "item" : "3071",
+        "count" : "1"
+      }, {
+        "item" : "1402",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426367,
+    "name" : "May19_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_19_md",
+    "position" : 83,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306418,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "11541",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "64"
+      }, {
+        "item" : "4176",
+        "count" : "1"
+      }, {
+        "item" : "4510",
+        "count" : "1"
+      }, {
+        "item" : "5662",
+        "count" : "1"
+      }, {
+        "item" : "11541",
+        "count" : "1"
+      }, {
+        "item" : "3023",
+        "count" : "1"
+      }, {
+        "item" : "3111",
+        "count" : "1"
+      }, {
+        "item" : "3991",
+        "count" : "1"
+      }, {
+        "item" : "2744",
+        "count" : "1"
+      }, {
+        "item" : "5491",
+        "count" : "1"
+      }, {
+        "item" : "4932",
+        "count" : "1"
+      }, {
+        "item" : "1765",
+        "count" : "1"
+      }, {
+        "item" : "1151",
+        "count" : "1"
+      }, {
+        "item" : "3569",
+        "count" : "1"
+      }, {
+        "item" : "1576",
+        "count" : "1"
+      }, {
+        "item" : "5323",
+        "count" : "1"
+      }, {
+        "item" : "3351",
+        "count" : "1"
+      }, {
+        "item" : "5437",
+        "count" : "1"
+      }, {
+        "item" : "1125",
+        "count" : "1"
+      }, {
+        "item" : "4361",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426368,
+    "name" : "Oct20_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "oct_20_am",
+    "position" : 84,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306419,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "3142",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "19"
+      }, {
+        "item" : "549",
+        "count" : "2"
+      }, {
+        "item" : "395",
+        "count" : "2"
+      }, {
+        "item" : "244",
+        "count" : "2"
+      }, {
+        "item" : "589",
+        "count" : "2"
+      }, {
+        "item" : "2625",
+        "count" : "1"
+      }, {
+        "item" : "318",
+        "count" : "1"
+      }, {
+        "item" : "55",
+        "count" : "1"
+      }, {
+        "item" : "533",
+        "count" : "1"
+      }, {
+        "item" : "486",
+        "count" : "1"
+      }, {
+        "item" : "196",
+        "count" : "1"
+      }, {
+        "item" : "237",
+        "count" : "1"
+      }, {
+        "item" : "1169",
+        "count" : "1"
+      }, {
+        "item" : "1150",
+        "count" : "1"
+      }, {
+        "item" : "733",
+        "count" : "1"
+      }, {
+        "item" : "1284",
+        "count" : "1"
+      }, {
+        "item" : "1211",
+        "count" : "1"
+      }, {
+        "item" : "772",
+        "count" : "1"
+      }, {
+        "item" : "468",
+        "count" : "1"
+      }, {
+        "item" : "1085",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426369,
+    "name" : "Oct20_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "oct_20_pm",
+    "position" : 85,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306420,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "9956",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "20"
+      }, {
+        "item" : "2576",
+        "count" : "2"
+      }, {
+        "item" : "1472",
+        "count" : "1"
+      }, {
+        "item" : "4167",
+        "count" : "1"
+      }, {
+        "item" : "1516",
+        "count" : "1"
+      }, {
+        "item" : "1835",
+        "count" : "1"
+      }, {
+        "item" : "4504",
+        "count" : "1"
+      }, {
+        "item" : "1201",
+        "count" : "1"
+      }, {
+        "item" : "2063",
+        "count" : "1"
+      }, {
+        "item" : "116",
+        "count" : "1"
+      }, {
+        "item" : "4210",
+        "count" : "1"
+      }, {
+        "item" : "2329",
+        "count" : "1"
+      }, {
+        "item" : "384",
+        "count" : "1"
+      }, {
+        "item" : "1150",
+        "count" : "1"
+      }, {
+        "item" : "2105",
+        "count" : "1"
+      }, {
+        "item" : "3702",
+        "count" : "1"
+      }, {
+        "item" : "651",
+        "count" : "1"
+      }, {
+        "item" : "338",
+        "count" : "1"
+      }, {
+        "item" : "3688",
+        "count" : "1"
+      }, {
+        "item" : "1631",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426370,
+    "name" : "Oct20_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "oct_20_md",
+    "position" : 86,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306421,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "5287",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "24"
+      }, {
+        "item" : "1252",
+        "count" : "2"
+      }, {
+        "item" : "1415",
+        "count" : "1"
+      }, {
+        "item" : "2519",
+        "count" : "1"
+      }, {
+        "item" : "1659",
+        "count" : "1"
+      }, {
+        "item" : "1888",
+        "count" : "1"
+      }, {
+        "item" : "1099",
+        "count" : "1"
+      }, {
+        "item" : "264",
+        "count" : "1"
+      }, {
+        "item" : "1185",
+        "count" : "1"
+      }, {
+        "item" : "196",
+        "count" : "1"
+      }, {
+        "item" : "1326",
+        "count" : "1"
+      }, {
+        "item" : "1658",
+        "count" : "1"
+      }, {
+        "item" : "868",
+        "count" : "1"
+      }, {
+        "item" : "4297",
+        "count" : "1"
+      }, {
+        "item" : "2452",
+        "count" : "1"
+      }, {
+        "item" : "5058",
+        "count" : "1"
+      }, {
+        "item" : "535",
+        "count" : "1"
+      }, {
+        "item" : "2283",
+        "count" : "1"
+      }, {
+        "item" : "1466",
+        "count" : "1"
+      }, {
+        "item" : "2412",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426371,
+    "name" : "May21_AM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_21_am",
+    "position" : 87,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306422,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "4887",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1036",
+        "count" : "2"
+      }, {
+        "item" : "188",
+        "count" : "2"
+      }, {
+        "item" : "354",
+        "count" : "2"
+      }, {
+        "item" : "1284",
+        "count" : "2"
+      }, {
+        "item" : "348",
+        "count" : "1"
+      }, {
+        "item" : "1041",
+        "count" : "1"
+      }, {
+        "item" : "252",
+        "count" : "1"
+      }, {
+        "item" : "1587",
+        "count" : "1"
+      }, {
+        "item" : "684",
+        "count" : "1"
+      }, {
+        "item" : "1647",
+        "count" : "1"
+      }, {
+        "item" : "626",
+        "count" : "1"
+      }, {
+        "item" : "237",
+        "count" : "1"
+      }, {
+        "item" : "789",
+        "count" : "1"
+      }, {
+        "item" : "39",
+        "count" : "1"
+      }, {
+        "item" : "527",
+        "count" : "1"
+      }, {
+        "item" : "95",
+        "count" : "1"
+      }, {
+        "item" : "500",
+        "count" : "1"
+      }, {
+        "item" : "1534",
+        "count" : "1"
+      }, {
+        "item" : "200",
+        "count" : "1"
+      }, {
+        "item" : "64",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426372,
+    "name" : "May21_PM",
+    "dataTypeName" : "number",
+    "fieldName" : "may_21_pm",
+    "position" : 88,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306423,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "15230",
+      "null" : "0",
+      "top" : [ {
+        "item" : "116",
+        "count" : "2"
+      }, {
+        "item" : "15230",
+        "count" : "1"
+      }, {
+        "item" : "2366",
+        "count" : "1"
+      }, {
+        "item" : "5804",
+        "count" : "1"
+      }, {
+        "item" : "497",
+        "count" : "1"
+      }, {
+        "item" : "3669",
+        "count" : "1"
+      }, {
+        "item" : "1148",
+        "count" : "1"
+      }, {
+        "item" : "2442",
+        "count" : "1"
+      }, {
+        "item" : "4481",
+        "count" : "1"
+      }, {
+        "item" : "240",
+        "count" : "1"
+      }, {
+        "item" : "10101",
+        "count" : "1"
+      }, {
+        "item" : "4396",
+        "count" : "1"
+      }, {
+        "item" : "3313",
+        "count" : "1"
+      }, {
+        "item" : "374",
+        "count" : "1"
+      }, {
+        "item" : "824",
+        "count" : "1"
+      }, {
+        "item" : "3195",
+        "count" : "1"
+      }, {
+        "item" : "3262",
+        "count" : "1"
+      }, {
+        "item" : "413",
+        "count" : "1"
+      }, {
+        "item" : "172",
+        "count" : "1"
+      }, {
+        "item" : "4472",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426373,
+    "name" : "May21_MD",
+    "dataTypeName" : "number",
+    "fieldName" : "may_21_md",
+    "position" : 89,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139306424,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "7422",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1236",
+        "count" : "2"
+      }, {
+        "item" : "2524",
+        "count" : "1"
+      }, {
+        "item" : "162",
+        "count" : "1"
+      }, {
+        "item" : "337",
+        "count" : "1"
+      }, {
+        "item" : "1215",
+        "count" : "1"
+      }, {
+        "item" : "987",
+        "count" : "1"
+      }, {
+        "item" : "1093",
+        "count" : "1"
+      }, {
+        "item" : "3445",
+        "count" : "1"
+      }, {
+        "item" : "1408",
+        "count" : "1"
+      }, {
+        "item" : "1384",
+        "count" : "1"
+      }, {
+        "item" : "2536",
+        "count" : "1"
+      }, {
+        "item" : "3433",
+        "count" : "1"
+      }, {
+        "item" : "2716",
+        "count" : "1"
+      }, {
+        "item" : "1547",
+        "count" : "1"
+      }, {
+        "item" : "1080",
+        "count" : "1"
+      }, {
+        "item" : "1040",
+        "count" : "1"
+      }, {
+        "item" : "476",
+        "count" : "1"
+      }, {
+        "item" : "1676",
+        "count" : "1"
+      }, {
+        "item" : "2195",
+        "count" : "1"
+      }, {
+        "item" : "2525",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426396,
+    "name" : "Oct21_AM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "oct_21_am",
+    "position" : 90,
+    "renderTypeName" : "number",
+    "tableColumnId" : 161133908,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "5946",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "4"
+      }, {
+        "item" : "1503",
+        "count" : "2"
+      }, {
+        "item" : "1108",
+        "count" : "2"
+      }, {
+        "item" : "1269",
+        "count" : "1"
+      }, {
+        "item" : "1966",
+        "count" : "1"
+      }, {
+        "item" : "533",
+        "count" : "1"
+      }, {
+        "item" : "348",
+        "count" : "1"
+      }, {
+        "item" : "244",
+        "count" : "1"
+      }, {
+        "item" : "464",
+        "count" : "1"
+      }, {
+        "item" : "989",
+        "count" : "1"
+      }, {
+        "item" : "77",
+        "count" : "1"
+      }, {
+        "item" : "1380",
+        "count" : "1"
+      }, {
+        "item" : "2806",
+        "count" : "1"
+      }, {
+        "item" : "2128",
+        "count" : "1"
+      }, {
+        "item" : "2471",
+        "count" : "1"
+      }, {
+        "item" : "1819",
+        "count" : "1"
+      }, {
+        "item" : "5912",
+        "count" : "1"
+      }, {
+        "item" : "1495",
+        "count" : "1"
+      }, {
+        "item" : "494",
+        "count" : "1"
+      }, {
+        "item" : "383",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426375,
+    "name" : "Oct21_PM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "oct_21_pm",
+    "position" : 91,
+    "renderTypeName" : "number",
+    "tableColumnId" : 142824966,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "16622",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "4"
+      }, {
+        "item" : "2477",
+        "count" : "2"
+      }, {
+        "item" : "3983",
+        "count" : "2"
+      }, {
+        "item" : "1882",
+        "count" : "1"
+      }, {
+        "item" : "7958",
+        "count" : "1"
+      }, {
+        "item" : "6341",
+        "count" : "1"
+      }, {
+        "item" : "1866",
+        "count" : "1"
+      }, {
+        "item" : "3506",
+        "count" : "1"
+      }, {
+        "item" : "2631",
+        "count" : "1"
+      }, {
+        "item" : "1888",
+        "count" : "1"
+      }, {
+        "item" : "5745",
+        "count" : "1"
+      }, {
+        "item" : "2356",
+        "count" : "1"
+      }, {
+        "item" : "1872",
+        "count" : "1"
+      }, {
+        "item" : "1227",
+        "count" : "1"
+      }, {
+        "item" : "3376",
+        "count" : "1"
+      }, {
+        "item" : "1724",
+        "count" : "1"
+      }, {
+        "item" : "135",
+        "count" : "1"
+      }, {
+        "item" : "1725",
+        "count" : "1"
+      }, {
+        "item" : "3427",
+        "count" : "1"
+      }, {
+        "item" : "797",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426395,
+    "name" : "Oct21_MD",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "oct_21_md",
+    "position" : 92,
+    "renderTypeName" : "number",
+    "tableColumnId" : 161133907,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "11739",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "5"
+      }, {
+        "item" : "1502",
+        "count" : "1"
+      }, {
+        "item" : "1314",
+        "count" : "1"
+      }, {
+        "item" : "3348",
+        "count" : "1"
+      }, {
+        "item" : "1393",
+        "count" : "1"
+      }, {
+        "item" : "174",
+        "count" : "1"
+      }, {
+        "item" : "1243",
+        "count" : "1"
+      }, {
+        "item" : "196",
+        "count" : "1"
+      }, {
+        "item" : "1249",
+        "count" : "1"
+      }, {
+        "item" : "1932",
+        "count" : "1"
+      }, {
+        "item" : "34",
+        "count" : "1"
+      }, {
+        "item" : "5792",
+        "count" : "1"
+      }, {
+        "item" : "11739",
+        "count" : "1"
+      }, {
+        "item" : "4380",
+        "count" : "1"
+      }, {
+        "item" : "486",
+        "count" : "1"
+      }, {
+        "item" : "517",
+        "count" : "1"
+      }, {
+        "item" : "2315",
+        "count" : "1"
+      }, {
+        "item" : "6610",
+        "count" : "1"
+      }, {
+        "item" : "4826",
+        "count" : "1"
+      }, {
+        "item" : "4210",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426377,
+    "name" : "May22_AM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "may_22_am",
+    "position" : 93,
+    "renderTypeName" : "number",
+    "tableColumnId" : 145669350,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "8508",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "119",
+        "count" : "2"
+      }, {
+        "item" : "2657",
+        "count" : "1"
+      }, {
+        "item" : "2199",
+        "count" : "1"
+      }, {
+        "item" : "1647",
+        "count" : "1"
+      }, {
+        "item" : "2967",
+        "count" : "1"
+      }, {
+        "item" : "915",
+        "count" : "1"
+      }, {
+        "item" : "1853",
+        "count" : "1"
+      }, {
+        "item" : "113",
+        "count" : "1"
+      }, {
+        "item" : "3722",
+        "count" : "1"
+      }, {
+        "item" : "391",
+        "count" : "1"
+      }, {
+        "item" : "1130",
+        "count" : "1"
+      }, {
+        "item" : "500",
+        "count" : "1"
+      }, {
+        "item" : "2143",
+        "count" : "1"
+      }, {
+        "item" : "718",
+        "count" : "1"
+      }, {
+        "item" : "761",
+        "count" : "1"
+      }, {
+        "item" : "737",
+        "count" : "1"
+      }, {
+        "item" : "3065",
+        "count" : "1"
+      }, {
+        "item" : "941",
+        "count" : "1"
+      }, {
+        "item" : "3350",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426378,
+    "name" : "May22_pM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "may_22_p_m",
+    "position" : 94,
+    "renderTypeName" : "number",
+    "tableColumnId" : 145669349,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "20529",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "7338",
+        "count" : "2"
+      }, {
+        "item" : "1320",
+        "count" : "1"
+      }, {
+        "item" : "19400",
+        "count" : "1"
+      }, {
+        "item" : "4818",
+        "count" : "1"
+      }, {
+        "item" : "4746",
+        "count" : "1"
+      }, {
+        "item" : "4291",
+        "count" : "1"
+      }, {
+        "item" : "387",
+        "count" : "1"
+      }, {
+        "item" : "6710",
+        "count" : "1"
+      }, {
+        "item" : "2789",
+        "count" : "1"
+      }, {
+        "item" : "465",
+        "count" : "1"
+      }, {
+        "item" : "5082",
+        "count" : "1"
+      }, {
+        "item" : "11794",
+        "count" : "1"
+      }, {
+        "item" : "2692",
+        "count" : "1"
+      }, {
+        "item" : "798",
+        "count" : "1"
+      }, {
+        "item" : "124",
+        "count" : "1"
+      }, {
+        "item" : "3777",
+        "count" : "1"
+      }, {
+        "item" : "7018",
+        "count" : "1"
+      }, {
+        "item" : "1874",
+        "count" : "1"
+      }, {
+        "item" : "1942",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426379,
+    "name" : "May22_MD",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "may_22_md",
+    "position" : 95,
+    "renderTypeName" : "number",
+    "tableColumnId" : 145669348,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "15618",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "1718",
+        "count" : "1"
+      }, {
+        "item" : "1446",
+        "count" : "1"
+      }, {
+        "item" : "2168",
+        "count" : "1"
+      }, {
+        "item" : "1413",
+        "count" : "1"
+      }, {
+        "item" : "415",
+        "count" : "1"
+      }, {
+        "item" : "214",
+        "count" : "1"
+      }, {
+        "item" : "15618",
+        "count" : "1"
+      }, {
+        "item" : "1986",
+        "count" : "1"
+      }, {
+        "item" : "3231",
+        "count" : "1"
+      }, {
+        "item" : "2063",
+        "count" : "1"
+      }, {
+        "item" : "687",
+        "count" : "1"
+      }, {
+        "item" : "6300",
+        "count" : "1"
+      }, {
+        "item" : "91",
+        "count" : "1"
+      }, {
+        "item" : "487",
+        "count" : "1"
+      }, {
+        "item" : "153",
+        "count" : "1"
+      }, {
+        "item" : "2502",
+        "count" : "1"
+      }, {
+        "item" : "4765",
+        "count" : "1"
+      }, {
+        "item" : "1606",
+        "count" : "1"
+      }, {
+        "item" : "1109",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426380,
+    "name" : "Oct22_AM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "oct_22_am",
+    "position" : 96,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151770078,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "8378",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "4"
+      }, {
+        "item" : "3984",
+        "count" : "1"
+      }, {
+        "item" : "2096",
+        "count" : "1"
+      }, {
+        "item" : "1415",
+        "count" : "1"
+      }, {
+        "item" : "3142",
+        "count" : "1"
+      }, {
+        "item" : "693",
+        "count" : "1"
+      }, {
+        "item" : "316",
+        "count" : "1"
+      }, {
+        "item" : "318",
+        "count" : "1"
+      }, {
+        "item" : "684",
+        "count" : "1"
+      }, {
+        "item" : "3630",
+        "count" : "1"
+      }, {
+        "item" : "2435",
+        "count" : "1"
+      }, {
+        "item" : "1052",
+        "count" : "1"
+      }, {
+        "item" : "989",
+        "count" : "1"
+      }, {
+        "item" : "475",
+        "count" : "1"
+      }, {
+        "item" : "3644",
+        "count" : "1"
+      }, {
+        "item" : "1003",
+        "count" : "1"
+      }, {
+        "item" : "1270",
+        "count" : "1"
+      }, {
+        "item" : "1077",
+        "count" : "1"
+      }, {
+        "item" : "2134",
+        "count" : "1"
+      }, {
+        "item" : "1708",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426381,
+    "name" : "Oct22_PM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "oct_22_pm",
+    "position" : 97,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151770077,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "20440",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "4"
+      }, {
+        "item" : "3516",
+        "count" : "2"
+      }, {
+        "item" : "7532",
+        "count" : "1"
+      }, {
+        "item" : "1284",
+        "count" : "1"
+      }, {
+        "item" : "1740",
+        "count" : "1"
+      }, {
+        "item" : "7096",
+        "count" : "1"
+      }, {
+        "item" : "4182",
+        "count" : "1"
+      }, {
+        "item" : "269",
+        "count" : "1"
+      }, {
+        "item" : "4576",
+        "count" : "1"
+      }, {
+        "item" : "218",
+        "count" : "1"
+      }, {
+        "item" : "4977",
+        "count" : "1"
+      }, {
+        "item" : "106",
+        "count" : "1"
+      }, {
+        "item" : "11461",
+        "count" : "1"
+      }, {
+        "item" : "3673",
+        "count" : "1"
+      }, {
+        "item" : "460",
+        "count" : "1"
+      }, {
+        "item" : "1587",
+        "count" : "1"
+      }, {
+        "item" : "1483",
+        "count" : "1"
+      }, {
+        "item" : "1130",
+        "count" : "1"
+      }, {
+        "item" : "3320",
+        "count" : "1"
+      }, {
+        "item" : "74",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426382,
+    "name" : "Oct22_MD",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "oct_22_md",
+    "position" : 98,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151770076,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "14168",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "6248",
+        "count" : "1"
+      }, {
+        "item" : "642",
+        "count" : "1"
+      }, {
+        "item" : "4765",
+        "count" : "1"
+      }, {
+        "item" : "876",
+        "count" : "1"
+      }, {
+        "item" : "3920",
+        "count" : "1"
+      }, {
+        "item" : "3264",
+        "count" : "1"
+      }, {
+        "item" : "2411",
+        "count" : "1"
+      }, {
+        "item" : "106",
+        "count" : "1"
+      }, {
+        "item" : "2074",
+        "count" : "1"
+      }, {
+        "item" : "2785",
+        "count" : "1"
+      }, {
+        "item" : "4131",
+        "count" : "1"
+      }, {
+        "item" : "76",
+        "count" : "1"
+      }, {
+        "item" : "460",
+        "count" : "1"
+      }, {
+        "item" : "599",
+        "count" : "1"
+      }, {
+        "item" : "468",
+        "count" : "1"
+      }, {
+        "item" : "1466",
+        "count" : "1"
+      }, {
+        "item" : "3978",
+        "count" : "1"
+      }, {
+        "item" : "1613",
+        "count" : "1"
+      }, {
+        "item" : "496",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426383,
+    "name" : "May23_AM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "may_23_am",
+    "position" : 99,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151770075,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "6837",
+      "null" : "0",
+      "top" : [ {
+        "item" : "6470",
+        "count" : "3"
+      }, {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "315",
+        "count" : "2"
+      }, {
+        "item" : "4116",
+        "count" : "1"
+      }, {
+        "item" : "1368",
+        "count" : "1"
+      }, {
+        "item" : "3229",
+        "count" : "1"
+      }, {
+        "item" : "3477",
+        "count" : "1"
+      }, {
+        "item" : "1782",
+        "count" : "1"
+      }, {
+        "item" : "3959",
+        "count" : "1"
+      }, {
+        "item" : "2384",
+        "count" : "1"
+      }, {
+        "item" : "122",
+        "count" : "1"
+      }, {
+        "item" : "3083",
+        "count" : "1"
+      }, {
+        "item" : "971",
+        "count" : "1"
+      }, {
+        "item" : "307",
+        "count" : "1"
+      }, {
+        "item" : "3241",
+        "count" : "1"
+      }, {
+        "item" : "3858",
+        "count" : "1"
+      }, {
+        "item" : "107",
+        "count" : "1"
+      }, {
+        "item" : "999",
+        "count" : "1"
+      }, {
+        "item" : "1020",
+        "count" : "1"
+      }, {
+        "item" : "1055",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426384,
+    "name" : "May23_pM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "may_23_p_m",
+    "position" : 100,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151770074,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "19358",
+      "null" : "0",
+      "top" : [ {
+        "item" : "355",
+        "count" : "2"
+      }, {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "13227",
+        "count" : "2"
+      }, {
+        "item" : "4600",
+        "count" : "1"
+      }, {
+        "item" : "8955",
+        "count" : "1"
+      }, {
+        "item" : "5423",
+        "count" : "1"
+      }, {
+        "item" : "3818",
+        "count" : "1"
+      }, {
+        "item" : "3882",
+        "count" : "1"
+      }, {
+        "item" : "2280",
+        "count" : "1"
+      }, {
+        "item" : "805",
+        "count" : "1"
+      }, {
+        "item" : "432",
+        "count" : "1"
+      }, {
+        "item" : "2889",
+        "count" : "1"
+      }, {
+        "item" : "3836",
+        "count" : "1"
+      }, {
+        "item" : "5492",
+        "count" : "1"
+      }, {
+        "item" : "2498",
+        "count" : "1"
+      }, {
+        "item" : "5554",
+        "count" : "1"
+      }, {
+        "item" : "14631",
+        "count" : "1"
+      }, {
+        "item" : "5018",
+        "count" : "1"
+      }, {
+        "item" : "2305",
+        "count" : "1"
+      }, {
+        "item" : "2077",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426385,
+    "name" : "May23_MD",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "may_23_md",
+    "position" : 101,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151770073,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "15490",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "9182",
+        "count" : "2"
+      }, {
+        "item" : "1871",
+        "count" : "2"
+      }, {
+        "item" : "2868",
+        "count" : "2"
+      }, {
+        "item" : "1303",
+        "count" : "1"
+      }, {
+        "item" : "91",
+        "count" : "1"
+      }, {
+        "item" : "1252",
+        "count" : "1"
+      }, {
+        "item" : "2456",
+        "count" : "1"
+      }, {
+        "item" : "6324",
+        "count" : "1"
+      }, {
+        "item" : "4246",
+        "count" : "1"
+      }, {
+        "item" : "218",
+        "count" : "1"
+      }, {
+        "item" : "3428",
+        "count" : "1"
+      }, {
+        "item" : "224",
+        "count" : "1"
+      }, {
+        "item" : "2895",
+        "count" : "1"
+      }, {
+        "item" : "5923",
+        "count" : "1"
+      }, {
+        "item" : "576",
+        "count" : "1"
+      }, {
+        "item" : "2312",
+        "count" : "1"
+      }, {
+        "item" : "228",
+        "count" : "1"
+      }, {
+        "item" : "2202",
+        "count" : "1"
+      }, {
+        "item" : "3553",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426386,
+    "name" : "Oct23_AM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "oct_23_am",
+    "position" : 102,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151770072,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "6765",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "3"
+      }, {
+        "item" : "422",
+        "count" : "2"
+      }, {
+        "item" : "302",
+        "count" : "1"
+      }, {
+        "item" : "1693",
+        "count" : "1"
+      }, {
+        "item" : "3665",
+        "count" : "1"
+      }, {
+        "item" : "890",
+        "count" : "1"
+      }, {
+        "item" : "3173",
+        "count" : "1"
+      }, {
+        "item" : "3246",
+        "count" : "1"
+      }, {
+        "item" : "604",
+        "count" : "1"
+      }, {
+        "item" : "590",
+        "count" : "1"
+      }, {
+        "item" : "5570",
+        "count" : "1"
+      }, {
+        "item" : "6765",
+        "count" : "1"
+      }, {
+        "item" : "388",
+        "count" : "1"
+      }, {
+        "item" : "3445",
+        "count" : "1"
+      }, {
+        "item" : "155",
+        "count" : "1"
+      }, {
+        "item" : "1146",
+        "count" : "1"
+      }, {
+        "item" : "935",
+        "count" : "1"
+      }, {
+        "item" : "793",
+        "count" : "1"
+      }, {
+        "item" : "268",
+        "count" : "1"
+      }, {
+        "item" : "4276",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426387,
+    "name" : "Oct23_PM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "oct_23_pm",
+    "position" : 103,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151770071,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "17587",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "3"
+      }, {
+        "item" : "2591",
+        "count" : "1"
+      }, {
+        "item" : "4243",
+        "count" : "1"
+      }, {
+        "item" : "2631",
+        "count" : "1"
+      }, {
+        "item" : "2089",
+        "count" : "1"
+      }, {
+        "item" : "5050",
+        "count" : "1"
+      }, {
+        "item" : "348",
+        "count" : "1"
+      }, {
+        "item" : "7845",
+        "count" : "1"
+      }, {
+        "item" : "5939",
+        "count" : "1"
+      }, {
+        "item" : "2239",
+        "count" : "1"
+      }, {
+        "item" : "8750",
+        "count" : "1"
+      }, {
+        "item" : "2921",
+        "count" : "1"
+      }, {
+        "item" : "3673",
+        "count" : "1"
+      }, {
+        "item" : "416",
+        "count" : "1"
+      }, {
+        "item" : "8200",
+        "count" : "1"
+      }, {
+        "item" : "1907",
+        "count" : "1"
+      }, {
+        "item" : "7604",
+        "count" : "1"
+      }, {
+        "item" : "2280",
+        "count" : "1"
+      }, {
+        "item" : "1188",
+        "count" : "1"
+      }, {
+        "item" : "2159",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426388,
+    "name" : "Oct23_MD",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "oct_23_md",
+    "position" : 104,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151770070,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "13164",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "3"
+      }, {
+        "item" : "2204",
+        "count" : "2"
+      }, {
+        "item" : "150",
+        "count" : "2"
+      }, {
+        "item" : "462",
+        "count" : "1"
+      }, {
+        "item" : "12807",
+        "count" : "1"
+      }, {
+        "item" : "1690",
+        "count" : "1"
+      }, {
+        "item" : "86",
+        "count" : "1"
+      }, {
+        "item" : "63",
+        "count" : "1"
+      }, {
+        "item" : "2473",
+        "count" : "1"
+      }, {
+        "item" : "1913",
+        "count" : "1"
+      }, {
+        "item" : "4176",
+        "count" : "1"
+      }, {
+        "item" : "289",
+        "count" : "1"
+      }, {
+        "item" : "2302",
+        "count" : "1"
+      }, {
+        "item" : "6199",
+        "count" : "1"
+      }, {
+        "item" : "1139",
+        "count" : "1"
+      }, {
+        "item" : "1494",
+        "count" : "1"
+      }, {
+        "item" : "7390",
+        "count" : "1"
+      }, {
+        "item" : "11039",
+        "count" : "1"
+      }, {
+        "item" : "4070",
+        "count" : "1"
+      }, {
+        "item" : "3572",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426389,
+    "name" : "June24_AM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "june_24_am",
+    "position" : 105,
+    "renderTypeName" : "number",
+    "tableColumnId" : 155135008,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "7885",
+      "null" : "0",
+      "top" : [ {
+        "item" : "967",
+        "count" : "2"
+      }, {
+        "item" : "570",
+        "count" : "2"
+      }, {
+        "item" : "451",
+        "count" : "2"
+      }, {
+        "item" : "1793",
+        "count" : "2"
+      }, {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "129",
+        "count" : "2"
+      }, {
+        "item" : "377",
+        "count" : "1"
+      }, {
+        "item" : "252",
+        "count" : "1"
+      }, {
+        "item" : "2789",
+        "count" : "1"
+      }, {
+        "item" : "1512",
+        "count" : "1"
+      }, {
+        "item" : "82",
+        "count" : "1"
+      }, {
+        "item" : "169",
+        "count" : "1"
+      }, {
+        "item" : "76",
+        "count" : "1"
+      }, {
+        "item" : "1422",
+        "count" : "1"
+      }, {
+        "item" : "1544",
+        "count" : "1"
+      }, {
+        "item" : "286",
+        "count" : "1"
+      }, {
+        "item" : "2229",
+        "count" : "1"
+      }, {
+        "item" : "2280",
+        "count" : "1"
+      }, {
+        "item" : "5759",
+        "count" : "1"
+      }, {
+        "item" : "599",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426390,
+    "name" : "June24_PM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "june_24_pm",
+    "position" : 106,
+    "renderTypeName" : "number",
+    "tableColumnId" : 155135007,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "22089",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2650",
+        "count" : "2"
+      }, {
+        "item" : "664",
+        "count" : "2"
+      }, {
+        "item" : "4493",
+        "count" : "2"
+      }, {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "8200",
+        "count" : "1"
+      }, {
+        "item" : "2034",
+        "count" : "1"
+      }, {
+        "item" : "1519",
+        "count" : "1"
+      }, {
+        "item" : "8110",
+        "count" : "1"
+      }, {
+        "item" : "172",
+        "count" : "1"
+      }, {
+        "item" : "2376",
+        "count" : "1"
+      }, {
+        "item" : "4297",
+        "count" : "1"
+      }, {
+        "item" : "7100",
+        "count" : "1"
+      }, {
+        "item" : "535",
+        "count" : "1"
+      }, {
+        "item" : "7574",
+        "count" : "1"
+      }, {
+        "item" : "4165",
+        "count" : "1"
+      }, {
+        "item" : "2107",
+        "count" : "1"
+      }, {
+        "item" : "3482",
+        "count" : "1"
+      }, {
+        "item" : "18178",
+        "count" : "1"
+      }, {
+        "item" : "7513",
+        "count" : "1"
+      }, {
+        "item" : "3773",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426391,
+    "name" : "June24_MD",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "june_24_md",
+    "position" : 107,
+    "renderTypeName" : "number",
+    "tableColumnId" : 155135006,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "10729",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1164",
+        "count" : "2"
+      }, {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "6031",
+        "count" : "1"
+      }, {
+        "item" : "1290",
+        "count" : "1"
+      }, {
+        "item" : "10623",
+        "count" : "1"
+      }, {
+        "item" : "1999",
+        "count" : "1"
+      }, {
+        "item" : "2130",
+        "count" : "1"
+      }, {
+        "item" : "6241",
+        "count" : "1"
+      }, {
+        "item" : "693",
+        "count" : "1"
+      }, {
+        "item" : "2167",
+        "count" : "1"
+      }, {
+        "item" : "4210",
+        "count" : "1"
+      }, {
+        "item" : "1725",
+        "count" : "1"
+      }, {
+        "item" : "1446",
+        "count" : "1"
+      }, {
+        "item" : "2657",
+        "count" : "1"
+      }, {
+        "item" : "1406",
+        "count" : "1"
+      }, {
+        "item" : "1129",
+        "count" : "1"
+      }, {
+        "item" : "1360",
+        "count" : "1"
+      }, {
+        "item" : "2435",
+        "count" : "1"
+      }, {
+        "item" : "1647",
+        "count" : "1"
+      }, {
+        "item" : "1615",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426392,
+    "name" : "Oct24_AM",
+    "dataTypeName" : "number",
+    "description" : "October 2024 Counts",
+    "fieldName" : "oct24_am",
+    "position" : 108,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156464134,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "8940",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "1088",
+        "count" : "2"
+      }, {
+        "item" : "1135",
+        "count" : "2"
+      }, {
+        "item" : "669",
+        "count" : "1"
+      }, {
+        "item" : "3971",
+        "count" : "1"
+      }, {
+        "item" : "418",
+        "count" : "1"
+      }, {
+        "item" : "428",
+        "count" : "1"
+      }, {
+        "item" : "485",
+        "count" : "1"
+      }, {
+        "item" : "1443",
+        "count" : "1"
+      }, {
+        "item" : "604",
+        "count" : "1"
+      }, {
+        "item" : "1175",
+        "count" : "1"
+      }, {
+        "item" : "364",
+        "count" : "1"
+      }, {
+        "item" : "1401",
+        "count" : "1"
+      }, {
+        "item" : "3987",
+        "count" : "1"
+      }, {
+        "item" : "452",
+        "count" : "1"
+      }, {
+        "item" : "1915",
+        "count" : "1"
+      }, {
+        "item" : "1498",
+        "count" : "1"
+      }, {
+        "item" : "426",
+        "count" : "1"
+      }, {
+        "item" : "924",
+        "count" : "1"
+      }, {
+        "item" : "180",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426393,
+    "name" : "Oct24_PM",
+    "dataTypeName" : "number",
+    "description" : "October 2024 PM Counts",
+    "fieldName" : "oct24_pm",
+    "position" : 109,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156464136,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "24359",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "4835",
+        "count" : "1"
+      }, {
+        "item" : "4684",
+        "count" : "1"
+      }, {
+        "item" : "91",
+        "count" : "1"
+      }, {
+        "item" : "3162",
+        "count" : "1"
+      }, {
+        "item" : "2515",
+        "count" : "1"
+      }, {
+        "item" : "1941",
+        "count" : "1"
+      }, {
+        "item" : "1356",
+        "count" : "1"
+      }, {
+        "item" : "218",
+        "count" : "1"
+      }, {
+        "item" : "24359",
+        "count" : "1"
+      }, {
+        "item" : "1106",
+        "count" : "1"
+      }, {
+        "item" : "2415",
+        "count" : "1"
+      }, {
+        "item" : "4268",
+        "count" : "1"
+      }, {
+        "item" : "8641",
+        "count" : "1"
+      }, {
+        "item" : "2329",
+        "count" : "1"
+      }, {
+        "item" : "2284",
+        "count" : "1"
+      }, {
+        "item" : "1003",
+        "count" : "1"
+      }, {
+        "item" : "4942",
+        "count" : "1"
+      }, {
+        "item" : "7843",
+        "count" : "1"
+      }, {
+        "item" : "4939",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426394,
+    "name" : "Oct24_MD",
+    "dataTypeName" : "text",
+    "description" : "October 2024 Midday Counts",
+    "fieldName" : "oct24_md",
+    "position" : 110,
+    "renderTypeName" : "text",
+    "tableColumnId" : 156464135,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "990",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "3180",
+        "count" : "1"
+      }, {
+        "item" : "32",
+        "count" : "1"
+      }, {
+        "item" : "206",
+        "count" : "1"
+      }, {
+        "item" : "2066",
+        "count" : "1"
+      }, {
+        "item" : "8196",
+        "count" : "1"
+      }, {
+        "item" : "6549",
+        "count" : "1"
+      }, {
+        "item" : "6283",
+        "count" : "1"
+      }, {
+        "item" : "3330",
+        "count" : "1"
+      }, {
+        "item" : "3355",
+        "count" : "1"
+      }, {
+        "item" : "2019",
+        "count" : "1"
+      }, {
+        "item" : "558",
+        "count" : "1"
+      }, {
+        "item" : "2012",
+        "count" : "1"
+      }, {
+        "item" : "15831",
+        "count" : "1"
+      }, {
+        "item" : "1936",
+        "count" : "1"
+      }, {
+        "item" : "2239",
+        "count" : "1"
+      }, {
+        "item" : "481",
+        "count" : "1"
+      }, {
+        "item" : "8082",
+        "count" : "1"
+      }, {
+        "item" : "3862",
+        "count" : "1"
+      }, {
+        "item" : "96",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426397,
+    "name" : "May25_AM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "may25_am",
+    "position" : 111,
+    "renderTypeName" : "number",
+    "tableColumnId" : 161133909,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "7702",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1929",
+        "count" : "2"
+      }, {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "132",
+        "count" : "2"
+      }, {
+        "item" : "4347",
+        "count" : "1"
+      }, {
+        "item" : "1599",
+        "count" : "1"
+      }, {
+        "item" : "868",
+        "count" : "1"
+      }, {
+        "item" : "64",
+        "count" : "1"
+      }, {
+        "item" : "430",
+        "count" : "1"
+      }, {
+        "item" : "84",
+        "count" : "1"
+      }, {
+        "item" : "535",
+        "count" : "1"
+      }, {
+        "item" : "2685",
+        "count" : "1"
+      }, {
+        "item" : "1522",
+        "count" : "1"
+      }, {
+        "item" : "360",
+        "count" : "1"
+      }, {
+        "item" : "4056",
+        "count" : "1"
+      }, {
+        "item" : "148",
+        "count" : "1"
+      }, {
+        "item" : "200",
+        "count" : "1"
+      }, {
+        "item" : "714",
+        "count" : "1"
+      }, {
+        "item" : "3697",
+        "count" : "1"
+      }, {
+        "item" : "818",
+        "count" : "1"
+      }, {
+        "item" : "1389",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426398,
+    "name" : "May25_PM",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "may25_pm",
+    "position" : 112,
+    "renderTypeName" : "number",
+    "tableColumnId" : 161133910,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "22446",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "1347",
+        "count" : "1"
+      }, {
+        "item" : "5923",
+        "count" : "1"
+      }, {
+        "item" : "2919",
+        "count" : "1"
+      }, {
+        "item" : "3766",
+        "count" : "1"
+      }, {
+        "item" : "1966",
+        "count" : "1"
+      }, {
+        "item" : "7523",
+        "count" : "1"
+      }, {
+        "item" : "516",
+        "count" : "1"
+      }, {
+        "item" : "2967",
+        "count" : "1"
+      }, {
+        "item" : "2376",
+        "count" : "1"
+      }, {
+        "item" : "464",
+        "count" : "1"
+      }, {
+        "item" : "22446",
+        "count" : "1"
+      }, {
+        "item" : "8976",
+        "count" : "1"
+      }, {
+        "item" : "2161",
+        "count" : "1"
+      }, {
+        "item" : "8786",
+        "count" : "1"
+      }, {
+        "item" : "8684",
+        "count" : "1"
+      }, {
+        "item" : "3122",
+        "count" : "1"
+      }, {
+        "item" : "2282",
+        "count" : "1"
+      }, {
+        "item" : "5326",
+        "count" : "1"
+      }, {
+        "item" : "1423",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 616426399,
+    "name" : "May25_MD",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "may25_md",
+    "position" : 113,
+    "renderTypeName" : "number",
+    "tableColumnId" : 161133911,
+    "cachedContents" : {
+      "non_null" : "114",
+      "largest" : "10213",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "2"
+      }, {
+        "item" : "5046",
+        "count" : "1"
+      }, {
+        "item" : "6203",
+        "count" : "1"
+      }, {
+        "item" : "3110",
+        "count" : "1"
+      }, {
+        "item" : "1642",
+        "count" : "1"
+      }, {
+        "item" : "3773",
+        "count" : "1"
+      }, {
+        "item" : "5125",
+        "count" : "1"
+      }, {
+        "item" : "383",
+        "count" : "1"
+      }, {
+        "item" : "2478",
+        "count" : "1"
+      }, {
+        "item" : "2749",
+        "count" : "1"
+      }, {
+        "item" : "516",
+        "count" : "1"
+      }, {
+        "item" : "572",
+        "count" : "1"
+      }, {
+        "item" : "3106",
+        "count" : "1"
+      }, {
+        "item" : "4654",
+        "count" : "1"
+      }, {
+        "item" : "1423",
+        "count" : "1"
+      }, {
+        "item" : "1247",
+        "count" : "1"
+      }, {
+        "item" : "2643",
+        "count" : "1"
+      }, {
+        "item" : "2785",
+        "count" : "1"
+      }, {
+        "item" : "78",
+        "count" : "1"
+      }, {
+        "item" : "591",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "count" : "114",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "Bi-Annual_Pedestrian_Counts.csv",
+      "assetId" : "ce82f7d3-4fbd-467a-9607-e2cea197074e",
+      "name" : "Bi-Annual_Pedestrian_Counts.csv"
+    }, {
+      "filename" : "BiAnnualPedCount_DataDictionary.pdf",
+      "assetId" : "19a72a38-e808-45dd-80e1-ff4e0933d29b",
+      "name" : "BiAnnualPedCount_DataDictionary.pdf"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "12/29/2015",
+        "Update Frequency" : "Every 6 months"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Transportation (DOT)"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

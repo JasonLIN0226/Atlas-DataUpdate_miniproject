@@ -1,0 +1,1009 @@
+{
+  "id" : "bbtf-6p3c",
+  "name" : "Schoolyard to Playgrounds",
+  "assetType" : "dataset",
+  "averageRating" : 0,
+  "createdAt" : 1648823389,
+  "description" : "The Schoolyards to Playgrounds initiative began with PlaNYC 2007 as a way to expand public use at existing City facilities and improve access to open spaces during non-school hours which includes weekends, holidays, and during the summer. \n \nNYC Parks, in collaboration with the Department of Education (DOE) and the nonprofit Trust for Public Land have improved hundreds of DOE operated schoolyards through capital improvements, including play equipment, painted sports surfaces, trees, and benches.\n \nThe program is an important approach to reaching the city’s target to getting more New Yorkers within walking distance to open-space. In many neighborhoods, these DOE schoolyards are one of the few resources that can be improved and provide publicly accessible open space.\n \nEach record in this dataset represents a participating DOE Schoolyard at the time of the dataset's publication. The schoolyard's boundaries have been drawn in whole or part using secondary data. Data accuracy is limited by the scale and accuracy of the original sources. Site-specific conditions should be field-verified. \n \n For more information on the Schoolyard to Playgrounds program, visit: https://www.nycgovparks.org/greening/planyc/schoolyards\n \nThis dataset may be updated throughout the year as school's join or exit the program.\n\nData Dictionary: https://docs.google.com/spreadsheets/d/10yVRhmdIAS1g8c3L0jC4XxSTptdIf5wESL5ks1e6Gto/edit?usp=sharing",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 1523,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 38845634,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1662662293,
+  "publicationGroup" : 18642536,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1776520805,
+  "rowsUpdatedBy" : "yrqv-pmyz",
+  "tableId" : 18863527,
+  "totalTimesRated" : 0,
+  "viewCount" : 2147,
+  "viewLastModified" : 1776520804,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1648825530,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 4965182,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1648825530,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1648825530,
+      "failureCount" : 0,
+      "startedAt" : 1648825530,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "yrqv-pmyz",
+      "displayName" : "NYC Parks Open Data Team"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 565384241,
+    "name" : "ACRES",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "acres",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 141624344,
+    "cachedContents" : {
+      "non_null" : "300",
+      "largest" : "3.27148269",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.73539234",
+        "count" : "1"
+      }, {
+        "item" : "0.25343652",
+        "count" : "1"
+      }, {
+        "item" : "0.20106518",
+        "count" : "1"
+      }, {
+        "item" : "0.37844557",
+        "count" : "1"
+      }, {
+        "item" : "1.08429532",
+        "count" : "1"
+      }, {
+        "item" : "0.29998321",
+        "count" : "1"
+      }, {
+        "item" : "0.21363678",
+        "count" : "1"
+      }, {
+        "item" : "0.42372439",
+        "count" : "1"
+      }, {
+        "item" : "0.73631607",
+        "count" : "1"
+      }, {
+        "item" : "0.36281255",
+        "count" : "1"
+      }, {
+        "item" : "0.7273189",
+        "count" : "1"
+      }, {
+        "item" : "0.72723347",
+        "count" : "1"
+      }, {
+        "item" : "0.72234215",
+        "count" : "1"
+      }, {
+        "item" : "0.69611433",
+        "count" : "1"
+      }, {
+        "item" : "0.35363351",
+        "count" : "1"
+      }, {
+        "item" : "0.18471539",
+        "count" : "1"
+      }, {
+        "item" : "0.5821536",
+        "count" : "1"
+      }, {
+        "item" : "0.30746644",
+        "count" : "1"
+      }, {
+        "item" : "0.40687224",
+        "count" : "1"
+      }, {
+        "item" : "0.1683405",
+        "count" : "1"
+      } ],
+      "smallest" : "0.02779998",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384242,
+    "name" : "ADDRESS",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "address",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 141624343,
+    "cachedContents" : {
+      "non_null" : "298",
+      "largest" : "982 HEGEMAN AVENUE",
+      "null" : "2",
+      "top" : [ {
+        "item" : "6701 20 Ave.",
+        "count" : "1"
+      }, {
+        "item" : "349 CABRINI BOULEVARD",
+        "count" : "1"
+      }, {
+        "item" : "790 East New York Avenue",
+        "count" : "1"
+      }, {
+        "item" : "2707 Albermarle Road",
+        "count" : "1"
+      }, {
+        "item" : "281 9TH AVENUE",
+        "count" : "1"
+      }, {
+        "item" : "80 MAPLE PARKWAY",
+        "count" : "1"
+      }, {
+        "item" : "1400 NEEDHAM AVENUE",
+        "count" : "1"
+      }, {
+        "item" : "7115 15 AVENUE",
+        "count" : "1"
+      }, {
+        "item" : "40 NAGLE AVENUE",
+        "count" : "1"
+      }, {
+        "item" : "180 7 Ave.",
+        "count" : "1"
+      }, {
+        "item" : "694 JAMAICA AVENUE",
+        "count" : "1"
+      }, {
+        "item" : "141-11 Holly Ave.",
+        "count" : "1"
+      }, {
+        "item" : "216 Clawson St.",
+        "count" : "1"
+      }, {
+        "item" : "1855 Stillwell Ave.",
+        "count" : "1"
+      }, {
+        "item" : "1023 New York Avenue",
+        "count" : "1"
+      }, {
+        "item" : "5101 Ave. M",
+        "count" : "1"
+      }, {
+        "item" : "787 LAFAYETTE AVENUE",
+        "count" : "1"
+      }, {
+        "item" : "317 HOYT STREET",
+        "count" : "1"
+      }, {
+        "item" : "220 HENRY STREET",
+        "count" : "1"
+      }, {
+        "item" : "1300 Greene Avenue",
+        "count" : "1"
+      } ],
+      "smallest" : "033 Ferndale Ave.",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384243,
+    "name" : "BOROUGH",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "borough",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 141624342,
+    "cachedContents" : {
+      "non_null" : "299",
+      "largest" : "X",
+      "null" : "1",
+      "top" : [ {
+        "item" : "B",
+        "count" : "110"
+      }, {
+        "item" : "Q",
+        "count" : "89"
+      }, {
+        "item" : "X",
+        "count" : "40"
+      }, {
+        "item" : "R",
+        "count" : "31"
+      }, {
+        "item" : "M",
+        "count" : "29"
+      } ],
+      "smallest" : "B",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384244,
+    "name" : "COMMUNITYBOARD",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "communityboard",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 141624341,
+    "cachedContents" : {
+      "non_null" : "300",
+      "largest" : "503",
+      "null" : "0",
+      "top" : [ {
+        "item" : "412",
+        "count" : "13"
+      }, {
+        "item" : "312",
+        "count" : "13"
+      }, {
+        "item" : "503",
+        "count" : "12"
+      }, {
+        "item" : "501",
+        "count" : "11"
+      }, {
+        "item" : "409",
+        "count" : "11"
+      }, {
+        "item" : "405",
+        "count" : "10"
+      }, {
+        "item" : "317",
+        "count" : "10"
+      }, {
+        "item" : "103",
+        "count" : "10"
+      }, {
+        "item" : "305",
+        "count" : "9"
+      }, {
+        "item" : "112",
+        "count" : "9"
+      }, {
+        "item" : "311",
+        "count" : "9"
+      }, {
+        "item" : "314",
+        "count" : "9"
+      }, {
+        "item" : "410",
+        "count" : "8"
+      }, {
+        "item" : "502",
+        "count" : "8"
+      }, {
+        "item" : "304",
+        "count" : "8"
+      }, {
+        "item" : "209",
+        "count" : "7"
+      }, {
+        "item" : "404",
+        "count" : "7"
+      }, {
+        "item" : "310",
+        "count" : "6"
+      }, {
+        "item" : "401",
+        "count" : "6"
+      }, {
+        "item" : "307",
+        "count" : "6"
+      } ],
+      "smallest" : "54",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384245,
+    "name" : "COUNCILDISTRICT",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "councildistrict",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 141624340,
+    "cachedContents" : {
+      "non_null" : "300",
+      "largest" : "51",
+      "null" : "0",
+      "top" : [ {
+        "item" : "51",
+        "count" : "14"
+      }, {
+        "item" : "44",
+        "count" : "13"
+      }, {
+        "item" : "29",
+        "count" : "11"
+      }, {
+        "item" : "49",
+        "count" : "9"
+      }, {
+        "item" : "28",
+        "count" : "9"
+      }, {
+        "item" : "50",
+        "count" : "9"
+      }, {
+        "item" : "10",
+        "count" : "9"
+      }, {
+        "item" : "42",
+        "count" : "9"
+      }, {
+        "item" : "43",
+        "count" : "9"
+      }, {
+        "item" : "32",
+        "count" : "8"
+      }, {
+        "item" : "45",
+        "count" : "8"
+      }, {
+        "item" : "36",
+        "count" : "8"
+      }, {
+        "item" : "37",
+        "count" : "8"
+      }, {
+        "item" : "25",
+        "count" : "8"
+      }, {
+        "item" : "30",
+        "count" : "7"
+      }, {
+        "item" : "38",
+        "count" : "7"
+      }, {
+        "item" : "34",
+        "count" : "7"
+      }, {
+        "item" : "41",
+        "count" : "7"
+      }, {
+        "item" : "19",
+        "count" : "7"
+      }, {
+        "item" : "40",
+        "count" : "7"
+      } ],
+      "smallest" : "1",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384246,
+    "name" : "DSFBldgCode",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "dsfbldgcode",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 141624339,
+    "cachedContents" : {
+      "non_null" : "300",
+      "largest" : "X843",
+      "null" : "0",
+      "top" : [ {
+        "item" : "K160",
+        "count" : "1"
+      }, {
+        "item" : "M445",
+        "count" : "1"
+      }, {
+        "item" : "R041",
+        "count" : "1"
+      }, {
+        "item" : "Q199",
+        "count" : "1"
+      }, {
+        "item" : "K002",
+        "count" : "1"
+      }, {
+        "item" : "K798",
+        "count" : "1"
+      }, {
+        "item" : "K097",
+        "count" : "1"
+      }, {
+        "item" : "K139",
+        "count" : "1"
+      }, {
+        "item" : "Q131",
+        "count" : "1"
+      }, {
+        "item" : "Q035",
+        "count" : "1"
+      }, {
+        "item" : "Q121",
+        "count" : "1"
+      }, {
+        "item" : "X130",
+        "count" : "1"
+      }, {
+        "item" : "Q157",
+        "count" : "1"
+      }, {
+        "item" : "Q136",
+        "count" : "1"
+      }, {
+        "item" : "M898",
+        "count" : "1"
+      }, {
+        "item" : "Q101",
+        "count" : "1"
+      }, {
+        "item" : "K069",
+        "count" : "1"
+      }, {
+        "item" : "K405",
+        "count" : "1"
+      }, {
+        "item" : "M137",
+        "count" : "1"
+      }, {
+        "item" : "R049",
+        "count" : "1"
+      } ],
+      "smallest" : "K002",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384247,
+    "name" : "GISPROPNUM",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "gispropnum",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 141624338,
+    "cachedContents" : {
+      "non_null" : "300",
+      "largest" : "XS050",
+      "null" : "0",
+      "top" : [ {
+        "item" : "BS057",
+        "count" : "1"
+      }, {
+        "item" : "BS107",
+        "count" : "1"
+      }, {
+        "item" : "RS026",
+        "count" : "1"
+      }, {
+        "item" : "QS084",
+        "count" : "1"
+      }, {
+        "item" : "BS096",
+        "count" : "1"
+      }, {
+        "item" : "RS014",
+        "count" : "1"
+      }, {
+        "item" : "XS002",
+        "count" : "1"
+      }, {
+        "item" : "BS006",
+        "count" : "1"
+      }, {
+        "item" : "RS003",
+        "count" : "1"
+      }, {
+        "item" : "MS015",
+        "count" : "1"
+      }, {
+        "item" : "XS023",
+        "count" : "1"
+      }, {
+        "item" : "BS080",
+        "count" : "1"
+      }, {
+        "item" : "BS101",
+        "count" : "1"
+      }, {
+        "item" : "BS018",
+        "count" : "1"
+      }, {
+        "item" : "BS105",
+        "count" : "1"
+      }, {
+        "item" : "XS024",
+        "count" : "1"
+      }, {
+        "item" : "BS017",
+        "count" : "1"
+      }, {
+        "item" : "BS102",
+        "count" : "1"
+      }, {
+        "item" : "BS083",
+        "count" : "1"
+      }, {
+        "item" : "BS026",
+        "count" : "1"
+      } ],
+      "smallest" : "BS001",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384256,
+    "name" : "JURISDICTION",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "jurisdiction",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 143573499,
+    "cachedContents" : {
+      "non_null" : "300",
+      "largest" : "DOE",
+      "null" : "0",
+      "top" : [ {
+        "item" : "DOE",
+        "count" : "300"
+      } ],
+      "smallest" : "DOE",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384248,
+    "name" : "LOCATION",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "location",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 141624337,
+    "cachedContents" : {
+      "non_null" : "300",
+      "largest" : "Yellowstone Blvd. bet. 63 Dr. and 64 Dr.",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Snyder Ave. bet.ween Flatbush Ave. and Bedford Ave.",
+        "count" : "2"
+      }, {
+        "item" : "Spofford Ave. bet.ween Longfellow Ave. and Bryant Ave.",
+        "count" : "1"
+      }, {
+        "item" : "E. 2 St. bet.ween Ave. S and Ave. R",
+        "count" : "1"
+      }, {
+        "item" : "Prospect Pl. bet.ween Utica Ave. and Rochester Ave.",
+        "count" : "1"
+      }, {
+        "item" : "Stockholm St., De Kalb Ave. bet. Seneca Ave. and Cypress Ave.",
+        "count" : "1"
+      }, {
+        "item" : "Kimball St., Coleman St., Ave. R and Fillmore Ave.",
+        "count" : "1"
+      }, {
+        "item" : "Richmond St. bet. Jamaica Ave. and Etna St.",
+        "count" : "1"
+      }, {
+        "item" : "202 St. bet. Murdock Ave. and 115 Ave",
+        "count" : "1"
+      }, {
+        "item" : "Union St., Robinson St., and Holly Ave.",
+        "count" : "1"
+      }, {
+        "item" : "Victory Blvd. bet.ween Slosson Ave. and Brenton Pl.",
+        "count" : "1"
+      }, {
+        "item" : "Broadway bet.ween W. 185 St. and W. 187 St.",
+        "count" : "1"
+      }, {
+        "item" : "E. 93 St., E. 94 St., Ave. B",
+        "count" : "1"
+      }, {
+        "item" : "The Boulevard, Fiske Ave. Wardwell Ave., and Leonard Ave.",
+        "count" : "1"
+      }, {
+        "item" : "Sanford Ave. bet. Parsons Blvd. and 147 St.",
+        "count" : "1"
+      }, {
+        "item" : "43 St., 42 St., and 14 Ave.",
+        "count" : "1"
+      }, {
+        "item" : "Coney Island Ave., Elm Ave., and E. 12 St.",
+        "count" : "1"
+      }, {
+        "item" : "78 Ave. bet.ween 87 St. and 88 St.",
+        "count" : "1"
+      }, {
+        "item" : "Manhattan Ave., Morningside Ave., W. 119 St., and W. 120 St.",
+        "count" : "1"
+      }, {
+        "item" : "Croes Pl. bet. Seward Ave. and Lafayette Ave.",
+        "count" : "1"
+      }, {
+        "item" : "E. 23 St. bet.ween Campus Rd. and Glenwood Rd.",
+        "count" : "1"
+      } ],
+      "smallest" : "1001 Jennings Street, Bronx, NY 10460",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384249,
+    "name" : "NYS_ASSEMBLY",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "nys_assembly",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 141624336,
+    "cachedContents" : {
+      "non_null" : "300",
+      "largest" : "87",
+      "null" : "0",
+      "top" : [ {
+        "item" : "62",
+        "count" : "12"
+      }, {
+        "item" : "48",
+        "count" : "11"
+      }, {
+        "item" : "38",
+        "count" : "10"
+      }, {
+        "item" : "30",
+        "count" : "9"
+      }, {
+        "item" : "63",
+        "count" : "9"
+      }, {
+        "item" : "58",
+        "count" : "8"
+      }, {
+        "item" : "49",
+        "count" : "8"
+      }, {
+        "item" : "61",
+        "count" : "8"
+      }, {
+        "item" : "29",
+        "count" : "8"
+      }, {
+        "item" : "24",
+        "count" : "7"
+      }, {
+        "item" : "42",
+        "count" : "7"
+      }, {
+        "item" : "34",
+        "count" : "7"
+      }, {
+        "item" : "72",
+        "count" : "7"
+      }, {
+        "item" : "43",
+        "count" : "7"
+      }, {
+        "item" : "51",
+        "count" : "6"
+      }, {
+        "item" : "56",
+        "count" : "6"
+      }, {
+        "item" : "44",
+        "count" : "6"
+      }, {
+        "item" : "60",
+        "count" : "6"
+      }, {
+        "item" : "31",
+        "count" : "6"
+      }, {
+        "item" : "54",
+        "count" : "6"
+      } ],
+      "smallest" : "10",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384250,
+    "name" : "NYS_SENATE",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "nys_senate",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 141624335,
+    "cachedContents" : {
+      "non_null" : "300",
+      "largest" : "59",
+      "null" : "0",
+      "top" : [ {
+        "item" : "24",
+        "count" : "22"
+      }, {
+        "item" : "15",
+        "count" : "19"
+      }, {
+        "item" : "22",
+        "count" : "18"
+      }, {
+        "item" : "21",
+        "count" : "17"
+      }, {
+        "item" : "12",
+        "count" : "15"
+      }, {
+        "item" : "20",
+        "count" : "15"
+      }, {
+        "item" : "18",
+        "count" : "14"
+      }, {
+        "item" : "19",
+        "count" : "13"
+      }, {
+        "item" : "17",
+        "count" : "13"
+      }, {
+        "item" : "32",
+        "count" : "12"
+      }, {
+        "item" : "11",
+        "count" : "12"
+      }, {
+        "item" : "26",
+        "count" : "12"
+      }, {
+        "item" : "10",
+        "count" : "11"
+      }, {
+        "item" : "27",
+        "count" : "11"
+      }, {
+        "item" : "31",
+        "count" : "11"
+      }, {
+        "item" : "14",
+        "count" : "11"
+      }, {
+        "item" : "23",
+        "count" : "10"
+      }, {
+        "item" : "34",
+        "count" : "10"
+      }, {
+        "item" : "16",
+        "count" : "9"
+      }, {
+        "item" : "13",
+        "count" : "9"
+      } ],
+      "smallest" : "3",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384253,
+    "name" : "US_CONGRESS",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "us_congress",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 141624332,
+    "cachedContents" : {
+      "non_null" : "300",
+      "largest" : "16",
+      "null" : "0",
+      "top" : [ {
+        "item" : "9",
+        "count" : "46"
+      }, {
+        "item" : "11",
+        "count" : "43"
+      }, {
+        "item" : "5",
+        "count" : "36"
+      }, {
+        "item" : "10",
+        "count" : "29"
+      }, {
+        "item" : "7",
+        "count" : "27"
+      }, {
+        "item" : "6",
+        "count" : "26"
+      }, {
+        "item" : "14",
+        "count" : "23"
+      }, {
+        "item" : "13",
+        "count" : "19"
+      }, {
+        "item" : "8",
+        "count" : "19"
+      }, {
+        "item" : "15",
+        "count" : "17"
+      }, {
+        "item" : "3",
+        "count" : "7"
+      }, {
+        "item" : "12",
+        "count" : "4"
+      }, {
+        "item" : "16",
+        "count" : "3"
+      }, {
+        "item" : "4",
+        "count" : "1"
+      } ],
+      "smallest" : "3",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384254,
+    "name" : "ZIPCODE",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "zipcode",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 141624331,
+    "cachedContents" : {
+      "non_null" : "299",
+      "largest" : "11694",
+      "null" : "1",
+      "top" : [ {
+        "item" : "10314",
+        "count" : "8"
+      }, {
+        "item" : "11204",
+        "count" : "8"
+      }, {
+        "item" : "11203",
+        "count" : "7"
+      }, {
+        "item" : "11219",
+        "count" : "7"
+      }, {
+        "item" : "11208",
+        "count" : "7"
+      }, {
+        "item" : "11385",
+        "count" : "6"
+      }, {
+        "item" : "11221",
+        "count" : "6"
+      }, {
+        "item" : "11226",
+        "count" : "5"
+      }, {
+        "item" : "11373",
+        "count" : "5"
+      }, {
+        "item" : "10002",
+        "count" : "5"
+      }, {
+        "item" : "11420",
+        "count" : "5"
+      }, {
+        "item" : "11418",
+        "count" : "5"
+      }, {
+        "item" : "11213",
+        "count" : "5"
+      }, {
+        "item" : "10312",
+        "count" : "4"
+      }, {
+        "item" : "11234",
+        "count" : "4"
+      }, {
+        "item" : "11222",
+        "count" : "4"
+      }, {
+        "item" : "11377",
+        "count" : "4"
+      }, {
+        "item" : "10040",
+        "count" : "4"
+      }, {
+        "item" : "11207",
+        "count" : "4"
+      }, {
+        "item" : "11212",
+        "count" : "4"
+      } ],
+      "smallest" : "1002",
+      "count" : "300",
+      "cardinality" : "300"
+    },
+    "format" : { }
+  }, {
+    "id" : 565384255,
+    "name" : "multipolygon",
+    "dataTypeName" : "multipolygon",
+    "description" : "",
+    "fieldName" : "multipolygon",
+    "position" : 14,
+    "renderTypeName" : "multipolygon",
+    "tableColumnId" : 141624330,
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Update Frequency" : "Monthly"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Parks and Recreation (DPR)"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "yrqv-pmyz",
+    "displayName" : "NYC Parks Open Data Team",
+    "screenName" : "NYC Parks Open Data Team",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "yrqv-pmyz",
+    "displayName" : "NYC Parks Open Data Team",
+    "screenName" : "NYC Parks Open Data Team",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

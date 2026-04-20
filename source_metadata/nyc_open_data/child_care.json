@@ -1,0 +1,1850 @@
+{
+  "id": "gy3q-4tzp",
+  "name": "Active NYC Health Code Regulated Child Care Programs",
+  "assetType": "dataset",
+  "attribution": "Department of health and Mental Hygiene",
+  "attributionLink": "https://www.nyc.gov/childcareconnect",
+  "averageRating": 0,
+  "category": "Health",
+  "createdAt": 1698949646,
+  "description": "This is an official NYC Health Department dataset. the Health Department does not endorse datasets using this data that may be created by others.\n\nThis dataset lists active child care programs regulated under NYC Health Code Article 47 (Group Day Care) and Article 43 (School-based Child Care). \n\nHealth Code Article 47: https://www.nyc.gov/assets/doh/downloads/pdf/about/healthcode/health-code-article47.pdf\n\nHealth Code Article 43: https://www.nyc.gov/assets/doh/downloads/pdf/about/healthcode/health-code-article43.pdf\n\nThese data can be used to map NYC Health Code regulated child care programs and filter by attributes, such as location, ages served, facility type. It can also be used to answer questions such as how many group child care (GCC) programs are in a specific ZIP code.\n\nOnly active group child care (GCC) and school-based child care (SBCC) programs are displayed in this dataset. Child care programs with a 'preliminary', 'suspended', or 'closed' status are not included.",
+  "diciBackend": false,
+  "displayType": "table",
+  "downloadCount": 15354,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "licenseId": "PUBLIC_DOMAIN",
+  "locked": false,
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 41887189,
+  "provenance": "official",
+  "publicationAppendEnabled": true,
+  "publicationDate": 1769092006,
+  "publicationGroup": 19349463,
+  "publicationStage": "published",
+  "rowsUpdatedAt": 1776553209,
+  "rowsUpdatedBy": "5fuc-pqz2",
+  "tableId": 20241061,
+  "totalTimesRated": 0,
+  "viewCount": 2701,
+  "viewLastModified": 1776639603,
+  "viewType": "tabular",
+  "approvals": [
+    {
+      "reviewedAt": 1747154068,
+      "reviewedAutomatically": false,
+      "state": "approved",
+      "submissionId": 7312503,
+      "submissionObject": "public_audience_request",
+      "submissionOutcome": "change_audience",
+      "submittedAt": 1747153973,
+      "targetAudience": "public",
+      "workflowId": 2285,
+      "reviewer": {
+        "id": "5fuc-pqz2",
+        "displayName": "NYC OpenData"
+      },
+      "submissionDetails": {
+        "permissionType": "read"
+      },
+      "submissionOutcomeApplication": {
+        "endedAt": 1747154069,
+        "failureCount": 0,
+        "startedAt": 1747154068,
+        "status": "success"
+      },
+      "submitter": {
+        "id": "5fuc-pqz2",
+        "displayName": "NYC OpenData"
+      }
+    }
+  ],
+  "clientContext": {
+    "clientContextVariables": [],
+    "inheritedVariables": {}
+  },
+  "columns": [
+    {
+      "id": 625118328,
+      "name": "DCID",
+      "dataTypeName": "text",
+      "description": "Unique Identifier for the child Care programs",
+      "fieldName": "dcid",
+      "position": 1,
+      "renderTypeName": "text",
+      "tableColumnId": 158120994,
+      "cachedContents": {
+        "non_null": "2734",
+        "largest": "DC997",
+        "null": "0",
+        "top": [
+          {
+            "item": "DC1021",
+            "count": "1"
+          },
+          {
+            "item": "DC10244",
+            "count": "1"
+          },
+          {
+            "item": "DC1030",
+            "count": "1"
+          },
+          {
+            "item": "DC10454",
+            "count": "1"
+          },
+          {
+            "item": "DC10455",
+            "count": "1"
+          },
+          {
+            "item": "DC10457",
+            "count": "1"
+          },
+          {
+            "item": "DC10465",
+            "count": "1"
+          },
+          {
+            "item": "DC10478",
+            "count": "1"
+          },
+          {
+            "item": "DC10479",
+            "count": "1"
+          },
+          {
+            "item": "DC10481",
+            "count": "1"
+          },
+          {
+            "item": "DC10483",
+            "count": "1"
+          },
+          {
+            "item": "DC10485",
+            "count": "1"
+          },
+          {
+            "item": "DC1049",
+            "count": "1"
+          },
+          {
+            "item": "DC10500",
+            "count": "1"
+          },
+          {
+            "item": "DC1051",
+            "count": "1"
+          },
+          {
+            "item": "DC10514",
+            "count": "1"
+          },
+          {
+            "item": "DC10518",
+            "count": "1"
+          },
+          {
+            "item": "DC10529",
+            "count": "1"
+          },
+          {
+            "item": "DC10549",
+            "count": "1"
+          },
+          {
+            "item": "DC1000",
+            "count": "1"
+          }
+        ],
+        "smallest": "DC1000",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118329,
+      "name": "Permit Number",
+      "dataTypeName": "text",
+      "description": "Permit number for a group child care program",
+      "fieldName": "permit_number",
+      "position": 2,
+      "renderTypeName": "text",
+      "tableColumnId": 149565114,
+      "cachedContents": {
+        "non_null": "2734",
+        "largest": "N/A",
+        "null": "0",
+        "top": [
+          {
+            "item": "N/A",
+            "count": "442"
+          },
+          {
+            "item": "100657",
+            "count": "1"
+          },
+          {
+            "item": "103000",
+            "count": "1"
+          },
+          {
+            "item": "100698",
+            "count": "1"
+          },
+          {
+            "item": "100706",
+            "count": "1"
+          },
+          {
+            "item": "101177",
+            "count": "1"
+          },
+          {
+            "item": "101237",
+            "count": "1"
+          },
+          {
+            "item": "101517",
+            "count": "1"
+          },
+          {
+            "item": "101837",
+            "count": "1"
+          },
+          {
+            "item": "10198",
+            "count": "1"
+          },
+          {
+            "item": "102097",
+            "count": "1"
+          },
+          {
+            "item": "102117",
+            "count": "1"
+          },
+          {
+            "item": "102157",
+            "count": "1"
+          },
+          {
+            "item": "10257",
+            "count": "1"
+          },
+          {
+            "item": "100697",
+            "count": "1"
+          },
+          {
+            "item": "103001",
+            "count": "1"
+          },
+          {
+            "item": "103140",
+            "count": "1"
+          },
+          {
+            "item": "103234",
+            "count": "1"
+          },
+          {
+            "item": "103593",
+            "count": "1"
+          },
+          {
+            "item": "100197",
+            "count": "1"
+          }
+        ],
+        "smallest": "100013",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118330,
+      "name": "Program Name",
+      "dataTypeName": "text",
+      "description": "Name of the child care program",
+      "fieldName": "program_name",
+      "position": 3,
+      "renderTypeName": "text",
+      "tableColumnId": 149565101,
+      "cachedContents": {
+        "non_null": "2734",
+        "largest": "ZNAYKA ON Y INC.",
+        "null": "0",
+        "top": [
+          {
+            "item": "THE LEARNING EXPERIENCE",
+            "count": "32"
+          },
+          {
+            "item": "BEANSTALK CHILD CARE ACADEMY",
+            "count": "19"
+          },
+          {
+            "item": "ALL MY CHILDREN DAY CARE AND NURSERY SCHOOL",
+            "count": "17"
+          },
+          {
+            "item": "BRIGHT HORIZONS CHILDREN'S CENTERS LLC",
+            "count": "15"
+          },
+          {
+            "item": "B'ABOVE WORLDWIDE INSTITUTE, INC.",
+            "count": "14"
+          },
+          {
+            "item": "NY KIDS CLUB",
+            "count": "12"
+          },
+          {
+            "item": "LUMINOUS EARLY CHILD CARE CENTER",
+            "count": "9"
+          },
+          {
+            "item": "KINDERCARE EDUCATION LLC",
+            "count": "8"
+          },
+          {
+            "item": "THE CHILDREN'S AID SOCIETY",
+            "count": "8"
+          },
+          {
+            "item": "THE FRIENDS OF CROWN HEIGHTS EDUCATIONAL CENTERS, INC.",
+            "count": "6"
+          },
+          {
+            "item": "THE GODDARD SCHOOL",
+            "count": "6"
+          },
+          {
+            "item": "GRAND STREET SETTLEMENT, INC.",
+            "count": "6"
+          },
+          {
+            "item": "SUNSHINE LEARNING CENTER",
+            "count": "6"
+          },
+          {
+            "item": "RAINBOW CHILD DEVELOPMENT CENTER INC.",
+            "count": "6"
+          },
+          {
+            "item": "YOUNG MEN'S CHRISTIAN ASSOCIATION OF GREATER NEW YORK",
+            "count": "6"
+          },
+          {
+            "item": "SHOLOM, SHOLOM INC.",
+            "count": "6"
+          },
+          {
+            "item": "BRIGHT HORIZONS  CHILDREN'S CENTERS LLC",
+            "count": "5"
+          },
+          {
+            "item": "ASSOCIATION TO BENEFIT CHILDREN",
+            "count": "5"
+          },
+          {
+            "item": "Child Development Center of the Mosholu-Montefiore Community Center",
+            "count": "5"
+          },
+          {
+            "item": "EAST SIDE HOUSE SETTLEMENT",
+            "count": "5"
+          }
+        ],
+        "smallest": "1199 S E I U / EMPLOYER CHILD CARE CORPORATION",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118332,
+      "name": "Facility Type",
+      "dataTypeName": "text",
+      "description": "Describes whether the program is a group child care (GCC), or a School Based Child Care (SBCC), regulated under NYC Health Code Article 43",
+      "fieldName": "facility_type",
+      "position": 4,
+      "renderTypeName": "text",
+      "tableColumnId": 149565107,
+      "cachedContents": {
+        "non_null": "2734",
+        "largest": "SBCC",
+        "null": "0",
+        "top": [
+          {
+            "item": "GCC",
+            "count": "2292"
+          },
+          {
+            "item": "SBCC",
+            "count": "442"
+          }
+        ],
+        "smallest": "GCC",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118333,
+      "name": "Program Type",
+      "dataTypeName": "text",
+      "description": "Program Type based on age of accepted attendees",
+      "fieldName": "program_type",
+      "position": 5,
+      "renderTypeName": "text",
+      "tableColumnId": 149565108,
+      "cachedContents": {
+        "non_null": "2734",
+        "largest": "PRESCHOOL",
+        "null": "0",
+        "top": [
+          {
+            "item": "PRESCHOOL",
+            "count": "2163"
+          },
+          {
+            "item": "INFANT TODDLER",
+            "count": "571"
+          }
+        ],
+        "smallest": "INFANT TODDLER",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118334,
+      "name": "Street Address",
+      "dataTypeName": "text",
+      "description": "Building and street address for the child care program",
+      "fieldName": "address",
+      "position": 6,
+      "renderTypeName": "text",
+      "tableColumnId": 149565102,
+      "cachedContents": {
+        "non_null": "2734",
+        "largest": "99 SUFFOLK STREET",
+        "null": "0",
+        "top": [
+          {
+            "item": "992 GATES AVENUE",
+            "count": "4"
+          },
+          {
+            "item": "101 WEST END AVENUE",
+            "count": "3"
+          },
+          {
+            "item": "76 LORRAINE STREET",
+            "count": "3"
+          },
+          {
+            "item": "250 UTICA AVENUE",
+            "count": "3"
+          },
+          {
+            "item": "1462 62 STREET",
+            "count": "3"
+          },
+          {
+            "item": "3480 THIRD AVENUE",
+            "count": "3"
+          },
+          {
+            "item": "1859 RICHMOND AVENUE",
+            "count": "3"
+          },
+          {
+            "item": "712 BEDFORD AVENUE",
+            "count": "3"
+          },
+          {
+            "item": "111A 11TH AVENUE",
+            "count": "2"
+          },
+          {
+            "item": "109 NASSAU AVENUE",
+            "count": "2"
+          },
+          {
+            "item": "110 RIDGE STREET",
+            "count": "2"
+          },
+          {
+            "item": "11-02 CLINTONVILLE STREET",
+            "count": "2"
+          },
+          {
+            "item": "100 CHURCH STREET",
+            "count": "2"
+          },
+          {
+            "item": "1110 SOUTH AVENUE",
+            "count": "2"
+          },
+          {
+            "item": "1121 36 STREET",
+            "count": "2"
+          },
+          {
+            "item": "1068 FULTON STREET",
+            "count": "2"
+          },
+          {
+            "item": "101-09 WOODHAVEN BOULEVARD",
+            "count": "2"
+          },
+          {
+            "item": "10023 SEAVIEW   AVENUE",
+            "count": "2"
+          },
+          {
+            "item": "108-22 69 AVENUE",
+            "count": "2"
+          },
+          {
+            "item": "100 WEST 89TH STREET",
+            "count": "2"
+          }
+        ],
+        "smallest": "100-03 39  AVENUE",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118335,
+      "name": "Borough",
+      "dataTypeName": "text",
+      "description": "Borough the Center is located in",
+      "fieldName": "borough",
+      "position": 7,
+      "renderTypeName": "text",
+      "tableColumnId": 149565104,
+      "cachedContents": {
+        "non_null": "2733",
+        "largest": "STATEN ISLAND",
+        "null": "1",
+        "top": [
+          {
+            "item": "BROOKLYN",
+            "count": "1157"
+          },
+          {
+            "item": "MANHATTAN",
+            "count": "585"
+          },
+          {
+            "item": "QUEENS",
+            "count": "553"
+          },
+          {
+            "item": "BRONX",
+            "count": "313"
+          },
+          {
+            "item": "STATEN ISLAND",
+            "count": "125"
+          }
+        ],
+        "smallest": "BRONX",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118336,
+      "name": "Zip Code",
+      "dataTypeName": "text",
+      "description": "U.S. Postal ZIP code of the program",
+      "fieldName": "zipcode",
+      "position": 8,
+      "renderTypeName": "text",
+      "tableColumnId": 149565127,
+      "cachedContents": {
+        "non_null": "2734",
+        "largest": "11697",
+        "null": "0",
+        "top": [
+          {
+            "item": "11219",
+            "count": "124"
+          },
+          {
+            "item": "11201",
+            "count": "63"
+          },
+          {
+            "item": "10025",
+            "count": "49"
+          },
+          {
+            "item": "11211",
+            "count": "48"
+          },
+          {
+            "item": "11218",
+            "count": "46"
+          },
+          {
+            "item": "11204",
+            "count": "44"
+          },
+          {
+            "item": "11235",
+            "count": "43"
+          },
+          {
+            "item": "11215",
+            "count": "41"
+          },
+          {
+            "item": "11238",
+            "count": "40"
+          },
+          {
+            "item": "11206",
+            "count": "39"
+          },
+          {
+            "item": "11205",
+            "count": "37"
+          },
+          {
+            "item": "10029",
+            "count": "35"
+          },
+          {
+            "item": "11220",
+            "count": "35"
+          },
+          {
+            "item": "11213",
+            "count": "34"
+          },
+          {
+            "item": "11249",
+            "count": "34"
+          },
+          {
+            "item": "11230",
+            "count": "32"
+          },
+          {
+            "item": "11101",
+            "count": "32"
+          },
+          {
+            "item": "10002",
+            "count": "32"
+          },
+          {
+            "item": "11223",
+            "count": "30"
+          },
+          {
+            "item": "11212",
+            "count": "30"
+          }
+        ],
+        "smallest": "10001",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 625118337,
+      "name": "Phone Number",
+      "dataTypeName": "text",
+      "description": "Phone Number",
+      "fieldName": "phone",
+      "position": 9,
+      "renderTypeName": "text",
+      "tableColumnId": 149565105,
+      "cachedContents": {
+        "non_null": "2733",
+        "largest": "(973) 493-2207",
+        "null": "1",
+        "top": [
+          {
+            "item": "(917) 736-6737",
+            "count": "9"
+          },
+          {
+            "item": "(718) 653-3714",
+            "count": "9"
+          },
+          {
+            "item": "(917) 825-8763",
+            "count": "9"
+          },
+          {
+            "item": "(917) 363-8153",
+            "count": "8"
+          },
+          {
+            "item": "(718) 965-8573",
+            "count": "6"
+          },
+          {
+            "item": "(718) 724-3523",
+            "count": "5"
+          },
+          {
+            "item": "(718) 809-5852",
+            "count": "5"
+          },
+          {
+            "item": "(929) 248-2933",
+            "count": "5"
+          },
+          {
+            "item": "(718) 963-1212",
+            "count": "5"
+          },
+          {
+            "item": "(718) 452-9740",
+            "count": "5"
+          },
+          {
+            "item": "(718) 596-3632",
+            "count": "5"
+          },
+          {
+            "item": "(718) 799-4200",
+            "count": "4"
+          },
+          {
+            "item": "(718) 288-9546",
+            "count": "4"
+          },
+          {
+            "item": "(718) 216-0800",
+            "count": "4"
+          },
+          {
+            "item": "(718) 438-7822",
+            "count": "4"
+          },
+          {
+            "item": "(347) 581-1891",
+            "count": "4"
+          },
+          {
+            "item": "(718) 437-7261",
+            "count": "4"
+          },
+          {
+            "item": "(347) 267-0263",
+            "count": "4"
+          },
+          {
+            "item": "(347) 202-7542",
+            "count": "4"
+          },
+          {
+            "item": "(347) 372-3812",
+            "count": "4"
+          }
+        ],
+        "smallest": "(205) 701-3333",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118338,
+      "name": "Child Age Range",
+      "dataTypeName": "text",
+      "description": "This field represents the possible age range of children enrolled in the program",
+      "fieldName": "age_range",
+      "position": 10,
+      "renderTypeName": "text",
+      "tableColumnId": 149565117,
+      "cachedContents": {
+        "non_null": "2734",
+        "largest": "NO DATA",
+        "null": "0",
+        "top": [
+          {
+            "item": "2 YEARS - 5 YEARS",
+            "count": "1742"
+          },
+          {
+            "item": "0 YEARS - 2 YEARS",
+            "count": "562"
+          },
+          {
+            "item": "3 YEARS - 5 YEARS",
+            "count": "389"
+          },
+          {
+            "item": "NO DATA",
+            "count": "41"
+          }
+        ],
+        "smallest": "0 YEARS - 2 YEARS",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118339,
+      "name": "Children Allowed in Care",
+      "dataTypeName": "text",
+      "description": "The maximum number of children that the program can care for based on the square footage of class and play rooms, the number of toilets and sinks, and overall estimates from the NYC Department of Buildings",
+      "fieldName": "capacity",
+      "position": 11,
+      "renderTypeName": "text",
+      "tableColumnId": 149565110,
+      "cachedContents": {
+        "non_null": "2734",
+        "largest": "NO DATA",
+        "null": "0",
+        "top": [
+          {
+            "item": "NO DATA",
+            "count": "353"
+          },
+          {
+            "item": "18",
+            "count": "91"
+          },
+          {
+            "item": "40",
+            "count": "70"
+          },
+          {
+            "item": "20",
+            "count": "65"
+          },
+          {
+            "item": "30",
+            "count": "63"
+          },
+          {
+            "item": "36",
+            "count": "56"
+          },
+          {
+            "item": "28",
+            "count": "55"
+          },
+          {
+            "item": "10",
+            "count": "50"
+          },
+          {
+            "item": "60",
+            "count": "48"
+          },
+          {
+            "item": "15",
+            "count": "41"
+          },
+          {
+            "item": "55",
+            "count": "39"
+          },
+          {
+            "item": "39",
+            "count": "38"
+          },
+          {
+            "item": "27",
+            "count": "35"
+          },
+          {
+            "item": "26",
+            "count": "34"
+          },
+          {
+            "item": "38",
+            "count": "34"
+          },
+          {
+            "item": "24",
+            "count": "34"
+          },
+          {
+            "item": "50",
+            "count": "33"
+          },
+          {
+            "item": "29",
+            "count": "32"
+          },
+          {
+            "item": "45",
+            "count": "32"
+          },
+          {
+            "item": "35",
+            "count": "31"
+          }
+        ],
+        "smallest": "10",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118341,
+      "name": "Administer Medication",
+      "dataTypeName": "text",
+      "description": "Indicates whether a program has staff qualified to administer medication",
+      "fieldName": "administer_medication",
+      "position": 12,
+      "renderTypeName": "text",
+      "tableColumnId": 158120993,
+      "cachedContents": {
+        "non_null": "2734",
+        "largest": "Yes",
+        "null": "0",
+        "top": [
+          {
+            "item": "No",
+            "count": "2588"
+          },
+          {
+            "item": "Yes",
+            "count": "146"
+          }
+        ],
+        "smallest": "No",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118342,
+      "name": "BIN",
+      "dataTypeName": "text",
+      "description": "Department of Buildings (DOB) Building Identification Number",
+      "fieldName": "bin",
+      "position": 13,
+      "renderTypeName": "text",
+      "tableColumnId": 157915368,
+      "cachedContents": {
+        "non_null": "2722",
+        "largest": "5174997",
+        "null": "12",
+        "top": [
+          {
+            "item": "3000000",
+            "count": "9"
+          },
+          {
+            "item": "2000000",
+            "count": "5"
+          },
+          {
+            "item": "3039623",
+            "count": "4"
+          },
+          {
+            "item": "3141674",
+            "count": "4"
+          },
+          {
+            "item": "3398043",
+            "count": "4"
+          },
+          {
+            "item": "3392365",
+            "count": "3"
+          },
+          {
+            "item": "3141065",
+            "count": "3"
+          },
+          {
+            "item": "3138079",
+            "count": "3"
+          },
+          {
+            "item": "3127549",
+            "count": "3"
+          },
+          {
+            "item": "3060902",
+            "count": "3"
+          },
+          {
+            "item": "3129528",
+            "count": "3"
+          },
+          {
+            "item": "2118328",
+            "count": "3"
+          },
+          {
+            "item": "3195384",
+            "count": "3"
+          },
+          {
+            "item": "3338801",
+            "count": "3"
+          },
+          {
+            "item": "1085785",
+            "count": "3"
+          },
+          {
+            "item": "1045818",
+            "count": "3"
+          },
+          {
+            "item": "1088704",
+            "count": "3"
+          },
+          {
+            "item": "3000484",
+            "count": "3"
+          },
+          {
+            "item": "3135866",
+            "count": "3"
+          },
+          {
+            "item": "3398400",
+            "count": "3"
+          }
+        ],
+        "smallest": "1000006",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 625118343,
+      "name": "BBL",
+      "dataTypeName": "text",
+      "description": "Borough Block Lot",
+      "fieldName": "bbl",
+      "position": 14,
+      "renderTypeName": "text",
+      "tableColumnId": 149565126,
+      "cachedContents": {
+        "non_null": "2727",
+        "largest": "5078960048",
+        "null": "7",
+        "top": [
+          {
+            "item": "3",
+            "count": "5"
+          },
+          {
+            "item": "3057340045",
+            "count": "4"
+          },
+          {
+            "item": "3052740009",
+            "count": "4"
+          },
+          {
+            "item": "3014800002",
+            "count": "4"
+          },
+          {
+            "item": "2026187501",
+            "count": "4"
+          },
+          {
+            "item": "3054080055",
+            "count": "3"
+          },
+          {
+            "item": "3022620024",
+            "count": "3"
+          },
+          {
+            "item": "3054620045",
+            "count": "3"
+          },
+          {
+            "item": "3001647501",
+            "count": "3"
+          },
+          {
+            "item": "3005800016",
+            "count": "3"
+          },
+          {
+            "item": "1019750001",
+            "count": "3"
+          },
+          {
+            "item": "3022200038",
+            "count": "3"
+          },
+          {
+            "item": "3033290016",
+            "count": "3"
+          },
+          {
+            "item": "1011710062",
+            "count": "3"
+          },
+          {
+            "item": "1009310001",
+            "count": "3"
+          },
+          {
+            "item": "1013730001",
+            "count": "3"
+          },
+          {
+            "item": "1014650021",
+            "count": "3"
+          },
+          {
+            "item": "1018510008",
+            "count": "3"
+          },
+          {
+            "item": "2026097501",
+            "count": "3"
+          },
+          {
+            "item": "3013840051",
+            "count": "3"
+          }
+        ],
+        "smallest": "1000057501",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 625118344,
+      "name": "Community Board",
+      "dataTypeName": "text",
+      "description": "Community Board of the location of the building",
+      "fieldName": "community_board",
+      "position": 15,
+      "renderTypeName": "text",
+      "tableColumnId": 157915369,
+      "cachedContents": {
+        "non_null": "2727",
+        "largest": "503",
+        "null": "7",
+        "top": [
+          {
+            "item": "312",
+            "count": "191"
+          },
+          {
+            "item": "301",
+            "count": "120"
+          },
+          {
+            "item": "108",
+            "count": "105"
+          },
+          {
+            "item": "107",
+            "count": "98"
+          },
+          {
+            "item": "302",
+            "count": "87"
+          },
+          {
+            "item": "303",
+            "count": "80"
+          },
+          {
+            "item": "315",
+            "count": "66"
+          },
+          {
+            "item": "306",
+            "count": "65"
+          },
+          {
+            "item": "311",
+            "count": "64"
+          },
+          {
+            "item": "412",
+            "count": "62"
+          },
+          {
+            "item": "407",
+            "count": "60"
+          },
+          {
+            "item": "401",
+            "count": "58"
+          },
+          {
+            "item": "317",
+            "count": "56"
+          },
+          {
+            "item": "101",
+            "count": "54"
+          },
+          {
+            "item": "310",
+            "count": "53"
+          },
+          {
+            "item": "402",
+            "count": "53"
+          },
+          {
+            "item": "408",
+            "count": "52"
+          },
+          {
+            "item": "314",
+            "count": "52"
+          },
+          {
+            "item": "307",
+            "count": "49"
+          },
+          {
+            "item": "501",
+            "count": "48"
+          }
+        ],
+        "smallest": "101",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 625118345,
+      "name": "Council District",
+      "dataTypeName": "text",
+      "description": "Council District of the location of the building",
+      "fieldName": "council_district",
+      "position": 16,
+      "renderTypeName": "text",
+      "tableColumnId": 157915367,
+      "cachedContents": {
+        "non_null": "2727",
+        "largest": "51",
+        "null": "7",
+        "top": [
+          {
+            "item": "33",
+            "count": "151"
+          },
+          {
+            "item": "44",
+            "count": "142"
+          },
+          {
+            "item": "39",
+            "count": "107"
+          },
+          {
+            "item": "01",
+            "count": "84"
+          },
+          {
+            "item": "43",
+            "count": "77"
+          },
+          {
+            "item": "48",
+            "count": "76"
+          },
+          {
+            "item": "35",
+            "count": "74"
+          },
+          {
+            "item": "06",
+            "count": "73"
+          },
+          {
+            "item": "04",
+            "count": "73"
+          },
+          {
+            "item": "05",
+            "count": "72"
+          },
+          {
+            "item": "38",
+            "count": "69"
+          },
+          {
+            "item": "36",
+            "count": "68"
+          },
+          {
+            "item": "40",
+            "count": "65"
+          },
+          {
+            "item": "08",
+            "count": "64"
+          },
+          {
+            "item": "11",
+            "count": "60"
+          },
+          {
+            "item": "50",
+            "count": "58"
+          },
+          {
+            "item": "26",
+            "count": "58"
+          },
+          {
+            "item": "07",
+            "count": "57"
+          },
+          {
+            "item": "24",
+            "count": "56"
+          },
+          {
+            "item": "03",
+            "count": "56"
+          }
+        ],
+        "smallest": "01",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 625118346,
+      "name": "Census Tract",
+      "dataTypeName": "text",
+      "description": "The 2020 Census Tract of the location of the building",
+      "fieldName": "census_tract",
+      "position": 17,
+      "renderTypeName": "text",
+      "tableColumnId": 149565125,
+      "cachedContents": {
+        "non_null": "2727",
+        "largest": "161700",
+        "null": "7",
+        "top": [
+          {
+            "item": "000700",
+            "count": "21"
+          },
+          {
+            "item": "006900",
+            "count": "19"
+          },
+          {
+            "item": "023200",
+            "count": "18"
+          },
+          {
+            "item": "015100",
+            "count": "17"
+          },
+          {
+            "item": "002100",
+            "count": "17"
+          },
+          {
+            "item": "022600",
+            "count": "17"
+          },
+          {
+            "item": "018100",
+            "count": "17"
+          },
+          {
+            "item": "003300",
+            "count": "17"
+          },
+          {
+            "item": "022400",
+            "count": "15"
+          },
+          {
+            "item": "019900",
+            "count": "14"
+          },
+          {
+            "item": "000100",
+            "count": "13"
+          },
+          {
+            "item": "014900",
+            "count": "12"
+          },
+          {
+            "item": "006300",
+            "count": "12"
+          },
+          {
+            "item": "017300",
+            "count": "12"
+          },
+          {
+            "item": "017900",
+            "count": "12"
+          },
+          {
+            "item": "023400",
+            "count": "12"
+          },
+          {
+            "item": "053700",
+            "count": "12"
+          },
+          {
+            "item": "009900",
+            "count": "11"
+          },
+          {
+            "item": "009200",
+            "count": "11"
+          },
+          {
+            "item": "006200",
+            "count": "11"
+          }
+        ],
+        "smallest": "000100",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 625118347,
+      "name": "NTA Code",
+      "dataTypeName": "text",
+      "description": "NTA (Neighborhood Tabulation Area) code of the location of the building",
+      "fieldName": "nta_code",
+      "position": 18,
+      "renderTypeName": "text",
+      "tableColumnId": 149565122,
+      "cachedContents": {
+        "non_null": "2727",
+        "largest": "SI54",
+        "null": "7",
+        "top": [
+          {
+            "item": "BK88",
+            "count": "151"
+          },
+          {
+            "item": "MN12",
+            "count": "63"
+          },
+          {
+            "item": "BK75",
+            "count": "56"
+          },
+          {
+            "item": "BK37",
+            "count": "46"
+          },
+          {
+            "item": "BK61",
+            "count": "46"
+          },
+          {
+            "item": "BK34",
+            "count": "44"
+          },
+          {
+            "item": "BK38",
+            "count": "43"
+          },
+          {
+            "item": "BK72",
+            "count": "42"
+          },
+          {
+            "item": "QN31",
+            "count": "41"
+          },
+          {
+            "item": "BK73",
+            "count": "39"
+          },
+          {
+            "item": "MN31",
+            "count": "38"
+          },
+          {
+            "item": "MN40",
+            "count": "35"
+          },
+          {
+            "item": "MN24",
+            "count": "34"
+          },
+          {
+            "item": "MN13",
+            "count": "34"
+          },
+          {
+            "item": "MN14",
+            "count": "34"
+          },
+          {
+            "item": "BK69",
+            "count": "33"
+          },
+          {
+            "item": "BK42",
+            "count": "33"
+          },
+          {
+            "item": "MN32",
+            "count": "32"
+          },
+          {
+            "item": "BK28",
+            "count": "32"
+          },
+          {
+            "item": "BK82",
+            "count": "30"
+          }
+        ],
+        "smallest": "BK09",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {}
+    },
+    {
+      "id": 625118348,
+      "name": "Latitude",
+      "dataTypeName": "number",
+      "description": "Latitude of the location of the building",
+      "fieldName": "latitude",
+      "position": 19,
+      "renderTypeName": "number",
+      "tableColumnId": 149565123,
+      "cachedContents": {
+        "non_null": "2727",
+        "largest": "40.908299373628",
+        "null": "7",
+        "top": [
+          {
+            "item": "40.689292399799",
+            "count": "4"
+          },
+          {
+            "item": "40.625540054642",
+            "count": "3"
+          },
+          {
+            "item": "40.624643195387",
+            "count": "3"
+          },
+          {
+            "item": "40.690044411028",
+            "count": "3"
+          },
+          {
+            "item": "40.80970978625",
+            "count": "3"
+          },
+          {
+            "item": "40.631505027548",
+            "count": "3"
+          },
+          {
+            "item": "40.670094588119",
+            "count": "3"
+          },
+          {
+            "item": "40.640273814085",
+            "count": "3"
+          },
+          {
+            "item": "40.687140460238",
+            "count": "3"
+          },
+          {
+            "item": "40.699539560095",
+            "count": "3"
+          },
+          {
+            "item": "40.766072212349",
+            "count": "3"
+          },
+          {
+            "item": "40.775058198086",
+            "count": "3"
+          },
+          {
+            "item": "40.830162466158",
+            "count": "3"
+          },
+          {
+            "item": "40.674377784633",
+            "count": "3"
+          },
+          {
+            "item": "40.59024240731",
+            "count": "3"
+          },
+          {
+            "item": "40.602661456556",
+            "count": "3"
+          },
+          {
+            "item": "40.587025092593",
+            "count": "2"
+          },
+          {
+            "item": "40.586241422735",
+            "count": "2"
+          },
+          {
+            "item": "40.588037763478",
+            "count": "2"
+          },
+          {
+            "item": "40.541625868853",
+            "count": "2"
+          }
+        ],
+        "smallest": "40.509076584733",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 625118349,
+      "name": "Longitude",
+      "dataTypeName": "number",
+      "description": "Longitude of the location of the building",
+      "fieldName": "longitude",
+      "position": 20,
+      "renderTypeName": "number",
+      "tableColumnId": 149565124,
+      "cachedContents": {
+        "non_null": "2727",
+        "largest": "-73.713291566564",
+        "null": "7",
+        "top": [
+          {
+            "item": "-73.923685196693",
+            "count": "4"
+          },
+          {
+            "item": "-73.988634021267",
+            "count": "3"
+          },
+          {
+            "item": "-73.991741423202",
+            "count": "3"
+          },
+          {
+            "item": "-73.957144743329",
+            "count": "3"
+          },
+          {
+            "item": "-73.942423207627",
+            "count": "3"
+          },
+          {
+            "item": "-73.98683839769",
+            "count": "3"
+          },
+          {
+            "item": "-73.977299114671",
+            "count": "3"
+          },
+          {
+            "item": "-73.977946282024",
+            "count": "3"
+          },
+          {
+            "item": "-73.965316300815",
+            "count": "3"
+          },
+          {
+            "item": "-73.96008990936",
+            "count": "3"
+          },
+          {
+            "item": "-73.955953770875",
+            "count": "3"
+          },
+          {
+            "item": "-73.931010646976",
+            "count": "3"
+          },
+          {
+            "item": "-73.906232198105",
+            "count": "3"
+          },
+          {
+            "item": "-74.163086769773",
+            "count": "3"
+          },
+          {
+            "item": "-74.006885680104",
+            "count": "3"
+          },
+          {
+            "item": "-73.9961814348",
+            "count": "3"
+          },
+          {
+            "item": "-74.175539992301",
+            "count": "2"
+          },
+          {
+            "item": "-74.078107635299",
+            "count": "2"
+          },
+          {
+            "item": "-74.075733844245",
+            "count": "2"
+          },
+          {
+            "item": "-74.120300684778",
+            "count": "2"
+          }
+        ],
+        "smallest": "-74.243123845532",
+        "count": "2734",
+        "cardinality": "2734"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "license": {
+    "name": "Public Domain"
+  },
+  "metadata": {
+    "attachments": [
+      {
+        "filename": "OpenDataDictionary_ActiveNYCRegulatedChildCareCenters__Feb2025.xlsx",
+        "assetId": "494563cf-1c36-47e0-92fc-8d9b30c13887",
+        "name": "OpenDataDictionary_ActiveNYCRegulatedChildCareCenters__Feb2025.xlsx"
+      }
+    ],
+    "custom_fields": {
+      "Update": {
+        "Automation": "Yes",
+        "Update Frequency": "Daily"
+      },
+      "Dataset Information": {
+        "Agency": "Department of Health and Mental Hygiene (DOHMH)"
+      }
+    },
+    "rowLabel": "NYC Health Code Regulated Child Care Program",
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ]
+  },
+  "owner": {
+    "id": "5fuc-pqz2",
+    "displayName": "NYC OpenData",
+    "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName": "NYC OpenData",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "query": {},
+  "rights": [
+    "read"
+  ],
+  "tableAuthor": {
+    "id": "5fuc-pqz2",
+    "displayName": "NYC OpenData",
+    "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName": "NYC OpenData",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "tags": [
+    "child care",
+    "day care",
+    "group day care"
+  ],
+  "flags": [
+    "default",
+    "ownerMayBeContacted",
+    "restorable",
+    "restorePossibleForType"
+  ]
+}

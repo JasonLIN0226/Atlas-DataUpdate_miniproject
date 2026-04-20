@@ -1,0 +1,3367 @@
+{
+  "id" : "76ig-c548",
+  "name" : "311 Service Requests from 2010 to 2019",
+  "assetType" : "dataset",
+  "averageRating" : 0,
+  "category" : "Social Services",
+  "createdAt" : 1766421071,
+  "description" : "311 responds to thousands of inquiries, comments and requests from customers every single day. This dataset represents only service requests that can be directed to specific agencies.  \n\nThis dataset is updated daily and expected values for many fields will change over time.  The lists of expected values associated with each column are not exhaustive.\n\nEach row of data contains information about the service request, including complaint type, responding agency, and geographic location.  However the data does not reveal any personally identifying information about the customer who made the request.\n\nFor data from 2020-present see: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9/about_data",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 1432,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41839415,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1766499919,
+  "publicationGroup" : 20219112,
+  "publicationStage" : "published",
+  "rowIdentifierColumnId" : 623546765,
+  "rowsUpdatedAt" : 1766600348,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 20219292,
+  "totalTimesRated" : 0,
+  "viewCount" : 4906,
+  "viewLastModified" : 1766778501,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1766778641,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 7289733,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1766778595,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "reviewer" : {
+      "id" : "cku2-7rxa",
+      "displayName" : "Claudia"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1766778641,
+      "failureCount" : 0,
+      "startedAt" : 1766778641,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "cku2-7rxa",
+      "displayName" : "Claudia"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 623546765,
+    "name" : "Unique Key",
+    "dataTypeName" : "text",
+    "description" : "Unique identifier of a Service Request (SR) in the open data set.",
+    "fieldName" : "unique_key",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199156,
+    "cachedContents" : {
+      "non_null" : "22613917",
+      "largest" : "66913078",
+      "null" : "0",
+      "top" : [ {
+        "item" : "10693408",
+        "count" : "1"
+      }, {
+        "item" : "10836749",
+        "count" : "1"
+      }, {
+        "item" : "10836967",
+        "count" : "1"
+      }, {
+        "item" : "11051177",
+        "count" : "1"
+      }, {
+        "item" : "11413576",
+        "count" : "1"
+      }, {
+        "item" : "11463895",
+        "count" : "1"
+      }, {
+        "item" : "11463896",
+        "count" : "1"
+      }, {
+        "item" : "11464334",
+        "count" : "1"
+      }, {
+        "item" : "11464394",
+        "count" : "1"
+      }, {
+        "item" : "11464467",
+        "count" : "1"
+      }, {
+        "item" : "11464508",
+        "count" : "1"
+      }, {
+        "item" : "11464509",
+        "count" : "1"
+      }, {
+        "item" : "11464521",
+        "count" : "1"
+      }, {
+        "item" : "11464567",
+        "count" : "1"
+      }, {
+        "item" : "11464572",
+        "count" : "1"
+      }, {
+        "item" : "11464639",
+        "count" : "1"
+      }, {
+        "item" : "11464846",
+        "count" : "1"
+      }, {
+        "item" : "11464850",
+        "count" : "1"
+      }, {
+        "item" : "11464938",
+        "count" : "1"
+      }, {
+        "item" : "10564222",
+        "count" : "1"
+      } ],
+      "smallest" : "10564222",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546766,
+    "name" : "Created Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date and time that a Customer submits a Service Request. ",
+    "fieldName" : "created_date",
+    "position" : 2,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 164199144,
+    "cachedContents" : {
+      "non_null" : "22613917",
+      "largest" : "2019-12-31T23:59:11.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2013-01-24T00:00:00.000",
+        "count" : "7650"
+      }, {
+        "item" : "2015-01-08T00:00:00.000",
+        "count" : "7242"
+      }, {
+        "item" : "2014-01-07T00:00:00.000",
+        "count" : "7030"
+      }, {
+        "item" : "2015-02-16T00:00:00.000",
+        "count" : "6430"
+      }, {
+        "item" : "2014-01-08T00:00:00.000",
+        "count" : "6197"
+      }, {
+        "item" : "2012-01-04T00:00:00.000",
+        "count" : "5933"
+      }, {
+        "item" : "2013-11-25T00:00:00.000",
+        "count" : "5909"
+      }, {
+        "item" : "2014-01-23T00:00:00.000",
+        "count" : "5782"
+      }, {
+        "item" : "2014-01-22T00:00:00.000",
+        "count" : "5497"
+      }, {
+        "item" : "2015-01-07T00:00:00.000",
+        "count" : "5433"
+      }, {
+        "item" : "2011-01-24T00:00:00.000",
+        "count" : "5380"
+      }, {
+        "item" : "2011-10-28T00:00:00.000",
+        "count" : "5275"
+      }, {
+        "item" : "2010-01-04T00:00:00.000",
+        "count" : "5130"
+      }, {
+        "item" : "2014-01-24T00:00:00.000",
+        "count" : "5113"
+      }, {
+        "item" : "2010-12-14T00:00:00.000",
+        "count" : "5102"
+      }, {
+        "item" : "2014-11-18T00:00:00.000",
+        "count" : "5028"
+      }, {
+        "item" : "2010-12-15T00:00:00.000",
+        "count" : "5021"
+      }, {
+        "item" : "2014-11-19T00:00:00.000",
+        "count" : "5004"
+      }, {
+        "item" : "2013-01-25T00:00:00.000",
+        "count" : "4959"
+      }, {
+        "item" : "2010-12-06T00:00:00.000",
+        "count" : "4880"
+      } ],
+      "smallest" : "2010-01-01T00:00:00.000",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : {
+      "view" : "date_time"
+    }
+  }, {
+    "id" : 623546767,
+    "name" : "Closed Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date and time that an Agency closes a Service Request. ",
+    "fieldName" : "closed_date",
+    "position" : 3,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 164199132,
+    "cachedContents" : {
+      "non_null" : "22119240",
+      "largest" : "3027-03-30T00:00:00.000",
+      "null" : "494677",
+      "top" : [ {
+        "item" : "2019-09-10T00:00:00.000",
+        "count" : "18032"
+      }, {
+        "item" : "2023-06-20T11:56:51.000",
+        "count" : "13401"
+      }, {
+        "item" : "2010-11-15T00:00:00.000",
+        "count" : "9287"
+      }, {
+        "item" : "2012-11-07T00:00:00.000",
+        "count" : "7483"
+      }, {
+        "item" : "2010-12-09T00:00:00.000",
+        "count" : "6615"
+      }, {
+        "item" : "2011-11-28T00:00:00.000",
+        "count" : "6506"
+      }, {
+        "item" : "2010-11-08T00:00:00.000",
+        "count" : "6096"
+      }, {
+        "item" : "2014-01-06T00:00:00.000",
+        "count" : "6071"
+      }, {
+        "item" : "2013-01-28T00:00:00.000",
+        "count" : "5890"
+      }, {
+        "item" : "2014-01-09T00:00:00.000",
+        "count" : "5857"
+      }, {
+        "item" : "1900-01-01T00:00:00.000",
+        "count" : "5803"
+      }, {
+        "item" : "2011-02-28T00:00:00.000",
+        "count" : "5705"
+      }, {
+        "item" : "2011-11-03T00:00:00.000",
+        "count" : "5497"
+      }, {
+        "item" : "2014-01-27T00:00:00.000",
+        "count" : "5362"
+      }, {
+        "item" : "2015-01-12T00:00:00.000",
+        "count" : "5354"
+      }, {
+        "item" : "2011-10-31T00:00:00.000",
+        "count" : "5125"
+      }, {
+        "item" : "2013-12-16T00:00:00.000",
+        "count" : "4916"
+      }, {
+        "item" : "2011-01-24T00:00:00.000",
+        "count" : "4870"
+      }, {
+        "item" : "2013-01-24T00:00:00.000",
+        "count" : "4838"
+      }, {
+        "item" : "2012-01-17T00:00:00.000",
+        "count" : "4808"
+      } ],
+      "smallest" : "1899-12-31T19:00:00.000",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : {
+      "view" : "date_time"
+    }
+  }, {
+    "id" : 623546768,
+    "name" : "Agency",
+    "dataTypeName" : "text",
+    "description" : "Acronym of responding City Government Agency or entity responding to 311 Service Request. ",
+    "fieldName" : "agency",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199158,
+    "cachedContents" : {
+      "non_null" : "22613917",
+      "largest" : "TLC",
+      "null" : "0",
+      "top" : [ {
+        "item" : "HPD",
+        "count" : "5983635"
+      }, {
+        "item" : "NYPD",
+        "count" : "5271664"
+      }, {
+        "item" : "DOT",
+        "count" : "3053226"
+      }, {
+        "item" : "DSNY",
+        "count" : "2390373"
+      }, {
+        "item" : "DEP",
+        "count" : "1739105"
+      }, {
+        "item" : "DOB",
+        "count" : "1200393"
+      }, {
+        "item" : "DPR",
+        "count" : "971363"
+      }, {
+        "item" : "DOHMH",
+        "count" : "564562"
+      }, {
+        "item" : "DOF",
+        "count" : "511033"
+      }, {
+        "item" : "TLC",
+        "count" : "262592"
+      }, {
+        "item" : "DCA",
+        "count" : "195270"
+      }, {
+        "item" : "DHS",
+        "count" : "191714"
+      }, {
+        "item" : "HRA",
+        "count" : "113953"
+      }, {
+        "item" : "DFTA",
+        "count" : "92700"
+      }, {
+        "item" : "3-1-1",
+        "count" : "20594"
+      }, {
+        "item" : "DOE",
+        "count" : "19756"
+      }, {
+        "item" : "EDC",
+        "count" : "12478"
+      }, {
+        "item" : "NYCEM",
+        "count" : "8790"
+      }, {
+        "item" : "DOITT",
+        "count" : "6770"
+      }, {
+        "item" : "DCAS",
+        "count" : "1873"
+      } ],
+      "smallest" : "3-1-1",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546769,
+    "name" : "Agency Name",
+    "dataTypeName" : "text",
+    "description" : "Full agency name of responding City Government Agency, or entity responding to 311 service request. ",
+    "fieldName" : "agency_name",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199135,
+    "cachedContents" : {
+      "non_null" : "22613917",
+      "largest" : "Valuation Policy",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Department of Housing Preservation and Development",
+        "count" : "5983112"
+      }, {
+        "item" : "New York City Police Department",
+        "count" : "5269843"
+      }, {
+        "item" : "Department of Transportation",
+        "count" : "3053128"
+      }, {
+        "item" : "Department of Sanitation",
+        "count" : "2390373"
+      }, {
+        "item" : "Department of Environmental Protection",
+        "count" : "1739105"
+      }, {
+        "item" : "Department of Buildings",
+        "count" : "1172080"
+      }, {
+        "item" : "Department of Parks and Recreation",
+        "count" : "971329"
+      }, {
+        "item" : "Department of Health and Mental Hygiene",
+        "count" : "561465"
+      }, {
+        "item" : "Taxi and Limousine Commission",
+        "count" : "257003"
+      }, {
+        "item" : "Department of Consumer Affairs",
+        "count" : "195270"
+      }, {
+        "item" : "HRA Benefit Card Replacement",
+        "count" : "113953"
+      }, {
+        "item" : "Correspondence Unit",
+        "count" : "90381"
+      }, {
+        "item" : "Senior Citizen Rent Increase Exemption Unit",
+        "count" : "87622"
+      }, {
+        "item" : "Department for the Aging",
+        "count" : "86963"
+      }, {
+        "item" : "Refunds and Adjustments",
+        "count" : "82998"
+      }, {
+        "item" : "Operations Unit - Department of Homeless Services",
+        "count" : "79344"
+      }, {
+        "item" : "DHS Advantage Programs",
+        "count" : "73021"
+      }, {
+        "item" : "Personal Exemption Unit",
+        "count" : "53304"
+      }, {
+        "item" : "Property Exec Office",
+        "count" : "48974"
+      }, {
+        "item" : "Department of Homeless Services",
+        "count" : "39349"
+      } ],
+      "smallest" : "3-1-1",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546770,
+    "name" : "Problem (formerly Complaint Type)",
+    "dataTypeName" : "text",
+    "description" : "This is the first level of a hierarchy identifying the topic of the incident or condition.",
+    "fieldName" : "complaint_type",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199170,
+    "cachedContents" : {
+      "non_null" : "22613917",
+      "largest" : "ZTESTINT",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Noise - Residential",
+        "count" : "1810072"
+      }, {
+        "item" : "HEAT/HOT WATER",
+        "count" : "1236353"
+      }, {
+        "item" : "Street Condition",
+        "count" : "964673"
+      }, {
+        "item" : "Blocked Driveway",
+        "count" : "921035"
+      }, {
+        "item" : "Illegal Parking",
+        "count" : "916681"
+      }, {
+        "item" : "Street Light Condition",
+        "count" : "914827"
+      }, {
+        "item" : "HEATING",
+        "count" : "887869"
+      }, {
+        "item" : "PLUMBING",
+        "count" : "709411"
+      }, {
+        "item" : "Water System",
+        "count" : "648140"
+      }, {
+        "item" : "GENERAL CONSTRUCTION",
+        "count" : "500813"
+      }, {
+        "item" : "General Construction/Plumbing",
+        "count" : "498801"
+      }, {
+        "item" : "Noise",
+        "count" : "479652"
+      }, {
+        "item" : "Noise - Street/Sidewalk",
+        "count" : "473165"
+      }, {
+        "item" : "UNSANITARY CONDITION",
+        "count" : "448775"
+      }, {
+        "item" : "Request Large Bulky Item Collection",
+        "count" : "441605"
+      }, {
+        "item" : "Traffic Signal Condition",
+        "count" : "434609"
+      }, {
+        "item" : "Sewer",
+        "count" : "361697"
+      }, {
+        "item" : "PAINT - PLASTER",
+        "count" : "361227"
+      }, {
+        "item" : "Noise - Commercial",
+        "count" : "349469"
+      }, {
+        "item" : "Dirty Conditions",
+        "count" : "348777"
+      } ],
+      "smallest" : "../../../../../../../../../...",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546771,
+    "name" : "Problem Detail (formerly Descriptor)",
+    "dataTypeName" : "text",
+    "description" : "A second level of detail about the Problem (formerly Complaint Type), and provides further detail on the incident or condition. ",
+    "fieldName" : "descriptor",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199165,
+    "cachedContents" : {
+      "non_null" : "22579996",
+      "largest" : "Zoning - Non-Conforming/Illegal Vehicle Storage",
+      "null" : "33921",
+      "top" : [ {
+        "item" : "Loud Music/Party",
+        "count" : "1809182"
+      }, {
+        "item" : "HEAT",
+        "count" : "868960"
+      }, {
+        "item" : "ENTIRE BUILDING",
+        "count" : "806189"
+      }, {
+        "item" : "No Access",
+        "count" : "683360"
+      }, {
+        "item" : "Street Light Out",
+        "count" : "681075"
+      }, {
+        "item" : "Pothole",
+        "count" : "585045"
+      }, {
+        "item" : "Banging/Pounding",
+        "count" : "515010"
+      }, {
+        "item" : "Request Large Bulky Item Collection",
+        "count" : "441605"
+      }, {
+        "item" : "APARTMENT ONLY",
+        "count" : "430164"
+      }, {
+        "item" : "CEILING",
+        "count" : "342697"
+      }, {
+        "item" : "Loud Talking",
+        "count" : "304342"
+      }, {
+        "item" : "MOLD",
+        "count" : "248812"
+      }, {
+        "item" : "Posted Parking Sign Violation",
+        "count" : "248629"
+      }, {
+        "item" : "Partial Access",
+        "count" : "237675"
+      }, {
+        "item" : "FLOOR",
+        "count" : "232697"
+      }, {
+        "item" : "Controller",
+        "count" : "232476"
+      }, {
+        "item" : "With License Plate",
+        "count" : "232035"
+      }, {
+        "item" : "PESTS",
+        "count" : "221826"
+      }, {
+        "item" : "Blocked Hydrant",
+        "count" : "216193"
+      }, {
+        "item" : "N/A",
+        "count" : "215222"
+      } ],
+      "smallest" : "10A Adopt-A-Basket",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546772,
+    "name" : "Additional Details",
+    "dataTypeName" : "text",
+    "description" : "A third level of detail about the Problem (formerly Complaint Type) beyond the Problem Detail (formerly Descriptor). ",
+    "fieldName" : "descriptor_2",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199146,
+    "cachedContents" : {
+      "non_null" : "12520219",
+      "largest" : "YNV1",
+      "null" : "10093698",
+      "top" : [ {
+        "item" : "N/A",
+        "count" : "2023118"
+      }, {
+        "item" : "NO HEAT",
+        "count" : "1264083"
+      }, {
+        "item" : "Location Type: Intersection",
+        "count" : "724034"
+      }, {
+        "item" : "NO HEAT AND NO HOT WATER",
+        "count" : "304856"
+      }, {
+        "item" : "NO HOT WATER",
+        "count" : "301381"
+      }, {
+        "item" : "NO HEAT& HOT WATER",
+        "count" : "248656"
+      }, {
+        "item" : "Operating Improperly",
+        "count" : "214505"
+      }, {
+        "item" : "NM1",
+        "count" : "199934"
+      }, {
+        "item" : "AT WALL OR CEILING",
+        "count" : "166981"
+      }, {
+        "item" : "BROKEN OR MISSING",
+        "count" : "159643"
+      }, {
+        "item" : "Street Tree",
+        "count" : "152196"
+      }, {
+        "item" : "SA",
+        "count" : "137994"
+      }, {
+        "item" : "MICE",
+        "count" : "137471"
+      }, {
+        "item" : "WA2",
+        "count" : "127019"
+      }, {
+        "item" : "MOLD",
+        "count" : "107032"
+      }, {
+        "item" : "ROACHES",
+        "count" : "102810"
+      }, {
+        "item" : "WA4",
+        "count" : "94568"
+      }, {
+        "item" : "CHIPPED/PEELING/FLAKING",
+        "count" : "91768"
+      }, {
+        "item" : "ACCUMULATION",
+        "count" : "87154"
+      }, {
+        "item" : "SC",
+        "count" : "85619"
+      } ],
+      "smallest" : "02019FS0101241",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546773,
+    "name" : "Location Type",
+    "dataTypeName" : "text",
+    "description" : "Describes the type of location used in the address information",
+    "fieldName" : "location_type",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199167,
+    "cachedContents" : {
+      "non_null" : "17209019",
+      "largest" : "Wooded Area",
+      "null" : "5404898",
+      "top" : [ {
+        "item" : "RESIDENTIAL BUILDING",
+        "count" : "5923696"
+      }, {
+        "item" : "Street/Sidewalk",
+        "count" : "2942103"
+      }, {
+        "item" : "Street",
+        "count" : "2074225"
+      }, {
+        "item" : "Residential Building/House",
+        "count" : "1876060"
+      }, {
+        "item" : "Sidewalk",
+        "count" : "1625749"
+      }, {
+        "item" : "Other",
+        "count" : "331304"
+      }, {
+        "item" : "Property Address",
+        "count" : "211728"
+      }, {
+        "item" : "Store/Commercial",
+        "count" : "204921"
+      }, {
+        "item" : "Club/Bar/Restaurant",
+        "count" : "187789"
+      }, {
+        "item" : "Senior Address",
+        "count" : "171685"
+      }, {
+        "item" : "Park",
+        "count" : "151331"
+      }, {
+        "item" : "3+ Family Apt. Building",
+        "count" : "117075"
+      }, {
+        "item" : "N/A",
+        "count" : "110427"
+      }, {
+        "item" : "Restaurant/Bar/Deli/Bakery",
+        "count" : "101114"
+      }, {
+        "item" : "NYC Street Address",
+        "count" : "100929"
+      }, {
+        "item" : "1-2 Family Dwelling",
+        "count" : "92999"
+      }, {
+        "item" : "Lot",
+        "count" : "87325"
+      }, {
+        "item" : "Tenant Address",
+        "count" : "72867"
+      }, {
+        "item" : "Mixed Use",
+        "count" : "65111"
+      }, {
+        "item" : "3+ Family Apartment Building",
+        "count" : "53549"
+      } ],
+      "smallest" : "1-, 2- and 3- Family Home",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546774,
+    "name" : "Incident Zip",
+    "dataTypeName" : "text",
+    "description" : "Zip code of the incident address",
+    "fieldName" : "incident_zip",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199140,
+    "cachedContents" : {
+      "non_null" : "21317774",
+      "largest" : "ZIP CODE",
+      "null" : "1296143",
+      "top" : [ {
+        "item" : "11226",
+        "count" : "388709"
+      }, {
+        "item" : "10467",
+        "count" : "327363"
+      }, {
+        "item" : "11207",
+        "count" : "291630"
+      }, {
+        "item" : "11385",
+        "count" : "279947"
+      }, {
+        "item" : "10458",
+        "count" : "277234"
+      }, {
+        "item" : "11221",
+        "count" : "271048"
+      }, {
+        "item" : "10453",
+        "count" : "269240"
+      }, {
+        "item" : "10468",
+        "count" : "260640"
+      }, {
+        "item" : "11208",
+        "count" : "256570"
+      }, {
+        "item" : "10452",
+        "count" : "254223"
+      }, {
+        "item" : "10457",
+        "count" : "250784"
+      }, {
+        "item" : "10031",
+        "count" : "237982"
+      }, {
+        "item" : "10456",
+        "count" : "237571"
+      }, {
+        "item" : "11233",
+        "count" : "234098"
+      }, {
+        "item" : "11213",
+        "count" : "227882"
+      }, {
+        "item" : "11225",
+        "count" : "226039"
+      }, {
+        "item" : "11216",
+        "count" : "223409"
+      }, {
+        "item" : "11203",
+        "count" : "221144"
+      }, {
+        "item" : "11212",
+        "count" : "218318"
+      }, {
+        "item" : "11230",
+        "count" : "214550"
+      } ],
+      "smallest" : "--------",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546775,
+    "name" : "Incident Address",
+    "dataTypeName" : "text",
+    "description" : "House number and street name of incident address",
+    "fieldName" : "incident_address",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199153,
+    "cachedContents" : {
+      "non_null" : "18113105",
+      "largest" : "z z",
+      "null" : "4500812",
+      "top" : [ {
+        "item" : "34 ARDEN STREET",
+        "count" : "14444"
+      }, {
+        "item" : "89-21 ELMHURST AVENUE",
+        "count" : "14353"
+      }, {
+        "item" : "1025 BOYNTON AVENUE",
+        "count" : "12598"
+      }, {
+        "item" : "78-15 PARSONS BOULEVARD",
+        "count" : "10260"
+      }, {
+        "item" : "BROADWAY",
+        "count" : "9841"
+      }, {
+        "item" : "3810 BAILEY AVENUE",
+        "count" : "7435"
+      }, {
+        "item" : "159-06 UNION TURNPIKE",
+        "count" : "7067"
+      }, {
+        "item" : "82-16 164 STREET",
+        "count" : "6704"
+      }, {
+        "item" : "957 WOODYCREST AVENUE",
+        "count" : "6133"
+      }, {
+        "item" : "3230 CRUGER AVENUE",
+        "count" : "5983"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "5804"
+      }, {
+        "item" : "1207 BEACH AVENUE",
+        "count" : "5524"
+      }, {
+        "item" : "BELT PKWY",
+        "count" : "5513"
+      }, {
+        "item" : "2913 FOSTER AVENUE",
+        "count" : "5270"
+      }, {
+        "item" : "750 GRAND CONCOURSE",
+        "count" : "5167"
+      }, {
+        "item" : "9511 SHORE ROAD",
+        "count" : "4986"
+      }, {
+        "item" : "3555 BRUCKNER BOULEVARD",
+        "count" : "4953"
+      }, {
+        "item" : "BKLYN QUEENS EXPY",
+        "count" : "4900"
+      }, {
+        "item" : "888 GRAND CONCOURSE",
+        "count" : "4715"
+      }, {
+        "item" : "1711 FULTON STREET",
+        "count" : "4542"
+      } ],
+      "smallest" : "-",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546776,
+    "name" : "Street Name",
+    "dataTypeName" : "text",
+    "description" : "Street name of incident address ",
+    "fieldName" : "street_name",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199149,
+    "cachedContents" : {
+      "non_null" : "18112868",
+      "largest" : "ZWICKY AVENUE",
+      "null" : "4501049",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "209195"
+      }, {
+        "item" : "GRAND CONCOURSE",
+        "count" : "129863"
+      }, {
+        "item" : "OCEAN AVENUE",
+        "count" : "87308"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "77599"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "74360"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "72996"
+      }, {
+        "item" : "ST NICHOLAS AVENUE",
+        "count" : "60269"
+      }, {
+        "item" : "MORRIS AVENUE",
+        "count" : "58567"
+      }, {
+        "item" : "BEDFORD AVENUE",
+        "count" : "56557"
+      }, {
+        "item" : "LINDEN BOULEVARD",
+        "count" : "56404"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "56195"
+      }, {
+        "item" : "NOSTRAND AVENUE",
+        "count" : "53240"
+      }, {
+        "item" : "WALTON AVENUE",
+        "count" : "49983"
+      }, {
+        "item" : "OCEAN PARKWAY",
+        "count" : "49852"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "49783"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "49768"
+      }, {
+        "item" : "7 AVENUE",
+        "count" : "49265"
+      }, {
+        "item" : "8 AVENUE",
+        "count" : "46580"
+      }, {
+        "item" : "FULTON STREET",
+        "count" : "45565"
+      }, {
+        "item" : "EASTERN PARKWAY",
+        "count" : "44233"
+      } ],
+      "smallest" : "----------",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546777,
+    "name" : "Cross Street 1",
+    "dataTypeName" : "text",
+    "description" : "First Cross street based on the geo validated incident location.",
+    "fieldName" : "cross_street_1",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199139,
+    "cachedContents" : {
+      "non_null" : "15017530",
+      "largest" : "ZWICKY AVENUE",
+      "null" : "7596387",
+      "top" : [ {
+        "item" : "BEND",
+        "count" : "272429"
+      }, {
+        "item" : "BROADWAY",
+        "count" : "183128"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "136086"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "131992"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "114799"
+      }, {
+        "item" : "7 AVENUE",
+        "count" : "105403"
+      }, {
+        "item" : "DEAD END",
+        "count" : "98948"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "93311"
+      }, {
+        "item" : "8 AVENUE",
+        "count" : "88251"
+      }, {
+        "item" : "BEDFORD AVENUE",
+        "count" : "69018"
+      }, {
+        "item" : "NOSTRAND AVENUE",
+        "count" : "61430"
+      }, {
+        "item" : "4 AVENUE",
+        "count" : "58142"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "54757"
+      }, {
+        "item" : "9 AVENUE",
+        "count" : "48458"
+      }, {
+        "item" : "ROGERS AVENUE",
+        "count" : "47373"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "47282"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "46627"
+      }, {
+        "item" : "LENOX AVENUE",
+        "count" : "44921"
+      }, {
+        "item" : "ST NICHOLAS AVENUE",
+        "count" : "44695"
+      }, {
+        "item" : "6 AVENUE",
+        "count" : "37139"
+      } ],
+      "smallest" : "`",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546778,
+    "name" : "Cross Street 2",
+    "dataTypeName" : "text",
+    "description" : "Second Cross Street based on the geo validated incident location",
+    "fieldName" : "cross_street_2",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199129,
+    "cachedContents" : {
+      "non_null" : "14900484",
+      "largest" : "ZWICKY AVENUE",
+      "null" : "7713433",
+      "top" : [ {
+        "item" : "BEND",
+        "count" : "270260"
+      }, {
+        "item" : "BROADWAY",
+        "count" : "193973"
+      }, {
+        "item" : "DEAD END",
+        "count" : "119842"
+      }, {
+        "item" : "7 AVENUE",
+        "count" : "101624"
+      }, {
+        "item" : "8 AVENUE",
+        "count" : "99758"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "83325"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "82810"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "81551"
+      }, {
+        "item" : "NOSTRAND AVENUE",
+        "count" : "77186"
+      }, {
+        "item" : "BEDFORD AVENUE",
+        "count" : "63455"
+      }, {
+        "item" : "9 AVENUE",
+        "count" : "62358"
+      }, {
+        "item" : "RIVERSIDE DRIVE",
+        "count" : "57189"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "52578"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "52463"
+      }, {
+        "item" : "4 AVENUE",
+        "count" : "49026"
+      }, {
+        "item" : "10 AVENUE",
+        "count" : "47805"
+      }, {
+        "item" : "6 AVENUE",
+        "count" : "46131"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "42443"
+      }, {
+        "item" : "NYCTA SUBWAY",
+        "count" : "40764"
+      }, {
+        "item" : "NEW YORK AVENUE",
+        "count" : "40399"
+      } ],
+      "smallest" : "`",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546779,
+    "name" : "Intersection Street 1",
+    "dataTypeName" : "text",
+    "description" : "First intersecting street based on geo validated incident location",
+    "fieldName" : "intersection_street_1",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199159,
+    "cachedContents" : {
+      "non_null" : "3953009",
+      "largest" : "ZWICKY AVENUE",
+      "null" : "18660908",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "66245"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "31055"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "26654"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "19355"
+      }, {
+        "item" : "ATLANTIC AVENUE",
+        "count" : "16985"
+      }, {
+        "item" : "7 AVENUE",
+        "count" : "16649"
+      }, {
+        "item" : "8 AVENUE",
+        "count" : "16148"
+      }, {
+        "item" : "BEND",
+        "count" : "15869"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "15497"
+      }, {
+        "item" : "QUEENS BOULEVARD",
+        "count" : "15063"
+      }, {
+        "item" : "6 AVENUE",
+        "count" : "15037"
+      }, {
+        "item" : "4 AVENUE",
+        "count" : "14318"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "14096"
+      }, {
+        "item" : "BEDFORD AVENUE",
+        "count" : "12736"
+      }, {
+        "item" : "LINDEN BOULEVARD",
+        "count" : "12497"
+      }, {
+        "item" : "FLATBUSH AVENUE",
+        "count" : "11695"
+      }, {
+        "item" : "NORTHERN BOULEVARD",
+        "count" : "11656"
+      }, {
+        "item" : "JAMAICA AVENUE",
+        "count" : "11495"
+      }, {
+        "item" : "NOSTRAND AVENUE",
+        "count" : "10765"
+      }, {
+        "item" : "HYLAN BOULEVARD",
+        "count" : "10541"
+      } ],
+      "smallest" : "00",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546780,
+    "name" : "Intersection Street 2",
+    "dataTypeName" : "text",
+    "description" : "Second intersecting street based on geo validated incident location",
+    "fieldName" : "intersection_street_2",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199136,
+    "cachedContents" : {
+      "non_null" : "3945562",
+      "largest" : "ZWICKY AVENUE",
+      "null" : "18668355",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "62369"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "30620"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "28963"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "25562"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "23108"
+      }, {
+        "item" : "7 AVENUE",
+        "count" : "21168"
+      }, {
+        "item" : "6 AVENUE",
+        "count" : "21053"
+      }, {
+        "item" : "8 AVENUE",
+        "count" : "21021"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "18098"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "16495"
+      }, {
+        "item" : "BEND",
+        "count" : "16441"
+      }, {
+        "item" : "9 AVENUE",
+        "count" : "16058"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "15117"
+      }, {
+        "item" : "MADISON AVENUE",
+        "count" : "13427"
+      }, {
+        "item" : "10 AVENUE",
+        "count" : "12940"
+      }, {
+        "item" : "NORTHERN BOULEVARD",
+        "count" : "12422"
+      }, {
+        "item" : "NOSTRAND AVENUE",
+        "count" : "12296"
+      }, {
+        "item" : "QUEENS BOULEVARD",
+        "count" : "11649"
+      }, {
+        "item" : "ATLANTIC AVENUE",
+        "count" : "11384"
+      }, {
+        "item" : "4 AVENUE",
+        "count" : "11374"
+      } ],
+      "smallest" : "000",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546781,
+    "name" : "Address Type",
+    "dataTypeName" : "text",
+    "description" : "Type of information available about the incident location. ",
+    "fieldName" : "address_type",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199128,
+    "cachedContents" : {
+      "non_null" : "21173458",
+      "largest" : "UNRECOGNIZED",
+      "null" : "1440459",
+      "top" : [ {
+        "item" : "ADDRESS",
+        "count" : "17111810"
+      }, {
+        "item" : "INTERSECTION",
+        "count" : "3187672"
+      }, {
+        "item" : "BLOCKFACE",
+        "count" : "536468"
+      }, {
+        "item" : "LATLONG",
+        "count" : "182111"
+      }, {
+        "item" : "PLACENAME",
+        "count" : "155238"
+      }, {
+        "item" : "UNRECOGNIZED",
+        "count" : "159"
+      } ],
+      "smallest" : "ADDRESS",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546782,
+    "name" : "City",
+    "dataTypeName" : "text",
+    "description" : "Second intersecting street based on geo validated incident location",
+    "fieldName" : "city",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199137,
+    "cachedContents" : {
+      "non_null" : "21264131",
+      "largest" : "YORKTOWN HEIGHTS",
+      "null" : "1349786",
+      "top" : [ {
+        "item" : "BROOKLYN",
+        "count" : "6798579"
+      }, {
+        "item" : "NEW YORK",
+        "count" : "4241417"
+      }, {
+        "item" : "BRONX",
+        "count" : "3958355"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "1155093"
+      }, {
+        "item" : "JAMAICA",
+        "count" : "313057"
+      }, {
+        "item" : "FLUSHING",
+        "count" : "240667"
+      }, {
+        "item" : "Jamaica",
+        "count" : "227783"
+      }, {
+        "item" : "ASTORIA",
+        "count" : "213121"
+      }, {
+        "item" : "Flushing",
+        "count" : "167917"
+      }, {
+        "item" : "RIDGEWOOD",
+        "count" : "164193"
+      }, {
+        "item" : "Astoria",
+        "count" : "140600"
+      }, {
+        "item" : "Ridgewood",
+        "count" : "113976"
+      }, {
+        "item" : "CORONA",
+        "count" : "109993"
+      }, {
+        "item" : "WOODSIDE",
+        "count" : "103787"
+      }, {
+        "item" : "OZONE PARK",
+        "count" : "94895"
+      }, {
+        "item" : "ELMHURST",
+        "count" : "91701"
+      }, {
+        "item" : "FRESH MEADOWS",
+        "count" : "89578"
+      }, {
+        "item" : "EAST ELMHURST",
+        "count" : "89295"
+      }, {
+        "item" : "LONG ISLAND CITY",
+        "count" : "83779"
+      }, {
+        "item" : "Far Rockaway",
+        "count" : "83639"
+      } ],
+      "smallest" : "/",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546783,
+    "name" : "Landmark",
+    "dataTypeName" : "text",
+    "description" : "If the incident location is identified as a Landmark the name of the landmark will display here",
+    "fieldName" : "landmark",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199157,
+    "cachedContents" : {
+      "non_null" : "586915",
+      "largest" : "ZWICKY AVENUE",
+      "null" : "22027002",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "7615"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "4200"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "2912"
+      }, {
+        "item" : "PARSONS BOULEVARD",
+        "count" : "2736"
+      }, {
+        "item" : "7 AVENUE",
+        "count" : "2722"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "2602"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "2465"
+      }, {
+        "item" : "8 AVENUE",
+        "count" : "2274"
+      }, {
+        "item" : "LA GUARDIA AIRPORT",
+        "count" : "2204"
+      }, {
+        "item" : "ST NICHOLAS AVENUE",
+        "count" : "2131"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "2033"
+      }, {
+        "item" : "GRAND CONCOURSE",
+        "count" : "2032"
+      }, {
+        "item" : "J F K AIRPORT",
+        "count" : "1984"
+      }, {
+        "item" : "DEKALB AVENUE",
+        "count" : "1857"
+      }, {
+        "item" : "WASHINGTON AVENUE",
+        "count" : "1732"
+      }, {
+        "item" : "MADISON STREET",
+        "count" : "1667"
+      }, {
+        "item" : "JFK AIRPORT",
+        "count" : "1629"
+      }, {
+        "item" : "FULTON STREET",
+        "count" : "1536"
+      }, {
+        "item" : "BEDFORD AVENUE",
+        "count" : "1527"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "1524"
+      } ],
+      "smallest" : "100 AVENUE",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546784,
+    "name" : "Facility Type",
+    "dataTypeName" : "text",
+    "description" : "If applicable, this field describes the type of city facility associated to the service request",
+    "fieldName" : "facility_type",
+    "position" : 20,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199134,
+    "cachedContents" : {
+      "non_null" : "21006379",
+      "largest" : "School District",
+      "null" : "1607538",
+      "top" : [ {
+        "item" : "N/A",
+        "count" : "15571365"
+      }, {
+        "item" : "Precinct",
+        "count" : "4757734"
+      }, {
+        "item" : "DSNY Garage",
+        "count" : "659789"
+      }, {
+        "item" : "School",
+        "count" : "15849"
+      }, {
+        "item" : "School District",
+        "count" : "1642"
+      } ],
+      "smallest" : "DSNY Garage",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546785,
+    "name" : "Status",
+    "dataTypeName" : "text",
+    "description" : "Current status of the service request submitted",
+    "fieldName" : "status",
+    "position" : 21,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199154,
+    "cachedContents" : {
+      "non_null" : "22613917",
+      "largest" : "Unspecified",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Closed",
+        "count" : "21865484"
+      }, {
+        "item" : "Pending",
+        "count" : "297109"
+      }, {
+        "item" : "Open",
+        "count" : "251799"
+      }, {
+        "item" : "Assigned",
+        "count" : "153346"
+      }, {
+        "item" : "In Progress",
+        "count" : "36832"
+      }, {
+        "item" : "Started",
+        "count" : "5373"
+      }, {
+        "item" : "Email Sent",
+        "count" : "3835"
+      }, {
+        "item" : "Unassigned",
+        "count" : "45"
+      }, {
+        "item" : "Closed - Testing",
+        "count" : "38"
+      }, {
+        "item" : "Unspecified",
+        "count" : "37"
+      }, {
+        "item" : "Draft",
+        "count" : "17"
+      }, {
+        "item" : "Cancelled",
+        "count" : "2"
+      } ],
+      "smallest" : "Assigned",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546786,
+    "name" : "Due Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "Date when responding agency is expected to update the SR.  This is based on the Complaint Type and internal Service Level Agreements (SLAs).",
+    "fieldName" : "due_date",
+    "position" : 22,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 164199164,
+    "cachedContents" : {
+      "non_null" : "8663794",
+      "largest" : "2023-07-08T09:18:29.000",
+      "null" : "13950123",
+      "top" : [ {
+        "item" : "2015-04-08T10:00:58.000",
+        "count" : "4552"
+      }, {
+        "item" : "2014-05-02T15:32:17.000",
+        "count" : "4326"
+      }, {
+        "item" : "2018-03-30T10:10:39.000",
+        "count" : "4233"
+      }, {
+        "item" : "2016-07-09T11:21:17.000",
+        "count" : "3871"
+      }, {
+        "item" : "2015-06-27T10:29:08.000",
+        "count" : "3674"
+      }, {
+        "item" : "2016-04-03T15:32:41.000",
+        "count" : "3327"
+      }, {
+        "item" : "2014-09-12T14:25:36.000",
+        "count" : "3308"
+      }, {
+        "item" : "2020-01-17T11:55:23.000",
+        "count" : "2989"
+      }, {
+        "item" : "2018-06-22T15:13:02.000",
+        "count" : "2980"
+      }, {
+        "item" : "2019-06-20T16:33:38.000",
+        "count" : "2575"
+      }, {
+        "item" : "2014-07-03T11:28:40.000",
+        "count" : "2415"
+      }, {
+        "item" : "2017-03-09T15:51:10.000",
+        "count" : "2395"
+      }, {
+        "item" : "2019-02-17T09:56:55.000",
+        "count" : "2312"
+      }, {
+        "item" : "2019-07-26T11:37:41.000",
+        "count" : "2249"
+      }, {
+        "item" : "2019-09-12T12:28:56.000",
+        "count" : "2187"
+      }, {
+        "item" : "2018-10-10T09:00:21.000",
+        "count" : "2162"
+      }, {
+        "item" : "2019-11-15T10:24:16.000",
+        "count" : "2029"
+      }, {
+        "item" : "2015-08-14T15:09:43.000",
+        "count" : "1843"
+      }, {
+        "item" : "2019-03-10T10:24:18.000",
+        "count" : "1794"
+      }, {
+        "item" : "2019-04-06T10:16:29.000",
+        "count" : "1745"
+      } ],
+      "smallest" : "1900-01-02T00:00:00.000",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : {
+      "view" : "date_time"
+    }
+  }, {
+    "id" : 623546787,
+    "name" : "Resolution Description",
+    "dataTypeName" : "text",
+    "description" : "Describes the last action taken on the service request by the responding agency. May describe next or future steps.",
+    "fieldName" : "resolution_description",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199161,
+    "cachedContents" : {
+      "non_null" : "22100101",
+      "largest" : "You were mailed a notice of complaint inactivation which detailed why this complaint was inactivated.  If you need more information, you may call (646) 632-6104",
+      "null" : "513816",
+      "top" : [ {
+        "item" : "The Police Department responded to the complaint and with the information available observed no evidence of the violation at that time.",
+        "count" : "1848979"
+      }, {
+        "item" : "The Department of Housing Preservation and Development inspected the following conditions. No violations were issued. The complaint has been closed.",
+        "count" : "1695270"
+      }, {
+        "item" : "Service Request status for this request is available on the Department of Transportationâs website. Please click the âLearn Moreâ link below.",
+        "count" : "1240677"
+      }, {
+        "item" : "The Police Department responded to the complaint and took action to fix the condition.",
+        "count" : "1193154"
+      }, {
+        "item" : "The Department of Housing Preservation and Development inspected the following conditions. Violations were issued. Information about specific violations is available at www.nyc.gov/hpd.",
+        "count" : "1022456"
+      }, {
+        "item" : "The Department of Housing Preservation and Development was not able to gain access to inspect the following conditions. The complaint has been closed. If the condition still exists, please file a new complaint.",
+        "count" : "821906"
+      }, {
+        "item" : "The Police Department responded and upon arrival those responsible for the condition were gone.",
+        "count" : "700307"
+      }, {
+        "item" : "The Police Department responded to the complaint and determined that police action was not necessary.",
+        "count" : "679538"
+      }, {
+        "item" : "The Department of Transportation inspected this complaint and repaired the problem.",
+        "count" : "474224"
+      }, {
+        "item" : "The complaint you filed is a duplicate of a condition already reported by another tenant for a building-wide condition. The original complaint is still open. HPD may attempt to contact you to verify the correction of the condition or may conduct an inspection of your unit if the original complainant is not available for verification.",
+        "count" : "467663"
+      }, {
+        "item" : "The Department of Housing Preservation and Development responded to a complaint of no heat or hot water and was advised by a tenant in the building that heat and hot water had been restored. If the condition still exists, please file a new complaint.",
+        "count" : "411425"
+      }, {
+        "item" : "The Department of Buildings investigated this complaint and determined that no further action was necessary.",
+        "count" : "374002"
+      }, {
+        "item" : "Please call 311 for further information. If you are outside of New York City, please call (212) NEW-YORK (212-639-9675).",
+        "count" : "347188"
+      }, {
+        "item" : "The Police Department issued a summons in response to the complaint.",
+        "count" : "340778"
+      }, {
+        "item" : "The Department of Housing Preservation and Development was not able to gain access to your apartment or others in the building to inspect for a lack of heat or hot water. The complaint has been closed. If the condition still exists, please file a new complaint.",
+        "count" : "329534"
+      }, {
+        "item" : "The Department of Environmental Protection (DEP) didn't observe a violation of the NYC Air or Noise Code at the time of inspection and couldn't issue a summons.  If the problem still exists, please go to nyc.gov/311 or call 311 to file a new Service Request. If you're outside of New York City, please call (212) NEW-YORK (212-639-9675).",
+        "count" : "328445"
+      }, {
+        "item" : "The Department of Sanitation mailed the literature. Please allow one week for delivery.",
+        "count" : "311131"
+      }, {
+        "item" : "The Department of Sanitation investigated this complaint and found no violation at the location.",
+        "count" : "306486"
+      }, {
+        "item" : "See notes.",
+        "count" : "284027"
+      }, {
+        "item" : "The Police Department reviewed your complaint and provided additional information below.",
+        "count" : "232366"
+      } ],
+      "smallest" : "A copy of the requested document was mailed.",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546788,
+    "name" : "Resolution Action Updated Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "Date when responding agency last updated the service request.",
+    "fieldName" : "resolution_action_updated_date",
+    "position" : 24,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 164199151,
+    "cachedContents" : {
+      "non_null" : "22335020",
+      "largest" : "2927-03-06T12:30:00.000",
+      "null" : "278897",
+      "top" : [ {
+        "item" : "2019-09-10T00:00:00.000",
+        "count" : "18071"
+      }, {
+        "item" : "2023-06-20T11:56:32.000",
+        "count" : "13401"
+      }, {
+        "item" : "2010-11-15T00:00:00.000",
+        "count" : "9211"
+      }, {
+        "item" : "2012-11-07T00:00:00.000",
+        "count" : "7562"
+      }, {
+        "item" : "2010-11-08T00:00:00.000",
+        "count" : "6869"
+      }, {
+        "item" : "2010-12-09T00:00:00.000",
+        "count" : "6680"
+      }, {
+        "item" : "2011-11-28T00:00:00.000",
+        "count" : "6468"
+      }, {
+        "item" : "2011-02-28T00:00:00.000",
+        "count" : "6200"
+      }, {
+        "item" : "2014-01-06T00:00:00.000",
+        "count" : "6164"
+      }, {
+        "item" : "2014-01-09T00:00:00.000",
+        "count" : "5960"
+      }, {
+        "item" : "2013-01-28T00:00:00.000",
+        "count" : "5936"
+      }, {
+        "item" : "2010-03-01T00:00:00.000",
+        "count" : "5565"
+      }, {
+        "item" : "2011-11-03T00:00:00.000",
+        "count" : "5524"
+      }, {
+        "item" : "2014-01-27T00:00:00.000",
+        "count" : "5412"
+      }, {
+        "item" : "2015-01-12T00:00:00.000",
+        "count" : "5411"
+      }, {
+        "item" : "2010-04-01T00:00:00.000",
+        "count" : "5374"
+      }, {
+        "item" : "2010-02-04T00:00:00.000",
+        "count" : "5181"
+      }, {
+        "item" : "2010-02-18T00:00:00.000",
+        "count" : "5173"
+      }, {
+        "item" : "2010-02-17T00:00:00.000",
+        "count" : "5164"
+      }, {
+        "item" : "2011-10-31T00:00:00.000",
+        "count" : "5126"
+      } ],
+      "smallest" : "2000-12-31T23:21:26.000",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : {
+      "view" : "date_time"
+    }
+  }, {
+    "id" : 623546789,
+    "name" : "Community Board",
+    "dataTypeName" : "text",
+    "description" : "Community boards are local representative bodies. There are 59 community boards throughout the City, each representing a distinct geography. ",
+    "fieldName" : "community_board",
+    "position" : 25,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199171,
+    "cachedContents" : {
+      "non_null" : "22612351",
+      "largest" : "Unspecified STATEN ISLAND",
+      "null" : "1566",
+      "top" : [ {
+        "item" : "0 Unspecified",
+        "count" : "1212241"
+      }, {
+        "item" : "12 MANHATTAN",
+        "count" : "637073"
+      }, {
+        "item" : "12 QUEENS",
+        "count" : "530913"
+      }, {
+        "item" : "03 BROOKLYN",
+        "count" : "487384"
+      }, {
+        "item" : "01 BROOKLYN",
+        "count" : "486016"
+      }, {
+        "item" : "07 QUEENS",
+        "count" : "470995"
+      }, {
+        "item" : "05 QUEENS",
+        "count" : "455024"
+      }, {
+        "item" : "01 STATEN ISLAND",
+        "count" : "454456"
+      }, {
+        "item" : "05 BROOKLYN",
+        "count" : "454238"
+      }, {
+        "item" : "17 BROOKLYN",
+        "count" : "449002"
+      }, {
+        "item" : "04 BRONX",
+        "count" : "443561"
+      }, {
+        "item" : "01 QUEENS",
+        "count" : "440215"
+      }, {
+        "item" : "Unspecified BROOKLYN",
+        "count" : "437360"
+      }, {
+        "item" : "14 BROOKLYN",
+        "count" : "437076"
+      }, {
+        "item" : "07 BRONX",
+        "count" : "436960"
+      }, {
+        "item" : "12 BRONX",
+        "count" : "404338"
+      }, {
+        "item" : "18 BROOKLYN",
+        "count" : "392735"
+      }, {
+        "item" : "05 BRONX",
+        "count" : "391723"
+      }, {
+        "item" : "13 QUEENS",
+        "count" : "390145"
+      }, {
+        "item" : "Unspecified MANHATTAN",
+        "count" : "381430"
+      } ],
+      "smallest" : "01 BRONX",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546790,
+    "name" : "Council District",
+    "dataTypeName" : "text",
+    "description" : "The City Council district where the service request is located.",
+    "fieldName" : "council_district",
+    "position" : 26,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199163,
+    "cachedContents" : {
+      "non_null" : "21252587",
+      "largest" : "N/A",
+      "null" : "1361330",
+      "top" : [ {
+        "item" : "03",
+        "count" : "612710"
+      }, {
+        "item" : "10",
+        "count" : "585241"
+      }, {
+        "item" : "15",
+        "count" : "558941"
+      }, {
+        "item" : "14",
+        "count" : "556359"
+      }, {
+        "item" : "36",
+        "count" : "544229"
+      }, {
+        "item" : "40",
+        "count" : "538800"
+      }, {
+        "item" : "34",
+        "count" : "515886"
+      }, {
+        "item" : "35",
+        "count" : "513018"
+      }, {
+        "item" : "07",
+        "count" : "512897"
+      }, {
+        "item" : "37",
+        "count" : "508593"
+      }, {
+        "item" : "09",
+        "count" : "504348"
+      }, {
+        "item" : "17",
+        "count" : "499342"
+      }, {
+        "item" : "11",
+        "count" : "484604"
+      }, {
+        "item" : "16",
+        "count" : "474891"
+      }, {
+        "item" : "01",
+        "count" : "469103"
+      }, {
+        "item" : "41",
+        "count" : "455316"
+      }, {
+        "item" : "33",
+        "count" : "452065"
+      }, {
+        "item" : "13",
+        "count" : "441668"
+      }, {
+        "item" : "49",
+        "count" : "440934"
+      }, {
+        "item" : "28",
+        "count" : "439742"
+      } ],
+      "smallest" : "00",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546791,
+    "name" : "Police Precinct",
+    "dataTypeName" : "text",
+    "description" : "The NYPD precinct where the service request is located",
+    "fieldName" : "police_precinct",
+    "position" : 27,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199133,
+    "cachedContents" : {
+      "non_null" : "22613917",
+      "largest" : "Unspecified",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Unspecified",
+        "count" : "2499377"
+      }, {
+        "item" : "Precinct 109",
+        "count" : "475285"
+      }, {
+        "item" : "Precinct 75",
+        "count" : "465176"
+      }, {
+        "item" : "Precinct 104",
+        "count" : "463714"
+      }, {
+        "item" : "Precinct 67",
+        "count" : "463196"
+      }, {
+        "item" : "Precinct 44",
+        "count" : "455687"
+      }, {
+        "item" : "Precinct 52",
+        "count" : "447274"
+      }, {
+        "item" : "Precinct 70",
+        "count" : "447258"
+      }, {
+        "item" : "Precinct 114",
+        "count" : "436124"
+      }, {
+        "item" : "Precinct 47",
+        "count" : "415621"
+      }, {
+        "item" : "Precinct 34",
+        "count" : "409220"
+      }, {
+        "item" : "Precinct 46",
+        "count" : "402720"
+      }, {
+        "item" : "Precinct 105",
+        "count" : "399943"
+      }, {
+        "item" : "Precinct 102",
+        "count" : "388964"
+      }, {
+        "item" : "Precinct 43",
+        "count" : "377890"
+      }, {
+        "item" : "Precinct 62",
+        "count" : "362717"
+      }, {
+        "item" : "Precinct 61",
+        "count" : "362321"
+      }, {
+        "item" : "Precinct 66",
+        "count" : "356483"
+      }, {
+        "item" : "Precinct 83",
+        "count" : "354576"
+      }, {
+        "item" : "Precinct 106",
+        "count" : "347915"
+      } ],
+      "smallest" : "Precinct 1",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546792,
+    "name" : "BBL",
+    "dataTypeName" : "text",
+    "description" : "Parcel number that identifies the location of the building or property associated with the service request",
+    "fieldName" : "bbl",
+    "position" : 28,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199145,
+    "cachedContents" : {
+      "non_null" : "16651137",
+      "largest" : "6066007501",
+      "null" : "5962780",
+      "top" : [ {
+        "item" : "1021740175",
+        "count" : "14742"
+      }, {
+        "item" : "4015110001",
+        "count" : "14525"
+      }, {
+        "item" : "2037140054",
+        "count" : "12580"
+      }, {
+        "item" : "4068290001",
+        "count" : "10299"
+      }, {
+        "item" : "2039447501",
+        "count" : "9380"
+      }, {
+        "item" : "2028820229",
+        "count" : "8188"
+      }, {
+        "item" : "2032630007",
+        "count" : "7549"
+      }, {
+        "item" : "3013020001",
+        "count" : "7450"
+      }, {
+        "item" : "2025110068",
+        "count" : "7116"
+      }, {
+        "item" : "4068540028",
+        "count" : "7115"
+      }, {
+        "item" : "1020350001",
+        "count" : "7084"
+      }, {
+        "item" : "3016910012",
+        "count" : "6125"
+      }, {
+        "item" : "3020340001",
+        "count" : "5962"
+      }, {
+        "item" : "2045970021",
+        "count" : "5959"
+      }, {
+        "item" : "1009720001",
+        "count" : "5927"
+      }, {
+        "item" : "4159260001",
+        "count" : "5601"
+      }, {
+        "item" : "2037630001",
+        "count" : "5545"
+      }, {
+        "item" : "3052160060",
+        "count" : "5262"
+      }, {
+        "item" : "3049950030",
+        "count" : "5256"
+      }, {
+        "item" : "2051410120",
+        "count" : "5224"
+      } ],
+      "smallest" : "0000000000",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546793,
+    "name" : "Borough",
+    "dataTypeName" : "text",
+    "description" : "One of New York City's five boroughs",
+    "fieldName" : "borough",
+    "position" : 29,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199160,
+    "cachedContents" : {
+      "non_null" : "22612351",
+      "largest" : "Unspecified",
+      "null" : "1566",
+      "top" : [ {
+        "item" : "BROOKLYN",
+        "count" : "6752922"
+      }, {
+        "item" : "QUEENS",
+        "count" : "5222724"
+      }, {
+        "item" : "MANHATTAN",
+        "count" : "4356697"
+      }, {
+        "item" : "BRONX",
+        "count" : "3903147"
+      }, {
+        "item" : "Unspecified",
+        "count" : "1212241"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "1164620"
+      } ],
+      "smallest" : "BRONX",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546794,
+    "name" : "X Coordinate (State Plane)",
+    "dataTypeName" : "number",
+    "description" : "Geo validated,  Y coordinate of the incident location.",
+    "fieldName" : "x_coordinate_state_plane",
+    "position" : 30,
+    "renderTypeName" : "number",
+    "tableColumnId" : 164199138,
+    "cachedContents" : {
+      "non_null" : "20287455",
+      "largest" : "1067302",
+      "null" : "2326462",
+      "top" : [ {
+        "item" : "1018372",
+        "count" : "14488"
+      }, {
+        "item" : "1004402",
+        "count" : "14428"
+      }, {
+        "item" : "1018209",
+        "count" : "12326"
+      }, {
+        "item" : "1037000",
+        "count" : "10421"
+      }, {
+        "item" : "1012586",
+        "count" : "7797"
+      }, {
+        "item" : "1037538",
+        "count" : "7191"
+      }, {
+        "item" : "1038629",
+        "count" : "6960"
+      }, {
+        "item" : "1003936",
+        "count" : "6720"
+      }, {
+        "item" : "1021274",
+        "count" : "6136"
+      }, {
+        "item" : "1021327",
+        "count" : "6053"
+      }, {
+        "item" : "998403",
+        "count" : "5444"
+      }, {
+        "item" : "1031980",
+        "count" : "4970"
+      }, {
+        "item" : "973626",
+        "count" : "4967"
+      }, {
+        "item" : "996798",
+        "count" : "4905"
+      }, {
+        "item" : "1003545",
+        "count" : "4807"
+      }, {
+        "item" : "1005126",
+        "count" : "4763"
+      }, {
+        "item" : "995485",
+        "count" : "4360"
+      }, {
+        "item" : "1013908",
+        "count" : "4324"
+      }, {
+        "item" : "1005611",
+        "count" : "4279"
+      }, {
+        "item" : "987966",
+        "count" : "4135"
+      } ],
+      "smallest" : "913281",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 623546795,
+    "name" : "Y Coordinate (State Plane)",
+    "dataTypeName" : "number",
+    "description" : "Geo validated,  Y coordinate of the incident location.",
+    "fieldName" : "y_coordinate_state_plane",
+    "position" : 31,
+    "renderTypeName" : "number",
+    "tableColumnId" : 164199143,
+    "cachedContents" : {
+      "non_null" : "20287496",
+      "largest" : "271901",
+      "null" : "2326421",
+      "top" : [ {
+        "item" : "253313",
+        "count" : "14738"
+      }, {
+        "item" : "211606",
+        "count" : "14398"
+      }, {
+        "item" : "239723",
+        "count" : "12334"
+      }, {
+        "item" : "202363",
+        "count" : "10475"
+      }, {
+        "item" : "261482",
+        "count" : "7454"
+      }, {
+        "item" : "201770",
+        "count" : "7416"
+      }, {
+        "item" : "201185",
+        "count" : "7213"
+      }, {
+        "item" : "242233",
+        "count" : "6472"
+      }, {
+        "item" : "257092",
+        "count" : "6024"
+      }, {
+        "item" : "241829",
+        "count" : "5553"
+      }, {
+        "item" : "249957",
+        "count" : "5471"
+      }, {
+        "item" : "171929",
+        "count" : "5313"
+      }, {
+        "item" : "253994",
+        "count" : "5216"
+      }, {
+        "item" : "183410",
+        "count" : "5120"
+      }, {
+        "item" : "163839",
+        "count" : "5047"
+      }, {
+        "item" : "248204",
+        "count" : "4940"
+      }, {
+        "item" : "239165",
+        "count" : "4674"
+      }, {
+        "item" : "186786",
+        "count" : "4669"
+      }, {
+        "item" : "246058",
+        "count" : "4260"
+      }, {
+        "item" : "201206",
+        "count" : "4194"
+      } ],
+      "smallest" : "120826",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 623546796,
+    "name" : "Open Data Channel Type",
+    "dataTypeName" : "text",
+    "description" : "Indicates how the service request was submitted to 311.  ",
+    "fieldName" : "open_data_channel_type",
+    "position" : 32,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199155,
+    "cachedContents" : {
+      "non_null" : "22613917",
+      "largest" : "UNKNOWN",
+      "null" : "0",
+      "top" : [ {
+        "item" : "PHONE",
+        "count" : "11845344"
+      }, {
+        "item" : "UNKNOWN",
+        "count" : "5406185"
+      }, {
+        "item" : "ONLINE",
+        "count" : "3561836"
+      }, {
+        "item" : "MOBILE",
+        "count" : "1433567"
+      }, {
+        "item" : "OTHER",
+        "count" : "366985"
+      } ],
+      "smallest" : "MOBILE",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546797,
+    "name" : "Park Facility Name",
+    "dataTypeName" : "text",
+    "description" : "If the incident location is a Parks Dept facility and service requests pertains to a facility managed by NYC Parks (DPR), the name of the facility will appear here",
+    "fieldName" : "park_facility_name",
+    "position" : 33,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199142,
+    "cachedContents" : {
+      "non_null" : "22613917",
+      "largest" : "Zimmerman Playground",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Unspecified",
+        "count" : "22467461"
+      }, {
+        "item" : "Central Park",
+        "count" : "5224"
+      }, {
+        "item" : "Riverside Park",
+        "count" : "2416"
+      }, {
+        "item" : "Prospect Park",
+        "count" : "2309"
+      }, {
+        "item" : "Flushing Meadows Corona Park",
+        "count" : "1694"
+      }, {
+        "item" : "Rockaway Beach Boardwalk",
+        "count" : "1366"
+      }, {
+        "item" : "Hudson River Park",
+        "count" : "1147"
+      }, {
+        "item" : "Forest Park",
+        "count" : "1067"
+      }, {
+        "item" : "Morningside Park",
+        "count" : "983"
+      }, {
+        "item" : "N, A",
+        "count" : "941"
+      }, {
+        "item" : "Washington Square Park",
+        "count" : "936"
+      }, {
+        "item" : "Beach - Brighton",
+        "count" : "875"
+      }, {
+        "item" : "Tompkins Square Park",
+        "count" : "867"
+      }, {
+        "item" : "Marine Park",
+        "count" : "807"
+      }, {
+        "item" : "Mccarren Park",
+        "count" : "792"
+      }, {
+        "item" : "Sunset Park",
+        "count" : "761"
+      }, {
+        "item" : "Inwood Hill Park",
+        "count" : "755"
+      }, {
+        "item" : "Astoria Park",
+        "count" : "745"
+      }, {
+        "item" : "Van Cortlandt Park",
+        "count" : "738"
+      }, {
+        "item" : "East River Park",
+        "count" : "659"
+      } ],
+      "smallest" : "100 Gold St.",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546798,
+    "name" : "Park Borough",
+    "dataTypeName" : "text",
+    "description" : "The borough of incident if the service request is pertaining to a NYC Parks Dept facility (DPR)",
+    "fieldName" : "park_borough",
+    "position" : 34,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199152,
+    "cachedContents" : {
+      "non_null" : "22612351",
+      "largest" : "Unspecified",
+      "null" : "1566",
+      "top" : [ {
+        "item" : "BROOKLYN",
+        "count" : "6752922"
+      }, {
+        "item" : "QUEENS",
+        "count" : "5222724"
+      }, {
+        "item" : "MANHATTAN",
+        "count" : "4356697"
+      }, {
+        "item" : "BRONX",
+        "count" : "3903147"
+      }, {
+        "item" : "Unspecified",
+        "count" : "1212241"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "1164620"
+      } ],
+      "smallest" : "BRONX",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546799,
+    "name" : "Vehicle Type",
+    "dataTypeName" : "text",
+    "description" : "\"Data provided if service request pertains to a vehicle managed by the Taxi and Limousine Commision (TLC).  \"",
+    "fieldName" : "vehicle_type",
+    "position" : 35,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199169,
+    "cachedContents" : {
+      "non_null" : "8300",
+      "largest" : "Green Taxi",
+      "null" : "22605617",
+      "top" : [ {
+        "item" : "Car Service",
+        "count" : "7399"
+      }, {
+        "item" : "Ambulette / Paratransit",
+        "count" : "557"
+      }, {
+        "item" : "Commuter Van",
+        "count" : "311"
+      }, {
+        "item" : "Green Taxi",
+        "count" : "33"
+      } ],
+      "smallest" : "Ambulette / Paratransit",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546800,
+    "name" : "Taxi Company Borough",
+    "dataTypeName" : "text",
+    "description" : "Data provided if service request pertains to a vehicle managed by the Taxi and Limousine Commision (TLC). ",
+    "fieldName" : "taxi_company_borough",
+    "position" : 36,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199147,
+    "cachedContents" : {
+      "non_null" : "19232",
+      "largest" : "STATEN ISLAND",
+      "null" : "22594685",
+      "top" : [ {
+        "item" : "BROOKLYN",
+        "count" : "5632"
+      }, {
+        "item" : "MANHATTAN",
+        "count" : "4667"
+      }, {
+        "item" : "QUEENS",
+        "count" : "4632"
+      }, {
+        "item" : "BRONX",
+        "count" : "3505"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "792"
+      }, {
+        "item" : "NOT WITHIN NEW YORK CITY",
+        "count" : "4"
+      } ],
+      "smallest" : "BRONX",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546801,
+    "name" : "Taxi Pick Up Location",
+    "dataTypeName" : "text",
+    "description" : "If the incident pertains a vehicle managed by the Taxi and Limousine Commision (TLC), this field displays the taxi pick up location",
+    "fieldName" : "taxi_pick_up_location",
+    "position" : 37,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199168,
+    "cachedContents" : {
+      "non_null" : "176087",
+      "largest" : "YORK AVENUE BETWEEN EAST   74 STREET AND EAST   75 STREET, M",
+      "null" : "22437830",
+      "top" : [ {
+        "item" : "Other",
+        "count" : "100959"
+      }, {
+        "item" : "JFK Airport",
+        "count" : "13411"
+      }, {
+        "item" : "Intersection",
+        "count" : "12317"
+      }, {
+        "item" : "La Guardia Airport",
+        "count" : "8362"
+      }, {
+        "item" : "New York-Penn Station",
+        "count" : "2169"
+      }, {
+        "item" : "JFK AIRPORT, QUEENS (JAMAICA) ,NY, 11430",
+        "count" : "1563"
+      }, {
+        "item" : "Grand Central Station",
+        "count" : "1469"
+      }, {
+        "item" : "Port Authority Bus Terminal",
+        "count" : "1358"
+      }, {
+        "item" : "LA GUARDIA AIRPORT, QUEENS (EAST ELMHURST) ,NY, 11369",
+        "count" : "544"
+      }, {
+        "item" : "BEND ANDBENDQUEENS",
+        "count" : "175"
+      }, {
+        "item" : "PENNSYLVANIA STATION, MANHATTAN (NEW YORK) ,NY, 10121",
+        "count" : "172"
+      }, {
+        "item" : "EAST   10 STREET AND 2 AVENUE",
+        "count" : "134"
+      }, {
+        "item" : "GRAND CENTRAL PARKWAY EN WB ANDBENDQUEENS",
+        "count" : "130"
+      }, {
+        "item" : "EAST HOUSTON STREET ANDMANHATTAN",
+        "count" : "83"
+      }, {
+        "item" : "2 AVENUE ANDMANHATTAN",
+        "count" : "64"
+      }, {
+        "item" : "EAST   10 STREET AND 1 AVENUE",
+        "count" : "56"
+      }, {
+        "item" : "8 AVENUE AND WEST   42 STREET, MANHATTAN, NY, 10036",
+        "count" : "47"
+      }, {
+        "item" : "107-40 QUEENS BOULEVARD QUEENS",
+        "count" : "44"
+      }, {
+        "item" : "TIMES SQUARE, MANHATTAN (NEW YORK) ,NY, 10036",
+        "count" : "42"
+      }, {
+        "item" : "31-00 47 AVENUE, QUEENS (LONG ISLAND CITY), NY, 11101",
+        "count" : "37"
+      } ],
+      "smallest" : "0 0 NJ 07114",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546802,
+    "name" : "Bridge Highway Name",
+    "dataTypeName" : "text",
+    "description" : "\"If the incident is identified as a Bridge/Highway, the name will be displayed here.  \"",
+    "fieldName" : "bridge_highway_name",
+    "position" : 38,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199150,
+    "cachedContents" : {
+      "non_null" : "53261",
+      "largest" : "Willis Ave Br - 125th St/1st Ave",
+      "null" : "22560656",
+      "top" : [ {
+        "item" : "Belt Pkwy",
+        "count" : "6057"
+      }, {
+        "item" : "BQE/Gowanus Expwy",
+        "count" : "5760"
+      }, {
+        "item" : "Grand Central Pkwy",
+        "count" : "4399"
+      }, {
+        "item" : "Long Island Expwy",
+        "count" : "3698"
+      }, {
+        "item" : "FDR Dr",
+        "count" : "3588"
+      }, {
+        "item" : "Van Wyck Expwy",
+        "count" : "3056"
+      }, {
+        "item" : "Staten Island Expwy",
+        "count" : "2375"
+      }, {
+        "item" : "Major Deegan Expwy",
+        "count" : "2273"
+      }, {
+        "item" : "Cross Island Pkwy",
+        "count" : "2120"
+      }, {
+        "item" : "Henry Hudson Pkwy/Rt 9A",
+        "count" : "1950"
+      }, {
+        "item" : "Cross Bronx Expwy",
+        "count" : "1866"
+      }, {
+        "item" : "Bronx River Pkwy",
+        "count" : "1351"
+      }, {
+        "item" : "Queensboro/59th St Br",
+        "count" : "1348"
+      }, {
+        "item" : "Jackie Robinson/Interboro Pkwy",
+        "count" : "1335"
+      }, {
+        "item" : "Bruckner Expwy",
+        "count" : "1228"
+      }, {
+        "item" : "Harlem River Dr",
+        "count" : "1170"
+      }, {
+        "item" : "Williamsburg Br",
+        "count" : "1073"
+      }, {
+        "item" : "Richmond Pkwy/Korean War Vets",
+        "count" : "962"
+      }, {
+        "item" : "Clearview Expwy",
+        "count" : "794"
+      }, {
+        "item" : "Brooklyn Br",
+        "count" : "767"
+      } ],
+      "smallest" : "145th St. Br - Lenox Ave",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546803,
+    "name" : "Bridge Highway Direction",
+    "dataTypeName" : "text",
+    "description" : "If the incident is identified as a Bridge/Highway, the direction where the issue took place would be displayed here.",
+    "fieldName" : "bridge_highway_direction",
+    "position" : 39,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199131,
+    "cachedContents" : {
+      "non_null" : "53237",
+      "largest" : "West/Toward Triborough Br",
+      "null" : "22560680",
+      "top" : [ {
+        "item" : "East/Long Island Bound",
+        "count" : "4907"
+      }, {
+        "item" : "North/Bronx Bound",
+        "count" : "4790"
+      }, {
+        "item" : "East/Queens Bound",
+        "count" : "4340"
+      }, {
+        "item" : "West/Staten Island Bound",
+        "count" : "3801"
+      }, {
+        "item" : "Manhattan Bound",
+        "count" : "2345"
+      }, {
+        "item" : "West/Brooklyn Bound",
+        "count" : "2228"
+      }, {
+        "item" : "West/Toward Triborough Br",
+        "count" : "2011"
+      }, {
+        "item" : "West/Manhattan Bound",
+        "count" : "1873"
+      }, {
+        "item" : "Northbound/Uptown",
+        "count" : "1804"
+      }, {
+        "item" : "Southbound/Downtown",
+        "count" : "1783"
+      }, {
+        "item" : "North/Westchester County Bound",
+        "count" : "1763"
+      }, {
+        "item" : "Southbound",
+        "count" : "1635"
+      }, {
+        "item" : "South/JFK Airport Bound",
+        "count" : "1574"
+      }, {
+        "item" : "East/Brooklyn Bound",
+        "count" : "1504"
+      }, {
+        "item" : "South/Toward Triborough Br",
+        "count" : "1394"
+      }, {
+        "item" : "South/Downtown",
+        "count" : "1326"
+      }, {
+        "item" : "Brooklyn Bound",
+        "count" : "1270"
+      }, {
+        "item" : "North/Westbound (To GW Br)",
+        "count" : "1093"
+      }, {
+        "item" : "South/Long Island Bound",
+        "count" : "1061"
+      }, {
+        "item" : "Northbound",
+        "count" : "1028"
+      } ],
+      "smallest" : "Bronx Bound",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546804,
+    "name" : "Road Ramp",
+    "dataTypeName" : "text",
+    "description" : "If the incident location was Bridge/Highway this column differentiates if the issue was on the Road or the Ramp.",
+    "fieldName" : "road_ramp",
+    "position" : 40,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199162,
+    "cachedContents" : {
+      "non_null" : "53214",
+      "largest" : "Roadway",
+      "null" : "22560703",
+      "top" : [ {
+        "item" : "Roadway",
+        "count" : "39933"
+      }, {
+        "item" : "Ramp",
+        "count" : "12813"
+      }, {
+        "item" : "N/A",
+        "count" : "468"
+      } ],
+      "smallest" : "N/A",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546805,
+    "name" : "Bridge Highway Segment",
+    "dataTypeName" : "text",
+    "description" : "Additional information on the section of the Bridge/Highway were the incident took place.",
+    "fieldName" : "bridge_highway_segment",
+    "position" : 41,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164199141,
+    "cachedContents" : {
+      "non_null" : "56974",
+      "largest" : "Wythe Ave / Kent Ave (Exit 31) - Tillary St /Manhattan Br (Exit 29)",
+      "null" : "22556943",
+      "top" : [ {
+        "item" : "Ramp",
+        "count" : "1971"
+      }, {
+        "item" : "Roadway",
+        "count" : "1836"
+      }, {
+        "item" : "Clove Rd/Richmond Rd (Exit 13) - Lily Pond Ave/Bay St (Exit 15 S-N)",
+        "count" : "548"
+      }, {
+        "item" : "N/A",
+        "count" : "497"
+      }, {
+        "item" : "Outer Roadway",
+        "count" : "497"
+      }, {
+        "item" : "Bikepath",
+        "count" : "425"
+      }, {
+        "item" : "Lower Level",
+        "count" : "405"
+      }, {
+        "item" : "Flatbush Ave (Exit 11N) - Flatbush Ave (Exit 11S)",
+        "count" : "363"
+      }, {
+        "item" : "East 61st St / East 63rd St (Exit 12) - East 96th St (Exit 14)",
+        "count" : "350"
+      }, {
+        "item" : "East 96th St (Exit 14) - Triborough Br (Exit 17)",
+        "count" : "320"
+      }, {
+        "item" : "Rockaway Pkwy (Exit 13) - Flatbush Ave (Exit 11N)",
+        "count" : "299"
+      }, {
+        "item" : "Queens Blvd (NY 25)/Woodhaven Blvd (Exit 19)",
+        "count" : "269"
+      }, {
+        "item" : "Coney Island Ave (Exit 8) - Knapp St (Exits 9A)",
+        "count" : "258"
+      }, {
+        "item" : "East 42nd St (Exit 9) - East 61st St / East 63rd St (Exit 12)",
+        "count" : "258"
+      }, {
+        "item" : "Inner Roadway",
+        "count" : "245"
+      }, {
+        "item" : "Bradley Ave (Exit 11) - Todt Hill Road/Slosson Ave (Exit 12)",
+        "count" : "240"
+      }, {
+        "item" : "Upper Level",
+        "count" : "236"
+      }, {
+        "item" : "Cadman Plaza West / Brooklyn Br (Exit 28) - Atlantic Ave (Exit 27)",
+        "count" : "225"
+      }, {
+        "item" : "Flatbush Ave (Exit 11S) - Flatbush Ave (Exit 11N)",
+        "count" : "224"
+      }, {
+        "item" : "Brooklyn-Queens Expwy (I-278) (Exit 17 E-W) - Queens Blvd (NY 25) / Woodhaven Blvd (Exit 19)",
+        "count" : "224"
+      } ],
+      "smallest" : "108 St (Exit 21)",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546806,
+    "name" : "Latitude",
+    "dataTypeName" : "number",
+    "description" : "Geo based Latitude of the incident location in decimal degrees.",
+    "fieldName" : "latitude",
+    "position" : 42,
+    "renderTypeName" : "number",
+    "tableColumnId" : 164199130,
+    "cachedContents" : {
+      "non_null" : "20287444",
+      "largest" : "40.91294056699566",
+      "null" : "2326473",
+      "top" : [ {
+        "item" : "40.747420328856705",
+        "count" : "14280"
+      }, {
+        "item" : "40.86193738190631",
+        "count" : "14212"
+      }, {
+        "item" : "40.824594531459304",
+        "count" : "12235"
+      }, {
+        "item" : "40.72195913199264",
+        "count" : "10298"
+      }, {
+        "item" : "40.884336286878096",
+        "count" : "7406"
+      }, {
+        "item" : "40.720328269590894",
+        "count" : "7115"
+      }, {
+        "item" : "40.71871595041182",
+        "count" : "6876"
+      }, {
+        "item" : "40.8315271048226",
+        "count" : "6369"
+      }, {
+        "item" : "40.87225493792927",
+        "count" : "5958"
+      }, {
+        "item" : "40.83036235589997",
+        "count" : "5521"
+      }, {
+        "item" : "40.6385706801265",
+        "count" : "5231"
+      }, {
+        "item" : "40.61637026983262",
+        "count" : "4955"
+      }, {
+        "item" : "40.84780869783529",
+        "count" : "4894"
+      }, {
+        "item" : "40.823103590506854",
+        "count" : "4551"
+      }, {
+        "item" : "40.67934015517145",
+        "count" : "4538"
+      }, {
+        "item" : "40.670085931603296",
+        "count" : "4226"
+      }, {
+        "item" : "40.71893358427464",
+        "count" : "4110"
+      }, {
+        "item" : "40.826522345603735",
+        "count" : "4012"
+      }, {
+        "item" : "40.76916062655122",
+        "count" : "3869"
+      }, {
+        "item" : "40.74499909172425",
+        "count" : "3805"
+      } ],
+      "smallest" : "40.49804421521046",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 623546807,
+    "name" : "Longitude",
+    "dataTypeName" : "number",
+    "description" : "Geo based Longitude of the incident location in decimal degrees. ",
+    "fieldName" : "longitude",
+    "position" : 43,
+    "renderTypeName" : "number",
+    "tableColumnId" : 164199148,
+    "cachedContents" : {
+      "non_null" : "20287444",
+      "largest" : "-73.70029199533596",
+      "null" : "2326473",
+      "top" : [ {
+        "item" : "-73.87685300997468",
+        "count" : "14280"
+      }, {
+        "item" : "-73.92714580413967",
+        "count" : "14212"
+      }, {
+        "item" : "-73.8772991398564",
+        "count" : "12235"
+      }, {
+        "item" : "-73.80969682426189",
+        "count" : "10298"
+      }, {
+        "item" : "-73.89752420300857",
+        "count" : "7406"
+      }, {
+        "item" : "-73.80776061338688",
+        "count" : "7115"
+      }, {
+        "item" : "-73.80382951018838",
+        "count" : "6876"
+      }, {
+        "item" : "-73.92886303221528",
+        "count" : "6369"
+      }, {
+        "item" : "-73.8661287701622",
+        "count" : "5958"
+      }, {
+        "item" : "-73.86602154214397",
+        "count" : "5521"
+      }, {
+        "item" : "-73.94900486982377",
+        "count" : "5231"
+      }, {
+        "item" : "-74.03826694457253",
+        "count" : "4955"
+      }, {
+        "item" : "-73.82748144004533",
+        "count" : "4894"
+      }, {
+        "item" : "-73.92457241840457",
+        "count" : "4551"
+      }, {
+        "item" : "-73.93043505876992",
+        "count" : "4538"
+      }, {
+        "item" : "-73.95476653454561",
+        "count" : "4226"
+      }, {
+        "item" : "-73.9594699997005",
+        "count" : "4110"
+      }, {
+        "item" : "-73.92281608727372",
+        "count" : "4012"
+      }, {
+        "item" : "-73.98658450706913",
+        "count" : "3869"
+      }, {
+        "item" : "-73.89296757512533",
+        "count" : "3805"
+      } ],
+      "smallest" : "-74.25521082506387",
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 623546808,
+    "name" : "Location",
+    "dataTypeName" : "point",
+    "description" : "The combined geo-based latitude & longitude of the incident location. ",
+    "fieldName" : "location",
+    "position" : 44,
+    "renderTypeName" : "point",
+    "tableColumnId" : 164199166,
+    "cachedContents" : {
+      "non_null" : "20287444",
+      "null" : "2326473",
+      "top" : [ {
+        "item" : {
+          "coordinates" : [ -73.876853009975, 40.747420328857 ],
+          "type" : "Point"
+        },
+        "count" : "14280"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.92714580414, 40.861937381906 ],
+          "type" : "Point"
+        },
+        "count" : "14212"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.877299139856, 40.824594531459 ],
+          "type" : "Point"
+        },
+        "count" : "12235"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.809696824262, 40.721959131993 ],
+          "type" : "Point"
+        },
+        "count" : "10298"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.897524203009, 40.884336286878 ],
+          "type" : "Point"
+        },
+        "count" : "7406"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.807760613387, 40.720328269591 ],
+          "type" : "Point"
+        },
+        "count" : "7115"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.803829510188, 40.718715950412 ],
+          "type" : "Point"
+        },
+        "count" : "6876"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.928863032215, 40.831527104823 ],
+          "type" : "Point"
+        },
+        "count" : "6369"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.866128770162, 40.872254937929 ],
+          "type" : "Point"
+        },
+        "count" : "5958"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.866021542144, 40.8303623559 ],
+          "type" : "Point"
+        },
+        "count" : "5521"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.949004869824, 40.638570680127 ],
+          "type" : "Point"
+        },
+        "count" : "5231"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.038266944573, 40.616370269833 ],
+          "type" : "Point"
+        },
+        "count" : "4955"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.827481440045, 40.847808697835 ],
+          "type" : "Point"
+        },
+        "count" : "4894"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.924572418405, 40.823103590507 ],
+          "type" : "Point"
+        },
+        "count" : "4551"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.93043505877, 40.679340155171 ],
+          "type" : "Point"
+        },
+        "count" : "4538"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.954766534546, 40.670085931603 ],
+          "type" : "Point"
+        },
+        "count" : "4226"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.9594699997, 40.718933584275 ],
+          "type" : "Point"
+        },
+        "count" : "4110"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.922816087274, 40.826522345604 ],
+          "type" : "Point"
+        },
+        "count" : "4012"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.986584507069, 40.769160626551 ],
+          "type" : "Point"
+        },
+        "count" : "3869"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.892967575125, 40.744999091724 ],
+          "type" : "Point"
+        },
+        "count" : "3805"
+      } ],
+      "count" : "22613917",
+      "cardinality" : "22613917"
+    },
+    "format" : { }
+  }, {
+    "id" : 623546809,
+    "name" : "Community Districts",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'Community Districts' (f5dn-yrer) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_f5dn_yrer",
+    "position" : 45,
+    "renderTypeName" : "number",
+    "tableColumnId" : 164199172,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_f5dn-yrer",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 623546810,
+    "name" : "Borough Boundaries",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'Borough Boundaries' (yeji-bk3q) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_yeji_bk3q",
+    "position" : 46,
+    "renderTypeName" : "number",
+    "tableColumnId" : 164199173,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_yeji-bk3q",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 623546811,
+    "name" : "Police Precincts",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'Police Precincts' (sbqj-enih) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_sbqj_enih",
+    "position" : 47,
+    "renderTypeName" : "number",
+    "tableColumnId" : 164199174,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_sbqj-enih",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 623546812,
+    "name" : "City Council Districts",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'City Council Districts' (92fq-4b7q) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_92fq_4b7q",
+    "position" : 48,
+    "renderTypeName" : "number",
+    "tableColumnId" : 164199175,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_92fq-4b7q",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "created_date",
+        "ascending" : false
+      } ]
+    },
+    "attachments" : [ {
+      "filename" : "311_ServiceRequest_2010-2019_DataDictionary_Updated_2025.xlsx",
+      "assetId" : "5cdaad94-8bca-41b8-85fd-59ec9e1e20c6",
+      "name" : "311_ServiceRequest_2010-2019_DataDictionary_Updated_2025.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Update Frequency" : "Historical data"
+      },
+      "Dataset Information" : {
+        "Agency" : "Office of Technology and Innovation (OTI)"
+      }
+    },
+    "rowIdentifier" : 623546765,
+    "rowLabel" : "service request",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : false,
+      "expression" : {
+        "columnId" : 623546766,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "311", "311 service requests" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

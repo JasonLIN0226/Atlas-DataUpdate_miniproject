@@ -1,0 +1,2900 @@
+{
+  "id" : "uvpi-gqnh",
+  "name" : "2015 Street Tree Census - Tree Data",
+  "assetType" : "dataset",
+  "attribution" : "Department of Parks and Recreation (DPR)",
+  "averageRating" : 0,
+  "category" : "Environment",
+  "createdAt" : 1464956098,
+  "description" : "Street tree data from the TreesCount! 2015 Street Tree Census, conducted by volunteers and staff organized by NYC Parks & Recreation and partner organizations. Tree data collected includes tree species, diameter and perception of health. Accompanying blockface data is available indicating status of data collection and data release citywide.\n\nThe 2015 tree census was the third decadal street tree census and largest citizen science initiative in NYC Parks’ history. Data collection ran from May 2015 to October 2016 and the results of the census show that there are 666,134 trees planted along NYC's streets. The data collected as part of the census represents a snapshot in time of trees under NYC Parks' jurisdiction.\n\nThe census data formed the basis of our operational database, the Forestry Management System (ForMS) which is used daily by our foresters and other staff for inventory and asset management: https://data.cityofnewyork.us/browse?sortBy=most_accessed&utf8=%E2%9C%93&Data-Collection_Data-Collection=Forestry+Management+System+%28ForMS%29\n\nTo learn more about the data collected and managed in ForMS, please refer to this user guide:\nhttps://docs.google.com/document/d/1PVPWFi-WExkG3rvnagQDoBbqfsGzxCKNmR6n678nUeU/edit. For information on the city's current tree population, use the ForMS datasets.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 54870,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1536847042,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 26934350,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1507125377,
+  "publicationGroup" : 11107849,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1507124486,
+  "tableId" : 14506999,
+  "totalTimesRated" : 0,
+  "viewCount" : 131856,
+  "viewLastModified" : 1731421699,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1507125377,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1068796,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1507125377,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 323256160,
+    "name" : "tree_id",
+    "dataTypeName" : "number",
+    "description" : "Unique identification number for each tree point.",
+    "fieldName" : "tree_id",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530655,
+    "width" : 184,
+    "cachedContents" : {
+      "largest" : "722694",
+      "non_null" : "683788",
+      "average" : "365205.0110853071",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4",
+        "count" : "1"
+      }, {
+        "item" : "7",
+        "count" : "1"
+      }, {
+        "item" : "8",
+        "count" : "1"
+      }, {
+        "item" : "9",
+        "count" : "1"
+      }, {
+        "item" : "10",
+        "count" : "1"
+      }, {
+        "item" : "11",
+        "count" : "1"
+      }, {
+        "item" : "12",
+        "count" : "1"
+      }, {
+        "item" : "13",
+        "count" : "1"
+      }, {
+        "item" : "14",
+        "count" : "1"
+      }, {
+        "item" : "15",
+        "count" : "1"
+      }, {
+        "item" : "16",
+        "count" : "1"
+      }, {
+        "item" : "17",
+        "count" : "1"
+      }, {
+        "item" : "18",
+        "count" : "1"
+      }, {
+        "item" : "19",
+        "count" : "1"
+      }, {
+        "item" : "20",
+        "count" : "1"
+      }, {
+        "item" : "21",
+        "count" : "1"
+      }, {
+        "item" : "22",
+        "count" : "1"
+      }, {
+        "item" : "23",
+        "count" : "1"
+      }, {
+        "item" : "26",
+        "count" : "1"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      } ],
+      "smallest" : "3",
+      "count" : "683788",
+      "sum" : "249722804120",
+      "cardinality" : "683788"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256161,
+    "name" : "block_id",
+    "dataTypeName" : "number",
+    "description" : "Identifier linking each tree to the block in the blockface table/shapefile that it is mapped on.",
+    "fieldName" : "block_id",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530656,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "999999",
+      "non_null" : "683788",
+      "average" : "313793.0962359679",
+      "null" : "0",
+      "top" : [ {
+        "item" : "204850",
+        "count" : "450"
+      }, {
+        "item" : "602362",
+        "count" : "358"
+      }, {
+        "item" : "208115",
+        "count" : "250"
+      }, {
+        "item" : "506756",
+        "count" : "206"
+      }, {
+        "item" : "233208",
+        "count" : "197"
+      }, {
+        "item" : "340498",
+        "count" : "195"
+      }, {
+        "item" : "111902",
+        "count" : "178"
+      }, {
+        "item" : "302421",
+        "count" : "159"
+      }, {
+        "item" : "501930",
+        "count" : "145"
+      }, {
+        "item" : "340497",
+        "count" : "135"
+      }, {
+        "item" : "404057",
+        "count" : "133"
+      }, {
+        "item" : "412069",
+        "count" : "132"
+      }, {
+        "item" : "208130",
+        "count" : "129"
+      }, {
+        "item" : "313163",
+        "count" : "115"
+      }, {
+        "item" : "203224",
+        "count" : "112"
+      }, {
+        "item" : "340200",
+        "count" : "107"
+      }, {
+        "item" : "215490",
+        "count" : "107"
+      }, {
+        "item" : "233203",
+        "count" : "105"
+      }, {
+        "item" : "415097",
+        "count" : "103"
+      }, {
+        "item" : "111782",
+        "count" : "100"
+      } ],
+      "smallest" : "100002",
+      "count" : "683788",
+      "sum" : "214567953689",
+      "cardinality" : "101390"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256162,
+    "name" : "created_at",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date tree points were collected in the census software.",
+    "fieldName" : "created_at",
+    "position" : 3,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 36530657,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "2016-10-05T00:00:00.000",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2015-10-27T00:00:00.000",
+        "count" : "6852"
+      }, {
+        "item" : "2015-10-13T00:00:00.000",
+        "count" : "6676"
+      }, {
+        "item" : "2015-10-26T00:00:00.000",
+        "count" : "6258"
+      }, {
+        "item" : "2015-10-29T00:00:00.000",
+        "count" : "6223"
+      }, {
+        "item" : "2015-10-15T00:00:00.000",
+        "count" : "6085"
+      }, {
+        "item" : "2015-11-03T00:00:00.000",
+        "count" : "6028"
+      }, {
+        "item" : "2015-10-14T00:00:00.000",
+        "count" : "6010"
+      }, {
+        "item" : "2015-10-30T00:00:00.000",
+        "count" : "5834"
+      }, {
+        "item" : "2015-10-20T00:00:00.000",
+        "count" : "5677"
+      }, {
+        "item" : "2015-10-22T00:00:00.000",
+        "count" : "5368"
+      }, {
+        "item" : "2015-11-02T00:00:00.000",
+        "count" : "5322"
+      }, {
+        "item" : "2015-10-16T00:00:00.000",
+        "count" : "5151"
+      }, {
+        "item" : "2015-10-23T00:00:00.000",
+        "count" : "5069"
+      }, {
+        "item" : "2015-11-04T00:00:00.000",
+        "count" : "5065"
+      }, {
+        "item" : "2015-10-07T00:00:00.000",
+        "count" : "5027"
+      }, {
+        "item" : "2015-10-10T00:00:00.000",
+        "count" : "4919"
+      }, {
+        "item" : "2015-11-05T00:00:00.000",
+        "count" : "4780"
+      }, {
+        "item" : "2015-10-21T00:00:00.000",
+        "count" : "4542"
+      }, {
+        "item" : "2015-09-25T00:00:00.000",
+        "count" : "4362"
+      }, {
+        "item" : "2015-10-19T00:00:00.000",
+        "count" : "4319"
+      } ],
+      "smallest" : "2015-05-19T00:00:00.000",
+      "count" : "683788",
+      "cardinality" : "483"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256163,
+    "name" : "tree_dbh",
+    "dataTypeName" : "number",
+    "description" : "Diameter of the tree, measured at approximately 54\" / 137cm above the ground. Data was collected for both living and dead trees; for stumps, use stump_diam",
+    "fieldName" : "tree_dbh",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530658,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "450",
+      "non_null" : "683788",
+      "average" : "11.27978701000895",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4",
+        "count" : "60372"
+      }, {
+        "item" : "3",
+        "count" : "54454"
+      }, {
+        "item" : "2",
+        "count" : "41977"
+      }, {
+        "item" : "5",
+        "count" : "41642"
+      }, {
+        "item" : "11",
+        "count" : "37978"
+      }, {
+        "item" : "6",
+        "count" : "36519"
+      }, {
+        "item" : "7",
+        "count" : "30862"
+      }, {
+        "item" : "8",
+        "count" : "30828"
+      }, {
+        "item" : "10",
+        "count" : "29672"
+      }, {
+        "item" : "9",
+        "count" : "28903"
+      }, {
+        "item" : "12",
+        "count" : "25853"
+      }, {
+        "item" : "13",
+        "count" : "24441"
+      }, {
+        "item" : "14",
+        "count" : "21827"
+      }, {
+        "item" : "15",
+        "count" : "19643"
+      }, {
+        "item" : "18",
+        "count" : "19276"
+      }, {
+        "item" : "0",
+        "count" : "17932"
+      }, {
+        "item" : "16",
+        "count" : "17813"
+      }, {
+        "item" : "17",
+        "count" : "15698"
+      }, {
+        "item" : "19",
+        "count" : "12655"
+      }, {
+        "item" : "20",
+        "count" : "11428"
+      } ],
+      "smallest" : "0",
+      "count" : "683788",
+      "sum" : "7712983",
+      "cardinality" : "146"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256164,
+    "name" : "stump_diam",
+    "dataTypeName" : "number",
+    "description" : "Diameter of stump measured through the center, rounded to the nearest inch.",
+    "fieldName" : "stump_diam",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530659,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "140",
+      "non_null" : "683788",
+      "average" : "0.4324629856037251",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "666134"
+      }, {
+        "item" : "4",
+        "count" : "966"
+      }, {
+        "item" : "5",
+        "count" : "939"
+      }, {
+        "item" : "3",
+        "count" : "779"
+      }, {
+        "item" : "6",
+        "count" : "754"
+      }, {
+        "item" : "12",
+        "count" : "717"
+      }, {
+        "item" : "10",
+        "count" : "716"
+      }, {
+        "item" : "14",
+        "count" : "660"
+      }, {
+        "item" : "8",
+        "count" : "660"
+      }, {
+        "item" : "15",
+        "count" : "648"
+      }, {
+        "item" : "7",
+        "count" : "612"
+      }, {
+        "item" : "13",
+        "count" : "609"
+      }, {
+        "item" : "20",
+        "count" : "572"
+      }, {
+        "item" : "18",
+        "count" : "567"
+      }, {
+        "item" : "16",
+        "count" : "557"
+      }, {
+        "item" : "9",
+        "count" : "530"
+      }, {
+        "item" : "17",
+        "count" : "526"
+      }, {
+        "item" : "11",
+        "count" : "525"
+      }, {
+        "item" : "22",
+        "count" : "426"
+      }, {
+        "item" : "19",
+        "count" : "410"
+      } ],
+      "smallest" : "0",
+      "count" : "683788",
+      "sum" : "295713",
+      "cardinality" : "100"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256165,
+    "name" : "curb_loc",
+    "dataTypeName" : "text",
+    "description" : "Location of tree bed in relationship to the curb; trees are either along the curb (OnCurb) or offset from the curb (OffsetFromCurb)",
+    "fieldName" : "curb_loc",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530660,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "OnCurb",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "OnCurb",
+        "count" : "656896"
+      }, {
+        "item" : "OffsetFromCurb",
+        "count" : "26892"
+      } ],
+      "smallest" : "OffsetFromCurb",
+      "count" : "683788",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256166,
+    "name" : "status",
+    "dataTypeName" : "text",
+    "description" : "Indicates whether the tree is alive, standing dead, or a stump.",
+    "fieldName" : "status",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530661,
+    "width" : 172,
+    "cachedContents" : {
+      "largest" : "Stump",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Alive",
+        "count" : "652173"
+      }, {
+        "item" : "Stump",
+        "count" : "17654"
+      }, {
+        "item" : "Dead",
+        "count" : "13961"
+      } ],
+      "smallest" : "Alive",
+      "count" : "683788",
+      "cardinality" : "3"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256167,
+    "name" : "health",
+    "dataTypeName" : "text",
+    "description" : "Indicates the user's perception of tree health.",
+    "fieldName" : "health",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530662,
+    "width" : 172,
+    "cachedContents" : {
+      "largest" : "Poor",
+      "non_null" : "652172",
+      "null" : "31616",
+      "top" : [ {
+        "item" : "Good",
+        "count" : "528850"
+      }, {
+        "item" : "Fair",
+        "count" : "96504"
+      }, {
+        "item" : "Poor",
+        "count" : "26818"
+      } ],
+      "smallest" : "Fair",
+      "count" : "683788",
+      "cardinality" : "3"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256168,
+    "name" : "spc_latin",
+    "dataTypeName" : "text",
+    "description" : "Scientific name for species, e.g. \"Acer rubrum\"",
+    "fieldName" : "spc_latin",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530663,
+    "width" : 208,
+    "cachedContents" : {
+      "largest" : "Zelkova serrata",
+      "non_null" : "652169",
+      "null" : "31619",
+      "top" : [ {
+        "item" : "Platanus x acerifolia",
+        "count" : "87014"
+      }, {
+        "item" : "Gleditsia triacanthos var. inermis",
+        "count" : "64264"
+      }, {
+        "item" : "Pyrus calleryana",
+        "count" : "58931"
+      }, {
+        "item" : "Quercus palustris",
+        "count" : "53185"
+      }, {
+        "item" : "Acer platanoides",
+        "count" : "34189"
+      }, {
+        "item" : "Tilia cordata",
+        "count" : "29742"
+      }, {
+        "item" : "Prunus",
+        "count" : "29279"
+      }, {
+        "item" : "Zelkova serrata",
+        "count" : "29258"
+      }, {
+        "item" : "Ginkgo biloba",
+        "count" : "21024"
+      }, {
+        "item" : "Styphnolobium japonicum",
+        "count" : "19338"
+      }, {
+        "item" : "Acer rubrum",
+        "count" : "17246"
+      }, {
+        "item" : "Fraxinus pennsylvanica",
+        "count" : "16251"
+      }, {
+        "item" : "Tilia americana",
+        "count" : "13530"
+      }, {
+        "item" : "Acer saccharinum",
+        "count" : "12277"
+      }, {
+        "item" : "Liquidambar styraciflua",
+        "count" : "10657"
+      }, {
+        "item" : "Quercus rubra",
+        "count" : "8400"
+      }, {
+        "item" : "Tilia tomentosa",
+        "count" : "7995"
+      }, {
+        "item" : "Ulmus americana",
+        "count" : "7975"
+      }, {
+        "item" : "Acer",
+        "count" : "7080"
+      }, {
+        "item" : "Prunus cerasifera",
+        "count" : "6879"
+      } ],
+      "smallest" : "Acer",
+      "count" : "683788",
+      "cardinality" : "132"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256169,
+    "name" : "spc_common",
+    "dataTypeName" : "text",
+    "description" : "Common name for species, e.g. \"red maple\"",
+    "fieldName" : "spc_common",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530664,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "willow oak",
+      "non_null" : "652169",
+      "null" : "31619",
+      "top" : [ {
+        "item" : "London planetree",
+        "count" : "87014"
+      }, {
+        "item" : "honeylocust",
+        "count" : "64264"
+      }, {
+        "item" : "Callery pear",
+        "count" : "58931"
+      }, {
+        "item" : "pin oak",
+        "count" : "53185"
+      }, {
+        "item" : "Norway maple",
+        "count" : "34189"
+      }, {
+        "item" : "littleleaf linden",
+        "count" : "29742"
+      }, {
+        "item" : "cherry",
+        "count" : "29279"
+      }, {
+        "item" : "Japanese zelkova",
+        "count" : "29258"
+      }, {
+        "item" : "ginkgo",
+        "count" : "21024"
+      }, {
+        "item" : "Sophora",
+        "count" : "19338"
+      }, {
+        "item" : "red maple",
+        "count" : "17246"
+      }, {
+        "item" : "green ash",
+        "count" : "16251"
+      }, {
+        "item" : "American linden",
+        "count" : "13530"
+      }, {
+        "item" : "silver maple",
+        "count" : "12277"
+      }, {
+        "item" : "sweetgum",
+        "count" : "10657"
+      }, {
+        "item" : "northern red oak",
+        "count" : "8400"
+      }, {
+        "item" : "silver linden",
+        "count" : "7995"
+      }, {
+        "item" : "American elm",
+        "count" : "7975"
+      }, {
+        "item" : "maple",
+        "count" : "7080"
+      }, {
+        "item" : "purple-leaf plum",
+        "count" : "6879"
+      } ],
+      "smallest" : "American beech",
+      "count" : "683788",
+      "cardinality" : "132"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256170,
+    "name" : "steward",
+    "dataTypeName" : "text",
+    "description" : "Indicates the number of unique signs of stewardship observed for this tree. Not recorded for stumps or dead trees.",
+    "fieldName" : "steward",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530665,
+    "width" : 184,
+    "cachedContents" : {
+      "largest" : "None",
+      "non_null" : "652173",
+      "null" : "31615",
+      "top" : [ {
+        "item" : "None",
+        "count" : "487823"
+      }, {
+        "item" : "1or2",
+        "count" : "143557"
+      }, {
+        "item" : "3or4",
+        "count" : "19183"
+      }, {
+        "item" : "4orMore",
+        "count" : "1610"
+      } ],
+      "smallest" : "1or2",
+      "count" : "683788",
+      "cardinality" : "4"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256171,
+    "name" : "guards",
+    "dataTypeName" : "text",
+    "description" : "Indicates whether a guard is present, and if the user felt it was a helpful or harmful guard. Not recorded for dead trees and stumps.",
+    "fieldName" : "guards",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530666,
+    "width" : 172,
+    "cachedContents" : {
+      "largest" : "Unsure",
+      "non_null" : "652172",
+      "null" : "31616",
+      "top" : [ {
+        "item" : "None",
+        "count" : "572306"
+      }, {
+        "item" : "Helpful",
+        "count" : "51866"
+      }, {
+        "item" : "Harmful",
+        "count" : "20252"
+      }, {
+        "item" : "Unsure",
+        "count" : "7748"
+      } ],
+      "smallest" : "Harmful",
+      "count" : "683788",
+      "cardinality" : "4"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256172,
+    "name" : "sidewalk",
+    "dataTypeName" : "text",
+    "description" : "Indicates whether one of the sidewalk flags immediately adjacent to the tree was damaged, cracked, or lifted. Not recorded for dead trees and stumps.",
+    "fieldName" : "sidewalk",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530667,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "NoDamage",
+      "non_null" : "652172",
+      "null" : "31616",
+      "top" : [ {
+        "item" : "NoDamage",
+        "count" : "464978"
+      }, {
+        "item" : "Damage",
+        "count" : "187194"
+      } ],
+      "smallest" : "Damage",
+      "count" : "683788",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256173,
+    "name" : "user_type",
+    "dataTypeName" : "text",
+    "description" : "This field describes the category of user who collected this tree point's data.",
+    "fieldName" : "user_type",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530668,
+    "width" : 208,
+    "cachedContents" : {
+      "largest" : "Volunteer",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "TreesCount Staff",
+        "count" : "296284"
+      }, {
+        "item" : "Volunteer",
+        "count" : "217518"
+      }, {
+        "item" : "NYC Parks Staff",
+        "count" : "169986"
+      } ],
+      "smallest" : "NYC Parks Staff",
+      "count" : "683788",
+      "cardinality" : "3"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256174,
+    "name" : "problems",
+    "dataTypeName" : "text",
+    "fieldName" : "problems",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 39954673,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "WiresRope,TrunkOther,Sneakers",
+      "non_null" : "652124",
+      "null" : "31664",
+      "top" : [ {
+        "item" : "None",
+        "count" : "426280"
+      }, {
+        "item" : "Stones",
+        "count" : "95673"
+      }, {
+        "item" : "BranchLights",
+        "count" : "29452"
+      }, {
+        "item" : "Stones,BranchLights",
+        "count" : "17808"
+      }, {
+        "item" : "RootOther",
+        "count" : "11418"
+      }, {
+        "item" : "TrunkOther",
+        "count" : "11143"
+      }, {
+        "item" : "BranchOther",
+        "count" : "8352"
+      }, {
+        "item" : "Stones,TrunkOther",
+        "count" : "5183"
+      }, {
+        "item" : "Stones,RootOther",
+        "count" : "4468"
+      }, {
+        "item" : "WiresRope",
+        "count" : "4095"
+      }, {
+        "item" : "Stones,BranchOther",
+        "count" : "3786"
+      }, {
+        "item" : "TrunkOther,BranchOther",
+        "count" : "2477"
+      }, {
+        "item" : "WiresRope,BranchLights",
+        "count" : "2308"
+      }, {
+        "item" : "RootOther,TrunkOther",
+        "count" : "2137"
+      }, {
+        "item" : "MetalGrates",
+        "count" : "2098"
+      }, {
+        "item" : "Stones,WiresRope,BranchLights",
+        "count" : "1953"
+      }, {
+        "item" : "RootOther,BranchLights",
+        "count" : "1918"
+      }, {
+        "item" : "RootOther,TrunkOther,BranchOther",
+        "count" : "1807"
+      }, {
+        "item" : "TrunkOther,BranchLights",
+        "count" : "1558"
+      }, {
+        "item" : "Stones,TrunkOther,BranchOther",
+        "count" : "1539"
+      } ],
+      "smallest" : "BranchLights",
+      "count" : "683788",
+      "cardinality" : "232"
+    },
+    "format" : { }
+  }, {
+    "id" : 323256175,
+    "name" : "root_stone",
+    "dataTypeName" : "text",
+    "description" : "Indicates the presence of a root problem caused by paving stones in tree bed",
+    "fieldName" : "root_stone",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530669,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Yes",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "No",
+        "count" : "543789"
+      }, {
+        "item" : "Yes",
+        "count" : "139999"
+      } ],
+      "smallest" : "No",
+      "count" : "683788",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256176,
+    "name" : "root_grate",
+    "dataTypeName" : "text",
+    "description" : "Indicates the presence of a root problem caused by metal grates in tree bed",
+    "fieldName" : "root_grate",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530670,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Yes",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "No",
+        "count" : "680252"
+      }, {
+        "item" : "Yes",
+        "count" : "3536"
+      } ],
+      "smallest" : "No",
+      "count" : "683788",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256177,
+    "name" : "root_other",
+    "dataTypeName" : "text",
+    "description" : "Indicates the presence of other root problems",
+    "fieldName" : "root_other",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530671,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Yes",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "No",
+        "count" : "653466"
+      }, {
+        "item" : "Yes",
+        "count" : "30322"
+      } ],
+      "smallest" : "No",
+      "count" : "683788",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256178,
+    "name" : "trunk_wire",
+    "dataTypeName" : "text",
+    "description" : "Indicates the presence of a trunk problem caused by wires or rope wrapped around the trunk",
+    "fieldName" : "trunk_wire",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530672,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Yes",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "No",
+        "count" : "670514"
+      }, {
+        "item" : "Yes",
+        "count" : "13274"
+      } ],
+      "smallest" : "No",
+      "count" : "683788",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256179,
+    "name" : "trnk_light",
+    "dataTypeName" : "text",
+    "description" : "Indicates the presence of a trunk problem caused by lighting installed on the tree",
+    "fieldName" : "trnk_light",
+    "position" : 20,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530673,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Yes",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "No",
+        "count" : "682757"
+      }, {
+        "item" : "Yes",
+        "count" : "1031"
+      } ],
+      "smallest" : "No",
+      "count" : "683788",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256180,
+    "name" : "trnk_other",
+    "dataTypeName" : "text",
+    "description" : "Indicates the presence of other trunk problems",
+    "fieldName" : "trnk_other",
+    "position" : 21,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530674,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Yes",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "No",
+        "count" : "651215"
+      }, {
+        "item" : "Yes",
+        "count" : "32573"
+      } ],
+      "smallest" : "No",
+      "count" : "683788",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256181,
+    "name" : "brch_light",
+    "dataTypeName" : "text",
+    "description" : "Indicates the presence of a branch problem caused by lights (usually string lights) or wires in the branches",
+    "fieldName" : "brch_light",
+    "position" : 22,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530675,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Yes",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "No",
+        "count" : "621423"
+      }, {
+        "item" : "Yes",
+        "count" : "62365"
+      } ],
+      "smallest" : "No",
+      "count" : "683788",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256182,
+    "name" : "brch_shoe",
+    "dataTypeName" : "text",
+    "description" : "Indicates the presence of a branch problem caused by sneakers in the branches",
+    "fieldName" : "brch_shoe",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530676,
+    "width" : 208,
+    "cachedContents" : {
+      "largest" : "Yes",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "No",
+        "count" : "683377"
+      }, {
+        "item" : "Yes",
+        "count" : "411"
+      } ],
+      "smallest" : "No",
+      "count" : "683788",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256183,
+    "name" : "brch_other",
+    "dataTypeName" : "text",
+    "description" : "Indicates the presence of other branch problems",
+    "fieldName" : "brch_other",
+    "position" : 24,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530677,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Yes",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "No",
+        "count" : "659433"
+      }, {
+        "item" : "Yes",
+        "count" : "24355"
+      } ],
+      "smallest" : "No",
+      "count" : "683788",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256184,
+    "name" : "address",
+    "dataTypeName" : "text",
+    "description" : "Nearest estimated address to tree",
+    "fieldName" : "address",
+    "position" : 25,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530680,
+    "width" : 184,
+    "cachedContents" : {
+      "largest" : "9 ZEPHYR AVENUE",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "106 CROSS BAY BOULEVARD",
+        "count" : "262"
+      }, {
+        "item" : "2 TELEPORT DRIVE",
+        "count" : "143"
+      }, {
+        "item" : "2350 FOREST HILL ROAD",
+        "count" : "140"
+      }, {
+        "item" : "900 SOUTH AVENUE",
+        "count" : "90"
+      }, {
+        "item" : "2750 VETERANS ROAD WEST",
+        "count" : "84"
+      }, {
+        "item" : "79-25 WINCHESTER BOULEVARD",
+        "count" : "79"
+      }, {
+        "item" : "1200 SOUTH AVENUE",
+        "count" : "74"
+      }, {
+        "item" : "69-053 210 STREET",
+        "count" : "74"
+      }, {
+        "item" : "204 EDWARD CURRY AVENUE",
+        "count" : "67"
+      }, {
+        "item" : "164-055 96 STREET",
+        "count" : "64"
+      }, {
+        "item" : "120 CASALS PLACE",
+        "count" : "63"
+      }, {
+        "item" : "3034 GOULDEN AVENUE",
+        "count" : "61"
+      }, {
+        "item" : "28-055 ULMER STREET",
+        "count" : "59"
+      }, {
+        "item" : "79-20 WINCHESTER BOULEVARD",
+        "count" : "57"
+      }, {
+        "item" : "402 HUNTS POINT AVENUE",
+        "count" : "56"
+      }, {
+        "item" : "3671 HUDSON MANOR TERRACE",
+        "count" : "55"
+      }, {
+        "item" : "224 WEST STREET",
+        "count" : "55"
+      }, {
+        "item" : "96 PARKSIDE AVENUE",
+        "count" : "53"
+      }, {
+        "item" : "146-056 SPRINGFIELD BOULEVARD",
+        "count" : "53"
+      }, {
+        "item" : "9000 BAY PARKWAY",
+        "count" : "51"
+      } ],
+      "smallest" : "0 5 AVENUE",
+      "count" : "683788",
+      "cardinality" : "408701"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256185,
+    "name" : "postcode",
+    "dataTypeName" : "number",
+    "description" : "Five-digit zipcode in which tree is located",
+    "fieldName" : "zipcode",
+    "position" : 26,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530684,
+    "width" : 184,
+    "cachedContents" : {
+      "largest" : "11697",
+      "non_null" : "683788",
+      "average" : "10916.24604409554",
+      "null" : "0",
+      "top" : [ {
+        "item" : "10312",
+        "count" : "22186"
+      }, {
+        "item" : "10314",
+        "count" : "16905"
+      }, {
+        "item" : "10306",
+        "count" : "13030"
+      }, {
+        "item" : "10309",
+        "count" : "12650"
+      }, {
+        "item" : "11234",
+        "count" : "11253"
+      }, {
+        "item" : "11385",
+        "count" : "10937"
+      }, {
+        "item" : "11357",
+        "count" : "9449"
+      }, {
+        "item" : "11207",
+        "count" : "8634"
+      }, {
+        "item" : "11434",
+        "count" : "8274"
+      }, {
+        "item" : "11208",
+        "count" : "8245"
+      }, {
+        "item" : "11413",
+        "count" : "7470"
+      }, {
+        "item" : "11365",
+        "count" : "7428"
+      }, {
+        "item" : "11230",
+        "count" : "7336"
+      }, {
+        "item" : "10308",
+        "count" : "7116"
+      }, {
+        "item" : "11375",
+        "count" : "7059"
+      }, {
+        "item" : "11364",
+        "count" : "7054"
+      }, {
+        "item" : "11432",
+        "count" : "6958"
+      }, {
+        "item" : "11358",
+        "count" : "6928"
+      }, {
+        "item" : "11236",
+        "count" : "6859"
+      }, {
+        "item" : "10305",
+        "count" : "6855"
+      } ],
+      "smallest" : "83",
+      "count" : "683788",
+      "sum" : "7464398050",
+      "cardinality" : "191"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256186,
+    "name" : "zip_city",
+    "dataTypeName" : "text",
+    "description" : "City as derived from zipcode. This is often (but not always) the same as borough.",
+    "fieldName" : "zip_city",
+    "position" : 27,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530685,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "Woodside",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Brooklyn",
+        "count" : "177300"
+      }, {
+        "item" : "Staten Island",
+        "count" : "105318"
+      }, {
+        "item" : "Bronx",
+        "count" : "85203"
+      }, {
+        "item" : "New York",
+        "count" : "64488"
+      }, {
+        "item" : "Jamaica",
+        "count" : "26028"
+      }, {
+        "item" : "Flushing",
+        "count" : "23389"
+      }, {
+        "item" : "Ridgewood",
+        "count" : "10937"
+      }, {
+        "item" : "Fresh Meadows",
+        "count" : "10441"
+      }, {
+        "item" : "Queens Village",
+        "count" : "10127"
+      }, {
+        "item" : "Astoria",
+        "count" : "10007"
+      }, {
+        "item" : "Whitestone",
+        "count" : "9449"
+      }, {
+        "item" : "Bayside",
+        "count" : "8679"
+      }, {
+        "item" : "Springfield Gardens",
+        "count" : "7470"
+      }, {
+        "item" : "Little Neck",
+        "count" : "7280"
+      }, {
+        "item" : "Forest Hills",
+        "count" : "7059"
+      }, {
+        "item" : "Oakland Gardens",
+        "count" : "7054"
+      }, {
+        "item" : "Far Rockaway",
+        "count" : "6887"
+      }, {
+        "item" : "East Elmhurst",
+        "count" : "6475"
+      }, {
+        "item" : "Rosedale",
+        "count" : "6324"
+      }, {
+        "item" : "Woodside",
+        "count" : "5651"
+      } ],
+      "smallest" : "Arverne",
+      "count" : "683788",
+      "cardinality" : "48"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256187,
+    "name" : "community board",
+    "dataTypeName" : "number",
+    "description" : "Community board in which tree point is located",
+    "fieldName" : "cb_num",
+    "position" : 28,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530686,
+    "width" : 172,
+    "cachedContents" : {
+      "largest" : "503",
+      "non_null" : "683788",
+      "average" : "343.5054037216213",
+      "null" : "0",
+      "top" : [ {
+        "item" : "503",
+        "count" : "53934"
+      }, {
+        "item" : "413",
+        "count" : "37017"
+      }, {
+        "item" : "407",
+        "count" : "30620"
+      }, {
+        "item" : "411",
+        "count" : "28071"
+      }, {
+        "item" : "412",
+        "count" : "26379"
+      }, {
+        "item" : "502",
+        "count" : "25717"
+      }, {
+        "item" : "501",
+        "count" : "25667"
+      }, {
+        "item" : "408",
+        "count" : "20383"
+      }, {
+        "item" : "405",
+        "count" : "19550"
+      }, {
+        "item" : "318",
+        "count" : "19319"
+      }, {
+        "item" : "305",
+        "count" : "16589"
+      }, {
+        "item" : "410",
+        "count" : "15224"
+      }, {
+        "item" : "315",
+        "count" : "13758"
+      }, {
+        "item" : "401",
+        "count" : "13008"
+      }, {
+        "item" : "312",
+        "count" : "12500"
+      }, {
+        "item" : "414",
+        "count" : "12412"
+      }, {
+        "item" : "301",
+        "count" : "12066"
+      }, {
+        "item" : "409",
+        "count" : "11481"
+      }, {
+        "item" : "210",
+        "count" : "11180"
+      }, {
+        "item" : "212",
+        "count" : "11108"
+      } ],
+      "smallest" : "101",
+      "count" : "683788",
+      "sum" : "234884873",
+      "cardinality" : "59"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256188,
+    "name" : "borocode",
+    "dataTypeName" : "number",
+    "description" : "Code for borough in which tree point is located:\n1 (Manhattan), 2 (Bronx), 3 (Brooklyn), 4 (Queens), 5 (Staten Island)\n",
+    "fieldName" : "borocode",
+    "position" : 29,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530687,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "5",
+      "non_null" : "683788",
+      "average" : "3.358500002924883",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4",
+        "count" : "250551"
+      }, {
+        "item" : "3",
+        "count" : "177293"
+      }, {
+        "item" : "5",
+        "count" : "105318"
+      }, {
+        "item" : "2",
+        "count" : "85203"
+      }, {
+        "item" : "1",
+        "count" : "65423"
+      } ],
+      "smallest" : "1",
+      "count" : "683788",
+      "sum" : "2296502",
+      "cardinality" : "5"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256189,
+    "name" : "borough",
+    "dataTypeName" : "text",
+    "description" : "Name of borough in which tree point is located",
+    "fieldName" : "boroname",
+    "position" : 30,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530688,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "Staten Island",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Queens",
+        "count" : "250551"
+      }, {
+        "item" : "Brooklyn",
+        "count" : "177293"
+      }, {
+        "item" : "Staten Island",
+        "count" : "105318"
+      }, {
+        "item" : "Bronx",
+        "count" : "85203"
+      }, {
+        "item" : "Manhattan",
+        "count" : "65423"
+      } ],
+      "smallest" : "Bronx",
+      "count" : "683788",
+      "cardinality" : "5"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256190,
+    "name" : "cncldist",
+    "dataTypeName" : "number",
+    "description" : "Council district in which tree point is located",
+    "fieldName" : "cncldist",
+    "position" : 31,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530689,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "51",
+      "non_null" : "683788",
+      "average" : "29.94318121991026",
+      "null" : "0",
+      "top" : [ {
+        "item" : "51",
+        "count" : "51236"
+      }, {
+        "item" : "19",
+        "count" : "34429"
+      }, {
+        "item" : "50",
+        "count" : "33035"
+      }, {
+        "item" : "23",
+        "count" : "30743"
+      }, {
+        "item" : "31",
+        "count" : "23161"
+      }, {
+        "item" : "49",
+        "count" : "21047"
+      }, {
+        "item" : "27",
+        "count" : "20116"
+      }, {
+        "item" : "32",
+        "count" : "19508"
+      }, {
+        "item" : "24",
+        "count" : "18993"
+      }, {
+        "item" : "30",
+        "count" : "18551"
+      }, {
+        "item" : "13",
+        "count" : "17587"
+      }, {
+        "item" : "46",
+        "count" : "16913"
+      }, {
+        "item" : "28",
+        "count" : "15807"
+      }, {
+        "item" : "20",
+        "count" : "14189"
+      }, {
+        "item" : "29",
+        "count" : "13946"
+      }, {
+        "item" : "39",
+        "count" : "13859"
+      }, {
+        "item" : "43",
+        "count" : "13196"
+      }, {
+        "item" : "42",
+        "count" : "13117"
+      }, {
+        "item" : "33",
+        "count" : "12784"
+      }, {
+        "item" : "17",
+        "count" : "11851"
+      } ],
+      "smallest" : "1",
+      "count" : "683788",
+      "sum" : "20474788",
+      "cardinality" : "51"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256191,
+    "name" : "st_assem",
+    "dataTypeName" : "number",
+    "description" : "State Assembly District in which tree point is located",
+    "fieldName" : "st_assem",
+    "position" : 32,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530690,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "87",
+      "non_null" : "683788",
+      "average" : "50.79158306375660",
+      "null" : "0",
+      "top" : [ {
+        "item" : "62",
+        "count" : "46002"
+      }, {
+        "item" : "26",
+        "count" : "27763"
+      }, {
+        "item" : "64",
+        "count" : "22922"
+      }, {
+        "item" : "63",
+        "count" : "21883"
+      }, {
+        "item" : "25",
+        "count" : "21514"
+      }, {
+        "item" : "33",
+        "count" : "20927"
+      }, {
+        "item" : "61",
+        "count" : "17669"
+      }, {
+        "item" : "24",
+        "count" : "17643"
+      }, {
+        "item" : "23",
+        "count" : "17615"
+      }, {
+        "item" : "29",
+        "count" : "17572"
+      }, {
+        "item" : "27",
+        "count" : "14853"
+      }, {
+        "item" : "31",
+        "count" : "14451"
+      }, {
+        "item" : "28",
+        "count" : "13789"
+      }, {
+        "item" : "32",
+        "count" : "13443"
+      }, {
+        "item" : "59",
+        "count" : "13223"
+      }, {
+        "item" : "82",
+        "count" : "12887"
+      }, {
+        "item" : "30",
+        "count" : "11689"
+      }, {
+        "item" : "52",
+        "count" : "11625"
+      }, {
+        "item" : "60",
+        "count" : "11365"
+      }, {
+        "item" : "41",
+        "count" : "10674"
+      } ],
+      "smallest" : "23",
+      "count" : "683788",
+      "sum" : "34730675",
+      "cardinality" : "65"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256192,
+    "name" : "st_senate",
+    "dataTypeName" : "number",
+    "description" : "State Senate District in which tree point is located",
+    "fieldName" : "st_senate",
+    "position" : 33,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530691,
+    "width" : 208,
+    "cachedContents" : {
+      "largest" : "36",
+      "non_null" : "683788",
+      "average" : "20.61578149952909",
+      "null" : "0",
+      "top" : [ {
+        "item" : "24",
+        "count" : "87241"
+      }, {
+        "item" : "11",
+        "count" : "67705"
+      }, {
+        "item" : "15",
+        "count" : "44624"
+      }, {
+        "item" : "14",
+        "count" : "38351"
+      }, {
+        "item" : "10",
+        "count" : "35044"
+      }, {
+        "item" : "34",
+        "count" : "31066"
+      }, {
+        "item" : "19",
+        "count" : "29083"
+      }, {
+        "item" : "22",
+        "count" : "27179"
+      }, {
+        "item" : "23",
+        "count" : "25401"
+      }, {
+        "item" : "16",
+        "count" : "24146"
+      }, {
+        "item" : "25",
+        "count" : "23499"
+      }, {
+        "item" : "17",
+        "count" : "22225"
+      }, {
+        "item" : "12",
+        "count" : "21847"
+      }, {
+        "item" : "21",
+        "count" : "20730"
+      }, {
+        "item" : "18",
+        "count" : "20603"
+      }, {
+        "item" : "13",
+        "count" : "18827"
+      }, {
+        "item" : "20",
+        "count" : "16848"
+      }, {
+        "item" : "26",
+        "count" : "16456"
+      }, {
+        "item" : "32",
+        "count" : "15915"
+      }, {
+        "item" : "36",
+        "count" : "14544"
+      } ],
+      "smallest" : "10",
+      "count" : "683788",
+      "sum" : "14096824",
+      "cardinality" : "26"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256193,
+    "name" : "nta",
+    "dataTypeName" : "text",
+    "description" : "This is the NTA Code corresponding to the neighborhood tabulation area from the 2010 US Census that the tree point falls into.",
+    "fieldName" : "nta",
+    "position" : 34,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530692,
+    "width" : 136,
+    "cachedContents" : {
+      "largest" : "SI54",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "SI01",
+        "count" : "12969"
+      }, {
+        "item" : "SI54",
+        "count" : "10734"
+      }, {
+        "item" : "QN46",
+        "count" : "9780"
+      }, {
+        "item" : "BK82",
+        "count" : "9607"
+      }, {
+        "item" : "SI32",
+        "count" : "9251"
+      }, {
+        "item" : "SI05",
+        "count" : "8446"
+      }, {
+        "item" : "SI11",
+        "count" : "8216"
+      }, {
+        "item" : "QN17",
+        "count" : "7701"
+      }, {
+        "item" : "QN49",
+        "count" : "7620"
+      }, {
+        "item" : "BK45",
+        "count" : "7449"
+      }, {
+        "item" : "QN55",
+        "count" : "7321"
+      }, {
+        "item" : "QN45",
+        "count" : "7302"
+      }, {
+        "item" : "QN08",
+        "count" : "7239"
+      }, {
+        "item" : "QN51",
+        "count" : "7133"
+      }, {
+        "item" : "BK31",
+        "count" : "7026"
+      }, {
+        "item" : "SI48",
+        "count" : "6999"
+      }, {
+        "item" : "QN28",
+        "count" : "6863"
+      }, {
+        "item" : "QN34",
+        "count" : "6856"
+      }, {
+        "item" : "QN44",
+        "count" : "6814"
+      }, {
+        "item" : "QN20",
+        "count" : "6481"
+      } ],
+      "smallest" : "BK09",
+      "count" : "683788",
+      "cardinality" : "188"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256194,
+    "name" : "nta_name",
+    "dataTypeName" : "text",
+    "description" : "This is the NTA name corresponding to the neighborhood tabulation area from the 2010 US Census that the tree point falls into.",
+    "fieldName" : "nta_name",
+    "position" : 35,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530693,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "Yorkville",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Annadale-Huguenot-Prince's Bay-Eltingville",
+        "count" : "12969"
+      }, {
+        "item" : "Great Kills",
+        "count" : "10734"
+      }, {
+        "item" : "Bayside-Bayside Hills",
+        "count" : "9780"
+      }, {
+        "item" : "East New York",
+        "count" : "9607"
+      }, {
+        "item" : "Rossville-Woodrow",
+        "count" : "9251"
+      }, {
+        "item" : "New Springville-Bloomfield-Travis",
+        "count" : "8446"
+      }, {
+        "item" : "Charleston-Richmond Valley-Tottenville",
+        "count" : "8216"
+      }, {
+        "item" : "Forest Hills",
+        "count" : "7701"
+      }, {
+        "item" : "Whitestone",
+        "count" : "7620"
+      }, {
+        "item" : "Georgetown-Marine Park-Bergen Beach-Mill Basin",
+        "count" : "7449"
+      }, {
+        "item" : "South Ozone Park",
+        "count" : "7321"
+      }, {
+        "item" : "Douglas Manor-Douglaston-Little Neck",
+        "count" : "7302"
+      }, {
+        "item" : "St. Albans",
+        "count" : "7239"
+      }, {
+        "item" : "Murray Hill",
+        "count" : "7133"
+      }, {
+        "item" : "Bay Ridge",
+        "count" : "7026"
+      }, {
+        "item" : "Arden Heights",
+        "count" : "6999"
+      }, {
+        "item" : "Jackson Heights",
+        "count" : "6863"
+      }, {
+        "item" : "Queens Village",
+        "count" : "6856"
+      }, {
+        "item" : "Glen Oaks-Floral Park-New Hyde Park",
+        "count" : "6814"
+      }, {
+        "item" : "Ridgewood",
+        "count" : "6481"
+      } ],
+      "smallest" : "Allerton-Pelham Gardens",
+      "count" : "683788",
+      "cardinality" : "188"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256195,
+    "name" : "boro_ct",
+    "dataTypeName" : "number",
+    "description" : "This is the boro_ct identifyer for the census tract that the tree point falls into.",
+    "fieldName" : "boro_ct",
+    "position" : 36,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530694,
+    "width" : 184,
+    "cachedContents" : {
+      "largest" : "5032300",
+      "non_null" : "683788",
+      "average" : "3404914.118364171",
+      "null" : "0",
+      "top" : [ {
+        "item" : "5020801",
+        "count" : "3776"
+      }, {
+        "item" : "5017600",
+        "count" : "3245"
+      }, {
+        "item" : "5020803",
+        "count" : "2749"
+      }, {
+        "item" : "5020804",
+        "count" : "2723"
+      }, {
+        "item" : "5019800",
+        "count" : "2620"
+      }, {
+        "item" : "5022600",
+        "count" : "2452"
+      }, {
+        "item" : "5017005",
+        "count" : "2402"
+      }, {
+        "item" : "4089200",
+        "count" : "2399"
+      }, {
+        "item" : "5024401",
+        "count" : "2392"
+      }, {
+        "item" : "5017010",
+        "count" : "2269"
+      }, {
+        "item" : "4066400",
+        "count" : "2102"
+      }, {
+        "item" : "4157101",
+        "count" : "2098"
+      }, {
+        "item" : "5017008",
+        "count" : "2096"
+      }, {
+        "item" : "5013800",
+        "count" : "2031"
+      }, {
+        "item" : "4157901",
+        "count" : "2021"
+      }, {
+        "item" : "5017009",
+        "count" : "1997"
+      }, {
+        "item" : "5015601",
+        "count" : "1941"
+      }, {
+        "item" : "5024402",
+        "count" : "1901"
+      }, {
+        "item" : "5015602",
+        "count" : "1847"
+      }, {
+        "item" : "4148300",
+        "count" : "1806"
+      } ],
+      "smallest" : "1000201",
+      "count" : "683788",
+      "sum" : "2328239415168",
+      "cardinality" : "2152"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256196,
+    "name" : "state",
+    "dataTypeName" : "text",
+    "description" : "All features given value 'New York'",
+    "fieldName" : "state",
+    "position" : 37,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36530695,
+    "width" : 160,
+    "cachedContents" : {
+      "largest" : "New York",
+      "non_null" : "683788",
+      "null" : "0",
+      "top" : [ {
+        "item" : "New York",
+        "count" : "683788"
+      } ],
+      "smallest" : "New York",
+      "count" : "683788",
+      "cardinality" : "1"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 323256197,
+    "name" : "latitude",
+    "dataTypeName" : "number",
+    "description" : "Latitude of point, in decimal degrees",
+    "fieldName" : "latitude",
+    "position" : 38,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530696,
+    "width" : 196,
+    "cachedContents" : {
+      "largest" : "40.91291831",
+      "non_null" : "683788",
+      "average" : "40.70126147546805",
+      "null" : "0",
+      "top" : [ {
+        "item" : "40.66035938",
+        "count" : "35"
+      }, {
+        "item" : "40.61097709",
+        "count" : "28"
+      }, {
+        "item" : "40.689461",
+        "count" : "17"
+      }, {
+        "item" : "40.61596593",
+        "count" : "17"
+      }, {
+        "item" : "40.77849693",
+        "count" : "11"
+      }, {
+        "item" : "40.66036234",
+        "count" : "9"
+      }, {
+        "item" : "40.8830341",
+        "count" : "9"
+      }, {
+        "item" : "40.7715108",
+        "count" : "8"
+      }, {
+        "item" : "40.85571674",
+        "count" : "8"
+      }, {
+        "item" : "40.72263791",
+        "count" : "7"
+      }, {
+        "item" : "40.63264469",
+        "count" : "7"
+      }, {
+        "item" : "40.78750377",
+        "count" : "7"
+      }, {
+        "item" : "40.86765819",
+        "count" : "6"
+      }, {
+        "item" : "40.68993404",
+        "count" : "6"
+      }, {
+        "item" : "40.63607766",
+        "count" : "6"
+      }, {
+        "item" : "40.63609587",
+        "count" : "6"
+      }, {
+        "item" : "40.72858665",
+        "count" : "5"
+      }, {
+        "item" : "40.69312446",
+        "count" : "5"
+      }, {
+        "item" : "40.69334968",
+        "count" : "5"
+      }, {
+        "item" : "40.76254679",
+        "count" : "5"
+      } ],
+      "smallest" : "40.49846614",
+      "count" : "683788",
+      "sum" : "27831034.18178735",
+      "cardinality" : "676080"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256198,
+    "name" : "longitude",
+    "dataTypeName" : "number",
+    "description" : "Longitude of point, in decimal degrees",
+    "fieldName" : "longitude",
+    "position" : 39,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530697,
+    "width" : 208,
+    "cachedContents" : {
+      "largest" : "-73.70048817",
+      "non_null" : "683788",
+      "average" : "-73.92405951203186",
+      "null" : "0",
+      "top" : [ {
+        "item" : "-73.76103529",
+        "count" : "35"
+      }, {
+        "item" : "-74.15686098",
+        "count" : "29"
+      }, {
+        "item" : "-73.95680062",
+        "count" : "17"
+      }, {
+        "item" : "-73.75274984",
+        "count" : "17"
+      }, {
+        "item" : "-73.79764749",
+        "count" : "11"
+      }, {
+        "item" : "-73.90045375",
+        "count" : "9"
+      }, {
+        "item" : "-73.76106931",
+        "count" : "9"
+      }, {
+        "item" : "-73.91666671",
+        "count" : "8"
+      }, {
+        "item" : "-73.91441448",
+        "count" : "8"
+      }, {
+        "item" : "-73.85143651",
+        "count" : "7"
+      }, {
+        "item" : "-73.97329243",
+        "count" : "7"
+      }, {
+        "item" : "-73.90317884",
+        "count" : "7"
+      }, {
+        "item" : "-73.7845023",
+        "count" : "7"
+      }, {
+        "item" : "-73.79683214",
+        "count" : "6"
+      }, {
+        "item" : "-74.02080475",
+        "count" : "6"
+      }, {
+        "item" : "-74.02078026",
+        "count" : "6"
+      }, {
+        "item" : "-73.81866391",
+        "count" : "5"
+      }, {
+        "item" : "-73.89547028",
+        "count" : "5"
+      }, {
+        "item" : "-73.98516008",
+        "count" : "5"
+      }, {
+        "item" : "-73.78159893",
+        "count" : "5"
+      } ],
+      "smallest" : "-74.2549647",
+      "count" : "683788",
+      "sum" : "-50548384.80561324",
+      "cardinality" : "677101"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256199,
+    "name" : "x_sp",
+    "dataTypeName" : "number",
+    "description" : "X coordinate, in state plane. Units are feet.",
+    "fieldName" : "x_sp",
+    "position" : 40,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530698,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "1067247.624",
+      "non_null" : "683788",
+      "average" : "1005279.860539646",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1050549.648",
+        "count" : "35"
+      }, {
+        "item" : "940697.4014",
+        "count" : "28"
+      }, {
+        "item" : "996243.4593",
+        "count" : "17"
+      }, {
+        "item" : "1052818.477",
+        "count" : "17"
+      }, {
+        "item" : "1040292.358",
+        "count" : "11"
+      }, {
+        "item" : "1011776.478",
+        "count" : "9"
+      }, {
+        "item" : "1050540.207",
+        "count" : "9"
+      }, {
+        "item" : "1014131.162",
+        "count" : "9"
+      }, {
+        "item" : "1007955.765",
+        "count" : "8"
+      }, {
+        "item" : "1007302.748",
+        "count" : "8"
+      }, {
+        "item" : "1043924.891",
+        "count" : "7"
+      }, {
+        "item" : "991662.9779",
+        "count" : "7"
+      }, {
+        "item" : "1025429.8",
+        "count" : "7"
+      }, {
+        "item" : "978482.5102",
+        "count" : "6"
+      }, {
+        "item" : "1011029.129",
+        "count" : "6"
+      }, {
+        "item" : "978475.7097",
+        "count" : "6"
+      }, {
+        "item" : "1040593.009",
+        "count" : "6"
+      }, {
+        "item" : "1044751.552",
+        "count" : "5"
+      }, {
+        "item" : "988845.8038",
+        "count" : "5"
+      }, {
+        "item" : "1013221.651",
+        "count" : "5"
+      } ],
+      "smallest" : "913349.2661",
+      "count" : "683788",
+      "sum" : "687398305278.6837",
+      "cardinality" : "681630"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256200,
+    "name" : "y_sp",
+    "dataTypeName" : "number",
+    "description" : "Y coordinate, in state plane. Units are feet",
+    "fieldName" : "y_sp",
+    "position" : 41,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36530699,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "271894.0921",
+      "non_null" : "683788",
+      "average" : "194798.4246248381",
+      "null" : "0",
+      "top" : [ {
+        "item" : "179953.5509",
+        "count" : "35"
+      }, {
+        "item" : "161910.8114",
+        "count" : "28"
+      }, {
+        "item" : "190562.4395",
+        "count" : "17"
+      }, {
+        "item" : "163692.3397",
+        "count" : "17"
+      }, {
+        "item" : "222968.9875",
+        "count" : "11"
+      }, {
+        "item" : "179954.6024",
+        "count" : "9"
+      }, {
+        "item" : "261006.6421",
+        "count" : "9"
+      }, {
+        "item" : "220370.5573",
+        "count" : "8"
+      }, {
+        "item" : "251049.181",
+        "count" : "8"
+      }, {
+        "item" : "169767.0276",
+        "count" : "7"
+      }, {
+        "item" : "202587.9351",
+        "count" : "7"
+      }, {
+        "item" : "226259.1588",
+        "count" : "7"
+      }, {
+        "item" : "171023.9375",
+        "count" : "6"
+      }, {
+        "item" : "171017.3043",
+        "count" : "6"
+      }, {
+        "item" : "255403.7468",
+        "count" : "6"
+      }, {
+        "item" : "190703.3536",
+        "count" : "6"
+      }, {
+        "item" : "191801.8573",
+        "count" : "5"
+      }, {
+        "item" : "191882.7784",
+        "count" : "5"
+      }, {
+        "item" : "217168.5132",
+        "count" : "5"
+      }, {
+        "item" : "156188.6211",
+        "count" : "5"
+      } ],
+      "smallest" : "120973.7922",
+      "count" : "683788",
+      "sum" : "133200825177.3688",
+      "cardinality" : "682632"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256823,
+    "name" : "council district",
+    "dataTypeName" : "number",
+    "fieldName" : "council_district",
+    "position" : 42,
+    "renderTypeName" : "number",
+    "tableColumnId" : 54284130,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "51",
+      "non_null" : "677269",
+      "average" : "30.02733035175093",
+      "null" : "6519",
+      "top" : [ {
+        "item" : "51",
+        "count" : "50865"
+      }, {
+        "item" : "19",
+        "count" : "33626"
+      }, {
+        "item" : "50",
+        "count" : "32948"
+      }, {
+        "item" : "23",
+        "count" : "30411"
+      }, {
+        "item" : "31",
+        "count" : "22763"
+      }, {
+        "item" : "49",
+        "count" : "20863"
+      }, {
+        "item" : "27",
+        "count" : "20061"
+      }, {
+        "item" : "32",
+        "count" : "19687"
+      }, {
+        "item" : "24",
+        "count" : "18620"
+      }, {
+        "item" : "30",
+        "count" : "18307"
+      }, {
+        "item" : "13",
+        "count" : "17433"
+      }, {
+        "item" : "46",
+        "count" : "16863"
+      }, {
+        "item" : "28",
+        "count" : "15635"
+      }, {
+        "item" : "20",
+        "count" : "14128"
+      }, {
+        "item" : "39",
+        "count" : "13837"
+      }, {
+        "item" : "29",
+        "count" : "13789"
+      }, {
+        "item" : "42",
+        "count" : "13083"
+      }, {
+        "item" : "43",
+        "count" : "13054"
+      }, {
+        "item" : "33",
+        "count" : "12740"
+      }, {
+        "item" : "17",
+        "count" : "11825"
+      } ],
+      "smallest" : "1",
+      "count" : "683788",
+      "sum" : "20336580",
+      "cardinality" : "51"
+    },
+    "format" : { }
+  }, {
+    "id" : 323256824,
+    "name" : "census tract",
+    "dataTypeName" : "number",
+    "fieldName" : "census_tract",
+    "position" : 43,
+    "renderTypeName" : "number",
+    "tableColumnId" : 54284131,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "157903",
+      "non_null" : "677269",
+      "average" : "11957.36842229602",
+      "null" : "6519",
+      "top" : [ {
+        "item" : "20801",
+        "count" : "3615"
+      }, {
+        "item" : "176",
+        "count" : "3613"
+      }, {
+        "item" : "198",
+        "count" : "3407"
+      }, {
+        "item" : "138",
+        "count" : "2946"
+      }, {
+        "item" : "226",
+        "count" : "2802"
+      }, {
+        "item" : "20803",
+        "count" : "2740"
+      }, {
+        "item" : "20804",
+        "count" : "2734"
+      }, {
+        "item" : "251",
+        "count" : "2592"
+      }, {
+        "item" : "892",
+        "count" : "2578"
+      }, {
+        "item" : "134",
+        "count" : "2517"
+      }, {
+        "item" : "122",
+        "count" : "2412"
+      }, {
+        "item" : "17010",
+        "count" : "2391"
+      }, {
+        "item" : "24401",
+        "count" : "2385"
+      }, {
+        "item" : "17005",
+        "count" : "2336"
+      }, {
+        "item" : "70",
+        "count" : "2278"
+      }, {
+        "item" : "151",
+        "count" : "2231"
+      }, {
+        "item" : "17008",
+        "count" : "2111"
+      }, {
+        "item" : "157101",
+        "count" : "2103"
+      }, {
+        "item" : "664",
+        "count" : "2100"
+      }, {
+        "item" : "15601",
+        "count" : "2064"
+      } ],
+      "smallest" : "1",
+      "count" : "683788",
+      "sum" : "8098354954",
+      "cardinality" : "1315"
+    },
+    "format" : { }
+  }, {
+    "id" : 323256825,
+    "name" : "bin",
+    "dataTypeName" : "number",
+    "fieldName" : "bin",
+    "position" : 44,
+    "renderTypeName" : "number",
+    "tableColumnId" : 54284132,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "5515124",
+      "non_null" : "674229",
+      "average" : "3495439.006315362",
+      "null" : "9559",
+      "top" : [ {
+        "item" : "4000000",
+        "count" : "561"
+      }, {
+        "item" : "3000000",
+        "count" : "486"
+      }, {
+        "item" : "2000000",
+        "count" : "401"
+      }, {
+        "item" : "5000000",
+        "count" : "342"
+      }, {
+        "item" : "4315089",
+        "count" : "262"
+      }, {
+        "item" : "1000000",
+        "count" : "260"
+      }, {
+        "item" : "5146614",
+        "count" : "143"
+      }, {
+        "item" : "1067973",
+        "count" : "100"
+      }, {
+        "item" : "5113281",
+        "count" : "90"
+      }, {
+        "item" : "1066406",
+        "count" : "86"
+      }, {
+        "item" : "5149741",
+        "count" : "84"
+      }, {
+        "item" : "4438348",
+        "count" : "79"
+      }, {
+        "item" : "4444310",
+        "count" : "74"
+      }, {
+        "item" : "5151612",
+        "count" : "74"
+      }, {
+        "item" : "4462897",
+        "count" : "74"
+      }, {
+        "item" : "4296078",
+        "count" : "64"
+      }, {
+        "item" : "4286097",
+        "count" : "61"
+      }, {
+        "item" : "1012266",
+        "count" : "57"
+      }, {
+        "item" : "4539763",
+        "count" : "57"
+      }, {
+        "item" : "2114610",
+        "count" : "56"
+      } ],
+      "smallest" : "1000000",
+      "count" : "683788",
+      "sum" : "2356726345789",
+      "cardinality" : "378888"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 323256826,
+    "name" : "bbl",
+    "dataTypeName" : "number",
+    "fieldName" : "bbl",
+    "position" : 45,
+    "renderTypeName" : "number",
+    "tableColumnId" : 54284133,
+    "width" : 100,
+    "cachedContents" : {
+      "largest" : "5080500094",
+      "non_null" : "674229",
+      "average" : "3413413626.228289",
+      "null" : "9559",
+      "top" : [ {
+        "item" : "2051410120",
+        "count" : "456"
+      }, {
+        "item" : "4153750020",
+        "count" : "262"
+      }, {
+        "item" : "1009720001",
+        "count" : "215"
+      }, {
+        "item" : "2049050001",
+        "count" : "166"
+      }, {
+        "item" : "1009780001",
+        "count" : "147"
+      }, {
+        "item" : "3044520020",
+        "count" : "147"
+      }, {
+        "item" : "5021650160",
+        "count" : "143"
+      }, {
+        "item" : "3045860300",
+        "count" : "134"
+      }, {
+        "item" : "4124950002",
+        "count" : "132"
+      }, {
+        "item" : "4076330001",
+        "count" : "120"
+      }, {
+        "item" : "1006800001",
+        "count" : "120"
+      }, {
+        "item" : "2039437501",
+        "count" : "118"
+      }, {
+        "item" : "3083290225",
+        "count" : "114"
+      }, {
+        "item" : "4079140002",
+        "count" : "113"
+      }, {
+        "item" : "3005380001",
+        "count" : "112"
+      }, {
+        "item" : "2039387501",
+        "count" : "111"
+      }, {
+        "item" : "4067920030",
+        "count" : "109"
+      }, {
+        "item" : "2051350051",
+        "count" : "106"
+      }, {
+        "item" : "4079290002",
+        "count" : "103"
+      }, {
+        "item" : "3011170001",
+        "count" : "96"
+      } ],
+      "smallest" : "0",
+      "count" : "683788",
+      "sum" : "2301422455798273",
+      "cardinality" : "366635"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "StreetTreeCensus2015TreesDataDictionary20161102.pdf",
+      "assetId" : "8705bfd6-993c-40c5-8620-0c81191c7e25",
+      "name" : "StreetTreeCensus2015TreesDataDictionary20161102.pdf"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "6/3/2016",
+        "Update Frequency" : "Historical data"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Parks and Recreation (DPR)"
+      }
+    },
+    "rowLabel" : "Tree",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "parks", "trees", "treescount", "census", "dpr", "nycopendata", "2018od4a-report" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

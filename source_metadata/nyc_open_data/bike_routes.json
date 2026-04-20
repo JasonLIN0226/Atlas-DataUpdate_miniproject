@@ -1,0 +1,1451 @@
+{
+  "id" : "mzxg-pwib",
+  "name" : "New York City Bike Routes",
+  "assetType" : "dataset",
+  "attribution" : "Department of Transportation (DOT)",
+  "attributionLink" : "https://www.nyc.gov/html/dot/html/bicyclists/bicyclists.shtml",
+  "averageRating" : 0,
+  "createdAt" : 1721836651,
+  "description" : "The New York City Department of Transportation (NYC DOT) builds and manages bicycle facilities across the five boroughs, alongside other City agencies, New York State, and external partners. This dataset contain records of the current and historic network of designated bicycle routes and facilities, including bicycle facility type and relevant street information represented as line segments. Additional information about NYC DOT's commitment to safe all-ages and abilities bicycling, along with data about the growth of bicycling in NYC and PDF maps of the current network can be found at: https://www.nyc.gov/html/dot/html/bicyclists/bicyclists.shtml",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 6849,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41529218,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1755531979,
+  "publicationGroup" : 19589410,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1755531962,
+  "rowsUpdatedBy" : "d5dp-fses",
+  "tableId" : 20016502,
+  "totalTimesRated" : 0,
+  "viewCount" : 17279,
+  "viewLastModified" : 1755531980,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1722300687,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 7036556,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1722300674,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "reviewer" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1722300687,
+      "failureCount" : 0,
+      "startedAt" : 1722300687,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 616011545,
+    "name" : "the_geom",
+    "dataTypeName" : "multiline",
+    "description" : "Geometry column used for mapping",
+    "fieldName" : "the_geom",
+    "position" : 1,
+    "renderTypeName" : "multiline",
+    "tableColumnId" : 153863578,
+    "format" : { }
+  }, {
+    "id" : 616011546,
+    "name" : "segmentid",
+    "dataTypeName" : "number",
+    "description" : "From LION 23C. A number of up to seven digits that identifies each segment of a street or a non-street feature represented in the LION file. Nonstandard Segment IDs reflect a difference in geometry from LION 23C and existing conditions.",
+    "fieldName" : "segmentid",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 153863575,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "10000108.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "32979.0",
+        "count" : "4"
+      }, {
+        "item" : "33937.0",
+        "count" : "4"
+      }, {
+        "item" : "310025.0",
+        "count" : "4"
+      }, {
+        "item" : "32827.0",
+        "count" : "4"
+      }, {
+        "item" : "310026.0",
+        "count" : "4"
+      }, {
+        "item" : "33935.0",
+        "count" : "4"
+      }, {
+        "item" : "33951.0",
+        "count" : "4"
+      }, {
+        "item" : "33921.0",
+        "count" : "4"
+      }, {
+        "item" : "33939.0",
+        "count" : "4"
+      }, {
+        "item" : "33933.0",
+        "count" : "4"
+      }, {
+        "item" : "33947.0",
+        "count" : "4"
+      }, {
+        "item" : "153108.0",
+        "count" : "3"
+      }, {
+        "item" : "184678.0",
+        "count" : "3"
+      }, {
+        "item" : "32347.0",
+        "count" : "3"
+      }, {
+        "item" : "9001009.0",
+        "count" : "3"
+      }, {
+        "item" : "241929.0",
+        "count" : "3"
+      }, {
+        "item" : "145045.0",
+        "count" : "3"
+      }, {
+        "item" : "189356.0",
+        "count" : "3"
+      }, {
+        "item" : "120953.0",
+        "count" : "3"
+      }, {
+        "item" : "9000999.0",
+        "count" : "3"
+      } ],
+      "smallest" : "53.0",
+      "count" : "28983",
+      "cardinality" : "24097"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 616011548,
+    "name" : "bikeid",
+    "dataTypeName" : "number",
+    "description" : "A unique number that corresponds to one or more LION segments that share all other attributes.",
+    "fieldName" : "bikeid",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 153863577,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "8317.0",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4176.0",
+        "count" : "158"
+      }, {
+        "item" : "759.0",
+        "count" : "126"
+      }, {
+        "item" : "760.0",
+        "count" : "126"
+      }, {
+        "item" : "401.0",
+        "count" : "89"
+      }, {
+        "item" : "6079.0",
+        "count" : "88"
+      }, {
+        "item" : "1777.0",
+        "count" : "79"
+      }, {
+        "item" : "1331.0",
+        "count" : "65"
+      }, {
+        "item" : "21.0",
+        "count" : "59"
+      }, {
+        "item" : "2217.0",
+        "count" : "55"
+      }, {
+        "item" : "6451.0",
+        "count" : "54"
+      }, {
+        "item" : "2218.0",
+        "count" : "54"
+      }, {
+        "item" : "331.0",
+        "count" : "54"
+      }, {
+        "item" : "2155.0",
+        "count" : "52"
+      }, {
+        "item" : "685.0",
+        "count" : "52"
+      }, {
+        "item" : "1698.0",
+        "count" : "51"
+      }, {
+        "item" : "777.0",
+        "count" : "51"
+      }, {
+        "item" : "2287.0",
+        "count" : "51"
+      }, {
+        "item" : "2153.0",
+        "count" : "50"
+      }, {
+        "item" : "7162.0",
+        "count" : "50"
+      }, {
+        "item" : "75.0",
+        "count" : "49"
+      } ],
+      "smallest" : "2.0",
+      "count" : "28983",
+      "cardinality" : "5378"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 616011549,
+    "name" : "prevbikeid",
+    "dataTypeName" : "text",
+    "description" : "A unique number that identifies the related record of a Bike ID that has been superseded.",
+    "fieldName" : "prevbikeid",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863580,
+    "cachedContents" : {
+      "non_null" : "27374",
+      "largest" : "NA",
+      "null" : "1609",
+      "top" : [ {
+        "item" : "NA",
+        "count" : "21978"
+      }, {
+        "item" : "759",
+        "count" : "126"
+      }, {
+        "item" : "760",
+        "count" : "126"
+      }, {
+        "item" : "401",
+        "count" : "96"
+      }, {
+        "item" : "1777",
+        "count" : "79"
+      }, {
+        "item" : "21",
+        "count" : "59"
+      }, {
+        "item" : "180",
+        "count" : "56"
+      }, {
+        "item" : "2218",
+        "count" : "54"
+      }, {
+        "item" : "331",
+        "count" : "54"
+      }, {
+        "item" : "685",
+        "count" : "52"
+      }, {
+        "item" : "777",
+        "count" : "52"
+      }, {
+        "item" : "1623",
+        "count" : "47"
+      }, {
+        "item" : "2264",
+        "count" : "46"
+      }, {
+        "item" : "1622",
+        "count" : "45"
+      }, {
+        "item" : "2372",
+        "count" : "44"
+      }, {
+        "item" : "675",
+        "count" : "43"
+      }, {
+        "item" : "1966",
+        "count" : "37"
+      }, {
+        "item" : "6082",
+        "count" : "36"
+      }, {
+        "item" : "639",
+        "count" : "35"
+      }, {
+        "item" : "934",
+        "count" : "34"
+      } ],
+      "smallest" : "10",
+      "count" : "28983",
+      "cardinality" : "761"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011550,
+    "name" : "status",
+    "dataTypeName" : "text",
+    "description" : "Indicates whether a record represents a current (i.e. existing) bicycle facility or a retired (i.e. historic) one.",
+    "fieldName" : "status",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863581,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "Retired",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Current",
+        "count" : "23807"
+      }, {
+        "item" : "Retired",
+        "count" : "5176"
+      } ],
+      "smallest" : "Current",
+      "count" : "28983",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011551,
+    "name" : "boro",
+    "dataTypeName" : "number",
+    "description" : "A 1-digit code identifying the borough in which the left side of the street segment is located.",
+    "fieldName" : "boro",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 153863582,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "5",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "7906"
+      }, {
+        "item" : "3",
+        "count" : "7363"
+      }, {
+        "item" : "4",
+        "count" : "6867"
+      }, {
+        "item" : "2",
+        "count" : "5359"
+      }, {
+        "item" : "5",
+        "count" : "1488"
+      } ],
+      "smallest" : "1",
+      "count" : "28983",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011552,
+    "name" : "street",
+    "dataTypeName" : "text",
+    "description" : "Name of the street or facility.",
+    "fieldName" : "street",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863583,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "ZOO BR",
+      "null" : "0",
+      "top" : [ {
+        "item" : "GRAND CONCOURSE",
+        "count" : "585"
+      }, {
+        "item" : "1 AV",
+        "count" : "354"
+      }, {
+        "item" : "QUEENS BLVD",
+        "count" : "306"
+      }, {
+        "item" : "BROADWAY",
+        "count" : "295"
+      }, {
+        "item" : "34 AV",
+        "count" : "264"
+      }, {
+        "item" : "HUDSON RIVER GREENWAY",
+        "count" : "229"
+      }, {
+        "item" : "4 AV",
+        "count" : "200"
+      }, {
+        "item" : "5 AV",
+        "count" : "199"
+      }, {
+        "item" : "BOARDWALK",
+        "count" : "198"
+      }, {
+        "item" : "QUEENS BL",
+        "count" : "192"
+      }, {
+        "item" : "2 AV",
+        "count" : "191"
+      }, {
+        "item" : "WEST DR",
+        "count" : "184"
+      }, {
+        "item" : "BAY ST",
+        "count" : "178"
+      }, {
+        "item" : "ADAM C POWELL BLVD",
+        "count" : "158"
+      }, {
+        "item" : "CLOVE LAKES PARK PATH",
+        "count" : "158"
+      }, {
+        "item" : "PARK AV",
+        "count" : "151"
+      }, {
+        "item" : "BURKE AV",
+        "count" : "140"
+      }, {
+        "item" : "EAST RIVER ESPLANADE",
+        "count" : "136"
+      }, {
+        "item" : "AMSTERDAM AV",
+        "count" : "133"
+      }, {
+        "item" : "7 AV",
+        "count" : "127"
+      } ],
+      "smallest" : "100 DR",
+      "count" : "28983",
+      "cardinality" : "1572"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011553,
+    "name" : "fromstreet",
+    "dataTypeName" : "text",
+    "description" : "The street, when available, or where no street is present a park, waterfront line, land mark, or nearest street adjacent to the beginning of the facility route.",
+    "fieldName" : "fromstreet",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863584,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "ZOO BR",
+      "null" : "0",
+      "top" : [ {
+        "item" : "E 161 ST",
+        "count" : "359"
+      }, {
+        "item" : "3 AV",
+        "count" : "213"
+      }, {
+        "item" : "5 AV",
+        "count" : "208"
+      }, {
+        "item" : "BROADWAY",
+        "count" : "171"
+      }, {
+        "item" : "MYRTLE AV",
+        "count" : "169"
+      }, {
+        "item" : "BOSTON RD",
+        "count" : "159"
+      }, {
+        "item" : "CLOVE LAKES PARK",
+        "count" : "158"
+      }, {
+        "item" : "CENTRAL PARK N",
+        "count" : "147"
+      }, {
+        "item" : "E 125 ST",
+        "count" : "137"
+      }, {
+        "item" : "BRONX BOROUGH BOUNDARY",
+        "count" : "131"
+      }, {
+        "item" : "E FORDHAM RD",
+        "count" : "130"
+      }, {
+        "item" : "EAST GUNHILL RD",
+        "count" : "124"
+      }, {
+        "item" : "E 96 ST",
+        "count" : "118"
+      }, {
+        "item" : "COOPER AV",
+        "count" : "118"
+      }, {
+        "item" : "OCEAN PKWY",
+        "count" : "118"
+      }, {
+        "item" : "1 AV",
+        "count" : "117"
+      }, {
+        "item" : "SHORE BLVD",
+        "count" : "111"
+      }, {
+        "item" : "ATLANTIC AV",
+        "count" : "111"
+      }, {
+        "item" : "FLATBUSH AV",
+        "count" : "110"
+      }, {
+        "item" : "2 AV",
+        "count" : "110"
+      } ],
+      "smallest" : "100 AV",
+      "count" : "28983",
+      "cardinality" : "1991"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011554,
+    "name" : "tostreet",
+    "dataTypeName" : "text",
+    "description" : "The street, when available, or where no street is present a park, waterfront line, land mark, or nearest street adjacent to the end of the facility route.",
+    "fieldName" : "tostreet",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863585,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "ZEREGA AVE",
+      "null" : "0",
+      "top" : [ {
+        "item" : "VAN CORTLANDT AVE E",
+        "count" : "318"
+      }, {
+        "item" : "BROADWAY",
+        "count" : "298"
+      }, {
+        "item" : "3 AV",
+        "count" : "193"
+      }, {
+        "item" : "WOODHAVEN BLVD",
+        "count" : "173"
+      }, {
+        "item" : "CLOVE LAKES PARK",
+        "count" : "158"
+      }, {
+        "item" : "EAST DR",
+        "count" : "152"
+      }, {
+        "item" : "1 AV",
+        "count" : "151"
+      }, {
+        "item" : "FLUSHING AV",
+        "count" : "151"
+      }, {
+        "item" : "CLINTON ST",
+        "count" : "143"
+      }, {
+        "item" : "MYRTLE AV",
+        "count" : "142"
+      }, {
+        "item" : "RANDALLS ISLAND GREENWAY",
+        "count" : "134"
+      }, {
+        "item" : "5 AV",
+        "count" : "129"
+      }, {
+        "item" : "E 124 ST",
+        "count" : "125"
+      }, {
+        "item" : "113 ST",
+        "count" : "125"
+      }, {
+        "item" : "TERRACE DR",
+        "count" : "124"
+      }, {
+        "item" : "TILLARY ST",
+        "count" : "121"
+      }, {
+        "item" : "65 ST",
+        "count" : "121"
+      }, {
+        "item" : "RALPH AV",
+        "count" : "120"
+      }, {
+        "item" : "E FORDHAM RD",
+        "count" : "119"
+      }, {
+        "item" : "BEACH 39 ST",
+        "count" : "119"
+      } ],
+      "smallest" : "100 AV",
+      "count" : "28983",
+      "cardinality" : "1997"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011555,
+    "name" : "onoffst",
+    "dataTypeName" : "text",
+    "description" : "Indicates whether a bicycle facility is on-street or off-street.",
+    "fieldName" : "onoffst",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863586,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "ON",
+      "null" : "0",
+      "top" : [ {
+        "item" : "ON",
+        "count" : "23925"
+      }, {
+        "item" : "OFF",
+        "count" : "5058"
+      } ],
+      "smallest" : "OFF",
+      "count" : "28983",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011556,
+    "name" : "facilitycl",
+    "dataTypeName" : "text",
+    "description" : "The HIGHEST facility class found along a segment.",
+    "fieldName" : "facilitycl",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863587,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "L",
+      "null" : "0",
+      "top" : [ {
+        "item" : "II",
+        "count" : "12327"
+      }, {
+        "item" : "I",
+        "count" : "9911"
+      }, {
+        "item" : "III",
+        "count" : "6247"
+      }, {
+        "item" : "L",
+        "count" : "498"
+      } ],
+      "smallest" : "I",
+      "count" : "28983",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011557,
+    "name" : "allclasses",
+    "dataTypeName" : "text",
+    "description" : "Lists ALL bicycle facility classes (separated by commas) that are present on a given segment.",
+    "fieldName" : "allclasses",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863588,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "L",
+      "null" : "0",
+      "top" : [ {
+        "item" : "II",
+        "count" : "11863"
+      }, {
+        "item" : "I",
+        "count" : "9656"
+      }, {
+        "item" : "III",
+        "count" : "6246"
+      }, {
+        "item" : "L",
+        "count" : "498"
+      }, {
+        "item" : "II,III",
+        "count" : "265"
+      }, {
+        "item" : "III,II",
+        "count" : "199"
+      }, {
+        "item" : "II,I",
+        "count" : "57"
+      }, {
+        "item" : "I,II",
+        "count" : "43"
+      }, {
+        "item" : "III,I",
+        "count" : "41"
+      }, {
+        "item" : "I,III",
+        "count" : "36"
+      }, {
+        "item" : "I,I,III",
+        "count" : "36"
+      }, {
+        "item" : "II,I,I",
+        "count" : "31"
+      }, {
+        "item" : "III,I,I",
+        "count" : "9"
+      }, {
+        "item" : "I,I,II",
+        "count" : "2"
+      }, {
+        "item" : "II,II,III",
+        "count" : "1"
+      } ],
+      "smallest" : "I",
+      "count" : "28983",
+      "cardinality" : "15"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011558,
+    "name" : "bikedir",
+    "dataTypeName" : "text",
+    "description" : "Travel direction based on LION geometry.",
+    "fieldName" : "bikedir",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863589,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "R",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2",
+        "count" : "14472"
+      }, {
+        "item" : "R",
+        "count" : "7339"
+      }, {
+        "item" : "L",
+        "count" : "7172"
+      } ],
+      "smallest" : "2",
+      "count" : "28983",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011559,
+    "name" : "lanecount",
+    "dataTypeName" : "number",
+    "description" : "The number of bike lanes on a segment in any direction.",
+    "fieldName" : "lanecount",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 153863590,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "3",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "14473"
+      }, {
+        "item" : "2",
+        "count" : "13926"
+      }, {
+        "item" : "0",
+        "count" : "498"
+      }, {
+        "item" : "3",
+        "count" : "86"
+      } ],
+      "smallest" : "0",
+      "count" : "28983",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011560,
+    "name" : "ft_facilit",
+    "dataTypeName" : "text",
+    "description" : "From-To Facility. Type of bicycle facility in the direction of the STARTpoint TO ENDpoint of the segment.",
+    "fieldName" : "ft_facilit",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863591,
+    "cachedContents" : {
+      "non_null" : "21887",
+      "largest" : "Wide Parking Lane",
+      "null" : "7096",
+      "top" : [ {
+        "item" : "Protected",
+        "count" : "7070"
+      }, {
+        "item" : "Conventional",
+        "count" : "6539"
+      }, {
+        "item" : "Shared",
+        "count" : "3459"
+      }, {
+        "item" : "Signed Route",
+        "count" : "831"
+      }, {
+        "item" : "Wide Parking Lane",
+        "count" : "781"
+      }, {
+        "item" : "Sidewalk",
+        "count" : "635"
+      }, {
+        "item" : "Curbside",
+        "count" : "631"
+      }, {
+        "item" : "Link",
+        "count" : "492"
+      }, {
+        "item" : "Conventional Buffered",
+        "count" : "483"
+      }, {
+        "item" : "Curbside Buffered",
+        "count" : "416"
+      }, {
+        "item" : "Boardwalk",
+        "count" : "270"
+      }, {
+        "item" : "Unpaved",
+        "count" : "195"
+      }, {
+        "item" : "<Null>",
+        "count" : "77"
+      }, {
+        "item" : "Ped Plaza",
+        "count" : "8"
+      } ],
+      "smallest" : "Boardwalk",
+      "count" : "28983",
+      "cardinality" : "14"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011561,
+    "name" : "tf_facilit",
+    "dataTypeName" : "text",
+    "description" : "To-From Facility. Type of bicycle facility in the direction of the ENDpoint TO STARTpoint of the segment.",
+    "fieldName" : "tf_facilit",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863592,
+    "cachedContents" : {
+      "non_null" : "21689",
+      "largest" : "Wide Parking Lane",
+      "null" : "7294",
+      "top" : [ {
+        "item" : "Protected",
+        "count" : "6821"
+      }, {
+        "item" : "Conventional",
+        "count" : "6476"
+      }, {
+        "item" : "Shared",
+        "count" : "3457"
+      }, {
+        "item" : "Signed Route",
+        "count" : "827"
+      }, {
+        "item" : "Wide Parking Lane",
+        "count" : "817"
+      }, {
+        "item" : "Curbside",
+        "count" : "752"
+      }, {
+        "item" : "Sidewalk",
+        "count" : "654"
+      }, {
+        "item" : "Conventional Buffered",
+        "count" : "506"
+      }, {
+        "item" : "Link",
+        "count" : "490"
+      }, {
+        "item" : "Curbside Buffered",
+        "count" : "407"
+      }, {
+        "item" : "Boardwalk",
+        "count" : "270"
+      }, {
+        "item" : "Unpaved",
+        "count" : "145"
+      }, {
+        "item" : "<Null>",
+        "count" : "53"
+      }, {
+        "item" : "Ped Plaza",
+        "count" : "11"
+      }, {
+        "item" : "Velodrome",
+        "count" : "3"
+      } ],
+      "smallest" : "Boardwalk",
+      "count" : "28983",
+      "cardinality" : "15"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011562,
+    "name" : "ft2facilit",
+    "dataTypeName" : "text",
+    "description" : "From-To Facility 2. (On segments with lane counts of 3 or greater, or multiple parallel bicycle facilities) Type of bicycle facility in the direction of the STARTpoint TO ENDpoint of the segment.",
+    "fieldName" : "ft2facilit",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863593,
+    "cachedContents" : {
+      "non_null" : "59",
+      "largest" : "Shared",
+      "null" : "28924",
+      "top" : [ {
+        "item" : "Conventional",
+        "count" : "22"
+      }, {
+        "item" : "<Null>",
+        "count" : "14"
+      }, {
+        "item" : "Protected",
+        "count" : "11"
+      }, {
+        "item" : "Shared",
+        "count" : "10"
+      }, {
+        "item" : "Curbside",
+        "count" : "2"
+      } ],
+      "smallest" : "Conventional",
+      "count" : "28983",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011563,
+    "name" : "tf2facilit",
+    "dataTypeName" : "text",
+    "description" : "To-From Facility 2. (On segments with lane counts of 3 or greater, or multiple parallel bicycle facilities) Type of bicycle facility in the direction of the ENDpoint TO STARTpoint of the segment.",
+    "fieldName" : "tf2facilit",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153863594,
+    "cachedContents" : {
+      "non_null" : "73",
+      "largest" : "Sidewalk",
+      "null" : "28910",
+      "top" : [ {
+        "item" : "Protected",
+        "count" : "41"
+      }, {
+        "item" : "Shared",
+        "count" : "16"
+      }, {
+        "item" : "Conventional",
+        "count" : "6"
+      }, {
+        "item" : "Sidewalk",
+        "count" : "6"
+      }, {
+        "item" : "<Null>",
+        "count" : "3"
+      }, {
+        "item" : "Curbside",
+        "count" : "1"
+      } ],
+      "smallest" : "Conventional",
+      "count" : "28983",
+      "cardinality" : "6"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011564,
+    "name" : "instdate",
+    "dataTypeName" : "calendar_date",
+    "description" : "Install Date. The approximate or exact date when the installation or modification of a bicycle facility was completed.",
+    "fieldName" : "instdate",
+    "position" : 20,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 153863574,
+    "cachedContents" : {
+      "non_null" : "28983",
+      "largest" : "2025-06-23T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2009-05-01T00:00:00.000",
+        "count" : "507"
+      }, {
+        "item" : "1980-07-01T00:00:00.000",
+        "count" : "382"
+      }, {
+        "item" : "1979-05-01T00:00:00.000",
+        "count" : "372"
+      }, {
+        "item" : "2000-01-01T00:00:00.000",
+        "count" : "347"
+      }, {
+        "item" : "2002-06-01T00:00:00.000",
+        "count" : "322"
+      }, {
+        "item" : "2003-06-01T00:00:00.000",
+        "count" : "321"
+      }, {
+        "item" : "2006-09-01T00:00:00.000",
+        "count" : "321"
+      }, {
+        "item" : "1970-01-01T00:00:00.000",
+        "count" : "278"
+      }, {
+        "item" : "2010-06-01T00:00:00.000",
+        "count" : "277"
+      }, {
+        "item" : "2008-05-01T00:00:00.000",
+        "count" : "271"
+      }, {
+        "item" : "2001-11-01T00:00:00.000",
+        "count" : "268"
+      }, {
+        "item" : "2007-08-01T00:00:00.000",
+        "count" : "258"
+      }, {
+        "item" : "1998-07-01T00:00:00.000",
+        "count" : "245"
+      }, {
+        "item" : "1900-01-01T00:00:00.000",
+        "count" : "244"
+      }, {
+        "item" : "2024-11-22T00:00:00.000",
+        "count" : "234"
+      }, {
+        "item" : "2019-11-08T00:00:00.000",
+        "count" : "233"
+      }, {
+        "item" : "2003-05-01T00:00:00.000",
+        "count" : "221"
+      }, {
+        "item" : "2007-07-01T00:00:00.000",
+        "count" : "219"
+      }, {
+        "item" : "2001-04-01T00:00:00.000",
+        "count" : "211"
+      }, {
+        "item" : "2015-10-01T00:00:00.000",
+        "count" : "196"
+      } ],
+      "smallest" : "1900-01-01T00:00:00.000",
+      "count" : "28983",
+      "cardinality" : "741"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 616011565,
+    "name" : "ret_date",
+    "dataTypeName" : "calendar_date",
+    "description" : "Retired Date. The date when a BIKE ID or a bike facility was removed or superseded by a new facility or Bike ID.",
+    "fieldName" : "ret_date",
+    "position" : 21,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 153863576,
+    "cachedContents" : {
+      "non_null" : "5173",
+      "largest" : "2025-04-10T00:00:00.000",
+      "null" : "23810",
+      "top" : [ {
+        "item" : "2023-06-20T00:00:00.000",
+        "count" : "252"
+      }, {
+        "item" : "2017-10-06T00:00:00.000",
+        "count" : "153"
+      }, {
+        "item" : "2023-12-21T00:00:00.000",
+        "count" : "101"
+      }, {
+        "item" : "2019-06-11T00:00:00.000",
+        "count" : "100"
+      }, {
+        "item" : "2018-10-25T00:00:00.000",
+        "count" : "99"
+      }, {
+        "item" : "2010-06-01T00:00:00.000",
+        "count" : "98"
+      }, {
+        "item" : "2017-12-30T00:00:00.000",
+        "count" : "98"
+      }, {
+        "item" : "2009-08-01T00:00:00.000",
+        "count" : "95"
+      }, {
+        "item" : "2022-12-05T00:00:00.000",
+        "count" : "95"
+      }, {
+        "item" : "2023-10-12T00:00:00.000",
+        "count" : "95"
+      }, {
+        "item" : "2018-06-27T00:00:00.000",
+        "count" : "84"
+      }, {
+        "item" : "2021-09-06T00:00:00.000",
+        "count" : "84"
+      }, {
+        "item" : "2009-12-15T00:00:00.000",
+        "count" : "80"
+      }, {
+        "item" : "2014-01-01T00:00:00.000",
+        "count" : "79"
+      }, {
+        "item" : "2024-12-02T00:00:00.000",
+        "count" : "73"
+      }, {
+        "item" : "2022-09-30T00:00:00.000",
+        "count" : "60"
+      }, {
+        "item" : "2013-10-18T00:00:00.000",
+        "count" : "59"
+      }, {
+        "item" : "2021-09-14T00:00:00.000",
+        "count" : "57"
+      }, {
+        "item" : "2012-09-15T00:00:00.000",
+        "count" : "54"
+      }, {
+        "item" : "2016-07-01T00:00:00.000",
+        "count" : "54"
+      } ],
+      "smallest" : "1945-01-01T00:00:00.000",
+      "count" : "28983",
+      "cardinality" : "292"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 616011567,
+    "name" : "grnwy",
+    "dataTypeName" : "text",
+    "description" : "Greenway. Indicates the presence of a greenway alignment.\n",
+    "fieldName" : "grnwy",
+    "position" : 22,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160954714,
+    "cachedContents" : {
+      "non_null" : "6274",
+      "largest" : "Greenway",
+      "null" : "22709",
+      "top" : [ {
+        "item" : "Greenway",
+        "count" : "6274"
+      } ],
+      "smallest" : "Greenway",
+      "count" : "28983",
+      "cardinality" : "1"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011568,
+    "name" : "gwsystem",
+    "dataTypeName" : "text",
+    "description" : "Greenway System Name",
+    "fieldName" : "gwsystem",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160954715,
+    "cachedContents" : {
+      "non_null" : "5270",
+      "largest" : "Staten Island Waterfront",
+      "null" : "23713",
+      "top" : [ {
+        "item" : "Manhattan Waterfront",
+        "count" : "1210"
+      }, {
+        "item" : "Jamaica Bay",
+        "count" : "794"
+      }, {
+        "item" : "Brooklyn Waterfront",
+        "count" : "655"
+      }, {
+        "item" : "Central Queens",
+        "count" : "608"
+      }, {
+        "item" : "Staten Island Waterfront",
+        "count" : "335"
+      }, {
+        "item" : "Historic Brooklyn",
+        "count" : "304"
+      }, {
+        "item" : "Queens Waterfront",
+        "count" : "289"
+      }, {
+        "item" : "Bronx River",
+        "count" : "242"
+      }, {
+        "item" : "Mosholu-Pelham",
+        "count" : "198"
+      }, {
+        "item" : "Bronx Waterfront",
+        "count" : "176"
+      }, {
+        "item" : "Hutchinson River",
+        "count" : "139"
+      }, {
+        "item" : "Eastern Queens",
+        "count" : "126"
+      }, {
+        "item" : "Harlem River-Putnam",
+        "count" : "91"
+      }, {
+        "item" : "New Springville",
+        "count" : "71"
+      }, {
+        "item" : "Hudson River Valley",
+        "count" : "24"
+      }, {
+        "item" : "Harlem River",
+        "count" : "8"
+      } ],
+      "smallest" : "Bronx River",
+      "count" : "28983",
+      "cardinality" : "16"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011569,
+    "name" : "gwsys2",
+    "dataTypeName" : "text",
+    "description" : "Secondary Greenway System Name, if an alignment includes two greenway systems.\n",
+    "fieldName" : "gwsys2",
+    "position" : 24,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160954716,
+    "cachedContents" : {
+      "non_null" : "55",
+      "largest" : "Mosholu-Pelham",
+      "null" : "28928",
+      "top" : [ {
+        "item" : "Mosholu-Pelham",
+        "count" : "35"
+      }, {
+        "item" : "Manhattan Waterfront",
+        "count" : "14"
+      }, {
+        "item" : "Bronx River",
+        "count" : "4"
+      }, {
+        "item" : "Hutchinson River",
+        "count" : "2"
+      } ],
+      "smallest" : "Bronx River",
+      "count" : "28983",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011570,
+    "name" : "spur",
+    "dataTypeName" : "text",
+    "description" : "Greenway Spur Name, if the bikeway includes a secondary alignment.\n",
+    "fieldName" : "spur",
+    "position" : 25,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160954717,
+    "cachedContents" : {
+      "non_null" : "5268",
+      "largest" : "Willowbrook Park",
+      "null" : "23715",
+      "top" : [ {
+        "item" : "Main Alignment",
+        "count" : "4079"
+      }, {
+        "item" : "Randall's Island",
+        "count" : "212"
+      }, {
+        "item" : "Far Rockaway",
+        "count" : "103"
+      }, {
+        "item" : "Coney Island",
+        "count" : "84"
+      }, {
+        "item" : "Pike/Allen Malls",
+        "count" : "79"
+      }, {
+        "item" : "Roosevelt Island",
+        "count" : "72"
+      }, {
+        "item" : "Breezy Point",
+        "count" : "60"
+      }, {
+        "item" : "Forest Hills",
+        "count" : "50"
+      }, {
+        "item" : "Shirley Chisholm Fountain",
+        "count" : "45"
+      }, {
+        "item" : "Canarsie Pier",
+        "count" : "43"
+      }, {
+        "item" : "Hall of Science",
+        "count" : "42"
+      }, {
+        "item" : "Governor's Island",
+        "count" : "39"
+      }, {
+        "item" : "Spring Creek Park Gateway",
+        "count" : "36"
+      }, {
+        "item" : "Fort Tilden",
+        "count" : "22"
+      }, {
+        "item" : "Seward Park",
+        "count" : "22"
+      }, {
+        "item" : "Leif Ericson Park",
+        "count" : "22"
+      }, {
+        "item" : "Marine Park",
+        "count" : "21"
+      }, {
+        "item" : "Orchard Beach",
+        "count" : "20"
+      }, {
+        "item" : "Canarsie Park",
+        "count" : "20"
+      }, {
+        "item" : "Willowbrook Park",
+        "count" : "19"
+      } ],
+      "smallest" : "Alley Pond Park",
+      "count" : "28983",
+      "cardinality" : "36"
+    },
+    "format" : { }
+  }, {
+    "id" : 616011571,
+    "name" : "gwyjuris",
+    "dataTypeName" : "text",
+    "description" : "Greenway Jurisdiction\n",
+    "fieldName" : "gwyjuris",
+    "position" : 26,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160954718,
+    "cachedContents" : {
+      "non_null" : "6273",
+      "largest" : "SBS",
+      "null" : "22710",
+      "top" : [ {
+        "item" : "NYCDOT",
+        "count" : "3526"
+      }, {
+        "item" : "DPR",
+        "count" : "2092"
+      }, {
+        "item" : "NYSDOT",
+        "count" : "245"
+      }, {
+        "item" : "NPS",
+        "count" : "87"
+      }, {
+        "item" : "RIOC",
+        "count" : "81"
+      }, {
+        "item" : "MTA",
+        "count" : "62"
+      }, {
+        "item" : "NYSPRHP",
+        "count" : "45"
+      }, {
+        "item" : "GIPEC",
+        "count" : "39"
+      }, {
+        "item" : "BPCA",
+        "count" : "35"
+      }, {
+        "item" : "Private",
+        "count" : "28"
+      }, {
+        "item" : "BBPDC",
+        "count" : "23"
+      }, {
+        "item" : "Navy",
+        "count" : "4"
+      }, {
+        "item" : "SBS",
+        "count" : "4"
+      }, {
+        "item" : "DCAS",
+        "count" : "2"
+      } ],
+      "smallest" : "BBPDC",
+      "count" : "28983",
+      "cardinality" : "14"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "Data-Dictionary-BicycleRoutes.xlsx",
+      "assetId" : "ad54ff58-8382-42ac-8512-5c54d1b54ff6",
+      "name" : "Data-Dictionary-BicycleRoutes.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "4/14/2017",
+        "Update Frequency" : "Annually",
+        "Data Change Frequency" : "Annually"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Transportation (DOT)"
+      }
+    },
+    "rowLabel" : "Record of a bicycle facility on a LION segment. Each row may represent a new installation or a modification of a previously existing bicycle facility.",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "8xiq-st2k",
+    "displayName" : "DOTOpenData",
+    "screenName" : "DOTOpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "8xiq-st2k",
+    "displayName" : "DOTOpenData",
+    "screenName" : "DOTOpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "bike", "bicycle", "bikes", "bicycles", "lanes", "routes", "paths", "network", "greenway", "greenways", "green wave", "bikeway", "bikeways", "cycle", "cycletrack", "track" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

@@ -1,0 +1,913 @@
+{
+  "id" : "8vwk-6iz2",
+  "name" : "NYC Farmers Markets",
+  "assetType" : "dataset",
+  "attribution" : "Department of Health and Mental Hygiene (DOHMH)",
+  "attributionLink" : "https://a816-healthpsi.nyc.gov/nychealthmap",
+  "averageRating" : 0,
+  "category" : "Health",
+  "createdAt" : 1520440013,
+  "description" : "Annual list of farmers markets across the five boroughs that have varying vendors, products, and EBT acceptance.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 5221,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41976226,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1772134244,
+  "publicationGroup" : 14922127,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1772134228,
+  "rowsUpdatedBy" : "d5dp-fses",
+  "tableId" : 20292219,
+  "totalTimesRated" : 0,
+  "viewCount" : 14288,
+  "viewLastModified" : 1772134244,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1560786875,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 7371478,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1560786875,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 627573140,
+    "name" : "Year",
+    "dataTypeName" : "number",
+    "description" : "Calendar year of the report",
+    "fieldName" : "year",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 165753984,
+    "cachedContents" : {
+      "non_null" : "2115",
+      "largest" : "2025",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2017",
+        "count" : "149"
+      }, {
+        "item" : "2019",
+        "count" : "143"
+      }, {
+        "item" : "2016",
+        "count" : "142"
+      }, {
+        "item" : "2018",
+        "count" : "141"
+      }, {
+        "item" : "2014",
+        "count" : "141"
+      }, {
+        "item" : "2013",
+        "count" : "140"
+      }, {
+        "item" : "2015",
+        "count" : "140"
+      }, {
+        "item" : "2020",
+        "count" : "138"
+      }, {
+        "item" : "2012",
+        "count" : "135"
+      }, {
+        "item" : "2024",
+        "count" : "135"
+      }, {
+        "item" : "2021",
+        "count" : "132"
+      }, {
+        "item" : "2025",
+        "count" : "127"
+      }, {
+        "item" : "2010",
+        "count" : "123"
+      }, {
+        "item" : "2011",
+        "count" : "123"
+      }, {
+        "item" : "2023",
+        "count" : "122"
+      }, {
+        "item" : "2009",
+        "count" : "50"
+      }, {
+        "item" : "2022",
+        "count" : "34"
+      } ],
+      "smallest" : "2009",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  }, {
+    "id" : 627573116,
+    "name" : "Market Name",
+    "dataTypeName" : "text",
+    "description" : "Name of the farmers market site",
+    "fieldName" : "marketname",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 62114538,
+    "width" : 256,
+    "cachedContents" : {
+      "non_null" : "2114",
+      "largest" : "Zucotti Park Greenmarket",
+      "null" : "1",
+      "top" : [ {
+        "item" : "Tompkins Square Greenmarket",
+        "count" : "16"
+      }, {
+        "item" : "Jackson Heights Greenmarket",
+        "count" : "16"
+      }, {
+        "item" : "Elmhurst Hospital Greenmarket",
+        "count" : "16"
+      }, {
+        "item" : "Union Square Greenmarket",
+        "count" : "16"
+      }, {
+        "item" : "Poe Park Greenmarket",
+        "count" : "16"
+      }, {
+        "item" : "Lincoln Hospital Greenmarket",
+        "count" : "16"
+      }, {
+        "item" : "St. George Greenmarket",
+        "count" : "16"
+      }, {
+        "item" : "Corona Greenmarket",
+        "count" : "16"
+      }, {
+        "item" : "Stuyvesant Town Greenmarket",
+        "count" : "16"
+      }, {
+        "item" : "Bay Ridge Greenmarket",
+        "count" : "15"
+      }, {
+        "item" : "Fort Washington Greenmarket",
+        "count" : "15"
+      }, {
+        "item" : "Grand Army Plaza Greenmarket",
+        "count" : "15"
+      }, {
+        "item" : "Staten Island Mall Greenmarket",
+        "count" : "15"
+      }, {
+        "item" : "Bronx Borough Hall Greenmarket",
+        "count" : "15"
+      }, {
+        "item" : "Bowling Green Greenmarket",
+        "count" : "15"
+      }, {
+        "item" : "97th Street Greenmarket",
+        "count" : "15"
+      }, {
+        "item" : "Tribeca Greenmarket",
+        "count" : "15"
+      }, {
+        "item" : "Inwood Park Greenmarket",
+        "count" : "15"
+      }, {
+        "item" : "Tucker Square Greenmarket",
+        "count" : "15"
+      }, {
+        "item" : "Carroll Gardens Greenmarket",
+        "count" : "15"
+      } ],
+      "smallest" : "125th Street Fresh Connect Farmers' Market",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  }, {
+    "id" : 627573115,
+    "name" : "Borough",
+    "dataTypeName" : "text",
+    "description" : "Borough in which site is located",
+    "fieldName" : "borough",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 62114546,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "2115",
+      "largest" : "Staten Island",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Brooklyn",
+        "count" : "681"
+      }, {
+        "item" : "Manhattan",
+        "count" : "656"
+      }, {
+        "item" : "Bronx",
+        "count" : "422"
+      }, {
+        "item" : "Queens",
+        "count" : "301"
+      }, {
+        "item" : "Staten Island",
+        "count" : "55"
+      } ],
+      "smallest" : "Bronx",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  }, {
+    "id" : 627573117,
+    "name" : "Street Address",
+    "dataTypeName" : "text",
+    "description" : "Site Address ",
+    "fieldName" : "streetaddress",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 62114548,
+    "width" : 355,
+    "cachedContents" : {
+      "non_null" : "2115",
+      "largest" : "Wyckoff btwn Gates & Myrtle avenues",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Baychester Ave & E 241st St",
+        "count" : "10"
+      }, {
+        "item" : "Knickerbocker Ave & Starr St",
+        "count" : "10"
+      }, {
+        "item" : "Greenwich & Chambers Sts",
+        "count" : "10"
+      }, {
+        "item" : "Schenck Ave bet New Lots & Livonia Aves",
+        "count" : "9"
+      }, {
+        "item" : "Marcy Ave & Clifton Pl",
+        "count" : "9"
+      }, {
+        "item" : "W 145th St bet Edgecombe & Bradhurst Aves, at Jackie Robinson Park",
+        "count" : "9"
+      }, {
+        "item" : "Cypress Ave bet Myrtle & Putnam Aves",
+        "count" : "9"
+      }, {
+        "item" : "104th St & 3rd Ave",
+        "count" : "9"
+      }, {
+        "item" : "Mosholu Pkwy & Jerome Ave",
+        "count" : "9"
+      }, {
+        "item" : "Isham St bet Seaman Ave & Cooper St",
+        "count" : "9"
+      }, {
+        "item" : "Broadway & Chambers St",
+        "count" : "8"
+      }, {
+        "item" : "14th Ave bet 49th & 50th Sts",
+        "count" : "8"
+      }, {
+        "item" : "41st Ave bet 80th & 81st Sts",
+        "count" : "8"
+      }, {
+        "item" : "Orloff Ave & Gale Pl",
+        "count" : "8"
+      }, {
+        "item" : "Westchester Ave & White Plains Rd",
+        "count" : "8"
+      }, {
+        "item" : "Skillman Ave bet 42nd & 43rd Sts",
+        "count" : "8"
+      }, {
+        "item" : "Court & Montague Sts",
+        "count" : "8"
+      }, {
+        "item" : "4th Ave bet 59th & 60th Sts",
+        "count" : "8"
+      }, {
+        "item" : "New Lots Ave bet Alabama & Georgia Aves",
+        "count" : "8"
+      }, {
+        "item" : "Broadway & Battery Pl",
+        "count" : "8"
+      } ],
+      "smallest" : "000 Marginal St., btw columns 29 & 31 of the FDR Drive",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  }, {
+    "id" : 627573118,
+    "name" : "Community District",
+    "dataTypeName" : "text",
+    "description" : "Community District where the site is located",
+    "fieldName" : "community_district",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 125046209,
+    "cachedContents" : {
+      "non_null" : "1262",
+      "largest" : "502",
+      "null" : "853",
+      "top" : [ {
+        "item" : "316",
+        "count" : "57"
+      }, {
+        "item" : "111",
+        "count" : "52"
+      }, {
+        "item" : "103",
+        "count" : "46"
+      }, {
+        "item" : "101",
+        "count" : "45"
+      }, {
+        "item" : "204",
+        "count" : "44"
+      }, {
+        "item" : "110",
+        "count" : "44"
+      }, {
+        "item" : "107",
+        "count" : "40"
+      }, {
+        "item" : "305",
+        "count" : "40"
+      }, {
+        "item" : "301",
+        "count" : "40"
+      }, {
+        "item" : "306",
+        "count" : "38"
+      }, {
+        "item" : "303",
+        "count" : "35"
+      }, {
+        "item" : "112",
+        "count" : "33"
+      }, {
+        "item" : "207",
+        "count" : "32"
+      }, {
+        "item" : "109",
+        "count" : "31"
+      }, {
+        "item" : "104",
+        "count" : "30"
+      }, {
+        "item" : "208",
+        "count" : "29"
+      }, {
+        "item" : "501",
+        "count" : "28"
+      }, {
+        "item" : "201",
+        "count" : "28"
+      }, {
+        "item" : "302",
+        "count" : "27"
+      }, {
+        "item" : "304",
+        "count" : "26"
+      } ],
+      "smallest" : "101",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  }, {
+    "id" : 627573119,
+    "name" : "Latitude",
+    "dataTypeName" : "number",
+    "description" : "Site lattitude coordinate",
+    "fieldName" : "latitude",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 62114544,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "1263",
+      "largest" : "40.903039",
+      "null" : "852",
+      "top" : [ {
+        "item" : "40.70236",
+        "count" : "9"
+      }, {
+        "item" : "40.737133",
+        "count" : "8"
+      }, {
+        "item" : "40.682391",
+        "count" : "8"
+      }, {
+        "item" : "40.716303",
+        "count" : "8"
+      }, {
+        "item" : "40.726054",
+        "count" : "8"
+      }, {
+        "item" : "40.583804",
+        "count" : "8"
+      }, {
+        "item" : "40.641586",
+        "count" : "8"
+      }, {
+        "item" : "40.745794",
+        "count" : "8"
+      }, {
+        "item" : "40.748163",
+        "count" : "8"
+      }, {
+        "item" : "40.865684",
+        "count" : "7"
+      }, {
+        "item" : "40.64497",
+        "count" : "7"
+      }, {
+        "item" : "40.702811",
+        "count" : "7"
+      }, {
+        "item" : "40.737553",
+        "count" : "7"
+      }, {
+        "item" : "40.712905",
+        "count" : "7"
+      }, {
+        "item" : "40.774292",
+        "count" : "7"
+      }, {
+        "item" : "40.88222",
+        "count" : "7"
+      }, {
+        "item" : "40.693722",
+        "count" : "7"
+      }, {
+        "item" : "40.731082",
+        "count" : "7"
+      }, {
+        "item" : "40.672524",
+        "count" : "7"
+      }, {
+        "item" : "40.82394",
+        "count" : "7"
+      } ],
+      "smallest" : "-74.159757",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  }, {
+    "id" : 627573120,
+    "name" : "Longitude",
+    "dataTypeName" : "number",
+    "description" : "Site longitude coordinate",
+    "fieldName" : "longitude",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 62114543,
+    "width" : 201,
+    "cachedContents" : {
+      "non_null" : "1259",
+      "largest" : "73.90864",
+      "null" : "856",
+      "top" : [ {
+        "item" : "-73.818531",
+        "count" : "9"
+      }, {
+        "item" : "-73.885489",
+        "count" : "8"
+      }, {
+        "item" : "-74.0779",
+        "count" : "8"
+      }, {
+        "item" : "-73.719431",
+        "count" : "8"
+      }, {
+        "item" : "-73.990329",
+        "count" : "8"
+      }, {
+        "item" : "-74.010966",
+        "count" : "8"
+      }, {
+        "item" : "-74.161245",
+        "count" : "8"
+      }, {
+        "item" : "-73.913554",
+        "count" : "8"
+      }, {
+        "item" : "-73.983534",
+        "count" : "8"
+      }, {
+        "item" : "-74.00871",
+        "count" : "7"
+      }, {
+        "item" : "-73.883312",
+        "count" : "7"
+      }, {
+        "item" : "-73.925185",
+        "count" : "7"
+      }, {
+        "item" : "-74.005687",
+        "count" : "7"
+      }, {
+        "item" : "-73.951262",
+        "count" : "7"
+      }, {
+        "item" : "-73.909558",
+        "count" : "7"
+      }, {
+        "item" : "-73.988559",
+        "count" : "7"
+      }, {
+        "item" : "-73.920896",
+        "count" : "7"
+      }, {
+        "item" : "-73.92539",
+        "count" : "7"
+      }, {
+        "item" : "-73.952479",
+        "count" : "7"
+      }, {
+        "item" : "-73.892172",
+        "count" : "7"
+      } ],
+      "smallest" : "-74.161245",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  }, {
+    "id" : 627573121,
+    "name" : "Days of Operation",
+    "dataTypeName" : "text",
+    "description" : "Days of the week when the market is open",
+    "fieldName" : "daysoperation",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 62114540,
+    "width" : 388,
+    "cachedContents" : {
+      "non_null" : "1262",
+      "largest" : "Wednesday, Thursday, Friday; Saturday and Sunday",
+      "null" : "853",
+      "top" : [ {
+        "item" : "Saturday",
+        "count" : "344"
+      }, {
+        "item" : "Wednesday",
+        "count" : "205"
+      }, {
+        "item" : "Sunday",
+        "count" : "162"
+      }, {
+        "item" : "Thursday",
+        "count" : "147"
+      }, {
+        "item" : "Friday",
+        "count" : "116"
+      }, {
+        "item" : "Tuesday",
+        "count" : "94"
+      }, {
+        "item" : "Tuesday & Thursday",
+        "count" : "14"
+      }, {
+        "item" : "Wednesday & Saturday",
+        "count" : "11"
+      }, {
+        "item" : "Thursday & Saturday",
+        "count" : "10"
+      }, {
+        "item" : "Tuesday\nFriday",
+        "count" : "8"
+      }, {
+        "item" : "Friday & Saturday",
+        "count" : "8"
+      }, {
+        "item" : "Tuesday & Friday",
+        "count" : "7"
+      }, {
+        "item" : "Wednesday\nSaturday",
+        "count" : "7"
+      }, {
+        "item" : "Monday, Wednesday, Friday & Saturday",
+        "count" : "7"
+      }, {
+        "item" : "Tuesday & Saturday",
+        "count" : "6"
+      }, {
+        "item" : "Tuesday\nThursday",
+        "count" : "6"
+      }, {
+        "item" : "Wednesday, Thursday & Friday",
+        "count" : "5"
+      }, {
+        "item" : "Wednesday - Sunday",
+        "count" : "5"
+      }, {
+        "item" : "Wednesday & Sunday",
+        "count" : "5"
+      }, {
+        "item" : "Saturday & Sunday",
+        "count" : "5"
+      } ],
+      "smallest" : "Friday",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  }, {
+    "id" : 627573122,
+    "name" : "Hours of Operations",
+    "dataTypeName" : "text",
+    "description" : "Hours when the market is open",
+    "fieldName" : "hoursoperations",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 82674579,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "1262",
+      "largest" : "Wednesday: 3-7pm\nSunday: 10am-5pm",
+      "null" : "853",
+      "top" : [ {
+        "item" : "8 a.m. - 3 p.m.",
+        "count" : "118"
+      }, {
+        "item" : "8am-4pm",
+        "count" : "117"
+      }, {
+        "item" : "8am-3pm",
+        "count" : "63"
+      }, {
+        "item" : "8 a.m. - 2 p.m.",
+        "count" : "41"
+      }, {
+        "item" : "8 a.m. - 4 p.m.",
+        "count" : "39"
+      }, {
+        "item" : "10 a.m. - 3 p.m.",
+        "count" : "34"
+      }, {
+        "item" : "8am - 3pm",
+        "count" : "33"
+      }, {
+        "item" : "9 a.m. - 2 p.m.",
+        "count" : "32"
+      }, {
+        "item" : "8am-5pm",
+        "count" : "30"
+      }, {
+        "item" : "9am-4pm",
+        "count" : "28"
+      }, {
+        "item" : "9am-3pm",
+        "count" : "26"
+      }, {
+        "item" : "10am-4pm",
+        "count" : "24"
+      }, {
+        "item" : "9am-2pm",
+        "count" : "24"
+      }, {
+        "item" : "9 a.m. - 3 p.m.",
+        "count" : "23"
+      }, {
+        "item" : "8am - 2pm",
+        "count" : "21"
+      }, {
+        "item" : "10 a.m. - 2 p.m.",
+        "count" : "21"
+      }, {
+        "item" : "8am - 4pm",
+        "count" : "20"
+      }, {
+        "item" : "9 a.m. - 4 p.m.",
+        "count" : "18"
+      }, {
+        "item" : "9am-5pm",
+        "count" : "17"
+      }, {
+        "item" : "8am-2pm",
+        "count" : "17"
+      } ],
+      "smallest" : "10:00am-3pm",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 627573123,
+    "name" : "Season Dates",
+    "dataTypeName" : "calendar_date",
+    "description" : "Range of dates when the market is open",
+    "fieldName" : "season_begin",
+    "position" : 10,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 150531602,
+    "width" : 259,
+    "cachedContents" : {
+      "non_null" : "3",
+      "largest" : "2022-06-17T00:00:00.000",
+      "null" : "2112",
+      "top" : [ {
+        "item" : "2020-07-01T00:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2022-06-16T00:00:00.000",
+        "count" : "1"
+      }, {
+        "item" : "2022-06-17T00:00:00.000",
+        "count" : "1"
+      } ],
+      "smallest" : "2020-07-01T00:00:00.000",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  }, {
+    "id" : 627573125,
+    "name" : "Accepts EBT",
+    "dataTypeName" : "text",
+    "description" : "Locations accepts EBT (Yes or No)",
+    "fieldName" : "accepts_ebt",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 82674578,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "1262",
+      "largest" : "Yes",
+      "null" : "853",
+      "top" : [ {
+        "item" : "Yes",
+        "count" : "1209"
+      }, {
+        "item" : "No",
+        "count" : "51"
+      }, {
+        "item" : "yes",
+        "count" : "2"
+      } ],
+      "smallest" : "No",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  }, {
+    "id" : 627573127,
+    "name" : "Open Year-Round",
+    "dataTypeName" : "text",
+    "description" : "Site is Year round (Yes or No)",
+    "fieldName" : "open_year_round",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 82674577,
+    "width" : 144,
+    "cachedContents" : {
+      "non_null" : "1262",
+      "largest" : "Yes (Wed only)",
+      "null" : "853",
+      "top" : [ {
+        "item" : "No",
+        "count" : "875"
+      }, {
+        "item" : "Yes",
+        "count" : "250"
+      }, {
+        "item" : "no",
+        "count" : "101"
+      }, {
+        "item" : "yes",
+        "count" : "32"
+      }, {
+        "item" : "TBD",
+        "count" : "1"
+      }, {
+        "item" : "Yes (Sat only)",
+        "count" : "1"
+      }, {
+        "item" : "Yes (Wednesday)",
+        "count" : "1"
+      }, {
+        "item" : "Yes (Wed only)",
+        "count" : "1"
+      } ],
+      "smallest" : "no",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  }, {
+    "id" : 627573129,
+    "name" : "Stellar Cooking Demonstrations",
+    "dataTypeName" : "text",
+    "description" : "Location offers a nutrition workshop onsite (Yes or No)",
+    "fieldName" : "nyc_dept_of_health_cooking",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 82674580,
+    "width" : 266,
+    "cachedContents" : {
+      "non_null" : "1263",
+      "largest" : "Yes",
+      "null" : "852",
+      "top" : [ {
+        "item" : "No",
+        "count" : "1140"
+      }, {
+        "item" : "Yes",
+        "count" : "122"
+      }, {
+        "item" : "no",
+        "count" : "1"
+      } ],
+      "smallest" : "no",
+      "count" : "2115",
+      "cardinality" : "2115"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "Farmers Markets_Data Dictionary.xlsx",
+      "assetId" : "3a3d5b06-2391-4bf3-bc5c-c3b1adf9cc54",
+      "name" : "Farmers Markets_Data Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "4/4/2018",
+        "Update Frequency" : "Annually"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Health and Mental Hygiene (DOHMH)"
+      }
+    },
+    "rowLabel" : "farmer market disaggregated by year",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "farmer", "markets", "food", "boxes" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

@@ -1,0 +1,1084 @@
+{
+  "id" : "feuq-due4",
+  "name" : "LIBRARY",
+  "assetType" : "dataset",
+  "attribution" : "New York Public Library",
+  "averageRating" : 0,
+  "category" : "Business",
+  "createdAt" : 1416340340,
+  "description" : "Library",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 4145,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1536599385,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 3,
+  "oid" : 21861369,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1466610774,
+  "publicationGroup" : 6260560,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1466610774,
+  "tableId" : 11483684,
+  "totalTimesRated" : 0,
+  "viewCount" : 2908,
+  "viewLastModified" : 1706899543,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1466610775,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6128638,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1466610775,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 260057667,
+    "name" : "the_geom",
+    "dataTypeName" : "point",
+    "fieldName" : "the_geom",
+    "position" : 1,
+    "renderTypeName" : "point",
+    "tableColumnId" : 36842096,
+    "cachedContents" : {
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : {
+          "coordinates" : [ -73.84601807353184, 40.786213103407846 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.82005265821793, 40.600732105185145 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.93586246250698, 40.82653201339423 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.98624641554409, 40.605693037370436 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -74.02953835191357, 40.633625713382486 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.92586290917251, 40.865748720737024 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.93365084956477, 40.66848651013449 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.84301499681045, 40.722146953166686 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.76007289358745, 40.69249997141939 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.93035653080916, 40.64861929304924 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.88723723774561, 40.68068925695902 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.83774700520225, 40.57940488152449 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.98169851078917, 40.75189156171031 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.95954994584243, 40.764915006253425 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.89952442124468, 40.64220845315574 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.84673061822738, 40.84086754432402 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.78404002857111, 40.59314678303443 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.8740348780572, 40.67270747286009 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.97858353651877, 40.68346662977525 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      }, {
+        "item" : {
+          "coordinates" : [ -73.93971034945567, 40.834548887305765 ],
+          "type" : "Point"
+        },
+        "count" : "1"
+      } ],
+      "count" : "216",
+      "cardinality" : "216"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057668,
+    "name" : "NAME",
+    "dataTypeName" : "text",
+    "fieldName" : "name",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36842097,
+    "cachedContents" : {
+      "largest" : "Yorkville",
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Baisley Park",
+        "count" : "1"
+      }, {
+        "item" : "Sedgwick",
+        "count" : "1"
+      }, {
+        "item" : "Ottendorfer",
+        "count" : "1"
+      }, {
+        "item" : "Bloomingdale",
+        "count" : "1"
+      }, {
+        "item" : "DeKalb",
+        "count" : "1"
+      }, {
+        "item" : "Elmhurst <br> (Temporary location due to renovations)",
+        "count" : "1"
+      }, {
+        "item" : "Jefferson Market",
+        "count" : "1"
+      }, {
+        "item" : "Queensbridge <br> Now a Family Literacy Center",
+        "count" : "1"
+      }, {
+        "item" : "Spuyten Duyvil",
+        "count" : "1"
+      }, {
+        "item" : "Marcy",
+        "count" : "1"
+      }, {
+        "item" : "Tottenville",
+        "count" : "1"
+      }, {
+        "item" : "Macomb's Bridge",
+        "count" : "1"
+      }, {
+        "item" : "Kingsbridge",
+        "count" : "1"
+      }, {
+        "item" : "Dongan Hills",
+        "count" : "1"
+      }, {
+        "item" : "Hamilton Fish Park",
+        "count" : "1"
+      }, {
+        "item" : "Fort Washington",
+        "count" : "1"
+      }, {
+        "item" : "Countee Cullen",
+        "count" : "1"
+      }, {
+        "item" : "Tremont",
+        "count" : "1"
+      }, {
+        "item" : "Jerome Park",
+        "count" : "1"
+      }, {
+        "item" : "Whitestone",
+        "count" : "1"
+      } ],
+      "smallest" : "115th Street",
+      "count" : "216",
+      "cardinality" : "216"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057669,
+    "name" : "STREETNAME",
+    "dataTypeName" : "text",
+    "fieldName" : "streetname",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36842098,
+    "cachedContents" : {
+      "largest" : "York Avenue",
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Main Street",
+        "count" : "5"
+      }, {
+        "item" : "Northern Boulevard",
+        "count" : "4"
+      }, {
+        "item" : "Hillside Avenue",
+        "count" : "3"
+      }, {
+        "item" : "Linden Boulevard",
+        "count" : "3"
+      }, {
+        "item" : "Broadway",
+        "count" : "3"
+      }, {
+        "item" : "Astoria Boulevard",
+        "count" : "2"
+      }, {
+        "item" : "Union Turnpike",
+        "count" : "2"
+      }, {
+        "item" : "Rockaway Boulevard",
+        "count" : "2"
+      }, {
+        "item" : "East Broadway",
+        "count" : "2"
+      }, {
+        "item" : "Nostrand Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Metropolitan Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Washington Avenue",
+        "count" : "2"
+      }, {
+        "item" : "21 Street",
+        "count" : "2"
+      }, {
+        "item" : "Central Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Amsterdam Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Fourth Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Rockaway Beach Boulevard",
+        "count" : "2"
+      }, {
+        "item" : "Barnes Avenue",
+        "count" : "2"
+      }, {
+        "item" : "Bell Boulevard",
+        "count" : "2"
+      }, {
+        "item" : "Bushwick Avenue",
+        "count" : "2"
+      } ],
+      "smallest" : "104 Street",
+      "count" : "216",
+      "cardinality" : "188"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057670,
+    "name" : "HOUSENUM",
+    "dataTypeName" : "text",
+    "fieldName" : "housenum",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36842099,
+    "cachedContents" : {
+      "largest" : "985",
+      "non_null" : "215",
+      "null" : "1",
+      "top" : [ {
+        "item" : "127",
+        "count" : "2"
+      }, {
+        "item" : "610",
+        "count" : "2"
+      }, {
+        "item" : "9",
+        "count" : "2"
+      }, {
+        "item" : "10",
+        "count" : "2"
+      }, {
+        "item" : "40",
+        "count" : "2"
+      }, {
+        "item" : "1000",
+        "count" : "2"
+      }, {
+        "item" : "135",
+        "count" : "2"
+      }, {
+        "item" : "203",
+        "count" : "2"
+      }, {
+        "item" : "560",
+        "count" : "2"
+      }, {
+        "item" : "1617",
+        "count" : "1"
+      }, {
+        "item" : "910",
+        "count" : "1"
+      }, {
+        "item" : "2385",
+        "count" : "1"
+      }, {
+        "item" : "1305",
+        "count" : "1"
+      }, {
+        "item" : "98-27",
+        "count" : "1"
+      }, {
+        "item" : "2065",
+        "count" : "1"
+      }, {
+        "item" : "112",
+        "count" : "1"
+      }, {
+        "item" : "7223",
+        "count" : "1"
+      }, {
+        "item" : "4355",
+        "count" : "1"
+      }, {
+        "item" : "60-05",
+        "count" : "1"
+      }, {
+        "item" : "196-36",
+        "count" : "1"
+      } ],
+      "smallest" : "10",
+      "count" : "216",
+      "cardinality" : "206"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057671,
+    "name" : "CITY",
+    "dataTypeName" : "text",
+    "fieldName" : "city",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36842100,
+    "cachedContents" : {
+      "largest" : "Woodside",
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Brooklyn",
+        "count" : "59"
+      }, {
+        "item" : "New York",
+        "count" : "44"
+      }, {
+        "item" : "Bronx",
+        "count" : "35"
+      }, {
+        "item" : "Staten Island",
+        "count" : "13"
+      }, {
+        "item" : "Flushing",
+        "count" : "9"
+      }, {
+        "item" : "Long Island City",
+        "count" : "6"
+      }, {
+        "item" : "Jamaica",
+        "count" : "4"
+      }, {
+        "item" : "Bayside",
+        "count" : "3"
+      }, {
+        "item" : "Corona",
+        "count" : "3"
+      }, {
+        "item" : "Little Neck",
+        "count" : "2"
+      }, {
+        "item" : "Forest Hills",
+        "count" : "2"
+      }, {
+        "item" : "Richmond Hill",
+        "count" : "2"
+      }, {
+        "item" : "Far Rockaway",
+        "count" : "2"
+      }, {
+        "item" : "LIC",
+        "count" : "2"
+      }, {
+        "item" : "South Hollis",
+        "count" : "1"
+      }, {
+        "item" : "Ridgewood",
+        "count" : "1"
+      }, {
+        "item" : "College Point",
+        "count" : "1"
+      }, {
+        "item" : "Bellerose",
+        "count" : "1"
+      }, {
+        "item" : "Woodhaven",
+        "count" : "1"
+      }, {
+        "item" : "Middle Village",
+        "count" : "1"
+      } ],
+      "smallest" : "Arverne",
+      "count" : "216",
+      "cardinality" : "44"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057672,
+    "name" : "ZIP",
+    "dataTypeName" : "text",
+    "fieldName" : "zip",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36842101,
+    "cachedContents" : {
+      "largest" : "11694",
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "11238",
+        "count" : "3"
+      }, {
+        "item" : "10011",
+        "count" : "3"
+      }, {
+        "item" : "11223",
+        "count" : "3"
+      }, {
+        "item" : "11368",
+        "count" : "3"
+      }, {
+        "item" : "11234",
+        "count" : "3"
+      }, {
+        "item" : "10016",
+        "count" : "3"
+      }, {
+        "item" : "11101",
+        "count" : "3"
+      }, {
+        "item" : "10463",
+        "count" : "3"
+      }, {
+        "item" : "11207",
+        "count" : "3"
+      }, {
+        "item" : "10002",
+        "count" : "3"
+      }, {
+        "item" : "11229",
+        "count" : "3"
+      }, {
+        "item" : "11212",
+        "count" : "3"
+      }, {
+        "item" : "10462",
+        "count" : "3"
+      }, {
+        "item" : "10027",
+        "count" : "2"
+      }, {
+        "item" : "11385",
+        "count" : "2"
+      }, {
+        "item" : "10473",
+        "count" : "2"
+      }, {
+        "item" : "11235",
+        "count" : "2"
+      }, {
+        "item" : "11412",
+        "count" : "2"
+      }, {
+        "item" : "11355",
+        "count" : "2"
+      }, {
+        "item" : "11226",
+        "count" : "2"
+      } ],
+      "smallest" : "10002",
+      "count" : "216",
+      "cardinality" : "153"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057673,
+    "name" : "URL",
+    "dataTypeName" : "text",
+    "fieldName" : "url",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36842102,
+    "cachedContents" : {
+      "largest" : "http://www.queenslibrary.org/branch/Woodside?filters=ev_loc:96100000",
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "http://www.nypl.org/locations/jefferson-market",
+        "count" : "1"
+      }, {
+        "item" : "http://www.bklynlibrary.org/locations/dyker",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/stapleton",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/sedgwick",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/todt-hill-westerleigh",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/west-new-brighton",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/harlem",
+        "count" : "1"
+      }, {
+        "item" : "http://www.queenslibrary.org/branch/Queens-Library-for-Teens?filters=ev_loc:91309134",
+        "count" : "1"
+      }, {
+        "item" : "http://www.bklynlibrary.org/locations/new-utrecht",
+        "count" : "1"
+      }, {
+        "item" : "http://www.bklynlibrary.org/locations/marcy",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/yorkville",
+        "count" : "1"
+      }, {
+        "item" : "http://www.queenslibrary.org/branch/Hollis?filters=ev_loc:93500000",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/westchester-square",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/pelham-parkway-van-nest",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/lpa",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/george-bruce",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/soundview",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/castle-hill",
+        "count" : "1"
+      }, {
+        "item" : "http://www.queenslibrary.org/branch/North-Hills?filters=ev_loc:94200000",
+        "count" : "1"
+      }, {
+        "item" : "http://www.nypl.org/locations/cathedral",
+        "count" : "1"
+      } ],
+      "smallest" : "http://www.bklynlibrary.org/locations/arlington",
+      "count" : "216",
+      "cardinality" : "216"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057674,
+    "name" : "BIN",
+    "dataTypeName" : "number",
+    "fieldName" : "bin",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36842103,
+    "cachedContents" : {
+      "largest" : "5129317",
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4303629",
+        "count" : "1"
+      }, {
+        "item" : "2021838",
+        "count" : "1"
+      }, {
+        "item" : "3068818",
+        "count" : "1"
+      }, {
+        "item" : "3103730",
+        "count" : "1"
+      }, {
+        "item" : "5023763",
+        "count" : "1"
+      }, {
+        "item" : "1014150",
+        "count" : "1"
+      }, {
+        "item" : "4129461",
+        "count" : "1"
+      }, {
+        "item" : "3060090",
+        "count" : "1"
+      }, {
+        "item" : "4287999",
+        "count" : "1"
+      }, {
+        "item" : "5060744",
+        "count" : "1"
+      }, {
+        "item" : "2082611",
+        "count" : "1"
+      }, {
+        "item" : "1044749",
+        "count" : "1"
+      }, {
+        "item" : "1057018",
+        "count" : "1"
+      }, {
+        "item" : "3008650",
+        "count" : "1"
+      }, {
+        "item" : "5088113",
+        "count" : "1"
+      }, {
+        "item" : "4297581",
+        "count" : "1"
+      }, {
+        "item" : "2003163",
+        "count" : "1"
+      }, {
+        "item" : "4000000",
+        "count" : "1"
+      }, {
+        "item" : "1028832",
+        "count" : "1"
+      }, {
+        "item" : "4011018",
+        "count" : "1"
+      } ],
+      "smallest" : "1001446",
+      "count" : "216",
+      "cardinality" : "216"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057675,
+    "name" : "BBL",
+    "dataTypeName" : "text",
+    "fieldName" : "bbl",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36842104,
+    "cachedContents" : {
+      "largest" : "5078990009",
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3077620053",
+        "count" : "1"
+      }, {
+        "item" : "3026210032",
+        "count" : "1"
+      }, {
+        "item" : "4019180070",
+        "count" : "1"
+      }, {
+        "item" : "4030577501",
+        "count" : "1"
+      }, {
+        "item" : "3050050033",
+        "count" : "1"
+      }, {
+        "item" : "1008860051",
+        "count" : "1"
+      }, {
+        "item" : "4004700100",
+        "count" : "1"
+      }, {
+        "item" : "3014980035",
+        "count" : "1"
+      }, {
+        "item" : "3047170038",
+        "count" : "1"
+      }, {
+        "item" : "4077720001",
+        "count" : "1"
+      }, {
+        "item" : "4124950175",
+        "count" : "1"
+      }, {
+        "item" : "5031210001",
+        "count" : "1"
+      }, {
+        "item" : "1022330013",
+        "count" : "1"
+      }, {
+        "item" : "1019200026",
+        "count" : "1"
+      }, {
+        "item" : "2054040002",
+        "count" : "1"
+      }, {
+        "item" : "3032410018",
+        "count" : "1"
+      }, {
+        "item" : "3050860015",
+        "count" : "1"
+      }, {
+        "item" : "3066180034",
+        "count" : "1"
+      }, {
+        "item" : "2031230061",
+        "count" : "1"
+      }, {
+        "item" : "4000790030",
+        "count" : "1"
+      } ],
+      "smallest" : "1000167516",
+      "count" : "216",
+      "cardinality" : "216"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057676,
+    "name" : "X",
+    "dataTypeName" : "number",
+    "fieldName" : "x",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36842105,
+    "cachedContents" : {
+      "largest" : "1063264.07861",
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "986649.192368",
+        "count" : "1"
+      }, {
+        "item" : "1025716",
+        "count" : "1"
+      }, {
+        "item" : "990699.301636",
+        "count" : "1"
+      }, {
+        "item" : "986681.927867",
+        "count" : "1"
+      }, {
+        "item" : "985367.092407",
+        "count" : "1"
+      }, {
+        "item" : "1004755.68262",
+        "count" : "1"
+      }, {
+        "item" : "993670.827931",
+        "count" : "1"
+      }, {
+        "item" : "1012374",
+        "count" : "1"
+      }, {
+        "item" : "987437.757996",
+        "count" : "1"
+      }, {
+        "item" : "988069",
+        "count" : "1"
+      }, {
+        "item" : "987302",
+        "count" : "1"
+      }, {
+        "item" : "1019192",
+        "count" : "1"
+      }, {
+        "item" : "998516.892058",
+        "count" : "1"
+      }, {
+        "item" : "989173.125427",
+        "count" : "1"
+      }, {
+        "item" : "1036929.06523",
+        "count" : "1"
+      }, {
+        "item" : "1015266",
+        "count" : "1"
+      }, {
+        "item" : "990922.429626",
+        "count" : "1"
+      }, {
+        "item" : "989320.702117",
+        "count" : "1"
+      }, {
+        "item" : "1011258.2804",
+        "count" : "1"
+      }, {
+        "item" : "988121.893491",
+        "count" : "1"
+      } ],
+      "smallest" : "916370.601298",
+      "count" : "216",
+      "cardinality" : "216"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057677,
+    "name" : "Y",
+    "dataTypeName" : "number",
+    "fieldName" : "y",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36842106,
+    "cachedContents" : {
+      "largest" : "268543.647017",
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "189583.852838",
+        "count" : "1"
+      }, {
+        "item" : "248186.534188",
+        "count" : "1"
+      }, {
+        "item" : "172740.223795",
+        "count" : "1"
+      }, {
+        "item" : "244578",
+        "count" : "1"
+      }, {
+        "item" : "217963.176984",
+        "count" : "1"
+      }, {
+        "item" : "191663.97522",
+        "count" : "1"
+      }, {
+        "item" : "216419.335205",
+        "count" : "1"
+      }, {
+        "item" : "175634.424011",
+        "count" : "1"
+      }, {
+        "item" : "185176",
+        "count" : "1"
+      }, {
+        "item" : "156139.708768",
+        "count" : "1"
+      }, {
+        "item" : "263166.306066",
+        "count" : "1"
+      }, {
+        "item" : "167308.683149",
+        "count" : "1"
+      }, {
+        "item" : "232988.107892",
+        "count" : "1"
+      }, {
+        "item" : "229236.8125",
+        "count" : "1"
+      }, {
+        "item" : "220682",
+        "count" : "1"
+      }, {
+        "item" : "235758",
+        "count" : "1"
+      }, {
+        "item" : "220050.028126",
+        "count" : "1"
+      }, {
+        "item" : "159541.208333",
+        "count" : "1"
+      }, {
+        "item" : "260916.072205",
+        "count" : "1"
+      }, {
+        "item" : "241690.718112",
+        "count" : "1"
+      } ],
+      "smallest" : "125007.163094",
+      "count" : "216",
+      "cardinality" : "216"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057678,
+    "name" : "SYSTEM",
+    "dataTypeName" : "text",
+    "fieldName" : "system",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 36842107,
+    "cachedContents" : {
+      "largest" : "QPL",
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "NYPL",
+        "count" : "92"
+      }, {
+        "item" : "QPL",
+        "count" : "65"
+      }, {
+        "item" : "BPL",
+        "count" : "59"
+      } ],
+      "smallest" : "BPL",
+      "count" : "216",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 260057679,
+    "name" : "BOROCODE",
+    "dataTypeName" : "number",
+    "fieldName" : "borocode",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 36842108,
+    "cachedContents" : {
+      "largest" : "5",
+      "non_null" : "216",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4",
+        "count" : "65"
+      }, {
+        "item" : "3",
+        "count" : "59"
+      }, {
+        "item" : "1",
+        "count" : "44"
+      }, {
+        "item" : "2",
+        "count" : "35"
+      }, {
+        "item" : "5",
+        "count" : "13"
+      } ],
+      "smallest" : "1",
+      "count" : "216",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "LIBRARY.zip",
+      "assetId" : "eca0bd58-5b86-4773-b58d-1f25924577b5",
+      "name" : "LIBRARY.zip"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "11/18/2014",
+        "Update Frequency" : "As needed"
+      },
+      "Legislative Compliance" : {
+        "Geo-coding Attached?" : ""
+      },
+      "Dataset Information" : {
+        "Agency" : "New York Public Library (NYPL)"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "doitt gis", "doittgis", "library" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}
