@@ -1,7 +1,7 @@
 {
   "dataset_name": "ped_counts",
   "row_count": 114,
-  "column_count": 113,
+  "column_count": 116,
   "geo_labels_wrapped": [
     "address",
     "borough",

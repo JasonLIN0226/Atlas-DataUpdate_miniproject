@@ -1,0 +1,36 @@
+{
+  "dataset_name": "ped_counts",
+  "status": "raw_data_changed",
+  "action": "refresh_raw_data",
+  "changes_vs_local": [
+    "rows_updated_at",
+    "columns"
+  ],
+  "data_change": {
+    "rows_updated_at_changed": true,
+    "csv_hash_changed": true,
+    "previous_csv": {
+      "size_bytes": 95163,
+      "sha256": "16d1c3d2424bb21379dd2504af61cf078306591189a25923451feed7f0cf7679",
+      "row_count": 114
+    },
+    "current_csv": {
+      "size_bytes": 96233,
+      "sha256": "d27a0befa792f97aa39ccd8327b10be775beb35610e8dd1cdd97925e37d4f38f",
+      "row_count": 114
+    }
+  },
+  "metadata_change": {
+    "changed_fields": [
+      "rowsUpdatedAt",
+      "viewLastModified",
+      "publicationDate"
+    ],
+    "added_columns": [
+      "oct25_am",
+      "oct25_md",
+      "oct25_pm"
+    ],
+    "removed_columns": []
+  }
+}

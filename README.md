@@ -139,7 +139,7 @@ Main entry file:
 
 ## How This Project Updates Data
 
-This project uses four steps:
+This project uses three cores and one project entry file:
 
 1. `nyc_update_core.py`
    - checks what changed
@@ -149,10 +149,11 @@ This project uses four steps:
    - reruns Atlas plus wrapper
    - writes raw and wrapped output files
 4. `refresh_nyc_datalake.py`
+   - runs the full project workflow
    - calls the update core
    - calls the refresh core
    - calls the Atlas core
-   - writes refresh artifacts
+   - writes a compact change summary when something changes
    - rebuilds the web data lake
 
 The main update cases are:

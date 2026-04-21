@@ -8,12 +8,8 @@ from atlas_wrapper import apply_wrapper
 from nyc_open_data_utils import DATA_DIR, output_paths
 
 
-# Settings to adjust when reusing this Atlas processing core in another project.
+# Store the settings used by this Atlas core.
 DEFAULT_GEO_THRESHOLD = 0.6
-RAW_METADATA_PATH_KEY = "raw_metadata"
-RAW_GEO_RESULTS_PATH_KEY = "raw_geo_results"
-FINAL_METADATA_PATH_KEY = "final_metadata"
-FINAL_GEO_RESULTS_PATH_KEY = "final_geo_results"
 PROFILE_OPTIONS = {
     "geo_classifier": True,
     "include_sample": True,
@@ -25,32 +21,13 @@ PROFILE_OPTIONS = {
     "nominatim": None,
 }
 
-
-# Return the output mode label.
-def output_mode(use_wrapper: bool) -> str:
-    return "wrapped" if use_wrapper else "raw"
-
-
-# Return the metadata path for one mode.
-def metadata_output_path(paths: dict[str, Path], use_wrapper: bool) -> Path:
-    key = FINAL_METADATA_PATH_KEY if use_wrapper else RAW_METADATA_PATH_KEY
-    return paths[key]
-
-
-# Return the geo results path for one mode.
-def geo_results_output_path(paths: dict[str, Path], use_wrapper: bool) -> Path:
-    key = FINAL_GEO_RESULTS_PATH_KEY if use_wrapper else RAW_GEO_RESULTS_PATH_KEY
-    return paths[key]
-
-
-# Print a short summary for one processed dataset.
-def print_dataset_details(metadata: dict, *, dataset_name: str, mode: str, geo_threshold: float) -> None:
+# Print the main details for one processed dataset.
+def print_dataset_details(metadata, dataset_name, mode, geo_threshold):
     columns = metadata.get("columns", [])
-    interesting = [
-        column
-        for column in columns
-        if column.get("geo_classifier") or column.get("wrapper_reason")
-    ]
+    interesting = []
+    for column in columns:
+        if column.get("geo_classifier") or column.get("wrapper_reason"):
+            interesting.append(column)
 
     print("Dataset:", dataset_name)
     print("Mode:", mode)
@@ -79,42 +56,48 @@ def print_dataset_details(metadata: dict, *, dataset_name: str, mode: str, geo_t
             print("semantic_types:", column.get("semantic_types"))
 
 
-# Write final labeled columns to one CSV file.
-def write_geo_results(path: Path, dataset_name: str, columns: list[dict]) -> None:
+# Write the labeled columns to one CSV file.
+def write_geo_results(path, dataset_name, columns):
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(
             handle,
             fieldnames=["dataset_name", "name", "label", "confidence", "wrapper_reason"],
         )
         writer.writeheader()
-        writer.writerows(
-            {
+        rows = []
+        for column in columns:
+            geo = column.get("geo_classifier")
+            if not geo:
+                continue
+            rows.append({
                 "dataset_name": dataset_name,
                 "name": column.get("name"),
                 "label": geo.get("label"),
                 "confidence": geo.get("confidence"),
                 "wrapper_reason": column.get("wrapper_reason", ""),
-            }
-            for column in columns
-            if (geo := column.get("geo_classifier"))
-        )
+            })
+        writer.writerows(rows)
 
 
 # Run Atlas for one dataset and one mode.
 def process_dataset_once(
-    data_path: str | Path,
-    *,
-    use_wrapper: bool,
-    geo_threshold: float = DEFAULT_GEO_THRESHOLD,
-    print_details: bool = True,
+    data_path,
+    use_wrapper,
+    geo_threshold=DEFAULT_GEO_THRESHOLD,
+    print_details=True,
     paths_builder=output_paths,
-) -> dict:
+):
     data_path = Path(data_path)
     dataset_name = data_path.stem
     paths = paths_builder(dataset_name)
-    mode = output_mode(use_wrapper)
-    metadata_path = metadata_output_path(paths, use_wrapper)
-    geo_results_path = geo_results_output_path(paths, use_wrapper)
+    if use_wrapper:
+        mode = "wrapped"
+        metadata_path = paths["final_metadata"]
+        geo_results_path = paths["final_geo_results"]
+    else:
+        mode = "raw"
+        metadata_path = paths["raw_metadata"]
+        geo_results_path = paths["raw_geo_results"]
 
     metadata = process_dataset(
         str(data_path),
@@ -131,9 +114,9 @@ def process_dataset_once(
     if print_details:
         print_dataset_details(
             metadata,
-            dataset_name=dataset_name,
-            mode=mode,
-            geo_threshold=geo_threshold,
+            dataset_name,
+            mode,
+            geo_threshold,
         )
 
     metadata_path.write_text(
@@ -154,27 +137,26 @@ def process_dataset_once(
     }
 
 
-# Run Atlas for raw output and wrapped output.
+# Run Atlas for both output modes.
 def process_dataset_outputs(
-    data_path: str | Path,
-    *,
-    geo_threshold: float = DEFAULT_GEO_THRESHOLD,
-    print_details: bool = True,
+    data_path,
+    geo_threshold=DEFAULT_GEO_THRESHOLD,
+    print_details=True,
     paths_builder=output_paths,
-) -> dict:
+):
     raw = process_dataset_once(
         data_path,
-        use_wrapper=False,
-        geo_threshold=geo_threshold,
-        print_details=print_details,
-        paths_builder=paths_builder,
+        False,
+        geo_threshold,
+        print_details,
+        paths_builder,
     )
     wrapped = process_dataset_once(
         data_path,
-        use_wrapper=True,
-        geo_threshold=geo_threshold,
-        print_details=print_details,
-        paths_builder=paths_builder,
+        True,
+        geo_threshold,
+        print_details,
+        paths_builder,
     )
     return {
         "dataset_name": Path(data_path).stem,
@@ -185,12 +167,11 @@ def process_dataset_outputs(
 
 # Run Atlas for every dataset in one folder.
 def process_all_datasets(
-    *,
-    data_dir: Path = DATA_DIR,
-    geo_threshold: float = DEFAULT_GEO_THRESHOLD,
-    print_details: bool = True,
+    data_dir=DATA_DIR,
+    geo_threshold=DEFAULT_GEO_THRESHOLD,
+    print_details=True,
     paths_builder=output_paths,
-) -> list[dict]:
+):
     results = []
     for path in sorted(data_dir.glob("*.csv")):
         if print_details:

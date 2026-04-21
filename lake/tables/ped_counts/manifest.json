@@ -7,7 +7,7 @@
   "geo_results_wrapped_path": "output/geo_classifier_results_ped_counts_wrapped.csv",
   "sample_path": "lake/tables/ped_counts/sample.csv",
   "nb_rows": 114,
-  "nb_columns": 113,
+  "nb_columns": 116,
   "has_wrapped_metadata": true,
   "has_raw_metadata": true,
   "has_source_metadata": true
