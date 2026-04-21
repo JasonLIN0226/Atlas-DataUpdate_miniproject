@@ -5,7 +5,7 @@ street_trees,zip_city,city,0.95,city_name_and_values
 street_trees,borocode,borough_code,0.7853758335113525,
 street_trees,boroname,borough_code,0.95,admin_name_and_values
 street_trees,nta,borough_code,0.95,admin_name_and_values
-street_trees,nta_name,borough_code,0.95,admin_name_and_values
+street_trees,state,state,0.95,state_name_and_values
 street_trees,longitude,longitude,0.9556649327278137,
 street_trees,x_sp,x_coord,0.8954465985298157,
 street_trees,y_sp,y_coord,0.95,y_coord_name_and_range

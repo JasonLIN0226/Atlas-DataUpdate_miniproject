@@ -588,16 +588,18 @@
     "health",
     "cooking"
   ],
+  "sample": "year,marketname,borough,streetaddress,community_district,latitude,longitude,daysoperation,hoursoperations,season_begin,accepts_ebt,open_year_round,nyc_dept_of_health_cooking\r\n2025,Stuyvesant Town Greenmarket,Manhattan,North end of Stuyvesant Town Oval (near 20th St. Loop),106,40.731498,-73.97818,Sunday,9:30 a.m. - 4 p.m.,,Yes,No,No\r\n2023,Heritage Farm Stand (Gazebo Road),Staten Island,1000 Richmond Terrace (Gazebo road),501,40.645075,-74.104753,Saturday,10 a.m. - 3:30 p.m.,,Yes,No,No\r\n2020,Parkchester Greenmarket,Bronx,Westchester Ave & White Plains Rd,209,40.833992,-73.862148,Friday,8am - 4pm,,Yes,No,No\r\n2019,Fordham Plaza Greenmarket,Bronx,Park Ave bet E 189th St & E Fordham Rd,206,40.86153,-73.891063,Friday,8am-4pm,,Yes,No,Yes\r\n2018,57th Street Greenmarket,Manhattan,W 57th St & 10th Ave,104,40.769117,-73.988559,\"Wednesday\nSaturday\",8am-5pm,,Yes,No,No\r\n2018,Cunningham Park's Down to Earth Farmers' Market,Queens,Union Tpk & 196 Pl,408,40.731082,-73.773997,Sunday,9am-2pm,,Yes,No,No\r\n2017,Frederick Douglass House Farm Stand,Manhattan,\"101st st. and Columbus Ave. New York, NY\",107,-73.965217,40.796082,Saturday,9am-3pm,,Yes,No,No\r\n2017,Harvest Home North Central Bronx Farmers' Market,Bronx,Mosholu Pkwy & Jerome Ave,207,-73.8856766663,40.8788797113,Wednesday,8am-4pm,,Yes,No,No\r\n2017,PS 7 Farm Stand,Manhattan,\"Lexington Ave & 119th St, in schoolyard\",111,-73.9402064239999,40.8005648645999,Wednesday,2:15pm-4pm,,Yes,No,No\r\n2016,Harvest Home Harlem Hospital Farmers' Market,Manhattan,506 Lenox Ave between 135th & 137th Sts,110,-73.93997471,40.81543807,Friday,8am-6pm,,Yes,Yes,No\r\n2016,Project EATS Frederick Douglas Houses Farmers' Market,Manhattan,100th St bet Amsterdam and Columbus Aves,107,-73.96798349,40.79735361,Saturday,10am-4pm,,Yes,No,No\r\n2015,Harvest Home East Harlem Farmers' Market,Manhattan,104th St & 3rd Ave,,,,,,,,,\r\n2014,Harvest Home Metropolitan Market,Manhattan,99th St & 3rd Ave,,,,,,,,,\r\n2014,Harvest Home St. Mary's Park Market,Bronx,St. Mary's Park at 149th St and St. Ann's Ave,,,,,,,,,\r\n2014,Park Slope's Down to Earth Farmers' Market,Brooklyn,5th Ave & 4th St,,,,,,,,,\r\n2012,Corona Greenmarket,Queens,Roosevelt Ave & 103rd St,,,,,,,,,\r\n2012,PS 11 Farm Market,Manhattan,21st St bet 8th and 9th Aves,,,,,,,,,\r\n2011,New Amsterdam Farmers Market,Manhattan,\"E. 99th St., btw Madison & Park Aves.\",,,,,,,,,\r\n2010,Elmhurst Hospital Greenmarket,Queens,\"41st Ave., bet. 80th & 81st Sts.\",,,,,,,,,\r\n2010,Fulton Stall Market,Manhattan,\"South St., btw Fulton & Beekman Sts.\",,,,,,,,,\r\n",
   "_profiling_times": {
     "steps": {
-      "1_load_data": 0.013811583165079355,
-      "2_geo_batch_predict": 0.18409979110583663,
-      "3_process_columns": 0.31441320898011327,
-      "4_latlong_pairing": 3.754207864403725e-05,
-      "5_spatial_coverage": 0.017828417010605335,
-      "6_temporal_coverage": 0.014201374724507332
+      "1_load_data": 0.012876667082309723,
+      "2_geo_batch_predict": 0.11701312521472573,
+      "3_process_columns": 0.3036202499642968,
+      "4_latlong_pairing": 3.429176285862923e-05,
+      "5_spatial_coverage": 0.01839870773255825,
+      "6_temporal_coverage": 0.013082333840429783,
+      "sample_extraction": 0.0008906666189432144
     },
-    "total": 2.6347287916578352
+    "total": 2.7092283749952912
   },
   "_wrapper_summary": {
     "changed_count": 1,

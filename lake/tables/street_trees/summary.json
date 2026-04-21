@@ -9,6 +9,7 @@
     "borough_code",
     "city",
     "longitude",
+    "state",
     "x_coord",
     "y_coord",
     "zip5"

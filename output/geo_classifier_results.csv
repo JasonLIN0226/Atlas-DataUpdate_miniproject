@@ -1,0 +1,123 @@
+name,values,label
+the_geom,"['MULTILINESTRING ((-74.192429667502 40.521741493622734, -74.1951900846669 40.519998791664904))', 'MULTILINESTRING ((-74.16031384424598 40.589027527481505, -74.16126386213497 40.58807622459019))', 'MULTILINESTRING ((-74.12631986979562 40.635252327237055, -74.12595665955017 40.63385870272121))']",multi-line
+street,"['HYLAN BLVD', 'MERRYMOUNT ST', 'CLOVE ROAD']",address
+gwsystem,"['Staten Island Waterfront', 'Jamaica Bay', 'Brooklyn Waterfront']",borough
+the_geom,"['MULTILINESTRING ((-74.192429667502 40.521741493622734, -74.1951900846669 40.519998791664904))', 'MULTILINESTRING ((-74.16031384424598 40.589027527481505, -74.16126386213497 40.58807622459019))', 'MULTILINESTRING ((-74.12631986979562 40.635252327237055, -74.12595665955017 40.63385870272121))']",multi-line
+street,"['HYLAN BLVD', 'MERRYMOUNT ST', 'CLOVE ROAD']",address
+gwsystem,"['Staten Island Waterfront', 'Jamaica Bay', 'Brooklyn Waterfront']",borough
+address,"['333 CLASSON AVENUE', '384 SOUTH 4 STREET', '10-24 49 AVENUE']",address
+borough,"['BROOKLYN', 'QUEENS', 'BRONX']",borough
+bin,"['3321871', '3063507', '4436607']",x_coord
+council_district,"['36', '34', '26']",borough_code
+nta_code,"['BK75', 'BK73', 'QN31']",borough_code
+longitude,"['-73.960169193605', '-73.952515190258', '-73.953204552663']",longitude
+address,"['333 CLASSON AVENUE', '384 SOUTH 4 STREET', '10-24 49 AVENUE']",address
+borough,"['BROOKLYN', 'QUEENS', 'BRONX']",borough
+bin,"['3321871', '3063507', '4436607']",x_coord
+council_district,"['36', '34', '26']",borough_code
+nta_code,"['BK75', 'BK73', 'QN31']",borough_code
+longitude,"['-73.960169193605', '-73.952515190258', '-73.953204552663']",longitude
+the_geom,"['POINT (-74.097961931446 40.634604200807)', 'POINT (-73.981379489555 40.589105561411)', 'POINT (-73.943478646583 40.724827480825)']",point
+bin,"['5002227', '3385667', '3338038']",x_coord
+facility_domains,"['2', '3', '10']",borough_code
+boroughcode,"['5', '3', '4']",borough_code
+modified_by,"['A_Marti', 'V_Bogdan', 'J_Rivas']",borough_code
+primaryaddresspointid,"['5002977', '5132738', '5201395']",x_coord
+the_geom,"['POINT (-74.097961931446 40.634604200807)', 'POINT (-73.981379489555 40.589105561411)', 'POINT (-73.943478646583 40.724827480825)']",point
+bin,"['5002227', '3385667', '3338038']",x_coord
+facility_domains,"['2', '3', '10']",borough_code
+boroughcode,"['5', '3', '4']",borough_code
+modified_by,"['A_Marti', 'V_Bogdan', 'J_Rivas']",borough_code
+primaryaddresspointid,"['5002977', '5132738', '5201395']",x_coord
+marketname,"['175th Street Greenmarket', '4th Ave Sunset Park Greenmarket', '57th Street Greenmarket']",address
+borough,"['Manhattan', 'Brooklyn', 'Bronx']",borough
+streetaddress,"['W. 175th St. bet. Wadsworth Ave. & Broadway', '4th Ave. 60th St.', '57th St. & 10th Ave.']",address
+longitude,"['-73.937811', '-74.003744', '-73.988559']",longitude
+marketname,"['175th Street Greenmarket', '4th Ave Sunset Park Greenmarket', '57th Street Greenmarket']",address
+borough,"['Manhattan', 'Brooklyn', 'Bronx']",borough
+streetaddress,"['W. 175th St. bet. Wadsworth Ave. & Broadway', '4th Ave. 60th St.', '57th St. & 10th Ave.']",address
+longitude,"['-73.937811', '-74.003744', '-73.988559']",longitude
+the_geom,"['POINT (-73.79456804377382 40.77221777714884)', 'POINT (-73.91289250895464 40.64434661766513)', 'POINT (-73.95303997851815 40.72505714515936)']",point
+latitude,"['40.7722168', '40.64434814', '40.72505569']",latitude
+longitude,"['-73.79457092', '-73.9128952', '-73.95304108']",longitude
+the_geom,"['POINT (-73.79456804377382 40.77221777714884)', 'POINT (-73.91289250895464 40.64434661766513)', 'POINT (-73.95303997851815 40.72505714515936)']",point
+latitude,"['40.7722168', '40.64434814', '40.72505569']",latitude
+longitude,"['-73.79457092', '-73.9128952', '-73.95304108']",longitude
+the_geom,"['POINT (-73.95353074430393 40.80297988196676)', 'POINT (-73.9348475633247 40.80301816141575)', 'POINT (-73.97736329270697 40.76080689474172)']",point
+name,"['115th Street', '125th Street', '53rd Street']",address
+streetname,"['West 115th Street', 'East 125th Street', 'West 53rd Street']",address
+zip,"['10026', '10035', '10019']",zip5
+url,"['http://www.nypl.org/locations/115th-street', 'http://www.nypl.org/locations/125th-street', 'http://www.nypl.org/locations/53rd-street']",address
+borocode,"['1', '2', '5']",borough_code
+the_geom,"['POINT (-73.95353074430393 40.80297988196676)', 'POINT (-73.9348475633247 40.80301816141575)', 'POINT (-73.97736329270697 40.76080689474172)']",point
+name,"['115th Street', '125th Street', '53rd Street']",address
+streetname,"['West 115th Street', 'East 125th Street', 'West 53rd Street']",address
+zip,"['10026', '10035', '10019']",zip5
+url,"['http://www.nypl.org/locations/115th-street', 'http://www.nypl.org/locations/125th-street', 'http://www.nypl.org/locations/53rd-street']",address
+borocode,"['1', '2', '5']",borough_code
+incident_address,"['3939 EMMONS AVENUE', '865 COLUMBUS AVENUE', '558 WEST  192 STREET']",address
+street_name,"['EMMONS AVENUE', 'COLUMBUS AVENUE', 'WEST  192 STREET']",address
+cross_street_1,"['PLUMB    3 STREET', 'WEST  100 STREET', 'AUDUBON AVENUE']",address
+cross_street_2,"['BELT PARKWAY EXIT    9 WESTBOUND', 'WEST  103 STREET', 'ST NICHOLAS AVENUE']",address
+intersection_street_1,"['PLUMB    3 STREET', 'WEST  100 STREET', 'AUDUBON AVENUE']",address
+intersection_street_2,"['BELT PARKWAY EXIT    9 WESTBOUND', 'WEST  103 STREET', 'ST NICHOLAS AVENUE']",address
+landmark,"['EMMONS AVENUE', 'COLUMBUS AVENUE', 'WEST  192 STREET']",address
+borough,"['BROOKLYN', 'MANHATTAN', 'QUEENS']",borough
+x_coordinate_state_plane,"['1004321', '994065', '1004136']",x_coord
+park_borough,"['BROOKLYN', 'MANHATTAN', 'QUEENS']",borough
+taxi_pick_up_location,"['3133 BROADWAY, MANHATTAN (NEW YORK), NY, 10027', '50-02 VERNON BOULEVARD, QUEENS (LONG ISLAND CITY), NY, 11101', 'JFK AIRPORT, QUEENS (JAMAICA) ,NY, 11430']",address
+longitude,"['-73.92773945669528', '-73.96455113216999', '-73.9281139621785']",longitude
+location,"['POINT (-73.927739456695 40.585076953076)', 'POINT (-73.96455113217 40.79692992182)', 'POINT (-73.928113962178 40.855918860412)']",point
+incident_address,"['3939 EMMONS AVENUE', '865 COLUMBUS AVENUE', '558 WEST  192 STREET']",address
+street_name,"['EMMONS AVENUE', 'COLUMBUS AVENUE', 'WEST  192 STREET']",address
+cross_street_1,"['PLUMB    3 STREET', 'WEST  100 STREET', 'AUDUBON AVENUE']",address
+cross_street_2,"['BELT PARKWAY EXIT    9 WESTBOUND', 'WEST  103 STREET', 'ST NICHOLAS AVENUE']",address
+intersection_street_1,"['PLUMB    3 STREET', 'WEST  100 STREET', 'AUDUBON AVENUE']",address
+intersection_street_2,"['BELT PARKWAY EXIT    9 WESTBOUND', 'WEST  103 STREET', 'ST NICHOLAS AVENUE']",address
+landmark,"['EMMONS AVENUE', 'COLUMBUS AVENUE', 'WEST  192 STREET']",address
+borough,"['BROOKLYN', 'MANHATTAN', 'QUEENS']",borough
+x_coordinate_state_plane,"['1004321', '994065', '1004136']",x_coord
+park_borough,"['BROOKLYN', 'MANHATTAN', 'QUEENS']",borough
+taxi_pick_up_location,"['3133 BROADWAY, MANHATTAN (NEW YORK), NY, 10027', '50-02 VERNON BOULEVARD, QUEENS (LONG ISLAND CITY), NY, 11101', 'JFK AIRPORT, QUEENS (JAMAICA) ,NY, 11430']",address
+longitude,"['-73.92773945669528', '-73.96455113216999', '-73.9281139621785']",longitude
+location,"['POINT (-73.927739456695 40.585076953076)', 'POINT (-73.96455113217 40.79692992182)', 'POINT (-73.928113962178 40.855918860412)']",point
+the_geom,"['POINT (-73.90459140730678 40.87919896648574)', 'POINT (-73.92188432870218 40.82662794123292)', 'POINT (-73.89535781584335 40.86215460031517)']",point
+borough,"['Bronx', 'Brooklyn', 'Manhattan']",borough
+street_nam,"['Broadway', 'East 161st Street', 'East Fordham Road']",address
+from_stree,"['West 231st Street', 'Gra Concourse', 'Valentine Avenue']",address
+to_street,"['Naples Terrace', 'Sheridan Avenue', 'Tiebout Avenue']",address
+the_geom,"['POINT (-73.90459140730678 40.87919896648574)', 'POINT (-73.92188432870218 40.82662794123292)', 'POINT (-73.89535781584335 40.86215460031517)']",point
+borough,"['Bronx', 'Brooklyn', 'Manhattan']",borough
+street_nam,"['Broadway', 'East 161st Street', 'East Fordham Road']",address
+from_stree,"['West 231st Street', 'Gra Concourse', 'Valentine Avenue']",address
+to_street,"['Naples Terrace', 'Sheridan Avenue', 'Tiebout Avenue']",address
+address,"['2781 Pitkin Ave.', '45-10 94 STREET', '1654 BENSON AVENUE']",address
+location,"['Hemlock St. bet. Gelnmore Ave. and Pitkin Ave.', '94 St. bet. 46 Ave. and Alstyne Ave.', '17 Ave. bet. Benson Ave. and Rutherford Pl.']",address
+multipolygon,"['MULTIPOLYGON (((-73.87008742266957 40.67613119607209, -73.87007432121518 40.676078189527786, -73.86934430300663 40.676183396774704, -73.8694076372941 40.67643813903446, -73.86982764364568 40.676376956676066, -73.86977522382294 40.67617915400547, -73.87008742266957 40.67613119607209)))', 'MULTIPOLYGON (((-73.87052757641499 40.74282358006543, -73.87063018224065 40.743294365599404, -73.87079965142733 40.74325752965445, -73.87085437719355 40.74323760516228, -73.87086357063417 40.74325787149346, -73.87108286415213 40.74319346520755, -73.87112118859744 40.74317325207644, -73.87113429860827 40.743203377025694, -73.87142425607612 40.74311408705682, -73.87143254651927 40.743130554893185, -73.87159465601194 40.743083469888205, -73.87163046268853 40.74316116959752, -73.87211026812409 40.74302587348524, -73.87207732159274 40.74296043661461, -73.87203762980313 40.742962907640084, -73.87204110209466 40.74287738846775, -73.87052757641499 40.74282358006543)))', 'MULTIPOLYGON (((-74.00745001682682 40.60680094265964, -74.00757241009426 40.60669388424657, -74.00722538893282 40.606490014967996, -74.00706095144639 40.60664786052479, -74.00722298835178 40.606755337623916, -74.00726537529157 40.60671821724995, -74.00738565665392 40.6067979967044, -74.00740996617195 40.606776707707965, -74.00745001682682 40.60680094265964)))']",multi-polygon
+address,"['2781 Pitkin Ave.', '45-10 94 STREET', '1654 BENSON AVENUE']",address
+location,"['Hemlock St. bet. Gelnmore Ave. and Pitkin Ave.', '94 St. bet. 46 Ave. and Alstyne Ave.', '17 Ave. bet. Benson Ave. and Rutherford Pl.']",address
+multipolygon,"['MULTIPOLYGON (((-73.87008742266957 40.67613119607209, -73.87007432121518 40.676078189527786, -73.86934430300663 40.676183396774704, -73.8694076372941 40.67643813903446, -73.86982764364568 40.676376956676066, -73.86977522382294 40.67617915400547, -73.87008742266957 40.67613119607209)))', 'MULTIPOLYGON (((-73.87052757641499 40.74282358006543, -73.87063018224065 40.743294365599404, -73.87079965142733 40.74325752965445, -73.87085437719355 40.74323760516228, -73.87086357063417 40.74325787149346, -73.87108286415213 40.74319346520755, -73.87112118859744 40.74317325207644, -73.87113429860827 40.743203377025694, -73.87142425607612 40.74311408705682, -73.87143254651927 40.743130554893185, -73.87159465601194 40.743083469888205, -73.87163046268853 40.74316116959752, -73.87211026812409 40.74302587348524, -73.87207732159274 40.74296043661461, -73.87203762980313 40.742962907640084, -73.87204110209466 40.74287738846775, -73.87052757641499 40.74282358006543)))', 'MULTIPOLYGON (((-74.00745001682682 40.60680094265964, -74.00757241009426 40.60669388424657, -74.00722538893282 40.606490014967996, -74.00706095144639 40.60664786052479, -74.00722298835178 40.606755337623916, -74.00726537529157 40.60671821724995, -74.00738565665392 40.6067979967044, -74.00740996617195 40.606776707707965, -74.00745001682682 40.60680094265964)))']",multi-polygon
+address,"['108-005 70 AVENUE', '147-074 7 AVENUE', '390 MORGAN AVENUE']",address
+borocode,"['4', '3', '1']",borough_code
+boro_ct,"['4073900', '4097300', '3044900']",x_coord
+longitude,"['-73.84421522', '-73.81867946', '-73.9366077']",longitude
+x_sp,"['1027431.148', '1034455.701', '1001822.831']",x_coord
+address,"['108-005 70 AVENUE', '147-074 7 AVENUE', '390 MORGAN AVENUE']",address
+borocode,"['4', '3', '1']",borough_code
+boro_ct,"['4073900', '4097300', '3044900']",x_coord
+longitude,"['-73.84421522', '-73.81867946', '-73.9366077']",longitude
+x_sp,"['1027431.148', '1034455.701', '1001822.831']",x_coord
+borough,"['4', '3', '1']",borough_code
+location,"['Park Perimeter', 'Grand St (L)', '125 Court St.']",address
+latitude,"['40.67485999990', '40.74755999960', '40.71192599970']",latitude
+longitude,"['-73.78412000050', '-73.81814999970', '-73.94066999940']",longitude
+x,"['1044131.89696000000', '1034637.51076000000', '1000698.12752000000']",x_coord
+borocode,"['4', '3', '1']",borough_code
+location_lat_long,"['(40.6748599999, -73.7841200005)', '(40.7475599996, -73.8181499997)', '(40.7119259997, -73.9406699994)']",longitude
+borough,"['4', '3', '1']",borough_code
+location,"['Park Perimeter', 'Grand St (L)', '125 Court St.']",address
+latitude,"['40.67485999990', '40.74755999960', '40.71192599970']",latitude
+longitude,"['-73.78412000050', '-73.81814999970', '-73.94066999940']",longitude
+x,"['1044131.89696000000', '1034637.51076000000', '1000698.12752000000']",x_coord
+borocode,"['4', '3', '1']",borough_code
+location_lat_long,"['(40.6748599999, -73.7841200005)', '(40.7475599996, -73.8181499997)', '(40.7119259997, -73.9406699994)']",longitude

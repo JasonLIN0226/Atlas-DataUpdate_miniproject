@@ -675,16 +675,18 @@
     "system",
     "borocode"
   ],
+  "sample": "the_geom,name,streetname,housenum,city,zip,url,bin,bbl,x,y,system,borocode\r\nPOINT (-73.85017019717382 40.82662920810023),Castle Hill,Castle Hill Avenue,947,Bronx,10473,http://www.nypl.org/locations/castle-hill,2022944,2036880042,1025716,240476,NYPL,2\r\nPOINT (-73.91008714449384 40.844001911750446),Grand Concourse,East 173rd Street,155,Bronx,10457,http://www.nypl.org/locations/grand-concourse,2007870,2028240034,1009127.25502,246782.825054,NYPL,2\r\nPOINT (-74.00533101445356 40.72998291458653),Hudson Park,Leroy Street,66,New York,10014,http://www.nypl.org/locations/hudson-park,1009760,1005820018,982772.476696,205229.072859,NYPL,1\r\nPOINT (-73.93586246250698 40.82653201339423),Macomb's Bridge,Adam Clayton Powell Jr. Boulevard,2650,New York,10039,http://www.nypl.org/locations/macombs-bridge,1084156,1020370011,1002000.35413,240411.62427,NYPL,1\r\nPOINT (-73.98169851078917 40.75189156171031),Mid-Manhattan,Fifth Avenue,455,New York,10016,http://www.nypl.org/locations/mid-manhattan-library,1017602,1008690074,989320.702117,213211.573299,NYPL,1\r\nPOINT (-73.9146501854584 40.88628523559925),Spuyten Duyvil,West 235th Street,650,Bronx,10463,http://www.nypl.org/locations/spuyten-duyvil,2085867,2059150070,1007849.73462,262187.017822,NYPL,2\r\nPOINT (-74.14852127833858 40.60960200172146),Todt Hill-Westerleigh,Victory Boulevard,2550,Staten Island,10314,http://www.nypl.org/locations/todt-hill-westerleigh,5035398,5020990005,943012.076233,161405.796814,NYPL,5\r\nPOINT (-74.11482187344863 40.63450894226954),West New Brighton,Castleton Avenue,976,Staten Island,10310,http://www.nypl.org/locations/west-new-brighton,5004936,5001780115,952380.829147,170465.980968,NYPL,5\r\nPOINT (-73.90464799347694 40.82061890603643),Woodstock,East 160th Street,761,Bronx,10456,http://www.nypl.org/locations/woodstock,2004700,2026570030,1010641.4422,238265.129822,NYPL,2\r\nPOINT (-73.98900318822345 40.638888838712376),Borough Park,43rd Street,1265,Brooklyn,11219,http://www.bklynlibrary.org/locations/borough-park,3135907,3055980048,987302,172041,BPL,3\r\nPOINT (-73.9667748761715 40.57610774698186),Brighton Beach <br> (Closed for Renovation),Brighton First Road,16,Brooklyn,11235,http://www.bklynlibrary.org/locations/brighton-beach,3245028,3086800032,993479.809941,149169.780779,BPL,3\r\nPOINT (-73.96603066603613 40.68737909411427),Clinton Hill,Washington Avenue,380,Brooklyn,11238,http://www.bklynlibrary.org/locations/clinton-hill,3055495,3019450036,993670.827931,189708.997928,BPL,3\r\nPOINT (-73.98862740604375 40.59268511632151),Ulmer Park,Bath Avenue,2602,Brooklyn,11214,http://www.bklynlibrary.org/locations/ulmer-park,3186777,3068970035,987408.47821,155207.786621,BPL,3\r\nPOINT (-73.9575546134494 40.70693042467486),Williamsburgh,Division Avenue,240,Brooklyn,11211,http://www.bklynlibrary.org/locations/williamsburgh,3060090,3021890001,996018.067987,196833.151003,BPL,3\r\nPOINT (-73.71710447116403 40.7351605518022),Bellerose,Hillside Avenue,250-06,Bellerose,11426,http://www.queenslibrary.org/branch/Bellerose?filters=ev_loc:96400000,4175514,4086040085,1062650,207242,QPL,4\r\nPOINT (-73.78191929899681 40.72925482196691),Hillcrest,Union Turnpike,187-05,Flushing,11366,http://www.queenslibrary.org/branch/Hillcrest?filters=ev_loc:96500000,4155032,4072040040,1044693,205039,QPL,4\r\nPOINT (-73.74567356126445 40.67695272804687),Laurelton,225 Street,134-26,Laurelton,11413,http://www.queenslibrary.org/branch/Laurelton?filters=ev_loc:91800000,4281443,4131050007,1054794.1253,186010.952175,QPL,4\r\nPOINT (-73.93930930198185 40.75780342796006),Long Island City,21 Street,37-44,Long Island City,11101,http://www.queenslibrary.org/branch/Long-Island-City?filters=ev_loc:97300000,4463561,4003630001,1001063.77476,215370.753035,QPL,4\r\nPOINT (-73.73991101315558 40.659963623126),Rosedale,243 Street,144-20,Rosedale,11422,http://www.queenslibrary.org/branch/Rosedale?filters=ev_loc:95100000,4287999,4135490007,1056410.89274,179826.060673,QPL,4\r\nPOINT (-73.90945659290355 40.77682707405275),Steinway,31 Street,21-45,Long Island City,11105,http://www.queenslibrary.org/branch/Steinway?filters=ev_loc:95600000,4016923,4008310015,1009327.01459,222308.833435,QPL,4\r\n",
   "_profiling_times": {
     "steps": {
-      "1_load_data": 0.005465041846036911,
-      "2_geo_batch_predict": 0.20512954099103808,
-      "3_process_columns": 0.05083687510341406,
-      "4_latlong_pairing": 2.733292058110237e-05,
-      "5_spatial_coverage": 0.007972832769155502,
-      "6_temporal_coverage": 2.8330832719802856e-06
+      "1_load_data": 0.0036461250856518745,
+      "2_geo_batch_predict": 0.14520529191941023,
+      "3_process_columns": 0.06013370817527175,
+      "4_latlong_pairing": 2.5667250156402588e-05,
+      "5_spatial_coverage": 0.00674383295699954,
+      "6_temporal_coverage": 2.1671876311302185e-06,
+      "sample_extraction": 0.0012785843573510647
     },
-    "total": 2.320740459021181
+    "total": 2.497263875324279
   },
   "_wrapper_summary": {
     "changed_count": 6,

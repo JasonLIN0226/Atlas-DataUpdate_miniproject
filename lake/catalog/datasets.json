@@ -26,8 +26,8 @@
     "geo_results_wrapped_path": "output/geo_classifier_results_child_care_wrapped.csv",
     "row_count": 2734,
     "column_count": 20,
-    "wrapper_changed_count": 5,
-    "wrapped_geo_column_count": 10
+    "wrapper_changed_count": 6,
+    "wrapped_geo_column_count": 9
   },
   {
     "dataset_name": "commonplace",
@@ -161,7 +161,7 @@
     "geo_results_wrapped_path": "output/geo_classifier_results_wifi_hotspots_wrapped.csv",
     "row_count": 3319,
     "column_count": 29,
-    "wrapper_changed_count": 8,
-    "wrapped_geo_column_count": 15
+    "wrapper_changed_count": 9,
+    "wrapped_geo_column_count": 14
   }
 ]

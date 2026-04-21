@@ -13,4 +13,3 @@ wifi_hotspots,ntaname,borough_code,0.95,admin_name_and_values
 wifi_hotspots,coundist,borough_code,0.95,admin_name_and_values
 wifi_hotspots,zip,zip5,0.99,zip_name_and_pattern
 wifi_hotspots,borocd,borough_code,0.95,admin_name_and_values
-wifi_hotspots,location_lat_long,longitude,0.8310436010360718,
