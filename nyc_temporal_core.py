@@ -24,12 +24,11 @@ def build_temporal_metadata(data_path, atlas_metadata):
         return empty_temporal_metadata()
 
     column_ranges = []
-    month_coverage = {}
+    month_coverage, month_row_counts = scan_temporal_row_counts(data_path, temporal_columns)
     for name in temporal_columns:
         column_range = scan_temporal_column(data_path, name)
         if column_range:
             column_ranges.append(column_range)
-            merge_month_coverage(month_coverage, column_range.get("month_coverage", {}))
 
     if not column_ranges:
         return empty_temporal_metadata(temporal_columns)
@@ -42,7 +41,8 @@ def build_temporal_metadata(data_path, atlas_metadata):
         "temporal_start": min(starts),
         "temporal_end": max(ends),
         "column_ranges": column_ranges,
-        "month_coverage": normalize_month_coverage(month_coverage),
+        "month_coverage": month_coverage,
+        "month_row_counts": month_row_counts,
     }
 
 
@@ -55,6 +55,7 @@ def empty_temporal_metadata(temporal_columns=None):
         "temporal_end": None,
         "column_ranges": [],
         "month_coverage": {},
+        "month_row_counts": {},
     }
 
 
@@ -83,6 +84,7 @@ def scan_temporal_column(data_path, column_name):
     first_value = None
     last_value = None
     month_coverage = {}
+    month_row_counts = {}
 
     with open(data_path, "r", encoding="utf-8", errors="replace", newline="") as handle:
         reader = csv.DictReader(handle)
@@ -101,6 +103,8 @@ def scan_temporal_column(data_path, column_name):
                 last_value = parsed
             year = str(parsed.year)
             month_coverage.setdefault(year, set()).add(parsed.month)
+            month_row_counts.setdefault(year, {})
+            month_row_counts[year][parsed.month] = month_row_counts[year].get(parsed.month, 0) + 1
 
     if first_value is None or last_value is None:
         return None
@@ -110,13 +114,37 @@ def scan_temporal_column(data_path, column_name):
         "start": first_value.isoformat(),
         "end": last_value.isoformat(),
         "month_coverage": normalize_month_coverage(month_coverage),
+        "month_row_counts": normalize_month_row_counts(month_row_counts),
     }
 
 
-# Merge one column month coverage into the dataset month coverage.
-def merge_month_coverage(target, source):
-    for year, months in source.items():
-        target.setdefault(str(year), set()).update(months)
+# Scan the dataset once to count rows for covered months.
+def scan_temporal_row_counts(data_path, temporal_columns):
+    month_coverage = {}
+    month_row_counts = {}
+
+    with open(data_path, "r", encoding="utf-8", errors="replace", newline="") as handle:
+        reader = csv.DictReader(handle)
+        fieldnames = set(reader.fieldnames or [])
+        available_columns = [name for name in temporal_columns if name in fieldnames]
+        if not available_columns:
+            return {}, {}
+
+        for row in reader:
+            row_months = set()
+            for name in available_columns:
+                raw_value = (row.get(name) or "").strip()
+                parsed = parse_datetime_value(raw_value)
+                if parsed is None:
+                    continue
+                row_months.add((str(parsed.year), parsed.month))
+
+            for year, month in row_months:
+                month_coverage.setdefault(year, set()).add(month)
+                month_row_counts.setdefault(year, {})
+                month_row_counts[year][month] = month_row_counts[year].get(month, 0) + 1
+
+    return normalize_month_coverage(month_coverage), normalize_month_row_counts(month_row_counts)
 
 
 # Sort month coverage into a stable metadata format.
@@ -126,6 +154,18 @@ def normalize_month_coverage(month_coverage):
         months = sorted(int(month) for month in month_coverage[year])
         if months:
             normalized[str(year)] = months
+    return normalized
+
+
+# Sort month row counts into a stable metadata format.
+def normalize_month_row_counts(month_row_counts):
+    normalized = {}
+    for year in sorted(month_row_counts, key=int):
+        counts = {}
+        for month in sorted(month_row_counts[year], key=int):
+            counts[str(int(month))] = int(month_row_counts[year][month])
+        if counts:
+            normalized[str(year)] = counts
     return normalized
 
 

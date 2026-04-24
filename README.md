@@ -62,6 +62,10 @@ Then run:
 python refresh_nyc_datalake.py
 ```
 
+## Workflow
+
+![Workflow](Workflow.png)
+
 ## Web UI
 
 Main page:
@@ -104,6 +108,7 @@ Each temporal summary includes:
 - `temporal_start`
 - `temporal_end`
 - `month_coverage`
+- `month_row_counts`
 
 ## Important Folders
 

@@ -441,6 +441,7 @@
     "temporal_start": null,
     "temporal_end": null,
     "column_ranges": [],
-    "month_coverage": {}
+    "month_coverage": {},
+    "month_row_counts": {}
   }
 }
